@@ -1,0 +1,201 @@
+{
+  "mapping": {
+    "product": "controlPanel",
+    "langage": "en",
+    "generationDate": "10_02_2019",
+    "version": "stage",
+    "entry": [
+     {
+        "id": "cp_overview",
+        "title": "About Control Panel",
+        "description": "The Control Panel home page gives you access to all actions that can be performed on your Campaign instances.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-overview.html",
+            "title": "Learn more about control panel"
+          },
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-access.html",
+            "title": "Learn more about managing permissions"
+          }
+        ]
+      },
+      {
+        "id": "cp_storage",
+        "title": "About storage capacity",
+        "description": "In this tab, you can view the storage capacity and utilization information for your SFTP servers.Only SFTP servers that you have access to are shown here. Please contact your Administrator to request access to other SFTP servers.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-sftp.html#SFTPstoragemanagement",
+            "title": "Learn more about SFTP storage management"
+          },
+          {
+            "url": "https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4",
+            "title": "Watch demo video",
+            "contentType": "video/mp4"
+          }
+        ]
+      },
+      {
+        "id": "cp_ip_whitelist",
+        "title": "About IP whitelisting",
+        "description": "In this tab you can whitelist IP ranges to establish connection to your SFTP servers.Only SFTP servers that you have an access to are shown here. Please contact your Administrator to request access to other SFTP servers.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-sftp.html#IPrangewhitelisting",
+            "title": "Learn more about IP Whitelisting to connect to SFTP servers"
+          },
+          {
+            "url": "https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98",
+            "title": "Watch demo video",
+            "contentType": "video/mp4"
+          }
+        ]
+      },
+      {
+        "id": "cp_key_management",
+        "title": "About Key Management",
+        "description": "In this tab you can manage your public keys.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-sftp.html#Keymanagement",
+            "title": "Learn more about public keys management"
+          },
+          {
+            "url": "https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166",
+            "title": "Watch demo video",
+            "contentType": "video/mp4"
+          }
+        ]
+      },
+      {
+       "id": "cp_sftp_iprange_add",
+        "title": "Add New Ip Range",
+        "description": "Define the IP Range that you want to whitelist,in the CIDR format to connect to your SFTP servers.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-sftp.html#IPrangewhitelisting",
+            "title": "Learn more about IP Range configuration"
+          }
+        ]
+      },
+      {
+       "id": "cp_sftp_publicKey_add",
+        "title": "Add New Public Key",
+        "description": "Define a new public key for an instance.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-sftp.html#Keymanagement",
+            "title": "Learn more about how to add a new public key"
+          }
+        ]
+      },
+      {
+        "id": "cp_instancesettings_iprange",
+        "title": "About IP Whitelisting",
+        "description": "Manage IP Whitelisting to access your instances.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html#IPwhitelistingforInstanceaccess",
+            "title": "Learn more about IP Whitelisting for instance access"
+          },
+          {
+            "url": "https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4",
+            "title": "Watch demo video",
+            "contentType": "video/mp4"
+          }
+        ]
+      },
+      {
+        "id": "cp_instancesettings_urlpermissions",
+        "title": "About URL permissions",
+        "description": "Manage the URLs that your Adobe Campaign instances can connect to. You can view, add and delete the URLs that your selected instance can connect to below.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html#URLpermissions",
+            "title": "Learn more about URL permissions"
+          },
+          {
+            "url": "https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4",
+            "title": "Watch demo video",
+            "contentType": "video/mp4"
+          }
+        ]
+      },
+      {
+        "id": "cp_instancesettings_instancedetails",
+        "title": "About Instance details",
+        "description": "View the details of your Adobe Campaign instances: types, names, build information and possible upgrade recommendations.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html#InstanceDetails",
+            "title": "Learn more about Instance details"
+          }
+        ]
+      },
+      {
+        "id": "cp_instancesettings_iprange_add",
+        "title": "Add New Ip Range",
+        "description": "Define the IP Range that you want to whitelist,in the CIDR format to connect to your instance.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html#IPwhitelistingforInstanceaccess",
+            "title": "Learn more about IP Whitelisting for instance access"
+          }
+        ]
+      },
+      {
+        "id": "cp_instancesettings_url_add",
+        "title": "Add new URL",
+        "description": "Add URLs to allow to connection to your campaign instance.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html#URLpermissions",
+            "title": "Learn more about URL permissions management"
+          }
+        ]
+      },
+      {
+        "id": "cp_certificate_management",
+        "title": "About subdomains and SSL certificates",
+        "description": "Monitor your subdomains and SSL certificates and initiate the process for certificate renewal.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html",
+            "title": "Learn more about subdomains and certificate"
+          },
+          {
+            "url": "https://images-tv.adobe.com/mpcv3/c32a9559-4c0f-437c-8509-f7c0f2a2a952_1566359776.1920x1080at3000_h264.mp4",
+            "title": "Watch demo video"
+          }
+        ]
+      },
+      {
+        "id": "cp_certificate_details",
+        "title": "Certificate details",
+        "description": "Get details on a certificate and initiate the renewal process.",
+        "link": [
+          {
+            "url": "https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html",
+            "title": "Learn more about certificate details"
+          }
+        ]
+      },
+      {
+        "id": "cp_instance_version",
+        "title": "About your instance version",
+        "description": "Visit the latest release notes for updated build information. Follow the documentation to perform an upgrade.",
+        "link": [
+          {
+            "url": "https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html",
+            "title": "Release notes"
+          },
+          {
+            "url": "https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html",
+            "title": "Upgrade documentation"
+          }
+        ]
+      }
+    ]
+  }
+}
