@@ -1,7 +1,7 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [Certifikathantering för CNAME-underdomäner](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-    Med kontrollpanelen kan du nu förnya SSL-certifikaten för dina underdomäner som har delegerats med CNAME-metoden.
+Med kontrollpanelen kan du nu förnya SSL-certifikaten för dina underdomäner som har delegerats med CNAME-metoden.
 
 ## Ytterligare resurser {#additional-resources}
 
