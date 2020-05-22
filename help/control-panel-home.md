@@ -1,9 +1,9 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 ![](assets/do-not-localize/banner.png)
 
 ## Nyheter
-
-* [Hantering av GPG-nycklar](instances-settings/using/gpg-keys-management.md)
-
-   Installera och/eller generera GPG-nycklar på en marknadsinstans för att kryptera data som skickas från Campaign och för att dekryptera inkommande data.
 
 * [Certifikathantering för CNAME-underdomäner](subdomains-certificates/using/renewing-subdomain-certificate.md))
 
