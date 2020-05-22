@@ -1,9 +1,9 @@
 ---
 title: Kontrollpanelsversioner
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >Observera att Kontrollpanelen endast är tillgänglig för kunder som har AWS som värd, med undantag för hybridmiljöer som ännu inte stöds. Du behöver inte uppgradera för att komma åt Kontrollpanelen. Se till att du är en admin-användare för att få tillgång till den.
 
 ## Maj 2020 (#may-2020)
-
-**Hantering av GPG-nycklar**
-
-Med Kontrollpanelen kan ni nu generera ett par GPG-nycklar, så att ni enkelt kan dekryptera data som kommer till Campaign utifrån. Dessutom har vi lagt till en funktion så att du kan installera en offentlig GPG-nyckel för att kryptera data som skickas från Campaign. [Läs mer](instances-settings/using/gpg-keys-management.md)
 
 **Certifikathantering för CNAME-underdomäner**
 
