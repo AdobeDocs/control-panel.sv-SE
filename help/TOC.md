@@ -4,9 +4,9 @@ sub-product: kontrollpanel
 audience: end-user
 user-guide-title: Hjälp om Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -43,5 +43,4 @@ ht-degree: 0%
    + [IP-vitlista för instansåtkomst](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
-   + [Hantering av GPG-nycklar](instances-settings/using/gpg-keys-management.md)
 + [Vanliga frågor](faq.md)
