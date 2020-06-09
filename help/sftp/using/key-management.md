@@ -2,7 +2,7 @@
 title: Nyckelhantering
 description: Lär dig hur du hanterar nycklar för att ansluta till SFTP-servrar
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 4%
@@ -78,7 +78,7 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
    **Linux och Mac:**
 
    Använd Terminal för att generera ett nyckelpar för offentlig och privat nyckel:
-   1. Ange det här kommandot: `ssh-keygen -t rsa -C <your_email@example.com>`.
+   1. Ange det här kommandot: `ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`.
    1. Ge nyckeln ett namn när du uppmanas till det. Om ssh-katalogen inte finns skapas en åt dig.
    1. Ange och ange sedan en lösenfras igen när du uppmanas till det. Den kan också lämnas tom.
    1. Ett nyckelpar, &quot;name&quot; och &quot;name.pub&quot;, skapas av systemet. Sök efter filen &quot;name.pub&quot; och öppna den. Den ska ha en alfanumerisk sträng som slutar med den e-postadress som du har angett.
