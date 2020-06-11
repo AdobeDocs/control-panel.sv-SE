@@ -1,7 +1,7 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
+source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ## Nyheter
 
-[Certifikathantering för CNAME-underdomäner](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[Övervakning av aktiva profiler](performance-monitoring/using/active-profiles-monitoring.md)
 
-Med kontrollpanelen kan du nu förnya SSL-certifikaten för dina underdomäner som har delegerats med CNAME-metoden.
+Med kontrollpanelen kan du nu övervaka antalet aktiva profiler som används av dina instanser och räknas i faktureringssyfte.
 
 ## Ytterligare resurser {#additional-resources}
 
