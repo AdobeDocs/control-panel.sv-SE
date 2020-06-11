@@ -2,7 +2,7 @@
 title: Databasövervakning
 description: Lär dig övervaka Campaign-databasen på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 1%
@@ -12,14 +12,13 @@ ht-degree: 1%
 
 # Databasövervakning {#database-monitoring}
 
+## About instances databases {#about-instances-databases}
 
-## Om instansdatabaser {#about-instances-databases}
+According to your contract, each of your Campaign instances is provisioned with a specific amount of database space.
 
-Enligt ditt avtal har var och en av era Campaign-instanser ett visst databasutrymme.
+Databases include all **assets**, **workflows** and **data** that is stored in Adobe Campaign.
 
-Databaser innehåller alla **resurser**, **arbetsflöden** och **data** som lagras i Adobe Campaign.
-
-Med tiden kan databaserna nå sin maximala kapacitet, särskilt om de lagrade resurserna aldrig tas bort från instansen eller om många arbetsflöden är i pausat läge.
+Over time, databases can reach their maximum capacity, especially if the stored resources are never deleted from the instance, or if there are many workflows in a paused state.
 
 Överflödig instansdatabas kan leda till flera problem (oförmåga att logga in, skicka e-post osv.). Övervakning av instansens databaser är därför nödvändigt för att säkerställa optimala prestanda.
 
