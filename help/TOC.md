@@ -4,9 +4,9 @@ sub-product: kontrollpanel
 audience: end-user
 user-guide-title: Hjälp om Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 + Prestandaövervakning {#performance-monitoring}
    + [Prestandaövervakning](performance-monitoring/using/about-performance-monitoring.md)
    + [Databasövervakning](performance-monitoring/using/database-monitoring.md)
+   + [Övervakning av aktiva profiler](performance-monitoring/using/active-profiles-monitoring.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
 + Inställningar för instanser (Campaign Classic) {#instances-settings}
    + [IP-vitlista för instansåtkomst](instances-settings/using/ip-whitelisting-instance-access.md)
