@@ -2,17 +2,15 @@
 title: E-postavisering
 description: Lär dig hur du tar emot e-postmeddelanden i händelse av problem med dina Campaign-instanser
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
 
 # E-postavisering {#email-alerting}
-
-## Om e-postaviseringar {#about-email-alerts}
 
 Kontrollpanelen är utrustad med e-postaviseringsfunktioner i realtid för att ge större flexibilitet i arbetet.
 
