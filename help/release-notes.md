@@ -1,9 +1,9 @@
 ---
 title: Kontrollpanelsversioner
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >[!NOTE]
 >
 >Observera att Kontrollpanelen endast är tillgänglig för kunder som har AWS som värd, med undantag för hybridmiljöer som ännu inte stöds. Du behöver inte uppgradera för att komma åt Kontrollpanelen. Se till att du är en admin-användare för att få tillgång till den.
+
+## Juni 2020 {#june-2020}
+
+**Övervakning av aktiva profiler**
+
+Med kontrollpanelen kan du nu övervaka antalet aktiva profiler som används av dina instanser och räknas i faktureringssyfte. [Läs mer](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>Övervakning av aktiva profiler från Kontrollpanelen finns i betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
+>
+>Funktionen är tillgänglig för kunder som har AWS som värd från Campaign Standard 10368 build och Campaign Classic 8931 build. Om du använder en tidigare version måste du uppgradera för att kunna använda den här funktionen.
 
 ## Maj 2020 {#may-2020}
 
