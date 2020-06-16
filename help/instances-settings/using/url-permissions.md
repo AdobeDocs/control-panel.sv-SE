@@ -2,9 +2,9 @@
 title: URL-behörigheter
 description: Lär dig hur du hanterar URL-behörigheter på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -15,16 +15,16 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_urlpermissions"
 >title="Om URL-behörigheter"
->abstract="Hantera de URL:er som era Adobe Campaign-instanser kan ansluta till."
+>abstract="Hantera de URL:er som dina Adobe Campaign-instanser kan ansluta till."
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="Se filmen"
 
 >[!IMPORTANT]
 >
->Den här funktionen är endast tillgänglig för Campaign Classic-instanser.
+>Den här funktionen är endast tillgänglig för Campaign Classic-instanser från version 8850. Om du använder en tidigare version måste du uppgradera för att kunna använda den här funktionen.
 
 ## Om URL-behörigheter {#about-url-permissions}
 
-Standardlistan med URL:er som kan anropas av JavaScript-koder (arbetsflöden osv.) antalet Campaign Classic-instanser är begränsat. Det här är URL:er som gör att dina instanser fungerar som de ska.
+Standardlistan med URL:er som kan anropas av JavaScript-koder (arbetsflöden osv.) antalet instanser i Campaign Classic är begränsat. Det här är URL:er som gör att dina instanser fungerar som de ska.
 
 Som standard tillåts inte instanser att ansluta till externa URL:er. På Kontrollpanelen kan du lägga till externa URL:er i listan över auktoriserade URL:er, så att instansen kan ansluta till dem. På så sätt kan ni koppla era Campaign-instanser till externa system, som till exempel SFTP-servrar eller webbplatser, för att möjliggöra fil- och/eller dataöverföring.
 
@@ -55,7 +55,7 @@ Så här lägger du till en URL som instansen kan ansluta till:
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-ORG-ID inte är kopplat till några Adobe Campaign Classic-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-ORG-ID inte är kopplat till några Adobe Campaign Classic-instanser
    >
    >På fliken <b><span class="uicontrol">URL-behörigheter</span></b> visas alla externa URL:er som din instans kan ansluta till. Den här listan innehåller inte URL:er som krävs för att Campaign ska fungera (t.ex. anslutningar mellan infrastrukturenheter).
 
@@ -67,7 +67,7 @@ Så här lägger du till en URL som instansen kan ansluta till:
    >
    >Alla Campaign-instanser visas i listan i den vänstra rutan.
    >
-   >Eftersom hantering av URL-behörigheter endast är dedikerad till Campaign Classic-instanser visas meddelandet&quot;Ej tillämpbar instans&quot; om du väljer en Campaign Standard-instans.
+   >Eftersom hantering av URL-behörigheter endast är dedikerad till Campaign Classic-instanser visas meddelandet&quot;Icke-tillämpbar instans&quot; om du väljer en Campaign Standard-instans.
 
 1. Ange den URL som ska auktoriseras, med tillhörande protokoll (http, https eller sftp).
 
