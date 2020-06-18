@@ -4,9 +4,9 @@ sub-product: kontrollpanel
 audience: end-user
 user-guide-title: Hjälp om Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
    + [SFTP-lagringshantering](sftp/using/sftp-storage-management.md)
-   + [Vitlista för IP-intervall](sftp/using/ip-range-whitelisting.md)
+   + [IP-intervall tillåter listning](sftp/using/ip-range-whitelisting.md)
    + [Nyckelhantering](sftp/using/key-management.md)
    + [Logga in på SFTP-servern](sftp/using/logging-into-sftp-server.md)
    + [Vanliga frågor](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 0%
    + [Övervakning av aktiva profiler](performance-monitoring/using/active-profiles-monitoring.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
 + Inställningar för instanser (Campaign Classic) {#instances-settings}
-   + [IP-vitlista för instansåtkomst](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [Lista över IP-tillåtna för instansåtkomst](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
 + [Vanliga frågor](faq.md)
