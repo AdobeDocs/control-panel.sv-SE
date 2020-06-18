@@ -2,9 +2,9 @@
 title: Konfigurera en ny underdomän
 description: Lär dig hur du skapar en ny underdomän för dina kampanjinstanser
 translation-type: tm+mt
-source-git-commit: 47b4c6abd7b41a63d881b658849ac985c72656f8
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Full underdomänsdelegering {#full-subdomain-delegation}
 
-Med Kontrollpanelen kan du delegera en underdomän till Adobe Campaign helt och hållet. Gör så här:
+Med kontrollpanelen kan du delegera en underdomän till Adobe Campaign helt. Gör så här:
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Med Kontrollpanelen kan du delegera en underdomän till Adobe Campaign helt och 
 >
 >Omvända DNS-poster skapas för andra underdomäner med den primära underdomänen. Svars- och studsadresser för andra underdomäner genereras från den primära underdomänen.
 
-1. Markera önskad produktionsinstans på **[!UICONTROL Subdomains & Certificates]** kortet och klicka sedan på **[!UICONTROL Setup new subdomain]**.
+1. Välj önskad produktionsinstans på **[!UICONTROL Subdomains & Certificates]** kortet och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
    ![](assets/subdomain1.png)
 
@@ -66,7 +66,7 @@ Med Kontrollpanelen kan du delegera en underdomän till Adobe Campaign helt och 
    * **Transaktions- och verksamhetskommunikation**: Transaktionskommunikation innehåller information som syftar till att slutföra en process som mottagaren har startat med dig. Exempel: inköpsbekräftelse, e-post för lösenordsåterställning. Organisativ kommunikation rör utbyte av information, idéer och åsikter inom och utanför organisationen, utan kommersiellt syfte.
    ![](assets/subdomain5.png)
 
-   **Att dela upp dina underdomäner efter användningsfall är det bästa sättet att leverera**. På så sätt isoleras och skyddas varje underdomän rykte. Om din underdomän för marknadsföringskommunikation till exempel blir svartlistad av Internet-tjänsteleverantörer påverkas inte din underdomän för transaktionskommunikation, utan den kan fortsätta att skicka kommunikation.
+   **Att dela upp dina underdomäner efter användningsfall är det bästa sättet att leverera**. På så sätt isoleras och skyddas varje underdomän rykte. Om din underdomän för marknadsföringskommunikation till exempel läggs till i blocklistan av Internetleverantörerna påverkas inte din underdomän för transaktionskommunikation, utan den kan fortsätta att skicka kommunikation.
 
    **Du kan delegera en underdomän för både Marknadsföring och Transactional-användning**:
 
@@ -74,7 +74,7 @@ Med Kontrollpanelen kan du delegera en underdomän till Adobe Campaign helt och 
    * För transaktionsanvändning kommer underdomäner att konfigureras på ALLA **RT** -instanser (Message Center/Real-time Messaging) för att säkerställa anslutningen. Underdomänerna fungerar därför med alla dina RT-instanser.
    >[!NOTE]
    >
-   >Om du använder Campaign Classic kan du på Kontrollpanelen se vilka RT/MID-instanser som är kopplade till den marknadsinstans som du arbetar med. For more on this, refer to [this section](../../instances-settings/using/instance-details.md).
+   >Om du använder Campaign Classic kan du via Kontrollpanelen se vilka RT/MID-instanser som är kopplade till den marknadsinstans som du arbetar med. For more on this, refer to [this section](../../instances-settings/using/instance-details.md).
 
 1. Ange den underdomän som du skapade i din värdlösning och klicka sedan på **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Med Kontrollpanelen kan du delegera en underdomän till Adobe Campaign helt och 
    >
    >Observera att när delegering av underdomäner körs, kommer andra begäranden via Kontrollpanelen att ställas i kö och utföras först när delegeringen av underdomäner har slutförts, för att undvika prestandaproblem.
 
-När processen är slutförd konfigureras underdomänerna så att de fungerar med Adobe Campaign-instansen och elementen nedan skapas:
+I slutet av processen konfigureras underdomänerna så att de fungerar med din Adobe Campaign-instans och elementen nedan skapas:
 
 * **Underdomänen** med följande **DNS-poster**: SOA, MX, CNAME(s), DKIM, SPF, TXT,
 * **Ytterligare underdomäner** för värdspegling, resurs, spårningssidor och domännyckel.
