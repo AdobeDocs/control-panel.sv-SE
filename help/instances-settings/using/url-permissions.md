@@ -2,9 +2,9 @@
 title: URL-behörigheter
 description: Lär dig hur du hanterar URL-behörigheter på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 1%
 
 ---
@@ -93,4 +93,4 @@ Tänk på att om du tar bort en URL kan instansen inte anropa den igen.
 
 **Jag lade till en ny URL, men min instans kan fortfarande inte ansluta till den URL:en. Varför det?**
 
-I vissa fall kan URL-adresser som du försöker ansluta till kräva vitlista, lösenordsinmatning eller någon annan form av autentisering. Kontrollpanelen hanterar inte ytterligare autentisering.
+I vissa fall kräver URL-adresser som du försöker ansluta till att tillåta listning, lösenordsinmatning eller någon annan form av autentisering. Kontrollpanelen hanterar inte ytterligare autentisering.
