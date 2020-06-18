@@ -2,9 +2,9 @@
 title: Vanliga frågor om kontrollpanelen
 description: Vanliga frågor om kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '629'
 ht-degree: 8%
 
 ---
@@ -32,15 +32,15 @@ För att du ska kunna hantera inställningar för din instans måste du se till 
 
 **Vad händer om jag har flera IMS-organisations-ID:n?**
 
-Du kan ha fler än ett IMS-organisation-ID om du har tillgång till flera Adobe-lösningar. I det här fallet bör du använda rätt IMS-organisations-ID under Adobe Campaign-instansen.
+Du kan ha fler än ett IMS-organisation-ID om du har tillgång till flera Adobe-lösningar. I det här fallet bör du använda rätt IMS-Org-ID under din Adobe Campaign-instans.
 
 >[!NOTE]
 >
->Om du har samma IMS-organisation-ID för Adobe Campaign och Adobe Analytics är detta bra. Att ha ett IMS-organisationsnummer mellan Analytics och Campaign är ett krav om ni tänker integrera lösningarna för att utnyttja komplexa användningsexempel som att kunden överger kundvagnen (för AA + AC).
+>Om du har samma IMS Org ID för Adobe Campaign och Adobe Analytics är detta bra. Att ha ett IMS-organisationsnummer mellan Analytics och Campaign är ett krav om ni planerar att integrera lösningarna för att utnyttja komplexa användningsområden, till exempel övergivna kundvagnar (för AA + AC).
 >
->Om du har olika IMS-organisationsnummer för Adobe Campaign och Adobe Analytics kan du kontakta kundtjänst för att få dem anpassade.
+>Om du har olika IMS-organisationsnummer för Adobe Campaign och Adobe Analytics kontaktar du kundtjänst för att få dem anpassade.
 
-**Hur vet jag att AWS är värd för min Adobe Campaign-instans?**
+**Hur vet jag att min Adobe Campaign-instans ligger hos AWS eller inte?**
 
 Följ de här stegen för att kontrollera om din instans finns på AWS:
 
@@ -92,17 +92,17 @@ Kontrollpanelen ger produktadministratörer möjlighet att direkt hantera olika 
 
 **Vilka är de aktuella funktionerna i Kontrollpanelen?**
 
-Med kontrollpanelen kan du spåra lagring, vitlista IP-adresser och hantera SSH-nycklar för dina SFTP-servrar utifrån dina behov och andra åtgärder.
+Med kontrollpanelen kan du spåra lagring, lägga till IP-adresser i listan över tillåtna och hantera SSH-nycklar för dina SFTP-servrar på egen hand baserat på dina behov och andra åtgärder.
 
 Mer information finns i dokumentationen för åtgärder som stöds på Kontrollpanelen.
 
 **Är Kontrollpanelen endast för Adobe Campaign?**
 
-Ja, du kan bara hantera inställningar för Adobe Campaign på Kontrollpanelen.
+Ja, du kan bara hantera inställningarna för Adobe Campaign på Kontrollpanelen.
 
 **Kan jag använda Kontrollpanelen?**
 
-Kontrollpanelen är bara öppen för produktadministratörer för våra nuvarande kunder som har Adobe Campaign som värd på AWS. Observera att hybridmiljöer ännu inte stöds.
+Kontrollpanelen är endast öppen för produktadministratörer för våra nuvarande kunder som har Adobe Campaign på AWS. Observera att hybridmiljöer ännu inte stöds.
 
 Om du inte är administratör, men vill ha åtkomst, kontaktar du produktadministratören för att få hjälp med att lägga till dig som administratör.
 
@@ -112,4 +112,4 @@ Följ de detaljerade instruktionerna i Åtkomst till dokumentationen på Kontrol
 
 **Är det en extra avgift att använda Kontrollpanelen?**
 
-Nej, det kostar inget om du är Adobe Campaign-kund.
+Nej, det kostar inget om du är Adobe Campaign.
