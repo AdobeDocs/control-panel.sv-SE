@@ -1,9 +1,9 @@
 ---
 title: Kontrollpanelsversioner
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -67,8 +67,8 @@ Mer information finns på följande sidor:
 
 *16 september 2019*
 
-Vi har lagt till nya funktioner för administratörsanvändare som vitlistar IP-adresser för att ansluta till Campaign Classic-instanser.
-Dessutom kan administratörsanvändare nu visa en lista över Campaign Classic-instanser och behörighet för uppgraderingar.
+Vi har lagt till nya funktioner för administratörsanvändare att lägga till IP-adresser i listan över tillåtna för att ansluta till instanser i Campaign Classic.
+Dessutom kan administratörsanvändare nu visa en lista över instanser i Campaign Classic och behörighet för uppgraderingar.
 
 Mer information finns i den [dedikerade dokumentationen](instances-settings/using/ip-whitelisting-instance-access.md).
 
@@ -80,6 +80,6 @@ Administratörsanvändare kan nu även ta bort SSH-nycklar som har lagts till f�
 
 ## Juli 2019 {#july-2019}
 
-Vi har lagt till nya funktioner som ger administratörsanvändare större kontroll över instansinställningarna för Campaign Classic. De nya funktionerna i Kontrollpanelen innefattar möjligheten att lägga till URL:er som Adobe Campaign ansluter till för data-/filöverföringar.
+Vi har lagt till nya funktioner som ger administratörsanvändare större kontroll över instansinställningarna i Campaign Classic. De nya funktionerna i Kontrollpanelen innefattar möjligheten att lägga till URL:er som Adobe Campaign ansluter till för data-/filöverföringar.
 
 Mer information finns i den [detaljerade dokumentationen](instances-settings/using/url-permissions.md).
