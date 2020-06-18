@@ -2,9 +2,9 @@
 title: Märke för underdomäner
 description: Läs mer om varumärken för underdomäner
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Låt oss ta exemplet med domänen &quot;mybrand.com&quot;, som används för att
 * underdomänen &quot;info.mybrand.com&quot; för din transaktionskommunikation (inköpsbekräftelse, lösenordsåterställning osv.),
 * Underdomänen&quot;marketing.mybrand.com&quot; för dina prospekterande e-postmeddelanden.
 
-Genom att göra det kan du bevara domänens och andra underdomäners anseende. Om till exempel underdomänerna&quot;marketing.mybrand.com&quot; blev svarta listade av Internetleverantörer på grund av dålig leveransförmåga förhindrar detta att hela domänen&quot;mybrand.com&quot; och underdomänen&quot;info.mybrand.com&quot; blir svarta.
+Genom att göra det kan du bevara domänens och andra underdomäners anseende. Om t.ex. underdomänerna&quot;marketing.mybrand.com&quot; läggs till i blocklistan av Internetleverantörerna på grund av felaktig leverans, förhindrar detta att hela domänen&quot;mybrand.com&quot; och underdomänen&quot;info.mybrand.com&quot; läggs till i blocklistan.
 
 ## Delegeringsmetoder för underdomäner {#subdomain-delegation-methods}
 
-Med delegering via underdomän kan du delegera en undersektion till din domän (tekniskt en &quot;DNS-zon&quot;) för användning med Adobe Campaign. Tillgängliga installationsmetoder:
+Med delegering via underdomän kan du delegera en undersektion till din domän (tekniskt en &quot;DNS-zon&quot;) som ska användas med Adobe Campaign. Tillgängliga installationsmetoder:
 
 * **Fullständig delegering av underdomäner till Adobe Campaign** (rekommenderas): Underdomänen har delegerats till Adobe. Adobe kan leverera Campaign som en hanterad tjänst genom att kontrollera och underhålla alla aspekter av DNS som krävs för att leverera, återge och spåra e-postkampanjer.
 
