@@ -2,9 +2,9 @@
 title: Åtkomst till kontrollpanelen
 description: Lär dig hur du kommer åt Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >abstract="På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på dina Campaign-instanser."
 >additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Identifiera gränssnittet"
 
-Kontrollpanelen hjälper er att effektivisera arbetet som produktadministratör för Adobe Campaign Standard och/eller Classic genom att göra det möjligt att hantera inställningar och spåra användningen för var och en av instanserna. Det intuitiva gränssnittet gör att du enkelt kan övervaka användningen av viktiga resurser och utföra administrativa uppgifter som vitlistning av IP-adresser, övervakning av SFTP-lagring, nyckelhantering med mera.
+Med hjälp av Kontrollpanelen kan du effektivisera arbetet som produktadministratör för Adobe Campaign Standard och/eller Classic genom att du kan hantera inställningar och spåra användning för var och en av instanserna. Med det intuitiva gränssnittet kan du enkelt övervaka användningen av nyckelresurser och utföra administrativa uppgifter som IP-adresser som gör det möjligt att lägga till listor, övervaka SFTP-lagring, nyckelhantering och mycket annat.
 
 Viktiga fördelar:
 
