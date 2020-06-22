@@ -1,9 +1,9 @@
 ---
 title: Kontrollpanelsversioner
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >Observera att Kontrollpanelen endast är tillgänglig för kunder som har AWS som värd, med undantag för hybridmiljöer som ännu inte stöds. Du behöver inte uppgradera för att komma åt Kontrollpanelen. Se till att du är en admin-användare för att få tillgång till den.
 
 ## Juni 2020 {#june-2020}
+
+**Borttagning av vitlista/svartlista**
+
+Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. Vissa förekomster av dessa termer kan fortfarande förekomma i produktgränssnittet, alternativnamn och intern kod, men kommer att ersättas i kommande Campaign-versioner med blocklist och allowlist.
 
 **Övervakning av aktiva profiler**
 
