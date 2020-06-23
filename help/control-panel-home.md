@@ -1,9 +1,9 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,15 @@ ht-degree: 0%
 
 ## Nyheter
 
-* Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. [Läs mer](release-notes.md)
+* **Granskning av deldomänsleverans**
 
-* **Övervakning** av aktiva profiler: Med kontrollpanelen kan du nu övervaka antalet aktiva profiler som används av dina instanser och räknas i faktureringssyfte. [Läs mer](performance-monitoring/using/active-profiles-monitoring.md)
+   När du har delegerat en ny underdomän kan du via Kontrollpanelen nu spåra den granskning som utförts av gruppen Deliverability. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **Hantering av GPG-nycklar**
+
+   Installera och/eller generera GPG-nycklar på en marknadsinstans för att kryptera data som skickas från Campaign och för att dekryptera inkommande data. [Läs mer](instances-settings/using/gpg-keys-management.md)
+
+* Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. [Läs mer](release-notes.md)
 
 ## Ytterligare resurser {#additional-resources}
 
