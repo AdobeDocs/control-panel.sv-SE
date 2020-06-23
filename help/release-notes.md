@@ -1,7 +1,7 @@
 ---
 title: Kontrollpanelsversioner
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: 759d3ca0c3cafa84067c31a48432b0bfe2df186f
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
