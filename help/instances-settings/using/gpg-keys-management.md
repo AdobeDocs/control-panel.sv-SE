@@ -2,9 +2,9 @@
 title: Hantering av GPG-nycklar
 description: Lär dig hur du hanterar GPG-nycklar för att kryptera och dekryptera data i Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 6a28859565cf9385ac33886355d43e1d1a825e0e
+source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Mer information om detta finns i Adobe Campaign dokumentation:
 **Campaign Classic:**
 
 * [Zippa eller kryptera en fil](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [Användningsfall: Importera data krypterade med en nyckel som genererats av Kontrollpanelen](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#use-case-gpg-encrypt)
+* [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
