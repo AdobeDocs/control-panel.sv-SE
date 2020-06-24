@@ -2,7 +2,7 @@
 title: Lista över tillåtna IP-adresser
 description: Lär dig hur du lägger till IP-adresser i listan Tillåt på Kontrollpanelen för instansåtkomst
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -87,5 +87,5 @@ Så här lägger du till IP-adresser i listan över tillåtna:
 Om du vill ta bort IP-intervall från listan Tillåt markerar du dem och klickar sedan på **[!UICONTROL Delete IP range]** .
 
 **Relaterade ämnen:**
-* [Lista över tillåtna IP-adresser (självstudievideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [Lista över tillåtna IP-adresser (självstudievideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [Länka en säkerhetszon till en operatör](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
