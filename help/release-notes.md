@@ -1,9 +1,9 @@
 ---
 title: Kontrollpanelsversioner
 translation-type: tm+mt
-source-git-commit: 759d3ca0c3cafa84067c31a48432b0bfe2df186f
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ När du har delegerat en ny underdomän kan du via Kontrollpanelen nu spåra den
 **Hantering av GPG-nycklar**
 
 Med Kontrollpanelen kan ni nu generera ett par GPG-nycklar, så att ni enkelt kan dekryptera data som kommer till Campaign utifrån. Dessutom har vi lagt till en funktion så att du kan installera en offentlig GPG-nyckel för att kryptera data som skickas från Campaign. [Läs mer](instances-settings/using/gpg-keys-management.md)
+* [Campaign Standard, självstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Campaign Classic - videokurs](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
 **Borttagning av vitlista/svartlista**
 
