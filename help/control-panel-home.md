@@ -1,9 +1,9 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 0%
 * **Hantering av GPG-nycklar**
 
    Installera och/eller generera GPG-nycklar på en marknadsinstans för att kryptera data som skickas från Campaign och för att dekryptera inkommande data. [Läs mer](instances-settings/using/gpg-keys-management.md)
-
-* Både&quot;vitlista&quot; och&quot;svartlista&quot; har tagits bort från Adobe Campaign dokumentation. [Läs mer](release-notes.md)
 
 ## Ytterligare resurser {#additional-resources}
 
