@@ -2,7 +2,7 @@
 title: SFTP-lagringshantering
 description: Lär dig övervaka och hantera din SFTP-servers lagring
 translation-type: tm+mt
-source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 3%
@@ -24,8 +24,8 @@ Det är viktigt att du regelbundet övervakar tillgängligt utrymme för var och
 
 **Relaterade ämnen:**
 
-* [Självstudievideo om Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
-* [Kampanj - klassisk självstudievideo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
+* [Campaign Standard, självstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
+* [Campaign Classic - videokurs](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
 
 ## Åtkomst till information om lagringskapacitet {#accessing-storage-capacity-information}
 
@@ -43,6 +43,6 @@ Det finns även fler tips som hjälper dig att veta hur du ska gå vidare när s
 ## Bästa tillvägagångssätt när lagringskapaciteten tar slut {#best-practices-when-capacity-runs-out}
 
 1. **Rensa SFTP-servern från gamla eller onödiga filer**. Mer information om hur du får åtkomst till din SFTP-servermapp finns i [det här avsnittet](../../sftp/using/logging-into-sftp-server.md).
-1. Kontrollera att **arbetsflödena** som rensar dina SFTP-servrar körs. Mer information om tekniska arbetsflöden i Adobe Campaign finns i de dedikerade dokumenten för [Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html#Technical_workflows) och [Campaign Standard](https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html) .
+1. Kontrollera att **arbetsflödena** som rensar dina SFTP-servrar körs. Mer information om tekniska arbetsflöden i Adobe Campaign finns i dokumenten för [Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html#Technical_workflows) och [Campaign Standard](https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html) .
 1. Kontakta ditt kontoteam för att **begära mer lagringsutrymme** (extra avgifter kan tillkomma).
 1. Kontakta **kundtjänst** om du tror att det är något problem.
