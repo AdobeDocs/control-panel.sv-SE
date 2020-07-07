@@ -2,7 +2,7 @@
 title: Åtkomst till kontrollpanelen
 description: Lär dig hur du kommer åt Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 >abstract="På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på dina Campaign-instanser."
 >additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Identifiera gränssnittet"
 
-Med hjälp av Kontrollpanelen kan du effektivisera arbetet som produktadministratör för Adobe Campaign Standard och/eller Classic genom att du kan hantera inställningar och spåra användning för var och en av instanserna. Med det intuitiva gränssnittet kan du enkelt övervaka användningen av nyckelresurser och utföra administrativa uppgifter som IP-adresser som gör det möjligt att lägga till listor, övervaka SFTP-lagring, nyckelhantering och mycket annat.
+Med hjälp av Kontrollpanelen kan du effektivisera arbetet som produktadministratör för Adobe Campaign Standard och/eller Classic genom att du kan hantera inställningar och spåra användning för var och en av instanserna. Med det intuitiva gränssnittet kan du enkelt övervaka användningen av nyckelresurser och utföra administrativa uppgifter som att lägga till IP-adresser i tillåtelselista, övervaka SFTP-lagring, nyckelhantering och mycket annat.
 
 Viktiga fördelar:
 
 * Gör snabbt ändringar av inställningarna själv utan att kontakta Kundtjänst.
 * Konfigurera inställningar baserat på dina olika affärsbehov vid olika tidpunkter.
-* Förbättra säkerheten genom att styra åtkomstinställningarna vid behov.
+* Förbättra säkerheten genom att kontrollera åtkomstinställningarna vid behov.
 
 >[!NOTE]
 >Kontrollpanelen är endast tillgänglig för administratörsanvändare och är tillgänglig för alla kunder som har AWS som värd, med undantag för hybridmiljöer som ännu inte stöds. Anvisningar om hur du ger administratörsåtkomst till en användare finns i [det här avsnittet](../../discover/using/managing-permissions.md). Följ stegen i [det här avsnittet](../../faq.md)för att kontrollera om din instans finns på AWS.
@@ -49,8 +49,8 @@ Viktiga fördelar:
         <em>Lär dig hur du övervakar dina underdomäner och deras certifikat.</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="villkor" src="assets/do-not-localize/instance_settings.png"/></a>
-        <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Hantera dina instansinställningar</strong></a></div>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="villkor" src="assets/do-not-localize/instance_settings.png"/></a>
+        <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Hantera dina instansinställningar</strong></a></div>
         <br/><em>Lär dig hur du hanterar instansinställningar (endast Campaign Classic).</em>
     </td>
     <td>
