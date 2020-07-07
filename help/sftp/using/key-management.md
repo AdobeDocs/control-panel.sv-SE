@@ -2,7 +2,7 @@
 title: Nyckelhantering
 description: Lär dig hur du hanterar nycklar för att ansluta till SFTP-servrar
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 4%
@@ -22,7 +22,7 @@ Adobe rekommenderar att alla kunder upprättar anslutningar till sina SFTP-servr
 
 Stegen för att generera en offentlig SSH-nyckel och lägga till den för att få åtkomst till SFTP-servern beskrivs nedan, samt rekommendationer om autentisering.
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. For more on this, refer to [this section](../../instances-settings/using/ip-whitelisting-instance-access.md).
+När du har konfigurerat åtkomsten till servern måste du komma ihåg att **lägga till IP-adresserna som kräver åtkomst till servern i tillåtelselista** så att du kan ansluta till den. For more on this, refer to [this section](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
 >[!NOTE]
 >
@@ -42,14 +42,12 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
 >
 >Om ditt lösenord förfaller, även om det finns nycklar installerade på datorn, kan du inte logga in på dina SFTP-konton.
 
-![](assets/control_panel_passwordexpires.png)
-
-## Installing the SSH key {#installing-ssh-key}
+## Installera SSH-nyckeln {#installing-ssh-key}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
 >title="Lägg till ny offentlig nyckel"
->abstract="Add a new public key for an instance."
+>abstract="Lägg till en ny offentlig nyckel för en instans."
 
 >[!IMPORTANT]
 >
