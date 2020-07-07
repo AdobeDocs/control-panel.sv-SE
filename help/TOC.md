@@ -4,7 +4,7 @@ sub-product: kontrollpanel
 audience: end-user
 user-guide-title: Hjälp om Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
    + [SFTP-lagringshantering](sftp/using/sftp-storage-management.md)
-   + [IP-intervall tillåter listning](sftp/using/ip-range-whitelisting.md)
+   + [IP-intervall tillåter listning](sftp/using/ip-range-allow-listing.md)
    + [Nyckelhantering](sftp/using/key-management.md)
    + [Logga in på SFTP-servern](sftp/using/logging-into-sftp-server.md)
    + [Vanliga frågor](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 0%
    + [Övervakning av aktiva profiler](performance-monitoring/using/active-profiles-monitoring.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
 + Inställningar för instanser {#instances-settings}
-   + [Lista över IP-tillåtna för instansåtkomst](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [Lista över IP-tillåtna för instansåtkomst](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
    + [Hantering av GPG-nycklar](instances-settings/using/gpg-keys-management.md)
