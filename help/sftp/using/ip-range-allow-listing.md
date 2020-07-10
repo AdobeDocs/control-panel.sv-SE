@@ -2,10 +2,10 @@
 title: IP-intervall tillåter listning
 description: Lär dig hur du lägger till IP-intervall i tillåtelselista för SFTP-serveråtkomst
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 
 Så här lägger du till ett IP-intervall till tillåtelselista:
 
-1. Öppna **[!UICONTROL SFTP]**-kortet och välj fliken **[!UICONTROL IP Whistelisting]**.
+1. Öppna **[!UICONTROL SFTP]**-kortet och välj fliken **[!UICONTROL IP Allow Listing]**.
 1. Listan med IP-adresser på tillåtelselista visas för varje instans. Markera önskad instans i den vänstra listan och klicka sedan på **[!UICONTROL Add new IP range]** .
 
    ![](assets/control_panel_add_range.png)
