@@ -2,9 +2,9 @@
 title: Lista över tillåtna IP-adresser
 description: Lär dig hur du lägger till IP-adresser till tillåtelselista på Kontrollpanelen för instansåtkomst
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Så här lägger du till IP-adresser i tillåtelselista:
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-ORG-ID inte är kopplat till några Adobe Campaign Classic-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -63,6 +63,7 @@ Så här lägger du till IP-adresser i tillåtelselista:
 
    * **[!UICONTROL Instance(s)]**: De instanser som IP-adresserna kan ansluta till. Flera instanser kan ändras samtidigt. Du kan till exempel göra en lista över tillåtna IP-adresser för både Production- och Stage-instanser i samma steg.
    * **[!UICONTROL IP Range]**: Det IP-intervall som du vill lägga till i tillåtelselista, i CIDR-format. Observera att ett IP-intervall inte kan överlappa ett befintligt intervall på tillåtelselista. I så fall tar du först bort det intervall som innehåller den överlappande IP-adressen.
+
    >[!NOTE]
    >
    >CIDR (Classless Inter-Domain Routing) är det format som stöds när du lägger till IP-intervall med kontrollpanelens gränssnitt. Syntaxen består av en IP-adress, följt av tecknet &#39;/&#39; och ett decimaltal. Formatet och syntaxen för det finns detaljerad information i [den här artikeln](https://whatismyipaddress.com/cidr).
@@ -78,6 +79,7 @@ Så här lägger du till IP-adresser i tillåtelselista:
    * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan ansluta till Campaign Classic Console. Observera att konsolåtkomst endast är aktiverat för Marketing-instanser. Åtkomst till MID- och RT-instanser är inte tillåten och därför inte aktiverad.
    * **[!UICONTROL AEM connection]**: De angivna AEM IP-adresserna kan ansluta till Marketing-instansen.
    * **[!UICONTROL External API connection]**: Externa API:er med de angivna IP-adresserna kommer att kunna ansluta till instansen Marketing och/eller Message Center (RT). Observera att anslutning till RT-konsolen inte är aktiverad.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Klicka på **[!UICONTROL Save]** knappen. IP-intervallet läggs till tillåtelselista.
