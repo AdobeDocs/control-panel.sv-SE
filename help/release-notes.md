@@ -1,9 +1,9 @@
 ---
 title: Kontrollpanelsversioner
 translation-type: tm+mt
-source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ När du har delegerat en ny underdomän kan du via Kontrollpanelen nu spåra den
 **Hantering av GPG-nycklar**
 
 Med Kontrollpanelen kan ni nu generera ett par GPG-nycklar, så att ni enkelt kan dekryptera data som kommer till Campaign utifrån. Dessutom har vi lagt till en funktion så att du kan installera en offentlig GPG-nyckel för att kryptera data som skickas från Campaign. [Läs mer](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard, självstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic - videokurs](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+* [Videokurser om Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic självstudievideor](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Övervakning av aktiva profiler**
 
