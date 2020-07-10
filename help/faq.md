@@ -2,10 +2,10 @@
 title: Vanliga frågor om kontrollpanelen
 description: Vanliga frågor om kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,25 +20,25 @@ Det är ett unikt ID som ges till din instans när du först loggar in på Adobe
 
 Mer information finns i dokumentationen [för](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
 
-**Var hittar jag mitt IMS-Org-ID?**
+**Var hittar jag mitt IMS-organisations-ID?**
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Det andra sättet är att starta **Admin Console**. Ditt IMS-organisations-ID visas i din URL. Det ska se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**Varför behöver jag känna till mitt IMS-Org-ID?**
+**Varför behöver jag känna till mitt IMS-organisations-ID?**
 
 För att du ska kunna hantera inställningar för din instans måste du se till att du får rätt information för rätt instans om du använder flera instanser för ditt företag.
 
 **Vad händer om jag har flera IMS-organisations-ID:n?**
 
-Du kan ha fler än ett IMS-organisation-ID om du har tillgång till flera Adobe-lösningar. I det här fallet bör du använda rätt IMS-Org-ID under din Adobe Campaign-instans.
+Du kan ha fler än ett IMS-organisations-ID om du har tillgång till flera Adobe-lösningar. I det här fallet bör du använda rätt IMS-organisations-ID under din Adobe Campaign-instans.
 
 >[!NOTE]
 >
->Om du har samma IMS Org ID för Adobe Campaign och Adobe Analytics är detta bra. Att ha ett IMS-organisationsnummer mellan Analytics och Campaign är ett krav om ni planerar att integrera lösningarna för att utnyttja komplexa användningsområden, till exempel övergivna kundvagnar (för AA + AC).
+>Om du har samma IMS-organisations-ID för Adobe Campaign och Adobe Analytics är detta bra. Att ha ett IMS-organisations-ID mellan Analytics och Campaign är ett krav om ni tänker integrera lösningarna för att dra nytta av komplexa användningsområden, som att kunden överger kundvagnen (för AA + AC).
 >
->Om du har olika IMS-organisationsnummer för Adobe Campaign och Adobe Analytics kontaktar du kundtjänst för att få dem anpassade.
+>Om du har olika IMS-organisations-ID för Adobe Campaign och Adobe Analytics kan du kontakta kundtjänst för att få dem anpassade.
 
 **Hur vet jag att min Adobe Campaign-instans ligger hos AWS eller inte?**
 
@@ -92,7 +92,7 @@ Kontrollpanelen ger produktadministratörer möjlighet att direkt hantera olika 
 
 **Vilka är de aktuella funktionerna i Kontrollpanelen?**
 
-Med kontrollpanelen kan du spåra lagring, lägga till IP-adresser i listan över tillåtna och hantera SSH-nycklar för dina SFTP-servrar på egen hand baserat på dina behov och andra åtgärder.
+Med kontrollpanelen kan du spåra lagring, lägga till IP-adresser i tillåtelselista och hantera SSH-nycklar för dina SFTP-servrar på egen hand baserat på dina behov och andra åtgärder.
 
 Mer information finns i dokumentationen för åtgärder som stöds på Kontrollpanelen.
 
