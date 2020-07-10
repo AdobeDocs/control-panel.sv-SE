@@ -2,10 +2,10 @@
 title: Instansinformation
 description: Lär dig övervaka instansinformationen på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 2%
 >title="Om instansinformation"
 >abstract="Visa information om dina Adobe Campaign-instanser: typer, namn, bygginformation och möjliga uppgraderingsrekommendationer."
 >additional-url="https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html" text="Versionsinformation för Campaign Classic"
->additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Versionsinformation för Campaign Standard"
+>additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Versionsinformation om Campaign Standard"
 
 >[!IMPORTANT]
 >
->Den här funktionen är endast tillgänglig för Campaign Classic-instanser.
+>Den här funktionen är endast tillgänglig för instanser i Campaign Classic.
 
 ## Om instansinformation {#about-instance-details}
 
@@ -31,12 +31,12 @@ Med funktionen Instansinformation kan du visa instansens platta arkitektur. För
 
 >[!NOTE]
 >
->Vi rekommenderar att du uppgraderar dina instanser minst en gång per år för att undvika prestandaförsämringar och kan utnyttja de senaste funktionerna och korrigeringarna som Adobe Campaign Classic har att erbjuda.
+>Vi rekommenderar att du uppgraderar dina instanser minst en gång per år för att undvika prestandaförsämringar och att du kan utnyttja de senaste funktionerna och korrigeringarna som Adobe Campaign Classic har att erbjuda.
 
 **Relaterade ämnen:**
 
 * [Utföra en bygguppgradering](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [Uppdatera Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [Uppdaterar Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
 ## Hämtar information om dina instanser {#retrieving-information-about-instances}
 
@@ -46,13 +46,13 @@ Följ de här stegen för att få information om servrarna som är anslutna till
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-ORG-ID inte är kopplat till några Adobe Campaign Classic-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
 
-1. Välj önskad Campaign Classic-instans i den vänstra rutan.
+1. Markera den önskade Campaign Classic-instansen i den vänstra rutan.
 
    >[!NOTE]
    >
-   >Alla Campaign-instanser visas i listan i den vänstra rutan. Eftersom funktionen Instansinformation endast är avsedd för Campaign Classic-instanser visas meddelandet&quot;Ej tillämpbar instans&quot; om du väljer en Campaign Standard-instans.
+   >Alla Campaign-instanser visas i listan i den vänstra rutan. Eftersom funktionen Instansinformation endast är avsedd för instanser i Campaign Classic visas meddelandet&quot;Icke-tillämpbar instans&quot; om du markerar en instans i Campaign Standarden.
 
 1. Servrarna som är anslutna till instansvisningen.
 
@@ -72,7 +72,7 @@ Om någon av dina servrar behöver uppgraderas finns mer information om hur du f
 
 ## Vanliga frågor {#common-questions}
 
-**Jag ser inte MID-servern på min instansarkitektur, innebär det att mina instanser inte fungerar som de ska? Behöver jag RT-instansen för något jag inte kan göra idag?**
+**Jag kan inte se MID-servern på min instansarkitektur. Betyder det att mina instanser inte fungerar som de ska? Behöver jag RT-instansen för något jag inte kan göra idag?**
 
 Din egen instans kan se väldigt annorlunda ut, den kanske inte har alla typer av servrar, eller så kan den ha flera av samma server. Att du inte har en typ av server eller en annan innebär inte att du inte kan skicka ett realtidsmeddelande eller utföra andra typer av aktiviteter. Du kan begära ytterligare serverkapacitet, ytterligare avgifter tillkommer.
 
