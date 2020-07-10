@@ -2,10 +2,10 @@
 title: URL-behörigheter
 description: Lär dig hur du hanterar URL-behörigheter på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +55,7 @@ Så här lägger du till en URL som instansen kan ansluta till:
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-ORG-ID inte är kopplat till några Adobe Campaign Classic-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
    >
    >På fliken <b><span class="uicontrol">URL-behörigheter</span></b> visas alla externa URL:er som din instans kan ansluta till. Den här listan innehåller inte URL:er som krävs för att Campaign ska fungera (t.ex. anslutningar mellan infrastrukturenheter).
 
