@@ -2,9 +2,9 @@
 title: Hantering av GPG-nycklar
 description: Lär dig hur du hanterar GPG-nycklar för att kryptera och dekryptera data i Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,8 @@ Då kan du:
 
 **Relaterade ämnen:**
 
-* [Campaign Standard, självstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic - videokurs](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Videokurser om Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic självstudievideor](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Kryptera data {#encrypting-data}
 
@@ -56,6 +55,7 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
    * **kommentar**: Om du lägger till en etikett i kommentarsfältet blir det lättare att identifiera nyckeln som du kan använda för att kryptera dina data.
    * **förfallodatum**: Datum eller 0 om du inte vill ha något förfallodatum.
    * **lösenfras**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. När skriptet har bekräftats genereras en nyckel med tillhörande fingeravtryck som du kan exportera till en fil eller klistra in direkt i kontrollpanelen. Om du vill exportera filen kör du det här kommandot följt av fingeravtrycket för nyckeln som du skapade.
@@ -158,6 +158,7 @@ I listan visas alla GPG-nycklar för kryptering och dekryptering som har install
    * Urgent (red) visas 30 dagar tidigare.
    * Varning (gul) visas 60 dagar före.
    * En&quot;utgången&quot; röd banderoll visas när en tangent har gått ut.
+
    >[!NOTE]
    >
    >Observera att inga e-postmeddelanden skickas från Kontrollpanelen.
