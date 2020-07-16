@@ -4,8 +4,8 @@ description: Läs om hur man hanterar nycklar för att ansluta till SFTP-servrar
 translation-type: tm+mt
 source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '601'
+ht-degree: 100%
 
 ---
 
