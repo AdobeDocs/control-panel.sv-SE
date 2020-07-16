@@ -1,11 +1,11 @@
 ---
 title: Hantera TXT-poster
-description: Lär dig hur du hanterar TXT-poster för verifiering av domänägarskap.
-translation-type: tm+mt
+description: Läs mer om hur man hanterar TXT-poster för verifiering av domänägarskap.
+translation-type: ht
 source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,43 +15,43 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="Hantera TXT-poster"
->abstract="Vissa tjänster, som Google, kräver att du lägger till en TXT-post i domäninställningarna för att verifiera att du äger domänen."
+>abstract="Vissa tjänster såsom Google kräver att du lägger till en TXT-post i domäninställningarna för att verifiera att du äger domänen."
 
 ## Om TXT-poster {#about-txt-records}
 
-TXT-poster är en typ av DNS-poster som används för att tillhandahålla textinformation om en domän, som kan läsas av externa källor.
+TXT-poster är en typ av DNS-poster som används för att tillhandahålla textinformation om en domän som kan läsas av externa källor.
 
-För att säkerställa höga inkorgstariffer och låga skräppostnivåer kräver vissa tjänster som Google att du lägger till en TXT-post i domäninställningarna för att verifiera att du äger domänen.
+För att säkerställa ett stort antal verkliga e-postmeddelanden och ett lågt antal skräppostmeddelanden kräver vissa tjänster såsom Google att du lägger till en TXT-post i domäninställningarna för att verifiera att du faktiskt äger domänen.
 
-Gmail är för närvarande en av de vanligaste e-postadressleverantörerna. Adobe Campaign gör att du kan lägga till särskilda TXT-poster för Google Site verification i dina underdomäner för att säkerställa att de verifieras och att e-postmeddelandena kan levereras på ett bra sätt och skickas till Gmail-adresserna.
+Gmail är för närvarande en av de populäraste e-postadressleverantörerna. För att säkerställa en god levererbarhet och framgångsrik leverans av e-post till Gmail-adresser kan du med Adobe Campaign lägga till särskilda TXT-poster för Googles webbplatsverifiering i underdomänerna för att säkerställa att de verifieras.
 
 Ytterligare resurser:
 
-* [Självstudievideo om Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
-* [Kampanj - klassisk självstudievideo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
+* [Video med självstudiekurser om Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Video med självstudiekurser om Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
-## Lägga till en Google TXT-post för en underdomän {#adding-a-google-txt-record}
+## Lägga till en Google TXT-post i en underdomän {#adding-a-google-txt-record}
 
-Så här lägger du till en Google TXT-post i din underdomän som används för att skicka Gmail-adresser:
+Följ dessa steg för att lägga till en Google TXT-post i en underdomän som används för att skicka e-post via Gmail-adresser:
 
-1. Navigate to the **[!UICONTROL Subdomain and Certificates]** card.
+1. Navigera till **[!UICONTROL Subdomain and Certificates]**-kortet.
 
-1. Markera instansen och öppna sedan informationen om den underdomän som du vill lägga till en DNS-post i.
+1. Välj instansen och öppna sedan informationen om den underdomän du vill lägga till en DNS-post i.
 
    ![](assets/txt_subdomaindetails.png)
 
-1. Klicka på **[!UICONTROL Add TXT record]** knappen och ange sedan det värde som genererats i G Suite Admin tools. Mer information finns i [administrationshjälpen](https://support.google.com/a/answer/183895)för G Suite.
+1. Klicka på knappen **[!UICONTROL Add TXT record]** och ange sedan det värde som genererades i G Suites administratörsverktyg. Se [hjälp för G Suite-administratörer](https://support.google.com/a/answer/183895) för mer information om detta.
 
    ![](assets/txt_addtxt.png)
 
-1. Bekräfta genom att klicka på **[!UICONTROL Add]** knappen.
+1. Bekräfta genom att klicka på knappen **[!UICONTROL Add]**.
 
    ![](assets/txt_txtadded.png)
 
-När TXT-posten har lagts till måste den verifieras av Google. Det gör du genom att navigera till G Suite Admin-verktygen och sedan starta verifieringssteget (se [administrationshjälpen](https://support.google.com/a/answer/183895)för G Suite).
+När TXT-posten har lagts till måste den verifieras av Google. Navigera till G Suites administratörsverktyg och starta sedan verifieringssteget för att utföra verifieringen (se [hjälp för G Suite-administratörer](https://support.google.com/a/answer/183895)).
 
-Om du vill ta bort en post markerar du den i postlistan och klickar sedan på knappen Ta bort.
+För att ta bort en post markerar du den i postlistan och klickar sedan på knappen Ta bort.
 
 >[!NOTE]
 >
->Den enda post som du kan ta bort från listan över DNS-poster är den som du tidigare har lagt till (i vårt fall Google TXT-posten).
+>Den enda post du kan ta bort från listan över DNS-poster är den som du tidigare har lagt till (i vårt fall Google TXT-posten).
