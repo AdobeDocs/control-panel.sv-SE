@@ -1,11 +1,11 @@
 ---
 title: Konfigurera en ny underdomän
-description: Lär dig hur du skapar en ny underdomän för dina kampanjinstanser
-translation-type: tm+mt
+description: Läs om hur man skapar en ny underdomän för instanser i Campaign
+translation-type: ht
 source-git-commit: 5b7e8126789690662e72e72c885700b971362004
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,98 +15,98 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_management"
 >title="Konfigurera nya underdomäner och hantera certifikat"
->abstract="Du måste konfigurera en ny underdomän och hantera dina underdomäners SSL-certifikat för att kunna börja skicka e-post eller publicera landningssidor med Adobe Campaign."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Övervaka dina underdomäners SSL-certifikat"
+>abstract="Du måste konfigurera en ny underdomän och hantera dina underdomäners SSL-certifikat för att kunna börja skicka e-postmeddelanden eller publicera landningssidor med Adobe Campaign."
+>additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Så övervakar du dina underdomäners SSL-certifikat"
 
 >[!IMPORTANT]
 >
->Delegering av underdomäner från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
+>Att delegera underdomäner i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
 
-## Full underdomänsdelegering {#full-subdomain-delegation}
+## Fullständig delegering av underdomäner {#full-subdomain-delegation}
 
-Med kontrollpanelen kan du delegera en underdomän till Adobe Campaign helt. Gör så här:
+Via Kontrollpanelen kan du fullständigt delegera en underdomän som tillhör Adobe Campaign. Följ dessa steg för att göra detta:
 
-1. Välj önskad produktionsinstans på **[!UICONTROL Subdomains & Certificates]** kortet och klicka sedan på **[!UICONTROL Setup new subdomain]**.
+1. Välj önskad produktionsinstans på **[!UICONTROL Subdomains & Certificates]**-kortet och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
    ![](assets/subdomain1.png)
 
    >[!NOTE]
    >
-   >Delegering via underdomän är endast tillgänglig för **produktionsinstanser** .
+   >Delegering av en underdomän är endast tillgänglig för **produktionsinstanser**.
    >
-   >Om den markerade instansen inte har några tidigare konfigurerade underdomäner kommer den första underdomänen som delegerats till Adobe att bli den **primära underdomänen** för den instansen, du kommer inte att kunna ändra den i framtiden. Omvända DNS-poster skapas för andra underdomäner med den primära underdomänen. Svars- och studsadresser för andra underdomäner genereras från den primära underdomänen.
+   >Om den valda instansen inte har några tidigare konfigurerade underdomäner blir den första underdomänen som delegeras till Adobe den **primära underdomänen** för den instansen. Du kan inte ändra den i framtiden. Omvända DNS-poster skapas för andra underdomäner med hjälp av den primära underdomänen. Svars- och returadresser för andra underdomäner genereras från den primära underdomänen.
 
-1. Klicka **[!UICONTROL Next]** för att bekräfta den fullständiga delegeringsmetoden.
+1. Klicka på **[!UICONTROL Next]** för att bekräfta den fullständiga delegeringsmetoden.
 
-   Observera att [CNAME](#use-cnames) och anpassade metoder för närvarande inte stöds av Kontrollpanelen.
+   Observera att Kontrollpanelen för närvarande inte har stöd för [CNAME](#use-cnames) och anpassade metoder.
 
    ![](assets/subdomain3.png)
 
-1. Skapa önskad underdomän och önskade namnservrar i värdlösningen som används av organisationen. Det gör du genom att kopiera och klistra in den Adobe Nameserver-information som visas i guiden. Mer information om hur du skapar en underdomän i en värdlösning finns i [självstudievideon](https://video.tv.adobe.com/v/30175?captions=swe).
+1. Skapa den önskade underdomänen och namnservrar i värdlösningen som används av organisationen. Gör detta genom att kopiera och klistra in Adobe Nameserver-informationen som visas i guiden. Se [videon med självstudiekurser](https://video.tv.adobe.com/v/30175?captions=swe) för mer information om hur du skapar en underdomän i en värdlösning.
 
    >[!IMPORTANT]
    >
-   >När du konfigurerar namnservrar ska du se till att du **aldrig delegerar din rotunderdomän till Adobe**. I annat fall kan domänen endast fungera med Adobe. All annan användning blir omöjlig, till exempel att skicka interna e-postmeddelanden till företagets anställda.
+   >Se till att du **aldrig delegerar din rotunderdomän till Adobe** när du konfigurerar namnservrar. Om du gör detta fungera domänen endast med Adobe. Att använda den på annat sätt – såsom att skicka interna e-postmeddelanden till företagets anställda – blir omöjligt.
    >
    >Skapa **inte heller någon separat zonfil** för den nya underdomänen.
 
    ![](assets/subdomain4.png)
 
-1. När underdomänen har skapats med motsvarande Adobe-namnserverinformation klickar du på **[!UICONTROL Next]**.
+1. Skapa underdomänen med motsvarande Adobe Nameserver-information och klicka sedan på **[!UICONTROL Next]**.
 
 1. Välj önskat användningsfall för underdomänen:
 
-   * **Marknadsföringskommunikation**: Kommunikation som är avsedd för kommersiellt bruk. Exempel: e-postkampanj för försäljning.
-   * **Transaktions- och verksamhetskommunikation**: Transaktionskommunikation innehåller information som syftar till att slutföra en process som mottagaren har startat med dig. Exempel: inköpsbekräftelse, e-post för lösenordsåterställning. Organisativ kommunikation rör utbyte av information, idéer och åsikter inom och utanför organisationen, utan kommersiellt syfte.
+   * **Marknadsföringskommunikation**: kommunikation som är avsedd för kommersiellt bruk. Exempel: försäljningskampanj via e-post.
+   * **Transaktions- och verksamhetskommunikation**: transaktionskommunikation innehåller information som syftar till att slutföra en process som mottagaren har startat med dig. Exempel: inköpsbekräftelse och e-post för lösenordsåterställning. Organisationskommunikation rör utbyte av information, idéer och åsikter utan kommersiellt syfte. Detta gäller både inom och utanför organisationen .
    ![](assets/subdomain5.png)
 
-   **Att dela upp dina underdomäner efter användningsfall är det bästa sättet att leverera**. På så sätt isoleras och skyddas varje underdomän rykte. Om din underdomän för marknadsföringskommunikation till exempel läggs till i blocklistan av Internetleverantörerna påverkas inte din underdomän för transaktionskommunikation, utan den kan fortsätta att skicka kommunikation.
+   **Att dela upp underdomänerna per användningsfall är bästa praxis för levererbarhet**. På så sätt isoleras och skyddas varje underdomäns rykte. Om till exempel din underdomän för marknadsföringskommunikation läggs till i blockeringslistan hos internetleverantörer påverkas inte den för transaktionskommunikation och kan fortsätta att skicka kommunikation.
 
-   **Du kan delegera en underdomän för både Marknadsföring och Transactional-användning**:
+   **Du kan delegera en separat underdomän för användningsfallen Marknadsföring och Transaktioner**:
 
-   * I marknadsföringsfall kommer underdomäner att konfigureras för **MID** -instanser (Mid sourcing).
-   * För transaktionsanvändning kommer underdomäner att konfigureras på ALLA **RT** -instanser (Message Center/Real-time Messaging) för att säkerställa anslutningen. Underdomänerna fungerar därför med alla dina RT-instanser.
+   * I användningsfall för Marknadsföring konfigureras underdomäner på **MID**-instanser (mid-sourcing).
+   * I användningsfall för Transaktioner konfigureras underdomäner på ALLA **RT**-instanser (meddelandecenter/realtidsmeddelanden) för att säkerställa anslutningen. Underdomänerna fungerar därför med alla RT-instanser.
    >[!NOTE]
    >
-   >Om du använder Campaign Classic kan du via Kontrollpanelen se vilka RT/MID-instanser som är kopplade till den marknadsinstans som du arbetar med. Mer information finns i avsnittet [Instansinformation](../../instances-settings/using/instance-details.md) .
+   >Om du använder Campaign Classic kan du via Kontrollpanelen se vilka RT/MID-instanser som är anslutna till den marknadsföringsinstans du arbetar med. Se avsnittet [Information om instanser](../../instances-settings/using/instance-details.md) för mer information.
 
-1. Ange den underdomän som du skapade i din värdlösning och klicka sedan på **[!UICONTROL Submit]**.
+1. Öppna den underdomän du skapade i din värdlösning och klicka sedan på **[!UICONTROL Submit]**.
 
-   Se till att du fyller i det **fullständiga namnet** för den underdomän som ska delegeras. Om du till exempel vill delegera underdomänen &quot;usoffers.email.weretail.com&quot; skriver du &quot;usoffers.email.weretail.com&quot;.
+   Se till att du anger det **fullständiga namnet** på den underdomän som ska delegeras. Om du till exempel vill delegera underdomänen ”usoffers.email.weretail.com” ska du skriva ”usoffers.email.weretail.com”.
 
    ![](assets/subdomain6.png)
 
-1. När underdomänen har skickats kontrollerar Kontrollpanelen att den pekar korrekt på Adobe NS-poster och att posten Start of Authority (SOA) inte finns för den här underdomänen.
+1. När underdomänen har angetts kontrollerar Kontrollpanelen att den pekar korrekt på Adobe NS-poster och att posten Start of Authority (SOA) inte finns för den här underdomänen.
 
    >[!NOTE]
    >
-   >Observera att när delegering av underdomäner körs, kommer andra begäranden via Kontrollpanelen att ställas i kö och utföras först när delegeringen av underdomäner har slutförts, för att undvika prestandaproblem.
+   >Observera att när delegering av underdomäner körs ställs andra begäranden via Kontrollpanelen i kö och utförs först när delegeringen av underdomäner har slutförts. Detta händer för att undvika prestandaproblem.
 
-1. Om kontrollerna lyckas kommer Kontrollpanelen att börja konfigurera underdomänen med DNS-poster, ytterligare URL:er, inkorgar osv.
+1. Om kontrollerna är godkända börjar Kontrollpanelen konfigurera underdomänen med DNS-poster, ytterligare URL:er och inkorgar osv.
 
    ![](assets/subdomain7.png)
 
-   Slutligen kommer **Deliverability-teamet** att meddelas om den nya underdomänen för att kunna granska den. Granskningsprocessen kan ta upp till 10 arbetsdagar efter att underdomänen har delegerats. De kontroller som utförs omfattar feedbackslingor och slingtest av skräppostklagomål. Därför rekommenderar vi inte att du använder underdomänen innan granskningen har slutförts eftersom det kan leda till dåligt anseende för underdomänen.
+   Slutligen kommer **Levererbarhetsteamet** att meddelas om den nya underdomänen för att kunna granska den. Granskningsprocessen kan ta upp till tio arbetsdagar efter att underdomänen har delegerats. De kontroller som utförs omfattar tester av feedbackslingor och feedbackslingor gällande skräppost. Vi rekommenderar därför inte att du använder underdomänen innan granskningen har slutförts eftersom det kan leda till ett dåligt rykte för underdomänen.
 
-   Du kan få mer information om konfigurationsförloppet genom att klicka på **[!UICONTROL Process details]** .
+   Klicka på knappen **[!UICONTROL Process details]** för att få mer information om konfigurationsförloppet.
 
    ![](assets/subdomain_audit.png)
 
    **Felsökning:**
 
-   * I vissa fall går delegeringen igenom, men underdomänen kanske inte kan verifieras. Underdomänen finns kvar i listan med en jobblogg med information om felet. **[!UICONTROL Configured]** Kontakta kundtjänst om du har problem med att lösa problemet.
-   * Om underdomänen visas som &quot;Ej verifierad&quot; efter att den har konfigurerats startar du en ny verifiering av underdomäner (**..** / **[!UICONTROL Verify subdomain]**). Om den fortfarande har samma status kan det bero på att det görs anpassningar i mottagarschemat, som inte kan verifieras med standardprocesser. Försök skicka en kampanj med den underdomänen.
-   * Om konfigurationen av underdomänen tar för lång tid (mer än 10 arbetsdagar) vid granskning av leveransen kan du kontakta kundtjänst.
+   * I vissa fall godkänns delegeringen medan underdomänen kanske inte kan verifieras. Underdomänen blir kvar i **[!UICONTROL Configured]**-listan med en jobblogg med information om felet. Kontakta kundtjänsten om du behöver hjälp med att lösa problemet.
+   * Starta en ny verifiering av underdomäner (**…**/**[!UICONTROL Verify subdomain]**) om underdomänen visas som ”Ej verifierad” efter att den har konfigurerats. Om den fortfarande har samma status kan det bero på att det anpassningar utförs i mottagarschemat som inte kan verifieras med standardprocesser. Försök skicka en kampanj med den underdomänen.
+   * Om konfigurationen av underdomänen vid granskning av leveransen tar för lång tid (mer än tio arbetsdagar) ska du kontakta Kundtjänst.
 
-I slutet av processen konfigureras underdomänerna så att de fungerar med din Adobe Campaign-instans och elementen nedan skapas:
+Vid slutet av processen konfigureras underdomänerna så att de fungerar med instansen i Adobe Campaign och elementen nedan skapas:
 
-* **Underdomänen med följande DNS-poster**: SOA, MX, CNAME(s), DKIM, SPF, TXT,
-* **Ytterligare underdomäner** för värdspegling, resurs, spårningssidor och domännyckel.
-* **Inkorgar**: Avsändare, Fel, Svar till.
+* **Underdomänen med följande DNS-poster**: SOA, MX, CNAME(:er), DKIM, SPF, TXT.
+* **Ytterligare underdomäner** för värdspegling, resurser, spårningssidor och domännycklar.
+* **Inkorgar**: avsändare, fel, svara till.
 
-   Som standard är inkorgen Svara till på Kontrollpanelen konfigurerad att rensa e-postmeddelanden och kan inte granskas. Använd inte den här adressen om du vill övervaka din svarsinkorg för dina marknadsföringskampanjer.
+   Som standard är inkorgen ”Svara till” på Kontrollpanelen konfigurerad till att rensa e-postmeddelanden och kan inte granskas. Använd en annan adress om du vill övervaka din ”Svara till”-inkorg för marknadsföringskampanjerna.
 
-Du kan få mer information om underdomänen genom att klicka på **[!UICONTROL Subdomain details]** - och **[!UICONTROL Sender info]** -knapparna.
+Du får mer information om underdomänen genom att klicka på knapparna **[!UICONTROL Subdomain details]** och **[!UICONTROL Sender info]**.
 
 ![](assets/detail_buttons.png)
 
@@ -114,12 +114,12 @@ Du kan få mer information om underdomänen genom att klicka på **[!UICONTROL S
 
 ![](assets/sender_info.png)
 
-## Användning av CNAME {#use-cnames}
+## Använda CNAME:er {#use-cnames}
 
-Det går inte att använda CNAME för delegering av underdomäner via Kontrollpanelen. Kontakta Adobes kundtjänst om du vill använda den här metoden.
+CNAME:er kan inte användas för att delegera underdomäner via Kontrollpanelen. Kontakta Adobes kundtjänst för att använda den här metoden.
 
 **Relaterade ämnen:**
 
 * [Delegera underdomäner (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [Märke för underdomäner](../../subdomains-certificates/using/subdomains-branding.md)
-* [Övervaka dina underdomäner](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Märka underdomäner](../../subdomains-certificates/using/subdomains-branding.md)
+* [Övervaka underdomänerna](../../subdomains-certificates/using/monitoring-subdomains.md)
