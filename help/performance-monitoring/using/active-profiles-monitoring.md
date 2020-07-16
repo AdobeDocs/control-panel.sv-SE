@@ -1,59 +1,59 @@
 ---
-title: Övervakning av aktiva profiler
-description: Lär dig hur du får information i realtid om den senaste och historiska användningen av aktiva profiler och utvecklingen för var och en av era Campaign-instanser.
-translation-type: tm+mt
+title: Övervaka aktiva profiler
+description: Läs mer om hur man får information i realtid om den senaste och historiska användningen gällande aktiva profiler och utvecklingen för var och en av sina instanser i Campaign.
+translation-type: ht
 source-git-commit: 024eb750021ff2446b34d648b5abfb016eabc289
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Övervakning av aktiva profiler {#active-profiles-monitoring}
+# Övervaka aktiva profiler {#active-profiles-monitoring}
 
 >[!IMPORTANT]
 >
->Övervakning av aktiva profiler från Kontrollpanelen finns i betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
+>Att övervaka aktiva profiler i Kontrollpanelen finns tillgängligt som betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
 >
->The feature is available to customers hosted on AWS from Campaign Standard 10368 build and Campaign Classic 8931 build. If you are using a previous build, you need to upgrade to use this feature.
+>Funktionen är tillgänglig för kunder som har AWS som värd från Campaign Standard build 10368 och Campaign Classic build 8931. Om du använder en tidigare build måste du uppgradera för att kunna använda den här funktionen.
 
 ## Om aktiva profiler {#about-active-profiles}
 
-Enligt ert avtal har var och en av era Campaign-instanser en viss mängd aktiva profiler som räknas för faktureringsändamål. Se ditt senaste kontrakt för referens om antalet köpta aktiva profiler.
+Enligt avtalet har var och en av instanserna i Campaign ett visst antal aktiva profiler som räknas för faktureringsändamål. Se ditt senaste avtal som referens om antalet köpta aktiva profiler.
 
-profil: ett register över information (t.ex.: en post i nmsRecipient-tabellen eller en extern tabell som innehåller ett cookie-ID, Kund-ID, mobilidentifierare eller annan information som är relevant för en viss kanal) som representerar en slutkund, potentiell kund eller lead.
+”Profil” innebär ett register över information (såsom en post i nmsRecipient-tabellen eller en extern tabell som innehåller ett cookie-ID, Kund-ID, mobilidentifierare eller annan information som är relevant för en viss kanal) som representerar en slutkund, potentiell kund eller framtida kund.
 
-Profiler anses vara aktiva om de har delats ut eller kommunicerats med via någon kanal under de senaste tolv månaderna.
+Profiler anses vara aktiva om de har riktats in på eller kommunicerats med under de senaste tolv månaderna via någon kanal.
 
 >[!NOTE]
 >
 >Facebook- och Twitter-kanaler beaktas inte.
 
-Mer information om aktiva profiler finns i [dokumentationen för Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) och [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
+Se dokumentationen för [Campaign Standard](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) och [Campaign Classic](https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) för mer information om aktiva profiler.
 
 ## Övervaka aktiva profiler {#monitoring-active-profiles}
 
-På Kontrollpanelen kan du övervaka den aktiva profilanvändningen för var och en av dina Campaign-instanser.
+Kontrollpanelen låter dig övervaka användningen av aktiva profiler för var och en av instanserna i Campaign.
 
-Gör så här:
+Följ dessa steg för att göra detta:
 
 1. Öppna **[!UICONTROL Performance Monitoring]**-kortet och välj fliken **[!UICONTROL Active Profiles]**.
 
-1. Markera önskad instans i **[!UICONTROL Instance List]**.
+1. Välj önskad instans i **[!UICONTROL Instance List]**.
 
-1. The number of active profiles used by the instance displays, as well as the last time the billing workflow was run on your instance.
+1. Antalet aktiva profiler som används av instansen visas liksom den senaste gången faktureringens arbetsflöde kördes på instansen.
 
 ![](assets/active-profiles-graph.png)
 
 >[!NOTE]
 >
->Active profiles are counted based on dedicated technical workflows which run everyday on your instances:
+>Aktiva profiler räknas baserat på dedikerade tekniska arbetsflöden som körs varje dag på instanserna:
 >
->* Arbetsflödet [&quot;Fakturering&quot;](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html) för Campaign Standard,
->* Arbetsflödet [&quot;Antal aktiva faktureringsprofiler&quot;](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) för Campaign Classic.
+>* Arbetsflödet [”Fakturering”](https://docs.adobe.com/help/sv-SE/campaign-standard/using/administrating/application-settings/technical-workflows.html) i Campaign Standard,
+>* Arbetsflödet [”Antal aktiva faktureringsprofiler”](https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) i Campaign Classic.
 
 
-I det nedre området visas de aktiva profilernas användning under de senaste 30 dagarna. Du kan ändra den tidsperiod som visas till 1 år med de tillgängliga filtren i det övre högra hörnet.
+Det nedre området visar de aktiva profilernas användning under de senaste 30 dagarna. Du kan ändra den tidsperiod som visas upp till ett år med de tillgängliga filtren i det övre högra hörnet.
 
-Om du hovrar över ett av diagramfälten kan du få det exakta antalet aktiva profiler som används för den valda perioden.
+Håll muspekaren över ett av diagrammen för att få det exakta antalet aktiva profiler som använts för den valda tidsperioden.
