@@ -1,6 +1,6 @@
 ---
 title: Instansinformation
-description: Lär dig övervaka instansinformationen på Kontrollpanelen
+description: Läs om hur man övervakar information om instanser i Kontrollpanelen
 translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
@@ -15,9 +15,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Om instansinformation"
->abstract="Visa information om dina Adobe Campaign-instanser: typer, namn, bygginformation och möjliga uppgraderingsrekommendationer."
->additional-url="https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html" text="Versionsinformation för Campaign Classic"
->additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Versionsinformation om Campaign Standard"
+>abstract="Se informationen om instanserna i Adobe Campaign: typer, namn, build-information och möjliga rekommendationer gällande uppgraderingar."
+>additional-url="https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/release-notes/latest-release.html" text="Versionsinformation om Campaign Classic"
+>additional-url="https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/release-notes/release-notes.html" text="Versionsinformation om Campaign Standard"
 
 >[!IMPORTANT]
 >
@@ -25,22 +25,22 @@ ht-degree: 0%
 
 ## Om instansinformation {#about-instance-details}
 
-Instansarkitekturen i Adobe Campaign Classic kan innehålla flera servrar för att möjliggöra flexibilitet i marknadsföringsaktiviteter. Du kan t.ex. ha servrar för marknadsföring, realtid (eller meddelandecenter) och MID-källor som stöder din instans.
+Instansarkitekturen i Adobe Campaign Classic kan innehålla flera servrar för att möjliggöra flexibilitet i marknadsföringsaktiviteter. Du kan t.ex. ha servrar för marknadsföring, realtid (eller meddelandecenter) samt mid-sourcing som har stöd för din instans.
 
-Med funktionen Instansinformation kan du visa instansens platta arkitektur. Förutom serverinformation kan du även ta reda på om instansbygget är aktuellt eller inte, samt rekommendera uppgraderingar när det behövs.
+Funktionaliteten i Instansinformationen låter dig se instansens platta arkitektur. Förutom serverinformation får du även reda på om instansens build är aktuell eller inte samt rekommendationer om uppgraderingar när det behövs.
 
 >[!NOTE]
 >
->Vi rekommenderar att du uppgraderar dina instanser minst en gång per år för att undvika prestandaförsämringar och att du kan utnyttja de senaste funktionerna och korrigeringarna som Adobe Campaign Classic har att erbjuda.
+>Vi rekommenderar att du uppgraderar dina instanser minst en gång per år för att undvika prestandaförsämringar. På så sätt kan du även utnyttja de senaste funktionerna och korrigeringarna som Adobe Campaign Classic har att erbjuda.
 
 **Relaterade ämnen:**
 
-* [Utföra en bygguppgradering](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [Uppdaterar Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [Utföra en uppgradering av din build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
+* [Uppdatera Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
-## Hämtar information om dina instanser {#retrieving-information-about-instances}
+## Hämta information om dina instanser {#retrieving-information-about-instances}
 
-Följ de här stegen för att få information om servrarna som är anslutna till dina instanser:
+Följ dessa steg för att få information om servrarna som är anslutna till dina instanser:
 
 1. Öppna **[!UICONTROL Instances Settings]**-kortet för att öppna fliken **[!UICONTROL Instance Details]**.
 
@@ -48,32 +48,32 @@ Följ de här stegen för att få information om servrarna som är anslutna till
    >
    >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
 
-1. Markera den önskade Campaign Classic-instansen i den vänstra rutan.
+1. Välj den önskade instansen i Campaign Classic i det vänstra fönstret.
 
    >[!NOTE]
    >
-   >Alla Campaign-instanser visas i listan i den vänstra rutan. Eftersom funktionen Instansinformation endast är avsedd för instanser i Campaign Classic visas meddelandet&quot;Icke-tillämpbar instans&quot; om du markerar en instans i Campaign Standarden.
+   >Alla instanser i Campaign visas i listan i det vänstra fönstret. Eftersom funktionen Instansinformation endast är avsedd för instanser i Campaign Classic visas meddelandet ”Ej tillämpbar instans” om du väljer en instans i Campaign Standard.
 
-1. Servrarna som är anslutna till instansvisningen.
+1. Servrarna som är anslutna till instansen visas.
 
    ![](assets/instance_details.png)
 
 Tillgänglig information är:
 
-* **[!UICONTROL Type]**: servertypen. Möjliga värden är MKT (Marketing), MID (Mid sourcing) och RT (Message Center/Real-time Messaging).
+* **[!UICONTROL Type]**: servertypen. Möjliga värden är MKT (marknadsföring), MID (mid-sourcing) och RT (meddelandecenter/realtidsmeddelanden).
 * **[!UICONTROL Name]**: serverns namn.
 * **[!UICONTROL Build:]** den version som är installerad på servern.
-* **[!UICONTROL Upgrade info]**: den här kolumnen informerar dig om någon uppdatering krävs för servern.
-   * Grön: din server är aktuell, ingen uppgradering krävs.
+* **[!UICONTROL Upgrade info]**: den här kolumnen informerar dig om eventuell uppdatering som krävs för servern.
+   * Grön: din server är aktuell och ingen uppgradering krävs.
    * Gul: du bör överväga att uppgradera. Du saknar de senaste funktionerna och korrigeringarna.
    * Röd: uppgradera så snart som möjligt. Du saknar nya funktioner och serverprestandan kanske inte är optimal.
 
-Om någon av dina servrar behöver uppgraderas finns mer information om hur du fortsätter i [den här dokumentationen](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) .
+Om någon av dina servrar behöver uppgraderas finns mer information om hur du fortsätter i [den här dokumentationen](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
 
 ## Vanliga frågor {#common-questions}
 
-**Jag kan inte se MID-servern på min instansarkitektur. Betyder det att mina instanser inte fungerar som de ska? Behöver jag RT-instansen för något jag inte kan göra idag?**
+**Jag kan inte se MID-servern i min instansarkitektur. Betyder detta att mina instanser inte fungerar som de ska? Behöver jag RT-instansen för något jag inte kan göra idag?**
 
-Din egen instans kan se väldigt annorlunda ut, den kanske inte har alla typer av servrar, eller så kan den ha flera av samma server. Att du inte har en typ av server eller en annan innebär inte att du inte kan skicka ett realtidsmeddelande eller utföra andra typer av aktiviteter. Du kan begära ytterligare serverkapacitet, ytterligare avgifter tillkommer.
+Din egen instans kan se väldigt annorlunda ut. Den kanske inte har alla typer av servrar eller kan den ha flera av samma server. Även om du inte har en typ av server kan du fortfarande skicka ett realtidsmeddelande eller utföra andra typer av aktiviteter. Du kan begära ytterligare serverkapacitet. Ytterligare avgifter tillkommer i detta fall.
 
-Kontakta kundtjänst om du tror att vissa servrar inte visas på sidan Instansinformation. Observera den specifika instansens URL i meddelandet.
+Kontakta Kundtjänst om du tror att vissa servrar inte visas på sidan Instansinformation. Inkludera den instansens specifika URL i meddelandet.
