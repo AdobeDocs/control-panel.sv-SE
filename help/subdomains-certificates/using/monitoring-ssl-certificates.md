@@ -1,11 +1,11 @@
 ---
 title: Övervaka underdomäners SSL-certifikat
-description: Lär dig övervaka dina underdomäners SSL-certifikat
-translation-type: tm+mt
+description: Läs om hur man övervakar underdomäners SSL-certifikat
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ## Om SSL-certifikat {#about-ssl-certificates}
 
-Adobe Campaign rekommenderar att ni skyddar de underdomäner som är värd för era landningssidor, särskilt de som samlar in känslig information om era kunder.
+Adobe Campaign rekommenderar att du säkrar de underdomäner som är värdar för dina landningssidor. Särskilt de som samlar in känslig information om kunder.
 
-**SSL-kryptering** (Secure Socket Layer) säkerställer att de underdomäner som du har delegerat till Adobe är säkra. När kunden fyller i ett webbformulär eller besöker en landningssida som Adobe Campaign är värd för, skickas informationen som standard via ett osäkert protokoll (HTTP). För att säkerställa ytterligare säkerhet måste du skydda skickad information med ett HTTPS-protokoll. Din &quot;http://info.mywebsite.com/&quot;-underdomänadress kommer nu att vara &quot;https://info.mywebsite.com/&quot;.
+**SSL-kryptering (Secure Socket Layer)** säkerställer att de underdomäner som har delegerats till Adobe är säkra. När kunden fyller i ett webbformulär eller besöker en landningssida som Adobe Campaign är värd för skickas informationen som standard via ett osäkert protokoll (HTTP). För att garantera ytterligare säkerhet måste information som skickas skyddas med ett HTTPS-protokoll. Underdomänadressen ”http://info.mywebsite.com/” blir istället ”https://info.mywebsite.com/”.
 
-**SSL-certifikat installeras inte på de delegerade underdomänerna själva**. De installeras på associerade underdomäner, främst de som är värdar för landningssidor, resurssidor och andra.
+**SSL-certifikat installeras inte på de delegerade underdomänerna i sig**. De installeras på associerade underdomäner och då främst på de som är värdar för landningssidor, resurssidor och andra.
 
-**SSL-certifikat tillhandahålls för en viss tidsperiod** (1 år, 60 dagar osv.). När ett certifikat upphör att gälla kan du få problem med att komma åt landningssidorna eller använda resurser från underdomänen. För att förhindra detta kan du på Kontrollpanelen övervaka dina underdomäners SSL-certifikat samt starta förnyelseprocessen.
+**SSL-certifikat tillhandahålls under en viss tidsperiod** (1 år, 60 dagar osv.). När ett certifikat upphör att gälla kan problem uppstå med att komma åt landningssidorna eller använda resurser från underdomänen. För att förhindra detta kan du via Kontrollpanelen övervaka underdomänernas SSL-certifikat samt starta förnyelseprocessen.
 
 ![](assets/no_certificate.png)
 
@@ -28,35 +28,35 @@ Adobe Campaign rekommenderar att ni skyddar de underdomäner som är värd för 
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
->title="Information om underdomän"
->abstract="Hämta information om dina underdomäner."
+>title="Information om underdomäner"
+>abstract="Hämta information om underdomänerna."
 
-Statusen för dina underdomäners SSL-certifikat är tillgänglig direkt från listan över underdomäner när du väljer **[!UICONTROL Subdomains & Certificates]** kort.
+Statusen för underdomänernas SSL-certifikat finns tillgänglig direkt från listan över underdomäner när du väljer **[!UICONTROL Subdomains & Certificates]**-kortet.
 
-Underdomäner ordnas efter det närmaste förfallodatumet för SSL-certifikatet, med visuell information om förfallodatumet, i dagar:
+Underdomäner ordnas per det närmaste förfallodatumet för SSL-certifikatet med visuell information om förfallodatumet i antal dagar:
 
-* **Grön**: underdomänen inte har något certifikat som upphör att gälla inom de närmaste 60 dagarna.
+* **Grön**: underdomänen har inte något certifikat som upphör att gälla inom de närmaste 60 dagarna.
 * **Orange**: en eller flera underdomäner har ett certifikat som upphör att gälla inom 60 dagar.
-* **Röd**: en eller flera underdomäner har ett certifikat som upphör att gälla inom 30 dagar.
+* **Orange**: en eller flera underdomäner har ett certifikat som upphör att gälla inom 30 dagar.
 * **Grå**: inget certifikat har installerats för underdomänen.
 
 ![](assets/subdomains_list.png)
 
-To get more details on a subdomain, click the **[!UICONTROL Subdomain Details]** button.
-Listan över alla relaterade underdomäner visas. Det omfattar vanligtvis underdomäner till landningssidor, resurssidor osv.
+Klicka på knappen **[!UICONTROL Subdomain Details]** om du vill ha mer information om en underdomän.
+Listan över alla relaterade underdomäner visas. Den omfattar vanligtvis underdomäner till bland annat landningssidor och resurssidor.
 
-Fliken innehåller information om de konfigurerade inkorgarna (Avsändare, Svara till, E-post för fel). **[!UICONTROL Sender info]**
+Fliken innehåller information om de konfigurerade inkorgarna (avsändare, svara till och felaktiga e-postmeddelanden). **[!UICONTROL Sender info]**
 
 ![](assets/subdomain_details.png)
 
-Om en av din underdomäns SSL-certifikat snart går ut kan du förnya det direkt från Kontrollpanelen. Mer information finns i följande avsnitt: [Förnya en underdomäns SSL-certifikat](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+Om en av underdomänernas SSL-certifikat är på väg att löpa ut kan du förnya det direkt i Kontrollpanelen. Se avsnittet [Förnya en underdomäns SSL-certifikat](../../subdomains-certificates/using/renewing-subdomain-certificate.md) för mer information om detta.
 
 >[!IMPORTANT]
 >
->Certifikatförnyelse från Kontrollpanelen kan fås som betaversion och kan ändras ofta utan föregående meddelande.
+>Certifikatförnyelse i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
 
 **Relaterade ämnen:**
 
-* [Lägga till SSL-certifikat (självstudievideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Lägga till SSL-certifikat (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Förnya en underdomäns SSL-certifikat](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [Märke för underdomäner](../../subdomains-certificates/using/subdomains-branding.md)
+* [Märka underdomäner](../../subdomains-certificates/using/subdomains-branding.md)
