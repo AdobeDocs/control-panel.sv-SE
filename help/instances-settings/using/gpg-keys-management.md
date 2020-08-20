@@ -1,16 +1,16 @@
 ---
-title: Hantering av GPG-nycklar
+title: Hantera GPG-nycklar
 description: Lär dig hur du hanterar GPG-nycklar för att kryptera och dekryptera data i Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Hantering av GPG-nycklar {#gpg-keys-management}
+# Hantera GPG-nycklar {#gpg-keys-management}
 
 ## Om GPG-kryptering {#about-gpg-encryption}
 
@@ -18,13 +18,13 @@ GPG-kryptering gör att du kan skydda dina data med hjälp av ett system med off
 
 När den är implementerad kan du kryptera inkommande och utgående data innan överföringen görs, så att ingen kan komma åt dem utan ett giltigt matchande nyckelpar.
 
-För att implementera GPG-kryptering med Campaign måste GPG-nycklar installeras och/eller genereras på en marknadsföringsinstans av en administratörsanvändare direkt från Kontrollpanelen.
+För att GPG-kryptering ska kunna implementeras i Campaign måste GPG-nycklar installeras och/eller genereras på en marknadsföringsinstans av en administratörsanvändare direkt på kontrollpanelen.
 
 Då kan du:
 
 * **Kryptera skickade data**: Adobe Campaign skickar data när de har krypterats med den installerade offentliga nyckeln.
 
-* **Dekryptera inkommande data**: Adobe Campaign tar emot data som har krypterats utanför ett externt system med en offentlig nyckel som hämtats från Kontrollpanelen. Adobe Campaign dekrypterar data med en privat nyckel som genereras från kontrollpanelen.
+* **Dekryptera inkommande data**: Adobe Campaign tar emot data som har krypterats utanför ett externt system med en offentlig nyckel som hämtats från Kontrollpanelen. Adobe Campaign dekrypterar data med en privat nyckel som genereras från Kontrollpanelen.
 
 **Relaterade ämnen:**
 
@@ -33,9 +33,9 @@ Då kan du:
 
 ## Kryptera data {#encrypting-data}
 
-Med Kontrollpanelen kan du kryptera data som kommer ut från din Adobe Campaign-instans.
+Med kontrollpanelen kan du kryptera data som kommer från instansen i Adobe Campaign.
 
-För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteringsverktyg och sedan installera den offentliga nyckeln på Kontrollpanelen. Du kan sedan kryptera data innan du skickar dem från din instans. Gör så här:
+För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteringsverktyg och sedan installera den offentliga nyckeln på Kontrollpanelen. Du kan sedan kryptera data innan du skickar dem från din instans. Följ dessa steg för att göra detta:
 
 1. Skapa ett nyckelpar för offentlig/privat nyckel med ett PGP-krypteringsverktyg som följer [OpenPGP-specifikationen](https://www.openpgp.org/about/standard/). Installera ett GPG-verktyg eller GNuGP-program om du vill göra det.
 
@@ -64,7 +64,7 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
 
 1. Om du vill installera den offentliga nyckeln i Kontrollpanelen öppnar du **[!UICONTROL Instance settings]** kortet och väljer sedan **[!UICONTROL GPG keys]** fliken och den önskade instansen.
 
-1. Klicka på **[!UICONTROL Install Key]** knappen.
+1. Klicka på knappen **[!UICONTROL Install Key]**.
 
    ![](assets/gpg_install_button.png)
 
@@ -76,15 +76,15 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
 
    ![](assets/gpg_install_paste.png)
 
-1. Klicka på **[!UICONTROL Install Key]** knappen.
+1. Klicka på knappen **[!UICONTROL Install Key]**.
 
 När den offentliga nyckeln har installerats visas den i listan. Du kan använda **..** för att ladda ned den eller kopiera dess fingeravtryck.
 
 ![](assets/gpg_install_download.png)
 
-Nyckeln kan sedan användas i arbetsflöden i Adobe Campaign. Du kan använda den för att kryptera data när du använder dataextraheringsaktiviteter.
+Nyckeln kan sedan användas i Adobe Campaign arbetsflöden. Du kan använda den för att kryptera data när du använder dataextraheringsaktiviteter.
 
-Mer information om detta finns i Adobe Campaign dokumentation:
+Mer information finns i Adobe Campaign-dokumentationen:
 
 **Campaign Classic:**
 
@@ -96,9 +96,9 @@ Mer information om detta finns i Adobe Campaign dokumentation:
 * [Hantera krypterade data](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
-## Dekrypterar data {#decrypting-data}
+## Dekryptera data {#decrypting-data}
 
-Med kontrollpanelen kan du dekryptera externa data som kommer in i dina Adobe Campaign-instanser.
+Med Kontrollpanelen kan du dekryptera externa data som kommer in i dina Adobe Campaign-instanser.
 
 För att göra detta måste du generera ett GPG-nyckelpar direkt från kontrollpanelen.
 
@@ -107,13 +107,13 @@ För att göra detta måste du generera ett GPG-nyckelpar direkt från kontrollp
 
 Så här genererar du ett nyckelpar på Kontrollpanelen:
 
-1. Öppna **[!UICONTROL Instance settings]** kortet och markera sedan **[!UICONTROL GPG keys]** fliken och Adobe Campaign-instansen.
+1. Öppna **[!UICONTROL Instance settings]** kortet och välj sedan **[!UICONTROL GPG keys]** fliken och den önskade Adobe Campaign-instansen.
 
-1. Klicka på **[!UICONTROL Generate Key]** knappen.
+1. Klicka på knappen **[!UICONTROL Generate Key]**.
 
    ![](assets/gpg_generate.png)
 
-1. Ange namnet på nyckeln och klicka sedan på **!UICONTROL Generate Key]**. Det här namnet hjälper dig att identifiera nyckeln som ska användas för dekryptering i Campaign-arbetsflöden
+1. Ange namnet på nyckeln och klicka sedan på **[!UICONTROL Generate Key]**. Det här namnet hjälper dig att identifiera nyckeln som ska användas för dekryptering i Campaign-arbetsflöden
 
    ![](assets/gpg_generate_name.png)
 
@@ -123,9 +123,9 @@ Du kan använda **..** för att hämta den offentliga nyckeln eller kopiera dess
 
 ![](assets/gpg_generate_list.png)
 
-Den offentliga nyckeln är sedan tillgänglig för delning med valfritt externt system. Adobe Campaign kommer att kunna använda den privata nyckeln vid datainläsning för att dekryptera data som har krypterats med den offentliga nyckeln.
+Den offentliga nyckeln är sedan tillgänglig för delning med valfritt externt system. Adobe Campaign kan använda den privata nyckeln för datainläsningsaktiviteter för att dekryptera data som har krypterats med den offentliga nyckeln.
 
-Mer information om detta finns i Adobe Campaign dokumentation:
+Mer information finns i Adobe Campaign-dokumentationen:
 
 **Campaign Classic:**
 
@@ -169,4 +169,4 @@ Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. Om
 
 >[!IMPORTANT]
 >
->Innan du tar bort en tangent bör du kontrollera att den inte används i något arbetsflöde i Adobe Campaign för att förhindra att den misslyckas.
+>Innan du tar bort en tangent bör du kontrollera att den inte används i något Adobe Campaign-arbetsflöde för att förhindra att den misslyckas.
