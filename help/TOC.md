@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: kontrollpanelen
 audience: end-user
-user-guide-title: Hjälp om Kontrollpanelen
+user-guide-title: Kontrollpanelens stödlinje
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# Hjälp om Kontrollpanelen {#using}
+# Kontrollpanelens stödlinje {#using}
 
 + [Produktdokumentation](control-panel-home.md)
 + [Versionsinformation](release-notes.md)
