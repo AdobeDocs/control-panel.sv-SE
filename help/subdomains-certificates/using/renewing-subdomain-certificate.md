@@ -1,11 +1,11 @@
 ---
 title: Förnya en underdomäns SSL-certifikat
 description: Läs om hur man förnyar underdomäners SSL-certifikat
-translation-type: ht
-source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Att delegera underdomäner i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
+>Underdomänskonfigurationen från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
 
 ## Om certifikatförnyelse {#about-certificate-renewal-process}
 
@@ -65,6 +65,7 @@ Följ dessa steg för att skapa en begäran om certifikatsignering:
    * **[!UICONTROL Organization]**: officiellt organisationsnamn.
    * **[!UICONTROL Organization Unit]**: enhet som är länkad till underdomänen (exempel: marknadsföring och IT).
    * **[!UICONTROL Instance]** (förfylld): URL till Campaign-instansen som är associerad med underdomänen.
+
    ![](assets/renewal3.png)
 
 1. Välj underdomäner som ska ingå i din begäran om certifikatsignering och klicka sedan på **[!UICONTROL OK]**.
@@ -100,7 +101,7 @@ När du har erhållit en begäran om certifikatsignering från Kontrollpanelen s
 När ett SSL-certifikat har köpts kan du installera det på din instans. Innan du fortsätter ska du se till att du är medveten om förutsättningarna nedan:
 
 * Din begäran om certifikatsignering måste ha genererats från Kontrollpanelen. I annat fall kan du inte installera certifikatet från Kontrollpanelen.
-* Din begäran om certifikatsignering ska matcha den underdomän som har delegerats till Adobe. Den kan till exempel endast innehålla de underdomäner som har delegerats.
+* CSR (Certificate Signing Request) ska matcha den underdomän som har konfigurerats för att fungera med Adobe. Den kan till exempel inte innehålla fler underdomäner än den som har konfigurerats.
 * Certifikatet ska ha dagens datum. Det går inte att installera certifikat med datum i framtiden och de får inte ha förfallit (dvs. giltiga start- och slutdatum).
 * Certifikatet måste utfärdas av en betrodd certifikatutfärdare (CA) såsom Comodo, DigiCert eller GoDaddy osv.
 * Certifikatets storlek ska vara 2 048 bitar och algoritmen RSA.
