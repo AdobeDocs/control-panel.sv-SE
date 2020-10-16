@@ -1,10 +1,10 @@
 ---
 title: Versioner av Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 92%
+source-wordcount: '619'
+ht-degree: 79%
 
 ---
 
@@ -16,6 +16,16 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >[!NOTE]
 >
 >Observera att Kontrollpanelen endast är tillgänglig för kunder som har AWS som värd med undantag för hybridmiljöer som ännu inte stöds. Du behöver inte uppgradera för att komma åt Kontrollpanelen. Se till att du är en administratörsanvändare för att få åtkomst.
+
+## Oktober 2020 {#october-2020}
+
+**Underdomänskonfiguration med CNAME**
+
+På Kontrollpanelen kan du nu konfigurera en underdomän så att den fungerar med Adobe med CNAME direkt från gränssnittet. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Förbättrad databasövervakning**
+
+Fliken har förbättrats med ytterligare mätvärden, vilket gör att du kan få detaljerad information om resurser som förbrukar utrymme i databasen. **[!UICONTROL Database monitoring]** [Läs mer](performance-monitoring/using/database-monitoring.md)
 
 ## Juni 2020 {#june-2020}
 
@@ -43,7 +53,7 @@ Via Kontrollpanelen kan du nu övervaka antalet aktiva profiler som används av 
 
 **Hantera certifikat för CNAME-underdomäner**
 
-Via Kontrollpanelen kan du nu förnya SSL-certifikaten för dina underdomäner som har delegerats med CNAME-metoden. [Läs mer](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Med kontrollpanelen kan du nu förnya SSL-certifikaten för dina underdomäner som har konfigurerats med CNAME-metoden. [Läs mer](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
@@ -63,7 +73,7 @@ Kontrollpanelen i Campaign är utrustad med funktioner för e-postavisering i re
 
 *22 januari 2020*
 
-Vi har lagt till nya funktioner för administratörsanvändare som nu kan delegera underdomäner och förnya SSL-certifikat via Kontrollpanelen.
+Vi har lagt till nya funktioner för administratörsanvändare för att konfigurera underdomäner och förnya SSL-certifikat från Kontrollpanelen.
 
 Mer information finns på följande sidor:
 * [Konfigurera en ny underdomän ](subdomains-certificates/using/setting-up-new-subdomain.md)
