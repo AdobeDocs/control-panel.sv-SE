@@ -2,9 +2,9 @@
 title: Konfigurera en ny underdomän
 description: Läs om hur man skapar en ny underdomän för instanser i Campaign
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: c215836129487530e50398ca1454895a2f319867
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1098'
 ht-degree: 50%
 
 ---
@@ -27,7 +27,7 @@ Den här sidan innehåller information om hur du konfigurerar nya underdomäner 
 **Relaterade ämnen:**
 
 * [Delegera underdomäner (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-
+* [Konfigurera underdomäner med CNAME](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Övervaka underdomänerna](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Måste läsas {#must-read}
