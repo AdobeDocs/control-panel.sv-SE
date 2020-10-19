@@ -1,10 +1,10 @@
 ---
 title: Produktdokumentation
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
-source-wordcount: '122'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 59%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## Nyheter
 
-* **Granska en underdomäns levererbarhet**
 
-   När du har delegerat en ny underdomän kan du via Kontrollpanelen spåra den granskning som utförs av levererbarhetsteamet. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
+**Underdomänskonfiguration med CNAME**
 
-* **Hantera GPG-nycklar**
+På Kontrollpanelen kan du nu konfigurera en underdomän så att den fungerar med Adobe med CNAME direkt från gränssnittet. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   Installera och/eller generera GPG-nycklar på en marknadsföringsinstans för att kryptera data som skickas från Campaign och för att dekryptera inkommande data. [Läs mer](instances-settings/using/gpg-keys-management.md)
+**Förbättrad databasövervakning**
+
+Fliken har förbättrats med ytterligare mätvärden, vilket gör att du kan få detaljerad information om resurser som förbrukar utrymme i databasen. **[!UICONTROL Database monitoring]** [Läs mer](performance-monitoring/using/database-monitoring.md)
 
 ## Ytterligare resurser {#additional-resources}
 
