@@ -1,9 +1,9 @@
 ---
 title: Versioner av Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '620'
 ht-degree: 79%
 
 ---
@@ -25,7 +25,7 @@ På Kontrollpanelen kan du nu konfigurera en underdomän så att den fungerar me
 
 **Förbättrad databasövervakning**
 
-Fliken har förbättrats med ytterligare mätvärden, vilket gör att du kan få detaljerad information om resurser som förbrukar utrymme i databasen. **[!UICONTROL Database monitoring]** [Läs mer](performance-monitoring/using/database-monitoring.md)
+Databasövervakningen har förbättrats med ytterligare mätvärden som gör att du kan få detaljerad information om resurser som förbrukar utrymme i databasen. [Läs mer](performance-monitoring/using/database-monitoring.md)
 
 ## Juni 2020 {#june-2020}
 
