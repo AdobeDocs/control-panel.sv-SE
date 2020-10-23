@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
@@ -19,11 +19,11 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 
 ## Oktober 2020 {#october-2020}
 
-**Underdomänskonfiguration med CNAME**
+**Konfiguration av underdomäner med CNAME:er**
 
-På Kontrollpanelen kan du nu konfigurera en underdomän så att den fungerar med Adobe med CNAME direkt från gränssnittet. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
+Med Kontrollpanelen kan du nu konfigurera en underdomän så att den fungerar med Adobe med CNAME:er direkt från gränssnittet. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-**Förbättrad databasövervakning**
+**Förbättringar i databasövervakningen**
 
 Databasövervakningen har förbättrats med ytterligare mätvärden som gör att du kan få detaljerad information om resurser som förbrukar utrymme i databasen. [Läs mer](performance-monitoring/using/database-monitoring.md)
 
@@ -36,8 +36,8 @@ När du har delegerat en ny underdomän kan du via Kontrollpanelen spåra den gr
 **Hantera GPG-nycklar**
 
 Kontrollpanelen kan generera ett par GPG-nycklar vilket innebär att du enkelt kan dekryptera data som kommer till Campaign utifrån. Vi har dessutom lagt till en funktion som gör att du kan installera en offentlig GPG-nyckel för att kryptera data som skickas från Campaign. [Läs mer](instances-settings/using/gpg-keys-management.md)
-* [Videokurser om Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic självstudievideor](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Videor med självstudiekurser om Campaign Standard](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Videor med självstudiekurser om Campaign Classic](https://docs.adobe.com/content/help/sv-SE/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **Övervaka aktiva profiler**
 
@@ -53,7 +53,7 @@ Via Kontrollpanelen kan du nu övervaka antalet aktiva profiler som används av 
 
 **Hantera certifikat för CNAME-underdomäner**
 
-Med kontrollpanelen kan du nu förnya SSL-certifikaten för dina underdomäner som har konfigurerats med CNAME-metoden. [Läs mer](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Via Kontrollpanelen kan du nu förnya SSL-certifikaten för dina underdomäner som har konfigurerats med CNAME-metoden. [Läs mer](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
@@ -73,7 +73,7 @@ Kontrollpanelen i Campaign är utrustad med funktioner för e-postavisering i re
 
 *22 januari 2020*
 
-Vi har lagt till nya funktioner för administratörsanvändare för att konfigurera underdomäner och förnya SSL-certifikat från Kontrollpanelen.
+Vi har lagt till nya funktioner för administratörsanvändare som nu kan konfigurera underdomäner och förnya SSL-certifikat via Kontrollpanelen.
 
 Mer information finns på följande sidor:
 * [Konfigurera en ny underdomän ](subdomains-certificates/using/setting-up-new-subdomain.md)
