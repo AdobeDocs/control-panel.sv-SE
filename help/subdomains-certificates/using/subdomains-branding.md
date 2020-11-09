@@ -2,10 +2,10 @@
 title: Märka underdomäner
 description: Läs mer om att märka underdomäner
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 80%
+source-wordcount: '707'
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontak
 
 ## Underdomäners användningsfall (Campaign Classic) (#subdomains-use-cases)
 
-När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Möjliga användningsområden är:
 
