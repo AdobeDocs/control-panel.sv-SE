@@ -2,10 +2,10 @@
 title: Konfigurera en ny underdomän
 description: Läs om hur man skapar en ny underdomän för instanser i Campaign
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 50%
+source-wordcount: '1106'
+ht-degree: 49%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >Underdomänskonfigurationen från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
 
-Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [](../../subdomains-certificates/using/subdomains-branding.md).
+Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [Märke](../../subdomains-certificates/using/subdomains-branding.md)för underdomäner.
 
 **Relaterade ämnen:**
 
@@ -74,9 +74,9 @@ Så här delegerar du en underdomän till Adobe Campaign:
 
    ![](assets/subdomain6.png)
 
-När underdomänen har skickats utförs olika kontroller och konfigurationssteg av Kontrollpanelen. Mer information finns i []((../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+När underdomänen har skickats utförs olika kontroller och konfigurationssteg av Kontrollpanelen. Mer information finns i [Underdomänskontroller och konfiguration](#subdomain-checks-and-configuration).
 
-## Underdomänskonfiguration med CNAME {#use-cnames}
+## Konfiguration av underdomäner med CNAME:er {#use-cnames}
 
 Så här konfigurerar du en underdomän med CNAME:
 
@@ -112,7 +112,7 @@ Så här konfigurerar du en underdomän med CNAME:
    >
    >Observera att DNS-poster som ska placeras på servern kommer att behållas av Kontrollpanelen i 30 dagar. Efter den perioden måste du konfigurera underdomänen från grunden.
 
-När underdomänen har skickats utförs olika kontroller och konfigurationssteg av Kontrollpanelen. Se [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration) för mer information.
+När underdomänen har skickats utförs olika kontroller och konfigurationssteg av Kontrollpanelen. Mer information finns i [Underdomänskontroller och konfiguration](#subdomain-checks-and-configuration).
 
 ## Underdomänskontroller och konfiguration {#subdomain-checks-and-configuration}
 
