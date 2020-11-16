@@ -2,9 +2,9 @@
 title: Märka underdomäner
 description: Läs mer om att märka underdomäner
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 3ff864e7e8c896d49c89d49800b7471d00b777e7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 79%
 
 ---
@@ -52,7 +52,7 @@ Additional information on domain configuration is available in [this documentati
 
 Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontakta Adobe Deliverability Team eller så småningom kontakta Kundtjänst för att få rådgivning om slutprodukten.
 
-## Underdomäners användningsfall (Campaign Classic) (#subdomains-use-cases)
+## Användningsexempel för underdomäner (Campaign Classic){#subdomains-use-cases}
 
 När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
