@@ -1,93 +1,95 @@
 ---
-title: Lista över tillåtna IP-adresser
-description: Lär dig hur du lägger till IP-adresser till tillåtelselista på Kontrollpanelen för instansåtkomst
+product: campaign
+solution: Campaign
+title: Tillåtelselista med IP-adresser
+description: Läs om hur man lägger till IP-adresser i tillåtelselistan i Kontrollpanelen för åtkomst till instanser
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 96%
 
 ---
 
 
-# Lista över tillåtna IP-adresser {#ip-allow-listing}
+# Tillåtelselista IP-adresser {#ip-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange"
->title="Om listning av tillåtna IP-adresser"
->abstract="Lägg till IP-adresser i tillåtelselista för att komma åt dina instanser."
->additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Se filmen"
+>title="Om tillåtelselista med IP-adresser"
+>abstract="Lägg till IP-adresser i tillåtelselistan för att komma åt dina instanser."
+>additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Se demovideon"
 
 >[!IMPORTANT]
 >
 >Den här funktionen är endast tillgänglig för instanser i Campaign Classic.
 
-## Om listning av tillåtna IP-adresser {#about-ip-allow-listing}
+## Om att tillåtelselista med IP-adresser {#about-ip-allow-listing}
 
-Som standard är din Adobe Campaign Classic-instans inte tillgänglig från olika IP-adresser.
+Som standard är din instans i Adobe Campaign Classic endast tillgänglig från specifika IP-adresser.
 
-Om din IP-adress inte har lagts till i tillåtelselista kan du inte logga in i instansen från den här adressen. På samma sätt kanske du inte kan ansluta ett API till ditt meddelandecenter eller din Marketing-instans om IP-adressen inte har lagts till i tillåtelselista med instansen explicit.
+Du måste lägga till din IP-adress i tillåtelselistan för att kunna logga in på instansen från den här adressen. Den specifika IP-adressen för instansen måste ha lagts till i tillåtelselistan för att ansluta ett API till ditt meddelandecenter eller din marknadsföringsinstans.
 
-Med kontrollpanelen kan du konfigurera nya anslutningar till dina instanser genom att lägga till IP-adressintervall till tillåtelselista. Följ stegen nedan för att göra detta.
+Med kontrollpanelen kan du konfigurera nya anslutningar till dina instanser genom att lägga till IP-adressintervall till tillåtelselistan. Följ stegen nedan för att göra detta.
 
-När IP-adresserna finns på tillåtelselista kan du skapa och länka kampanjoperatorer till dem så att användarna kan komma åt instansen.
+När IP-adresserna finns i tillåtelselistan kan du skapa och länka Campaign-operatörer till dem för att användarna ska få åtkomst till instansen.
 
 ## God praxis {#best-practices}
 
-Se till att du följer rekommendationerna och begränsningarna nedan när du lägger till IP-adresser till tillåtelselista på Kontrollpanelen.
+Se till att du följer rekommendationerna och begränsningarna nedan när du lägger till IP-adresser i tillåtelselistan i Kontrollpanelen.
 
-* **Aktivera inte IP-åtkomst till alla åtkomsttyper** om du inte har för avsikt att ansluta IP-adressen till dina RT-servrar, eller AEM-säkerhetszon.
-* **Om du tillfälligt har aktiverat åtkomst till din instans för en IP-adress** måste du ta bort IP-adresserna från tillåtelselista när du inte längre behöver ansluta till instansen.
-* **Vi rekommenderar inte att man lägger till IP-adresser för offentliga platser i tillåtelselista** (flygplatser, hotell osv.). Använd företagets VPN-adress för att alltid skydda din instans.
+* **Aktivera endast IP-åtkomst till alla åtkomsttyper** om du har för avsikt att ansluta IP-adressen till dina RT-servrar eller din AEM-säkerhetszon.
+* **Om du tillfälligt har aktiverat åtkomst till din instans för en viss IP-adress** bör du se till att ta bort IP-adresserna från tillåtelselistan när du inte längre behöver ansluta till instansen.
+* **Vi rekommenderar att man inte lägger till IP-adresser för offentliga platser i tillåtelselistan** (flygplatser och hotell osv.). Använd företagets VPN-adress för att alltid skydda din instans.
 
-## Lägga till IP-adresser i tillåtelselista för instansåtkomst {#adding-ip-addresses-allow-list}
+## Lägga till IP-adresser i tillåtelselistan för åtkomst till instansen {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Lägg till nytt IP-intervall"
->abstract="Definiera IP-intervallet som du vill lägga till i tillåtelselista för att ansluta till instansen."
+>title="Lägga till ett nytt IP-intervall"
+>abstract="Definiera IP-intervallet som du vill lägga till i tillåtelselistan för att ansluta till instansen."
 
-Så här lägger du till IP-adresser i tillåtelselista:
+Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
-1. Open the **[!UICONTROL Instances Settings card]** to access the IP allow listing tab, then click **[!UICONTROL Add new IP Range]**.
+1. Öppna **[!UICONTROL Instances Settings card]** för att öppna fliken IP-tillåtelselista och klicka sedan på **[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
 
    ![](assets/ip_whitelist_list1.png)
 
-1. Fyll i informationen för IP-intervallet som du vill lägga till i tillåtelselista enligt beskrivningen nedan.
+1. Fyll i informationen gällande IP-intervallet som du vill lägga till i tillåtelselistan enligt beskrivningen nedan.
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instance(s)]**: De instanser som IP-adresserna kan ansluta till. Flera instanser kan ändras samtidigt. Du kan till exempel göra en lista över tillåtna IP-adresser för både Production- och Stage-instanser i samma steg.
-   * **[!UICONTROL IP Range]**: Det IP-intervall som du vill lägga till i tillåtelselista, i CIDR-format. Observera att ett IP-intervall inte kan överlappa ett befintligt intervall på tillåtelselista. I så fall tar du först bort det intervall som innehåller den överlappande IP-adressen.
+   * **[!UICONTROL Instance(s)]**: de instanser som IP-adresserna kan ansluta till. Flera instanser kan ändras samtidigt. Du kan till exempel skapa en IP-tillåtelselista för både produktions- och mellanlagringsinstanser i samma steg.
+   * **[!UICONTROL IP Range]**: det IP-intervall som du vill lägga till i tillåtelselistan i CIDR-formatet. Observera att ett IP-intervall inte kan överlappa ett befintligt intervall på tillåtelselistan. I detta fall måste du först ta bort det intervall som innehåller den överlappande IP-adressen.
 
    >[!NOTE]
    >
-   >CIDR (Classless Inter-Domain Routing) är det format som stöds när du lägger till IP-intervall med kontrollpanelens gränssnitt. Syntaxen består av en IP-adress, följt av tecknet &#39;/&#39; och ett decimaltal. Formatet och syntaxen för det finns detaljerad information i [den här artikeln](https://whatismyipaddress.com/cidr).
+   >CIDR (Classless Inter-Domain Routing) är det format som stöds när ett IP-intervall läggs till via Kontrollpanelens gränssnitt. Syntaxen består av en IP-adress följd av tecknet / och ett decimaltal. Fullständig information för formatet och dess syntax finns i [den här artikeln](https://whatismyipaddress.com/cidr).
    >
-   >Du kan söka på Internet efter kostnadsfria onlineverktyg som hjälper dig att konvertera det aktuella IP-intervallet till CIDR-format.
+   >Du kan söka på internet efter kostnadsfria verktyg online som hjälper dig att konvertera det aktuella IP-intervallet till ett CIDR-format.
 
-   * **[!UICONTROL Label]**: Etiketten som ska visas i tillåtelselista.
-   * **[!UICONTROL Name]**: Namnet måste vara unikt för åtkomsttypen, instansen (vid extern API-anslutning) samt IP-adressen.
+   * **[!UICONTROL Label]**: etiketten som ska visas i tillåtelselistan.
+   * **[!UICONTROL Name]**: namnet måste vara unikt för åtkomsttypen, instansen (vid extern API-anslutning) samt IP-adressen.
 
 
-1. Ange vilken typ av åtkomst du vill ge IP-adresserna:
+1. Ange typen av åtkomst du vill bevilja IP-adresserna:
 
-   * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan ansluta till Campaign Classic Console. Observera att konsolåtkomst endast är aktiverat för Marketing-instanser. Åtkomst till MID- och RT-instanser är inte tillåten och därför inte aktiverad.
-   * **[!UICONTROL AEM connection]**: De angivna AEM IP-adresserna kan ansluta till Marketing-instansen.
-   * **[!UICONTROL External API connection]**: Externa API:er med de angivna IP-adresserna kommer att kunna ansluta till instansen Marketing och/eller Message Center (RT). Observera att anslutning till RT-konsolen inte är aktiverad.
+   * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan ansluta till konsolen i Campaign Classic. Observera att åtkomst till konsolen endast är aktiverad för marknadsföringsinstanser. Observera att åtkomst till MID- och RT-instanser inte är tillåten och därför inte aktiverad.
+   * **[!UICONTROL AEM connection]**: de angivna IP-adresserna till AEM kan ansluta till marknadsföringsinstansen.
+   * **[!UICONTROL External API connection]**: Externa API:er med de angivna IP-adresserna kan ansluta till instansen för marknadsföring och/eller meddelandecenter (RT). Observera att anslutningen till konsolen i RT-instanser är inaktiverad.
 
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Klicka på **[!UICONTROL Save]** knappen. IP-intervallet läggs till tillåtelselista.
+1. Klicka på knappen **[!UICONTROL Save]**. IP-intervallet läggs till i tillåtelselistan.
 
    ![](assets/ip_whitelist_added.png)
 
-Om du vill ta bort IP-intervall från tillåtelselista markerar du dem och klickar sedan på **[!UICONTROL Delete IP range]** .
+Ta bort IP-intervall från tillåtelselistan genom att markerar dem och sedan klicka på knappen **[!UICONTROL Delete IP range]**.
 
 **Relaterade ämnen:**
-* [Lista över tillåtna IP-adresser (självstudievideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+* [Tillåtelselista med IP-adresser (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [Länka en säkerhetszon till en operatör](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
