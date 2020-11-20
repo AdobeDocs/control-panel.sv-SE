@@ -1,18 +1,20 @@
 ---
+product: campaign
+solution: Campaign
 title: Övervaka underdomäners SSL-certifikat
-description: Lär dig övervaka dina underdomäners SSL-certifikat
+description: Läs om hur man övervakar underdomäners SSL-certifikat
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
-# Övervaka dina underdomäner {#monitoring-subdomains}
+# Övervaka underdomänerna {#monitoring-subdomains}
 
-Det är viktigt att ni övervakar era underdomäner för att se till att alla är korrekt konfigurerade för att fungera med Adobe Campaign.
+Det är viktigt att du övervakar dina underdomäner för att se till att alla är konfigurerade på rätt sätt för att fungera med Adobe Campaign.
 
 Listan med underdomäner för var och en av dina produktionsinstanser är tillgänglig direkt när du väljer **[!UICONTROL Subdomains & Certificates]** kortet.
 
@@ -26,10 +28,10 @@ Kolumnen anger **[!UICONTROL Last verification]** när en underdomän verifierad
 
 När du startar en verifiering utförs flera åtgärder för att kontrollera att underdomänen är korrekt konfigurerad (instansklientkontroll, e-postsändningstest osv.)
 
-Om underdomänens verifiering misslyckas kontaktar du Adobes kundtjänst för mer information.
+Om underdomänens verifiering misslyckas kontaktar du Adobe kundtjänst för ytterligare utredning.
 
 **Relaterade ämnen:**
 
-* [Lägga till SSL-certifikat (självstudievideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Lägga till SSL-certifikat (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Förnya en underdomäns SSL-certifikat](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [Märke för underdomäner](../../subdomains-certificates/using/subdomains-branding.md)
+* [Märka underdomäner](../../subdomains-certificates/using/subdomains-branding.md)
