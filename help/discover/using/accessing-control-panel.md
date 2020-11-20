@@ -1,16 +1,18 @@
 ---
+product: campaign
+solution: Campaign
 title: Åtkomst till kontrollpanelen
-description: Lär dig hur du kommer åt Kontrollpanelen
+description: Läs om hur man får åtkomst till Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 19%
+ht-degree: 27%
 
 ---
 
 
-# Åtkomst till kontrollpanelen {#accessing-control-panel}
+# Åtkomst till Kontrollpanelen {#accessing-control-panel}
 
 Kontrollpanelen är tillgänglig direkt från Experience Cloud eller från själva produkten.
 
@@ -22,9 +24,9 @@ Om du vill komma åt kontrollpanelen från Experience Cloud-plattformen går du 
 
 ![](assets/do-not-localize/quickaccess.png)
 
-Kontrollpanelen är också tillgänglig via Experience Cloud Platforms **lösningsväljare**:
+Kontrollpanelen finns också i Experience Cloud Platform- **lösningsväljaren**:
 
-1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com/)och välj sedan **Campaign** i lösningsväljaren.
+1. Gå till [Adobe Experience Cloud](https://experiencecloud.adobe.com/)och välj sedan **Campaign** i lösningsväljaren.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -36,9 +38,9 @@ Kontrollpanelen är också tillgänglig via Experience Cloud Platforms **lösnin
 
 >[!NOTE]
 >
->Tillgång inifrån produkten finns endast för Campaign Standard.
+>Tillgång inifrån programmet är endast tillgänglig för Campaign Standard.
 
-1. Öppna din Campaign Standard-produkt och välj sedan **[!UICONTROL Administration]** menyn i **[!UICONTROL Navigation]** rutan.
+1. Öppna Campaign Standarden och välj sedan **[!UICONTROL Administration]** menyn i **[!UICONTROL Navigation]** rutan.
 
    ![](assets/control_panel_access3.png)
 
