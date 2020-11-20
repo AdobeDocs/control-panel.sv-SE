@@ -1,7 +1,9 @@
 ---
+product: campaign
+solution: Campaign
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
