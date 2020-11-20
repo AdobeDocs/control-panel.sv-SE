@@ -1,18 +1,20 @@
 ---
-title: Kontrollpanelens gränssnitt identifieras
+product: campaign
+solution: Campaign
+title: Lär känna Kontrollpanelens gränssnitt
 description: Läs mer om gränssnittet i Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 27%
+ht-degree: 47%
 
 ---
 
 
-# Kontrollpanelens gränssnitt identifieras {#discovering-interface}
+# Lär känna Kontrollpanelens gränssnitt {#discovering-interface}
 
-På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på dina Campaign-instanser.
+På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på instanserna i Campaign.
 
 De representeras av kort som är ordnade i ämnen, till exempel **Lagring och Databashantering**.
 
