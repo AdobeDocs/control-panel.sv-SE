@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: Vanliga frågor
 description: Läs mer om vanliga frågor gällande SFTP-hantering
-translation-type: ht
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
