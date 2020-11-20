@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Hantera behörigheter till Kontrollpanelen
 description: Lär dig hantera behörigheter på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -10,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Hantera behörigheter till Kontrollpanelen {#managing-permissions-control-panel}
+# Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
 Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Campaign-instans. Följ stegen nedan för att tilldela användare till gruppen Administratörer och ge dem åtkomst till Kontrollpanelen.
 
-1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com/)och välj sedan **[!UICONTROL Administration]** fliken.
+1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com/)och markera sedan **[!UICONTROL Administration]** fliken.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
