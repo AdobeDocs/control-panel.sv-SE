@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Åtkomst till kontrollpanelen
 description: Läs om hur man får åtkomst till Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
