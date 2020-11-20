@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Övervaka databaser
 description: Lär dig övervaka Campaign-databasen på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 3dca1a261c4c92104170f70e6dbd12ba72e61e7d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 0%
