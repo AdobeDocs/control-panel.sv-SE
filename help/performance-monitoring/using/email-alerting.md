@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: E-postavisering
 description: Lär dig hur du tar emot e-postmeddelanden i händelse av problem med dina Campaign-instanser
 translation-type: tm+mt
-source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,9 +33,9 @@ Så här prenumererar du på dessa aviseringar:
 
 Listan med varningar är följande:
 
-* **Användning** av SFTP-lagring: En av dina SFTP-servrar har nått 80 % eller mer av sin kapacitet. Se [SFTP-lagringshantering](../../sftp/using/sftp-storage-management.md).
+* **Användning** av SFTP-lagring: En av dina SFTP-servrar har nått 80 % eller mer av sin kapacitet. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
 
 * **Databasanvändning**: En av instansdatabaserna har nått 80 % eller mer av sin kapacitet. Se [Databasövervakning](../../performance-monitoring/using/database-monitoring.md).
 
-* **SSL-certifikatets förfallodatum**: En av dina underdomäners SSL-certifikat har gått ut eller går ut om 60 dagar eller mindre. Se [Övervaka underdomäners SSL-certifikat](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **SSL-certifikatets förfallodatum**: En av dina underdomäners SSL-certifikat har gått ut eller går ut om 60 dagar eller mindre. See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
