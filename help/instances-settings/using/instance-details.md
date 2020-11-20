@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Instansinformation
 description: Läs om hur man övervakar information om instanser i Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
@@ -46,7 +48,7 @@ Följ dessa steg för att få information om servrarna som är anslutna till din
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
 
 1. Välj den önskade instansen i Campaign Classic i det vänstra fönstret.
 
