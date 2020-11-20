@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Logga in på SFTP-servern
 description: Lär dig logga in på SFTP-servern
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +18,7 @@ Stegen nedan visar hur du ansluter en SFTP-server via ditt SFTP-klientprogram.
 
 Innan du loggar in på servern bör du kontrollera att:
 
-* Din SFTP-server är **värd för Adobe**.
+* SFTP-servern är **värd för Adobe**.
 * Ditt **användarnamn** har konfigurerats för servern. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * Du har ett **privat och offentligt nyckelpar** för att logga in på SFTP-servern. Mer information om hur du lägger till SSH-nyckeln finns i [det här avsnittet](../../sftp/using/key-management.md) .
 * Din **offentliga IP-adress har lagts till tillåtelselista** på SFTP-servern. Om inte, se [det här avsnittet](../../sftp/using/ip-range-allow-listing.md) för mer information om hur du lägger till IP-intervallet i tillåtelselista.
