@@ -4,7 +4,7 @@ solution: Campaign
 title: Instansinformation
 description: Läs om hur man övervakar information om instanser i Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
@@ -21,11 +21,11 @@ ht-degree: 94%
 >additional-url="https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/release-notes/latest-release.html" text="Versionsinformation om Campaign Classic"
 >additional-url="https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/release-notes/release-notes.html" text="Versionsinformation om Campaign Standard"
 
+## Om instansinformation {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >Den här funktionen är endast tillgänglig för instanser i Campaign Classic.
-
-## Om instansinformation {#about-instance-details}
 
 Instansarkitekturen i Adobe Campaign Classic kan innehålla flera servrar för att möjliggöra flexibilitet i marknadsföringsaktiviteter. Du kan t.ex. ha servrar för marknadsföring, realtid (eller meddelandecenter) samt mid-sourcing som har stöd för din instans.
 
