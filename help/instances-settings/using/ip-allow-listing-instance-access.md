@@ -4,10 +4,10 @@ solution: Campaign
 title: Tillåtelselista med IP-adresser
 description: Läs om hur man lägger till IP-adresser i tillåtelselistan i Kontrollpanelen för åtkomst till instanser
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,8 @@ Du måste lägga till din IP-adress i tillåtelselistan för att kunna logga in 
 Med kontrollpanelen kan du konfigurera nya anslutningar till dina instanser genom att lägga till IP-adressintervall till tillåtelselistan. Följ stegen nedan för att göra detta.
 
 När IP-adresserna finns i tillåtelselistan kan du skapa och länka Campaign-operatörer till dem för att användarna ska få åtkomst till instansen.
+
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## God praxis {#best-practices}
 
@@ -90,6 +92,6 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
 Ta bort IP-intervall från tillåtelselistan genom att markerar dem och sedan klicka på knappen **[!UICONTROL Delete IP range]**.
 
-**Relaterade ämnen:**
-* [Tillåtelselista med IP-adresser (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+**Relaterat ämne:**
+
 * [Länka en säkerhetszon till en operatör](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
