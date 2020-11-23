@@ -4,9 +4,9 @@ solution: Campaign
 title: Hantera behörigheter till Kontrollpanelen
 description: Lär dig hantera behörigheter på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Campaign-instans. Följ stegen nedan för att tilldela användare till gruppen Administratörer och ge dem åtkomst till Kontrollpanelen.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) eller [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
 
 1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com/)och markera sedan **[!UICONTROL Administration]** fliken.
 
