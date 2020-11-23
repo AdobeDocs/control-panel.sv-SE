@@ -4,7 +4,7 @@ solution: Campaign
 title: Konfigurera en ny underdomän
 description: Läs om hur man skapar en ny underdomän för instanser i Campaign
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 47%
@@ -20,6 +20,8 @@ ht-degree: 47%
 >abstract="Du måste konfigurera en ny underdomän och hantera dina underdomäners SSL-certifikat för att kunna börja skicka e-postmeddelanden eller publicera landningssidor med Adobe Campaign."
 >additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Så övervakar du dina underdomäners SSL-certifikat"
 
+## Måste läsas {#must-read}
+
 >[!IMPORTANT]
 >
 >Underdomänskonfigurationen från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
@@ -29,8 +31,6 @@ Den här sidan innehåller information om hur du konfigurerar nya underdomäner 
 **Relaterat ämne:**
 
 * [Övervaka underdomänerna](../../subdomains-certificates/using/monitoring-subdomains.md)
-
-## Måste läsas {#must-read}
 
 ### Val av instans
 
