@@ -4,7 +4,7 @@ solution: Campaign
 title: Övervaka aktiva profiler
 description: Läs mer om hur man får information i realtid om den senaste och historiska användningen gällande aktiva profiler och utvecklingen för var och en av sina instanser i Campaign.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # Övervaka aktiva profiler {#active-profiles-monitoring}
 
+## Om aktiva profiler {#about-active-profiles}
+
 >[!IMPORTANT]
 >
 >Att övervaka aktiva profiler i Kontrollpanelen finns tillgängligt som betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
 >
 >Funktionen är tillgänglig för kunder som har AWS som värd från Campaign Standard build 10368 och Campaign Classic build 8931. Om du använder en tidigare build måste du uppgradera för att kunna använda den här funktionen.
-
-## Om aktiva profiler {#about-active-profiles}
 
 Enligt avtalet har var och en av instanserna i Campaign ett visst antal aktiva profiler som räknas för faktureringsändamål. Se ditt senaste avtal som referens om antalet köpta aktiva profiler.
 
