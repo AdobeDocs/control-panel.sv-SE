@@ -4,10 +4,10 @@ solution: Campaign
 title: URL-behörigheter
 description: Läs om hur man hanterar URL-behörigheter i Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,12 @@ Som standard tillåts instanser endast att ansluta till interna URL:er. Via Kont
 
 När en URL har lagts till refereras den i instansens konfigurationsfil (serverConf.xml).
 
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+
 **Relaterade ämnen:**
 
 * [Konfigurera en Campaign-server](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Skydd för utgående anslutningar](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [Lägga till URL-behörigheter (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## God praxis {#best-practices}
 
