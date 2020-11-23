@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Versioner av Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '590'
 ht-degree: 95%
 
 ---
@@ -38,8 +38,6 @@ När du har delegerat en ny underdomän kan du via Kontrollpanelen spåra den gr
 **Hantera GPG-nycklar**
 
 Kontrollpanelen kan generera ett par GPG-nycklar vilket innebär att du enkelt kan dekryptera data som kommer till Campaign utifrån. Vi har dessutom lagt till en funktion som gör att du kan installera en offentlig GPG-nyckel för att kryptera data som skickas från Campaign. [Läs mer](instances-settings/using/gpg-keys-management.md)
-* [Videor med självstudiekurser om Campaign Standard](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-* [Videor med självstudiekurser om Campaign Classic](https://docs.adobe.com/content/help/sv-SE/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **Övervaka aktiva profiler**
 
