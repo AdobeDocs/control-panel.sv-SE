@@ -4,10 +4,10 @@ solution: Campaign
 title: Konfigurera en ny underdomän
 description: Läs om hur man skapar en ny underdomän för instanser i Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 49%
+source-wordcount: '1140'
+ht-degree: 47%
 
 ---
 
@@ -26,10 +26,8 @@ ht-degree: 49%
 
 Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [Märke](../../subdomains-certificates/using/subdomains-branding.md)för underdomäner.
 
-**Relaterade ämnen:**
+**Relaterat ämne:**
 
-* [Delegera underdomäner (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [Konfigurera underdomäner med CNAME (självstudievideo)](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Övervaka underdomänerna](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Måste läsas {#must-read}
@@ -50,7 +48,9 @@ Skapa **inte heller någon separat zonfil** för den nya underdomänen.
 
 ## Fullständig delegering av underdomäner {#full-subdomain-delegation}
 
-Så här delegerar du en underdomän till Adobe Campaign:
+Följ stegen nedan om du vill delegera en underdomän till Adobe Campaign helt.
+
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. Välj önskad produktionsinstans på **[!UICONTROL Subdomains & Certificates]**-kortet och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
@@ -80,7 +80,9 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
 
 ## Konfiguration av underdomäner med CNAME:er {#use-cnames}
 
-Så här konfigurerar du en underdomän med CNAME:
+Följ stegen nedan för att konfigurera en underdomän med CNAME.
+
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. Välj önskad produktionsinstans på **[!UICONTROL Subdomains & Certificates]**-kortet och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
