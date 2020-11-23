@@ -4,10 +4,10 @@ solution: Campaign
 title: Övervaka underdomäners SSL-certifikat
 description: Läs om hur man övervakar underdomäners SSL-certifikat
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 93%
+source-wordcount: '389'
+ht-degree: 92%
 
 ---
 
@@ -59,6 +59,5 @@ Om en av underdomänernas SSL-certifikat är på väg att löpa ut kan du förny
 
 **Relaterade ämnen:**
 
-* [Lägga till SSL-certifikat (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Förnya en underdomäns SSL-certifikat](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Märka underdomäner](../../subdomains-certificates/using/subdomains-branding.md)
