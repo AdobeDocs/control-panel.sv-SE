@@ -4,7 +4,7 @@ solution: Campaign
 title: Märka underdomäner
 description: Läs mer om att märka underdomäner
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -20,11 +20,11 @@ ht-degree: 79%
 >abstract="Övervaka dina underdomäner och associerade SSL-certifikat."
 >additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Så övervakar du dina underdomäners SSL-certifikat"
 
+## Varför konfigurera underdomäner? {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >Underdomänskonfigurationen från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
-
-## Varför konfigurera underdomäner? {#why-setting-up-subdomains}
 
 En underdomän är en division av domänen som kan användas för att isolera varumärken eller olika typer av trafik (transaktionsmeddelanden, marknadsföringsinformation osv.).
 
