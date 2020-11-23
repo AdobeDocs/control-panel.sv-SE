@@ -4,9 +4,9 @@ solution: Campaign
 title: Övervaka databaser
 description: Lär dig övervaka Campaign-databasen på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Med tiden kan databaserna nå sin maximala kapacitet, särskilt om de lagrade re
 >Om mängden tillgängligt databasutrymme som visas på Kontrollpanelen inte motsvarar mängden som anges i ditt avtal kan du kontakta Kundtjänst.
 
 ## Övervaka databasanvändning {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 På Kontrollpanelen kan du övervaka databasanvändningen för var och en av dina Campaign-instanser. Det gör du genom att öppna **[!UICONTROL Performance Monitoring]** kortet och sedan välja **[!UICONTROL Databases]** fliken.
 
