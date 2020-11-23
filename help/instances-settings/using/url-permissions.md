@@ -4,7 +4,7 @@ solution: Campaign
 title: URL-behörigheter
 description: Läs om hur man hanterar URL-behörigheter i Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 93%
@@ -20,11 +20,11 @@ ht-degree: 93%
 >abstract="Hantera de URL:er som instanserna i Adobe Campaign kan ansluta till."
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="Se demovideon"
 
+## Om URL-behörigheter {#about-url-permissions}
+
 >[!IMPORTANT]
 >
 >Den här funktionen är endast tillgänglig för instanser i Campaign Classic från build 8850. Om du använder en tidigare build måste du uppgradera för att kunna använda den här funktionen.
-
-## Om URL-behörigheter {#about-url-permissions}
 
 Standardlistan med URL:er som kan anropas av JavaScript-koder (arbetsflöden osv.) från dina instanser i Campaign Classic är begränsad. Dessa är URL:er som gör det möjligt för dina instanser att fungerar korrekt.
 
