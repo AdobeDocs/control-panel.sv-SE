@@ -4,10 +4,10 @@ solution: Campaign
 title: Förnya en underdomäns SSL-certifikat
 description: Läs om hur man förnyar underdomäners SSL-certifikat
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 94%
+source-wordcount: '858'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 94%
 >[!IMPORTANT]
 >
 >Underdomänskonfigurationen från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
+
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## Om certifikatförnyelse {#about-certificate-renewal-process}
 
@@ -138,6 +140,5 @@ När SSL-certifikatet har installerats uppdateras certifikatets giltighetsdatum 
 
 **Relaterade ämnen:**
 
-* [Lägga till SSL-certifikat (video med självstudiekurser)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Märka underdomäner](../../subdomains-certificates/using/subdomains-branding.md)
 * [Övervaka underdomänerna](../../subdomains-certificates/using/monitoring-subdomains.md)
