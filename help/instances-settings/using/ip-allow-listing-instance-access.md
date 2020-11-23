@@ -4,7 +4,7 @@ solution: Campaign
 title: Tillåtelselista med IP-adresser
 description: Läs om hur man lägger till IP-adresser i tillåtelselistan i Kontrollpanelen för åtkomst till instanser
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 94%
@@ -20,11 +20,11 @@ ht-degree: 94%
 >abstract="Lägg till IP-adresser i tillåtelselistan för att komma åt dina instanser."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Se demovideon"
 
+## Om att tillåtelselista med IP-adresser {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >Den här funktionen är endast tillgänglig för instanser i Campaign Classic.
-
-## Om att tillåtelselista med IP-adresser {#about-ip-allow-listing}
 
 Som standard är din instans i Adobe Campaign Classic endast tillgänglig från specifika IP-adresser.
 
