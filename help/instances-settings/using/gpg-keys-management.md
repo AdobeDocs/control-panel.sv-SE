@@ -4,10 +4,10 @@ solution: Campaign
 title: Hantera GPG-nycklar
 description: Lär dig hur du hanterar GPG-nycklar för att kryptera och dekryptera data i Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ GPG-kryptering gör att du kan skydda dina data med hjälp av ett system med off
 
 När den är implementerad kan du kryptera inkommande och utgående data innan överföringen görs, så att ingen kan komma åt dem utan ett giltigt matchande nyckelpar.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://docs.adobe.com/content/help/sv-SE/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html) eller [Campaign Standard](https://docs.adobe.com/content/help/sv-SE/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)
 
 För att GPG-kryptering ska kunna implementeras i Campaign måste GPG-nycklar installeras och/eller genereras på en marknadsföringsinstans av en administratörsanvändare direkt på kontrollpanelen.
 
@@ -85,6 +85,8 @@ När den offentliga nyckeln har installerats visas den i listan. Du kan använda
 
 Nyckeln kan sedan användas i Adobe Campaign arbetsflöden. Du kan använda den för att kryptera data när du använder dataextraheringsaktiviteter.
 
+![](assets/do-not-localize/how-to-video.png) Upptäck hur du krypterar data i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 Mer information om detta finns i Adobe Campaign-dokumentationen:
 
 **Campaign Classic:**
@@ -96,8 +98,6 @@ Mer information om detta finns i Adobe Campaign-dokumentationen:
 
 * [Hantera krypterade data](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
-
-![](assets/do-not-localize/how-to-video.png) Upptäck hur du krypterar data i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
 
 ## Dekryptera data {#decrypting-data}
 
