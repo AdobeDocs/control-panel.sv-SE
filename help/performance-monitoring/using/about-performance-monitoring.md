@@ -4,10 +4,10 @@ solution: Campaign
 title: Prestandaövervakning
 description: Lär dig hur du övervakar instansprestanda på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 11%
+source-wordcount: '112'
+ht-degree: 14%
 
 ---
 
@@ -26,4 +26,3 @@ Med **[!UICONTROL Performance monitoring]** kortet på Kontrollpanelens startsid
 
 Med Kontrollpanelen kan du dessutom registrera dig för att få e-postmeddelanden varje gång ett problem upptäcks i någon av Campaign-instanserna. Mer information om detta finns i [det här avsnittet](../../performance-monitoring/using/email-alerting.md).
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
