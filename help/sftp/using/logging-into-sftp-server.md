@@ -4,10 +4,10 @@ solution: Campaign
 title: Logga in på SFTP-servern
 description: Lär dig logga in på SFTP-servern
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 4%
+source-wordcount: '348'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Stegen nedan visar hur du ansluter en SFTP-server via ditt SFTP-klientprogram.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](https://video.tv.adobe.com/v/27263?quality=12&captions=swe)
 
 Innan du loggar in på servern bör du kontrollera att:
 
