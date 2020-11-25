@@ -4,19 +4,19 @@ solution: Campaign
 title: Hantera behörigheter till Kontrollpanelen
 description: Lär dig hantera behörigheter på Kontrollpanelen
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 
 
-# Managing permsissions to Control Panel {#managing-permissions-control-panel}
+# Hantera behörigheter till Kontrollpanelen {#managing-permissions-control-panel}
 
 Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Campaign-instans. Följ stegen nedan för att tilldela användare till gruppen Administratörer och ge dem åtkomst till Kontrollpanelen.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) eller [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
+![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video)
 
 1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com/)och markera sedan **[!UICONTROL Administration]** fliken.
 
@@ -61,3 +61,7 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 >[!NOTE]
 >
 >När åtkomsten är konfigurerad måste användaren logga ut från Adobe Experience Cloud och logga in igen för att komma åt Kontrollpanelen.
+
+## Videokurs {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
