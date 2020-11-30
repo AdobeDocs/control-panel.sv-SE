@@ -2,11 +2,11 @@
 product: campaign
 solution: Campaign
 title: Produktdokumentation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Videor med självstudiekurser om Kontrollpanelen för Campaign Standard</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=sv">Videor med självstudiekurser om Kontrollpanelen för Campaign Standard</a></li>
             <li><a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/campaign-standard-home.html">Produktdokumentation om Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Videor med självstudiekurser om Kontrollpanelen för Campaign Classic</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=sv">Videor med självstudiekurser om Kontrollpanelen för Campaign Classic</a></li>
             <li><a href="https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/campaign-classic-home.html">Produktdokumentation om Campaign Classic</a></li>
         </ul>
         </td>
