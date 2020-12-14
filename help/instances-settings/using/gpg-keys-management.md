@@ -4,10 +4,10 @@ solution: Campaign
 title: Hantera GPG-nycklar
 description: Lär dig hur du hanterar GPG-nycklar för att kryptera och dekryptera data i Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
+source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 10%
+source-wordcount: '1153'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 ## Om GPG-kryptering {#about-gpg-encryption}
 
-GPG-kryptering gör att du kan skydda dina data med hjälp av ett system med offentlig-privata nyckelpar som följer [OpenPGP](https://www.openpgp.org/about/standard/) -specifikationen.
+GPG-kryptering gör att du kan skydda dina data med hjälp av ett system med publika/privata nyckelpar som följer specifikationen [OpenPGP](https://www.openpgp.org/about/standard/).
 
 När den är implementerad kan du kryptera inkommande och utgående data innan överföringen görs, så att ingen kan komma åt dem utan ett giltigt matchande nyckelpar.
 
@@ -28,15 +28,15 @@ Då kan du:
 
 * **Dekryptera inkommande data**: Adobe Campaign tar emot data som har krypterats utanför ett externt system med en offentlig nyckel som hämtats från Kontrollpanelen. Adobe Campaign dekrypterar data med en privat nyckel som genereras från Kontrollpanelen.
 
-## Kryptera data {#encrypting-data}
+## Krypterar data {#encrypting-data}
 
 Med kontrollpanelen kan du kryptera data som kommer från instansen i Adobe Campaign.
 
 För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteringsverktyg och sedan installera den offentliga nyckeln på Kontrollpanelen. Du kan sedan kryptera data innan du skickar dem från din instans. Följ stegen nedan för att göra detta.
 
-![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video-generate-key)
+![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video)
 
-1. Skapa ett nyckelpar för offentlig/privat nyckel med ett PGP-krypteringsverktyg som följer [OpenPGP-specifikationen](https://www.openpgp.org/about/standard/). Installera ett GPG-verktyg eller GNuGP-program om du vill göra det.
+1. Generera ett par med offentlig/privat nyckel med ett PGP-krypteringsverktyg som följer [OpenPGP-specifikationen](https://www.openpgp.org/about/standard/). Installera ett GPG-verktyg eller GNuGP-program om du vill göra det.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
 
    * **nyckeltyp**: RSA
    * **nyckellängd**: 1024 - 4096 bitar
-   * **riktigt namn** och **e-postadress**: Låter spåra vem som skapade nyckelparet. Ange ett namn och en e-postadress som är länkad till din organisation eller avdelning.
+   * **verklig** namn och  **e-postadress**: Låter spåra vem som skapade nyckelparet. Ange ett namn och en e-postadress som är länkad till din organisation eller avdelning.
    * **kommentar**: Om du lägger till en etikett i kommentarsfältet blir det lättare att identifiera nyckeln som du kan använda för att kryptera dina data.
    * **förfallodatum**: Datum eller 0 om du inte vill ha något förfallodatum.
    * **lösenfras**
@@ -61,7 +61,7 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
 
    `gpg -a --export <fingerprint>`
 
-1. Om du vill installera den offentliga nyckeln i Kontrollpanelen öppnar du **[!UICONTROL Instance settings]** kortet och väljer sedan **[!UICONTROL GPG keys]** fliken och den önskade instansen.
+1. Om du vill installera den offentliga nyckeln på Kontrollpanelen öppnar du **[!UICONTROL Instance settings]**-kortet och väljer sedan fliken **[!UICONTROL GPG keys]** och den önskade instansen.
 
 1. Klicka på knappen **[!UICONTROL Install Key]**.
 
@@ -77,13 +77,13 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
 
 1. Klicka på knappen **[!UICONTROL Install Key]**.
 
-När den offentliga nyckeln har installerats visas den i listan. Du kan använda **..** för att ladda ned den eller kopiera dess fingeravtryck.
+När den offentliga nyckeln har installerats visas den i listan. Du kan använda **..** om du vill hämta den eller kopiera dess fingeravtryck.
 
 ![](assets/gpg_install_download.png)
 
 Nyckeln kan sedan användas i Adobe Campaign arbetsflöden. Du kan använda den för att kryptera data när du använder dataextraheringsaktiviteter.
 
-![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video-use-key)
+![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video)
 
 Mer information om detta finns i Adobe Campaign-dokumentationen:
 
@@ -103,14 +103,14 @@ Med Kontrollpanelen kan du dekryptera externa data som kommer in i dina Adobe Ca
 
 För att göra detta måste du generera ett GPG-nyckelpar direkt från kontrollpanelen.
 
-* Den **offentliga nyckeln** delas med det externa systemet, som kommer att använda den för att kryptera data som ska skickas till Campaign.
-* Den **privata nyckeln** används av Campaign för att dekryptera inkommande krypterade data.
+* Den offentliga **nyckeln** delas med det externa systemet, som kommer att använda den för att kryptera data som ska skickas till Campaign.
+* **Den privata nyckeln** kommer att användas av Campaign för att dekryptera inkommande krypterade data.
 
-![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video-decrypt)
+![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video)
 
 Så här genererar du ett nyckelpar på Kontrollpanelen:
 
-1. Öppna **[!UICONTROL Instance settings]** kortet och välj sedan **[!UICONTROL GPG keys]** fliken och den önskade Adobe Campaign-instansen.
+1. Öppna **[!UICONTROL Instance settings]**-kortet och välj sedan fliken **[!UICONTROL GPG keys]** och den önskade Adobe Campaign-instansen.
 
 1. Klicka på knappen **[!UICONTROL Generate Key]**.
 
@@ -122,7 +122,7 @@ Så här genererar du ett nyckelpar på Kontrollpanelen:
 
 När nyckelparet har skapats visas den offentliga nyckeln i listan. Observera att dekrypteringsnyckelpar genereras utan förfallodatum.
 
-Du kan använda **..** för att hämta den offentliga nyckeln eller kopiera dess fingeravtryck.
+Du kan använda **..** om du vill hämta den offentliga nyckeln eller kopiera dess fingeravtryck.
 
 ![](assets/gpg_generate_list.png)
 
@@ -142,7 +142,7 @@ Mer information finns i Adobe Campaign-dokumentationen:
 
 ## Övervaka GPG-nycklar
 
-Om du vill få åtkomst till GPG-nycklar som är installerade och genererade för dina instanser öppnar du **[!UICONTROL Instance settings]** kortet och väljer sedan **[!UICONTROL GPG keys]** fliken.
+Om du vill komma åt GPG-nycklar som har installerats och genererats för dina instanser öppnar du **[!UICONTROL Instance settings]**-kortet och väljer sedan fliken **[!UICONTROL GPG keys]**.
 
 ![](assets/gpg_list.png)
 
@@ -166,7 +166,7 @@ I listan visas alla GPG-nycklar för kryptering och dekryptering som har install
    >
    >Observera att inga e-postmeddelanden skickas från Kontrollpanelen.
 
-Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. Om du vill göra det klickar du på **..** och sedan markera **[!UICONTROL Delete Key].**.
+Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. Det gör du genom att klicka på **..** och välj sedan **[!UICONTROL Delete Key].**.
 
 ![](assets/gpg_delete.png)
 
@@ -174,16 +174,11 @@ Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. Om
 >
 >Innan du tar bort en tangent bör du kontrollera att den inte används i något Adobe Campaign-arbetsflöde för att förhindra att den misslyckas.
 
-## Självstudievideor {#video}
+## Självstudievideo {#video}
 
-### Generera och installera GPG-nycklar för datakryptering {#video-generate-key}
+I videon nedan visas hur du genererar och installerar GPG-nycklar för datakryptering.
+
+Ytterligare instruktionsvideor om GPG-knapphantering finns på [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)- och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) självstudiesidor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
 
-### Kryptera data med en GPG-nyckel {#video-use-key}
-
->[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
-
-### Dekryptera data {#video-decrypt}
-
->[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
