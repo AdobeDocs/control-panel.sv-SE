@@ -6,8 +6,8 @@ description: Läs mer om gränssnittet i Kontrollpanelen
 translation-type: tm+mt
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 47%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 47%
 
 På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på instanserna i Campaign.
 
-De representeras av kort som är ordnade i ämnen, till exempel **Lagring och Databashantering**.
+De representeras av kort som är ordnade i ämnen, till exempel **Lagring och databashantering**.
 
 I kommande kampanjversioner kommer fler ämnen och kort att bli tillgängliga.
 
@@ -36,6 +36,6 @@ Med knappen **[!UICONTROL Open]** kommer du direkt till den flik på kontrollpan
 
 ## Hjälpresurser {#help-resources}
 
-Avsnittet innehåller användbar dokumentation som du kan använda för att använda Kontrollpanelen och Campaign-produkterna. **[!UICONTROL Help Resources]** Tveka inte att utforska dem.
+Avsnittet **[!UICONTROL Help Resources]** innehåller användbar dokumentation som hjälper dig att använda kontrollpanelen och Campaign-produkterna. Tveka inte att utforska dem.
 
 ![](assets/helpresources.png)
