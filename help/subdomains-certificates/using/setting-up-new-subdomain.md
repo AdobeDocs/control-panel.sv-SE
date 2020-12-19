@@ -26,7 +26,7 @@ ht-degree: 47%
 >
 >Underdomänskonfigurationen från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
 
-Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [Märke](../../subdomains-certificates/using/subdomains-branding.md)för underdomäner.
+Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [Märke för underdomäner](../../subdomains-certificates/using/subdomains-branding.md).
 
 **Relaterat ämne:**
 
@@ -34,9 +34,9 @@ Den här sidan innehåller information om hur du konfigurerar nya underdomäner 
 
 ### Val av instans
 
-Subdomain configuration is available for **production** instances only.
+Underdomänskonfiguration är endast tillgängligt för **produktions**-instanser.
 
-Om instansen som du väljer i guiden inte har några tidigare konfigurerade underdomäner, kommer den första konfigurerade underdomänen att bli den **primära underdomänen** för den instansen och du kommer inte att kunna ändra den i framtiden.
+Om instansen som du väljer i guiden inte har några tidigare konfigurerade underdomäner, kommer den första konfigurerade underdomänen att bli **den primära underdomänen** för den instansen och du kommer inte att kunna ändra den i framtiden.
 
 Därför kommer **omvända DNS-poster** att skapas för andra underdomäner som använder den här primära underdomänen. **Svars- och returadresser för andra underdomäner genereras från den primära underdomänen.**
 
@@ -50,7 +50,7 @@ Skapa **inte heller någon separat zonfil** för den nya underdomänen.
 
 Följ stegen nedan om du vill delegera en underdomän till Adobe Campaign helt.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. Välj önskad produktionsinstans på **[!UICONTROL Subdomains & Certificates]**-kortet och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
@@ -66,7 +66,7 @@ Följ stegen nedan om du vill delegera en underdomän till Adobe Campaign helt.
 
 1. Skapa underdomänen med motsvarande Adobe Nameserver-information och klicka sedan på **[!UICONTROL Next]**.
 
-1. Om du har valt en Campaign Classic-instans väljer du önskat användningsfall för underdomänen: **Marknadsföringskommunikation** eller **Transactional &amp; Operational Communications**. Globala koncept för underdomäners användning presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Om du har valt en Campaign Classic-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användning presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/subdomain5.png)
 
@@ -82,23 +82,23 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
 
 Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. Välj önskad produktionsinstans på **[!UICONTROL Subdomains & Certificates]**-kortet och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
    ![](assets/subdomain1.png)
 
-1. Select the **[!UICONTROL CNAME]** method, then click **[!UICONTROL Next]**.
+1. Välj metoden **[!UICONTROL CNAME]** och klicka sedan på **[!UICONTROL Next]**.
 
    ![](assets/cname-method-selection.png)
 
-1. Om du har valt en Campaign Classic-instans väljer du önskat användningsfall för underdomänen: **Marknadsföringskommunikation** eller **Transactional &amp; Operational Communications**. Globala koncept för underdomäners användning presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Om du har valt en Campaign Classic-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användning presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/cname-use-case.png)
 
 1. Öppna den underdomän du skapade i din värdlösning och klicka sedan på **[!UICONTROL Next]**.
 
-   Make sure you fill in the **full name** of the subdomain to setup. Om du till exempel vill konfigurera underdomänen &quot;usoffers.email.weretail.com&quot; skriver du &quot;usoffers.email.weretail.com&quot;.
+   Se till att du fyller i **det fullständiga namnet** för den underdomän som ska konfigureras. Om du till exempel vill konfigurera underdomänen &quot;usoffers.email.weretail.com&quot; skriver du &quot;usoffers.email.weretail.com&quot;.
 
    ![](assets/cname-submit.png)
 
@@ -112,7 +112,7 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    >[!NOTE]
    >
-   >Om du vill skapa posterna och skicka konfigurationen för underdomänen senare, väljer du den andra satsen och klickar sedan på **[!UICONTROL Submit later]**. Du kan sedan återuppta konfigurationen av underdomänen direkt från **[!UICONTROL Processing]** underdomänshanteringen.
+   >Om du vill skapa posterna och skicka konfigurationen för underdomänen senare, väljer du den andra satsen och klickar sedan på **[!UICONTROL Submit later]**. Du kan sedan återuppta konfigurationen av underdomänen direkt från underdomänens hanteringsskärm **[!UICONTROL Processing]**.
    >
    >Observera att DNS-poster som ska placeras på servern kommer att behållas av Kontrollpanelen i 30 dagar. Efter den perioden måste du konfigurera underdomänen från grunden.
 
@@ -130,7 +130,7 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
 
    ![](assets/subdomain7.png)
 
-   You can get more details on the configuration progress by clicking the subdomain configuration **[!UICONTROL Details]** button.
+   Du kan få mer information om konfigurationsförloppet genom att klicka på knappen **[!UICONTROL Details]** för underdomänskonfiguration.
 
    ![](assets/subdomain_audit.png)
 
