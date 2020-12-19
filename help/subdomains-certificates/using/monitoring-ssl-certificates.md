@@ -18,7 +18,7 @@ ht-degree: 92%
 
 Adobe Campaign rekommenderar att du säkrar de underdomäner som är värdar för dina landningssidor. Särskilt de som samlar in känslig information om kunder.
 
-**SSL-kryptering** (Secure Socket Layer) garanterar att de underdomäner som du har konfigurerat för att arbeta med Adobe är säkra. När kunden fyller i ett webbformulär eller besöker en landningssida som Adobe Campaign är värd för skickas informationen som standard via ett osäkert protokoll (HTTP). För att garantera ytterligare säkerhet måste information som skickas skyddas med ett HTTPS-protokoll. Underdomänadressen ”http://info.mywebsite.com/” blir istället ”https://info.mywebsite.com/”.
+**SSL-** kryptering (Secure Socket Layer) säkerställer att de underdomäner som du har konfigurerat för att arbeta med Adobe är säkra. När kunden fyller i ett webbformulär eller besöker en landningssida som Adobe Campaign är värd för skickas informationen som standard via ett osäkert protokoll (HTTP). För att garantera ytterligare säkerhet måste information som skickas skyddas med ett HTTPS-protokoll. Underdomänadressen ”http://info.mywebsite.com/” blir istället ”https://info.mywebsite.com/”.
 
 **SSL-certifikat är inte installerade på de konfigurerade underdomänerna själva**. De installeras på associerade underdomäner och då främst på de som är värdar för landningssidor, resurssidor och andra.
 
