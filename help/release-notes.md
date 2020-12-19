@@ -5,8 +5,8 @@ title: Versioner av Kontrollpanelen
 translation-type: tm+mt
 source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
