@@ -7,8 +7,8 @@ testing: SSECD-836 2
 translation-type: tm+mt
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ På Kontrollpanelen kan du interagera med alla SFTP-servrar som är anslutna til
 Med kontrollpanelen kan du utföra åtgärderna nedan för att hantera dina SFTP-servrar:
 
 * övervaka deras **lagringskapacitet**,
-* Hantera **IP-adresser som kan listas**: lägga till eller ta bort IP-adressintervall för en eller flera servrar,
-* Hantera **offentliga SSH-nycklar** för att komma åt dina servrar.
+* Hantera **IP-adresser tillåter listning**: lägga till eller ta bort IP-adressintervall för en eller flera servrar,
+* Hantera **publika SSH-nycklar** för att komma åt dina servrar.
 
 Detaljerad information om dessa åtgärder finns i avsnitten nedan.
