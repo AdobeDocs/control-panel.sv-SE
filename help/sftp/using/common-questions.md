@@ -6,8 +6,8 @@ description: Läs mer om vanliga frågor gällande SFTP-hantering
 translation-type: tm+mt
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
