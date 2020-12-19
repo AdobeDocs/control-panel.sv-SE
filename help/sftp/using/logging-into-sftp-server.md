@@ -6,8 +6,8 @@ description: Lär dig logga in på SFTP-servern
 translation-type: tm+mt
 source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,14 +21,14 @@ Stegen nedan visar hur du ansluter en SFTP-server via ditt SFTP-klientprogram.
 Innan du loggar in på servern bör du kontrollera att:
 
 * SFTP-servern är **värd för Adobe**.
-* Ditt **användarnamn** har konfigurerats för servern. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
-* Du har ett **privat och offentligt nyckelpar** för att logga in på SFTP-servern. Mer information om hur du lägger till SSH-nyckeln finns i [det här avsnittet](../../sftp/using/key-management.md) .
-* Din **offentliga IP-adress har lagts till tillåtelselista** på SFTP-servern. Om inte, se [det här avsnittet](../../sftp/using/ip-range-allow-listing.md) för mer information om hur du lägger till IP-intervallet i tillåtelselista.
+* Ditt **användarnamn** har konfigurerats för servern. Du kan kontrollera den här informationen direkt på Kontrollpanelen på fliken **Nyckelhantering** från SFTP-kortet.
+* Du har ett **privat och offentligt nyckelpar** som du kan använda för att logga in på SFTP-servern. Mer information om hur du lägger till SSH-nyckeln finns i [det här avsnittet](../../sftp/using/key-management.md).
+* Din **offentliga IP-adress har lagts till i tillåtelselista** på SFTP-servern. Om inte, se [det här avsnittet](../../sftp/using/ip-range-allow-listing.md) för mer information om hur du lägger till IP-intervallet i tillåtelselista.
 * Du har åtkomst till en **SFTP-klientprogramvara**. Du kan kontakta din IT-avdelning för SFTP-klientprogram som de rekommenderar att använda, eller söka efter ett på Internet om det är tillåtet enligt din företagspolicy.
 
 Så här ansluter du till SFTP-servern:
 
-1. Launch the Control Panel, then select the **[!UICONTROL Key Management]** tab from the **[!UICONTROL SFTP]** card.
+1. Starta Kontrollpanelen och välj sedan fliken **[!UICONTROL Key Management]** på **[!UICONTROL SFTP]**-kortet.
 
    ![](assets/sftp_card.png)
 
@@ -36,11 +36,11 @@ Så här ansluter du till SFTP-servern:
 
    ![](assets/do-not-localize/connect1.png)
 
-1. I **[!UICONTROL SSH Private Key]** fältet väljer du den privata nyckelfil som finns lagrad på datorn. Den motsvarar en textfil som har samma namn som den offentliga nyckeln, utan tillägget&quot;.pub&quot; (t.ex.&quot;enable&quot;).
+1. I fältet **[!UICONTROL SSH Private Key]** väljer du den privata nyckelfil som lagras på datorn. Den motsvarar en textfil som har samma namn som den offentliga nyckeln, utan tillägget&quot;.pub&quot; (t.ex.&quot;enable&quot;).
 
    ![](assets/do-not-localize/connect2.png)
 
-   Fältet fylls **[!UICONTROL Password]** automatiskt i med den privata nyckeln från filen.
+   Fältet **[!UICONTROL Password]** fylls i automatiskt med den privata nyckeln från filen.
 
    ![](assets/do-not-localize/connect3.png)
 
@@ -54,6 +54,6 @@ Så här ansluter du till SFTP-servern:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. När all information är ifylld klickar du för **[!UICONTROL Connect]** att logga in på SFTP-servern.
+1. När all information är ifylld klickar du på **[!UICONTROL Connect]** för att logga in på SFTP-servern.
 
    ![](assets/do-not-localize/sftpconnected.png)
