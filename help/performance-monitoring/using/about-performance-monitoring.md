@@ -6,17 +6,17 @@ description: Lär dig hur du övervakar instansprestanda på Kontrollpanelen
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Prestandaövervakning {#about-performance-monitoring}
+# Om prestandaövervakning {#about-performance-monitoring}
 
 Kontrollpanelen har flera funktioner som hjälper dig att övervaka dina instanser och säkerställa optimala prestanda.
 
-Med **[!UICONTROL Performance monitoring]** kortet på Kontrollpanelens startsida kan du övervaka hur Campaign-instanserna används, till exempel deras databaskapacitet. Mer information om detta finns i [det här avsnittet](../../performance-monitoring/using/database-monitoring.md).
+Med **[!UICONTROL Performance monitoring]**-kortet på kontrollpanelens startsida kan du övervaka användningen av dina Campaign-instanser, som exempelvis deras databaskapacitet. Mer information om detta finns i [det här avsnittet](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 
