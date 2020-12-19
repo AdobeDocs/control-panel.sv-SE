@@ -6,8 +6,8 @@ description: Lär dig hantera behörigheter på Kontrollpanelen
 translation-type: tm+mt
 source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,13 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 
 ![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video)
 
-1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com/)och markera sedan **[!UICONTROL Administration]** fliken.
+1. Gå till [Adobe Experience Cloud](https://experiencecloud.adobe.com/) och välj sedan fliken **[!UICONTROL Administration]**.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
-   >Om fliken <b>Administration</b> inte visas innebär det att du inte har administratörsbehörighet för din organisation. Kontakta organisationens administratörer för att utföra stegen med dem.
+   >Om fliken <b>Administration</b> inte visas betyder det att du inte har administratörsbehörighet för din organisation. Kontakta organisationens administratörer för att utföra stegen med dem.
 
 1. Starta **Admin Console** genom att klicka på de tillgängliga länkarna.
 
@@ -46,7 +46,7 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
    >
    >Du kan lägga till olika administratörsanvändare för varje Campaign-instans. I så fall får administratörsanvändare tillgång till Kontrollpanelen för den instans de bara tillhör.
 
-1. Listan med produktprofiler för den valda instansen visas. Klicka på **[!UICONTROL Administrators]** produktprofilen för att få tillgång till listan med admin-användare.
+1. Listan med produktprofiler för den valda instansen visas. Klicka på **[!UICONTROL Administrators]**-produktprofilen för att få tillgång till listan med admin-användare.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
    >
    >Som standard tillhör administratörsanvändare produktprofilen &quot;Administratörer&quot;. Enligt din organisations konfiguration kan produktprofilen namnges på ett annat sätt (&quot;admin&quot;,&quot;admins&quot;, osv.).
 
-1. Listan med admin-användare visas. Klicka på **[!UICONTROL Add User]** knappen för att lägga till önskad användare.
+1. Listan med admin-användare visas. Klicka på knappen **[!UICONTROL Add User]** för att lägga till önskad användare.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
@@ -62,6 +62,6 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 >
 >När åtkomsten är konfigurerad måste användaren logga ut från Adobe Experience Cloud och logga in igen för att komma åt Kontrollpanelen.
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
