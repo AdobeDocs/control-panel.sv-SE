@@ -6,8 +6,8 @@ description: Läs mer om att märka underdomäner
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,13 +50,13 @@ Tabellen nedan tillhandahåller en sammanfattning av hur dessa metoder fungerar 
 | **Fullständig delegering** | Skapa underdomänen och posten för namnrymden. Adobe konfigurerar sedan alla DNS-poster som krävs för Adobe Campaign.<br/><br/>I den här konfigurationen är Adobe helt ansvarigt för att hantera underdomänen och alla DNS-poster. | Låg |
 | **CNAME och anpassad metod** | Skapa underdomänen och posten för namnrymden. Adobe tillhandahåller sedan de poster som ska placeras i DNS-servrarna och konfigurerar motsvarande värden i Adobe Campaign DNS-servrar.<br/><br/>I den här konfigurationen delar både du och Adobe ansvaret för att underhålla DNS:er. | Hög |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
+Ytterligare information om domänkonfiguration finns i [den här dokumentationen](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
 
 Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontakta Adobe Deliverability Team eller så småningom kontakta Kundtjänst för att få rådgivning om slutprodukten.
 
 ## Användningsexempel för underdomäner (Campaign Classic){#subdomains-use-cases}
 
-När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja det användningsfall som underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Möjliga användningsområden är:
 
