@@ -2,23 +2,23 @@
 product: adobe campaign
 sub-product: kontrollpanelen
 audience: end-user
-user-guide-title: Kontrollpanelens stödlinje
+user-guide-title: Guide till Kontrollpanelen
 translation-type: tm+mt
 source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Kontrollpanelens stödlinje {#using}
+# Guide till Kontrollpanelen {#using}
 
 + [Produktdokumentation](control-panel-home.md)
 + [Versionsinformation](release-notes.md)
 + Lär känna Kontrollpanelen {#discover-control-panel}
    + [Viktiga funktioner](discover/using/key-features.md)
-   + [Åtkomst till kontrollpanelen](discover/using/accessing-control-panel.md)
+   + [Åtkomst till Kontrollpanelen](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
 + SFTP-hantering {#sftp-management}
