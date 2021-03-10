@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Logga in på SFTP-servern
 description: Lär dig logga in på SFTP-servern
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 Stegen nedan visar hur du ansluter en SFTP-server via ditt SFTP-klientprogram.
 
-![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](https://video.tv.adobe.com/v/27263?quality=12&captions=swe)
+![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](https://video.tv.adobe.com/v/27263?quality=12)
 
 Innan du loggar in på servern bör du kontrollera att:
 
