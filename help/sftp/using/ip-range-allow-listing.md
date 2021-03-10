@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Tillåtelselista med IP-intervall
 description: Läs om hur man lägger till IP-intervall i tillåtelselistan för SFTP-serveråtkomst
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '636'
+ht-degree: 94%
 
 ---
 
