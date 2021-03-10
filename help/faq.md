@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Vanliga frågor och svar om Kontrollpanelen
 description: Vanliga frågor om Kontrollpanelen
-translation-type: ht
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Mellanliggande
+translation-type: tm+mt
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +27,7 @@ Se [dokumentationen om Adobe Experience Cloud](https://docs.adobe.com/content/he
 
 **Var hittar jag mitt IMS-organisations-ID?**
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://docs.adobe.com/content/help/sv-SE/core-services/interface/manage-users-and-products/organizations.translate.html).
+Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Det andra sättet är att starta **Administratörskonsolen**. Ditt IMS-organisations-ID visas i din URL. Det bör se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
