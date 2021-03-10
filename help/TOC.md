@@ -3,11 +3,14 @@ product: adobe campaign
 sub-product: kontrollpanelen
 audience: end-user
 user-guide-title: Guide till Kontrollpanelen
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 98%
 
 ---
 
