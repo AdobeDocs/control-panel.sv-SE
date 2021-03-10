@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Övervaka aktiva profiler
 description: Läs mer om hur man får information i realtid om den senaste och historiska användningen gällande aktiva profiler och utvecklingen för var och en av sina instanser i Campaign.
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 97%
 
 ---
