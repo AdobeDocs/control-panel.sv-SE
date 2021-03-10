@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Hantera TXT-poster
 description: Läs mer om hur man hanterar TXT-poster för verifiering av domänägarskap.
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '348'
+ht-degree: 90%
 
 ---
 
