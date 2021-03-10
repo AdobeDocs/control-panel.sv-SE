@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: E-postavisering
 description: Lär dig hur du tar emot e-postmeddelanden i händelse av problem med dina Campaign-instanser
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '170'
+ht-degree: 3%
 
 ---
 
