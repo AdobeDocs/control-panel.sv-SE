@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Konfigurera en ny underdomän
 description: Läs om hur man skapar en ny underdomän för instanser i Campaign
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1144'
 ht-degree: 47%
 
 ---
@@ -60,7 +63,7 @@ Följ stegen nedan om du vill delegera en underdomän till Adobe Campaign helt.
 
    ![](assets/subdomain3.png)
 
-1. Skapa den önskade underdomänen och namnservrar i värdlösningen som används av organisationen. Gör detta genom att kopiera och klistra in Adobe Nameserver-informationen som visas i guiden. Se [videon med självstudiekurser](https://video.tv.adobe.com/v/30175?captions=swe) för mer information om hur du skapar en underdomän i en värdlösning.
+1. Skapa den önskade underdomänen och namnservrar i värdlösningen som används av organisationen. Gör detta genom att kopiera och klistra in Adobe Nameserver-informationen som visas i guiden. Se [videon med självstudiekurser](https://video.tv.adobe.com/v/30175) för mer information om hur du skapar en underdomän i en värdlösning.
 
    ![](assets/subdomain4.png)
 
