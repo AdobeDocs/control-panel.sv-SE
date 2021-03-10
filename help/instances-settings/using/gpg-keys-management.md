@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Hantera GPG-nycklar
 description: Lär dig hur du hanterar GPG-nycklar för att kryptera och dekryptera data i Adobe Campaign.
+feature: 'Kontrollpanelen  '
+role: Arkitekt
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1157'
 ht-degree: 8%
 
 ---
@@ -132,7 +135,7 @@ Mer information finns i Adobe Campaign-dokumentationen:
 
 **Campaign Classic:**
 
-* [Zippa upp eller dekryptera en fil före bearbetning](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
+* [Packa upp eller dekryptera en fil före bearbetning](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
 * [Användningsfall: Importera data krypterade med en nyckel som genererats av Kontrollpanelen](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
