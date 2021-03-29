@@ -7,7 +7,7 @@ feature: 'Kontrollpanelen  '
 role: Arkitekt
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Viktiga fördelar:
 >
 >Observera att du inte behöver uppgradera till senaste build av Campaign för att få åtkomst till Kontrollpanelen.
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="villkor" src="assets/do-not-localize/discover.png"/></a>
