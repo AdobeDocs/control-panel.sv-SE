@@ -7,10 +7,10 @@ feature: 'Kontrollpanelen  '
 role: Arkitekt
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '329'
+ht-degree: 71%
 
 ---
 
@@ -32,9 +32,10 @@ Viktiga fördelar:
 * kontrollera åtkomstinställningarna efter behov för att förbättra säkerheten.
 
 >[!NOTE]
->Kontrollpanelen är endast tillgänglig för administratörsanvändare och är tillgänglig för alla kunder som har AWS som värd med undantag för hybridmiljöer som ännu inte stöds. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](../../discover/using/managing-permissions.md). Följ stegen i [det här avsnittet](../../faq.md) för att kontrollera om instanser har AWS som värd.
 >
->Observera att du inte behöver uppgradera till senaste build av Campaign för att få åtkomst till Kontrollpanelen.
+>Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Observera att din instans måste ligga på AWS och uppgraderas med den senaste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)-versionen eller den [senaste GA-versionen (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Lär dig hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Om du vill kontrollera om din instans finns på AWS följer du stegen som beskrivs i [den här sidan](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
