@@ -6,10 +6,10 @@ feature: 'Kontrollpanelen  '
 role: Arkitekt
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 95%
+source-wordcount: '628'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,9 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 
 >[!NOTE]
 >
->Observera att Kontrollpanelen endast är tillgänglig för kunder som har AWS som värd med undantag för hybridmiljöer som ännu inte stöds. Du behöver inte uppgradera för att komma åt Kontrollpanelen. Se till att du är en administratörsanvändare för att få åtkomst.
+>Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Observera att din instans måste ligga på AWS och uppgraderas med den senaste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)-versionen eller den [senaste GA-versionen (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Lär dig hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Om du vill kontrollera om din instans finns på AWS följer du stegen som beskrivs i [den här sidan](faq.md).
 
 ## Oktober 2020 {#october-2020}
 
@@ -49,8 +51,6 @@ Via Kontrollpanelen kan du nu övervaka antalet aktiva profiler som används av 
 >[!IMPORTANT]
 >
 >Att övervaka aktiva profiler i Kontrollpanelen finns tillgängligt som betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
->
->Funktionen är tillgänglig för kunder som har AWS som värd från Campaign Standard build 10368 och Campaign Classic build 8931. Om du använder en tidigare build måste du uppgradera för att kunna använda den här funktionen.
 
 ## Maj 2020 {#may-2020}
 
