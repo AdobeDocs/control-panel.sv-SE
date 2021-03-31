@@ -7,10 +7,10 @@ feature: 'Kontrollpanelen  '
 role: Arkitekt
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 93%
+source-wordcount: '607'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ När en URL har lagts till refereras den i instansens konfigurationsfil (serverC
 **Relaterade ämnen:**
 
 * [Konfigurera en Campaign-server](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [Skydd för utgående anslutningar](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [Skydd för utgående anslutningar](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## God praxis {#best-practices}
 
