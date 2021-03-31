@@ -7,7 +7,7 @@ feature: 'Kontrollpanelen  '
 role: Arkitekt
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Campaign-instans. Följ stegen nedan för att tilldela användare till gruppen Administratörer och ge dem åtkomst till Kontrollpanelen.
 
-![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video)
+![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](../../discover/using/managing-permissions.md#video)
 
 1. Gå till [Adobe Experience Cloud](https://experiencecloud.adobe.com/) och välj sedan fliken **[!UICONTROL Administration]**.
 
