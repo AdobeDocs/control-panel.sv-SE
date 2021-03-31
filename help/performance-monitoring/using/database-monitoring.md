@@ -7,9 +7,9 @@ feature: 'Kontrollpanelen  '
 role: Arkitekt
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,9 @@ Välj önskad instans i **[!UICONTROL Instance List]** om du vill visa informati
 >
 >Observera att data från den här instrumentpanelen uppdateras baserat på **[!UICONTROL Database cleanup technical workflow]** som körs på din Campaign-instans (se [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) och [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)-dokumentation).
 >
->Du kan kontrollera den senaste gången arbetsflödet kördes under **[!UICONTROL Used Space]**- och **[!UICONTROL Provided Space]**-måtten. Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar Adobe kundtjänst så att de undersöker varför arbetsflödet inte körs.
+>Du kan kontrollera att du får meddelanden när en av dina databaser når sin c senast när arbetsflödet kördes under måtten **[!UICONTROL Used Space]** och **[!UICONTROL Provided Space]**. Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar Adobe kundtjänst så att de undersöker varför arbetsflödet inte körs.
 
-Ytterligare mätvärden, som beskrivs nedan, finns på den här instrumentpanelen för att hjälpa dig att analysera användningen av instansens databas:
-
-* [Databasanvändning](../../performance-monitoring/using/database-monitoring.md#database-utilization)
-* [Lagringsöversikt](../../performance-monitoring/using/database-monitoring.md#storage-overview)
-* [De 10 viktigaste tillfälliga resurserna](../../performance-monitoring/using/database-monitoring.md#top-10)
+Ytterligare mätvärden, som beskrivs nedan, är tillgängliga på den här instrumentpanelen för att hjälpa dig att analysera hur instansens databas används.
 
 ### Databasanvändning {#database-utilization}
 
@@ -130,7 +126,7 @@ Avsnittet nedan innehåller användbara resurser från Campaign-dokumentationen 
 
 * Teknisk arbetsgång för databasrensning ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Underhållshandbok](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html)  för databas (Campaign Classic)
-* [Felsökning](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html)  av databasprestanda (Campaign Classic)
+* [Felsökning](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html)  av databasprestanda (Campaign Classic)
 * [Databasrelaterade alternativ](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)  (Campaign Classic)
 * Datalagring ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
