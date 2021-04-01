@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: Läs mer och support
 solution-hub-url: https://helpx.adobe.com/se/support/campaign.html
 solution-image: assets/campaign-icon-24.png
@@ -13,10 +13,10 @@ feature: 'Kontrollpanelen  '
 role: Arkitekt
 level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 0079a7e893595c3825f0ab2b44b341c379462de8
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
