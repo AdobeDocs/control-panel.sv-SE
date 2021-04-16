@@ -2,40 +2,40 @@
 product: campaign
 solution: Campaign
 title: Övervaka databaser
-description: Lär dig övervaka Campaign-databasen på Kontrollpanelen
+description: Läs om hur du övervakar din Campaign-databas i Kontrollpanelen
 feature: 'Kontrollpanelen  '
-role: Arkitekt
-level: Erfaren
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
-workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 0%
+role: Architect
+level: Experienced
+exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '943'
+ht-degree: 100%
 
 ---
-
 
 # Övervaka databaser {#database-monitoring}
 
 ## Om instansdatabaser {#about-instances-databases}
 
-Enligt ditt avtal har var och en av era Campaign-instanser ett visst databasutrymme.
+Enligt ditt avtal har var och en av dina instanser i Campaign ett visst databasutrymme.
 
 Databaser innehåller alla **resurser**, **arbetsflöden** och **data** som lagras i Adobe Campaign.
 
-Med tiden kan databaserna nå sin maximala kapacitet, särskilt om de lagrade resurserna aldrig tas bort från instansen eller om många arbetsflöden är i pausat läge.
+Med tiden kan databaserna nå sin maximala kapacitet, särskilt om de lagrade resurserna aldrig tas bort från instansen eller om många arbetsflöden är i ett pausat läge.
 
-Överflödig instansdatabas kan leda till flera problem (oförmåga att logga in, skicka e-post osv.). Övervakning av instansens databaser är därför nödvändigt för att säkerställa optimala prestanda.
+En överfull instansdatabas kan leda till flera problem (oförmåga att logga in, skicka e-post osv.). Övervakning av instansens databaser är därför nödvändigt för att säkerställa optimala prestanda.
 
 >[!NOTE]
 >
->Om mängden tillgängligt databasutrymme som visas på Kontrollpanelen inte motsvarar mängden som anges i ditt avtal kan du kontakta Kundtjänst.
+>Om mängden tillgängligt databasutrymme som visas på Kontrollpanelen inte motsvarar mängden som anges i ditt avtal kan du kontakta kundtjänst.
 
 ## Övervaka databasanvändning {#monitoring-instances-database}
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring)
 
-På Kontrollpanelen kan du övervaka databasanvändningen för var och en av dina Campaign-instanser. Det gör du genom att öppna **[!UICONTROL Performance Monitoring]**-kortet och sedan välja fliken **[!UICONTROL Databases]**.
+Kontrollpanelen låter dig övervaka användningen av databaser för var och en av instanserna i Campaign. Det gör du genom att öppna kortet **[!UICONTROL Performance Monitoring]** och sedan välja fliken **[!UICONTROL Databases]**.
 
 Välj önskad instans i **[!UICONTROL Instance List]** om du vill visa information om instansens databaskapacitet och hur mycket utrymme som används.
 
@@ -43,21 +43,21 @@ Välj önskad instans i **[!UICONTROL Instance List]** om du vill visa informati
 
 >[!NOTE]
 >
->Observera att data från den här instrumentpanelen uppdateras baserat på **[!UICONTROL Database cleanup technical workflow]** som körs på din Campaign-instans (se [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) och [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)-dokumentation).
+>Observera att data från den här instrumentpanelen uppdateras baserat på **[!UICONTROL Database cleanup technical workflow]** som körs på din instans i Campaign (se dokumentationen om [Campaign Standard](https://docs.adobe.com/help/sv-SE/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) och [Campaign Classic](https://docs.adobe.com/help/sv-SE/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)).
 >
->Du kan kontrollera att du får meddelanden när en av dina databaser når sin c senast när arbetsflödet kördes under måtten **[!UICONTROL Used Space]** och **[!UICONTROL Provided Space]**. Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar Adobe kundtjänst så att de undersöker varför arbetsflödet inte körs.
+>Du kan kontrollera att du får meddelanden när en av dina databaser når sin kapacitet efter senaste gången arbetsflödet kördes, under måtten **[!UICONTROL Used Space]** och **[!UICONTROL Provided Space]**. Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar kundtjänsten hos Adobe så att de undersöker varför arbetsflödet inte körs.
 
 Ytterligare mätvärden, som beskrivs nedan, är tillgängliga på den här instrumentpanelen för att hjälpa dig att analysera hur instansens databas används.
 
 ### Databasanvändning {#database-utilization}
 
-Området **[!UICONTROL Database utilization]** ger en grafisk representation av minsta, genomsnittliga och högsta databasanvändning under de senaste 7 dagarna samt tröskelvärdet på 90 % för databasanvändning som representeras av en röd prickad kurva.
+Området **[!UICONTROL Database utilization]** ger en grafisk representation av den minsta, genomsnittliga och högsta databasanvändningen under de senaste 7 dagarna samt tröskelvärdet för 90 % av databasanvändning som representeras av en röd prickad kurva.
 
 Om du vill ändra tidsperioden använder du de filter som finns i diagrammets övre högra hörn.
 
-För bättre läsbarhet kan du även markera en eller flera kurvor i diagrammet. Om du vill göra det väljer du dem i **[!UICONTROL Aggregation Type]**-förklaringen.
+För bättre läsbarhet kan du även markera en eller flera kurvor i diagrammet. Om du vill göra det väljer du dem i förklaringen **[!UICONTROL Aggregation Type]**.
 
-Om du vill ha mer information om en viss tidsperiod håller du pekaren över diagrammet för att visa information om databasanvändningen som har gjorts just nu.
+Om du vill ha mer information om en viss tidsperiod håller du pekaren över diagrammet för att visa information om databasanvändningen under den perioden.
 
 ![](assets/databases_dashboard_detail.png)
 
@@ -67,11 +67,11 @@ Området **[!UICONTROL Storage overview]** innehåller en grafisk representation
 
 * **[!UICONTROL System resources]**
 
-   Observera att om systemresurserna förbrukar en stor del av databasutrymmet rekommenderar vi att du kontaktar Kundtjänst.
+   Observera att om systemresurserna förbrukar en stor del av databasutrymmet rekommenderar vi att du kontaktar kundtjänst.
 
-* **[!UICONTROL Out-of-the-box tables]** som standard med era Campaign-instanser,
+* **[!UICONTROL Out-of-the-box tables]** kommer som standard med dina instanser i Campaign,
 * **[!UICONTROL Temporary tables]** som skapats av arbetsflöden och leveranser,
-* **[!UICONTROL Non-out of the box tables]** genereras när du har skapat anpassade resurser.
+* **[!UICONTROL Non-out of the box tables]** som genererades när du skapade anpassade resurser.
 
 ![](assets/database-storage-overview.png)
 
@@ -79,57 +79,57 @@ Klicka på knappen **[!UICONTROL View details]** om du vill ha mer information o
 
 ![](assets/database-storage-details.png)
 
-Använd filtret för att förfina sök- och visningstabeller från en viss resurstyp.
+Använd filtret för att förfina sökningen och bara visa tabeller från en viss resurstyp.
 
 ![](assets/database-storage-overview-filter.png)
 
 ### De 10 viktigaste tillfälliga resurserna {#top-10}
 
-I **[!UICONTROL Top 10 temporary resources]**-området visas de tio största temporära resurserna som genereras av arbetsflöden och leveranser.
+I **[!UICONTROL Top 10 temporary resources]**-området visas de 10 största tillfälliga resurserna som genereras av arbetsflöden och leveranser.
 
-Övervakning av arbetsflöden och leveranser som skapar stora tillfälliga resurser är ett viktigt steg för att övervaka databasen. Om någon temporär resurs förbrukar för mycket databasutrymme bör du kontrollera att arbetsflödet eller leveransen är nödvändig och till slut navigera till instansen för att stoppa den.
+Övervakning av arbetsflöden och leveranser som genererar stora tillfälliga resurser är ett viktigt steg för att övervaka databasen. Om någon tillfällig resurs förbrukar för mycket databasutrymme bör du kontrollera att arbetsflödet eller leveransen är nödvändig och vid behov navigera till instansen för att stoppa den.
 
 >[!IMPORTANT]
 >
->Den allmänna rekommendationen är att undvika att ha **fler än 40 kolumner** utanför rutresurserna.
+>Den allmänna rekommendationen är att undvika att ha **fler än 40 kolumner** i resurser som inte är färdiga.
 
 ![](assets/database-top10.png)
 
 >[!NOTE]
 >
->Om ett arbetsflöde har ett stort antal tabellräkningar eller databasstorlek rekommenderar vi att du granskar arbetsflödet för att ta reda på varför det genererar så mycket data.
+>Om ett arbetsflöde har ett stort antal tabeller eller en stor databas rekommenderar vi att du granskar arbetsflödet för att ta reda på varför det genererar så mycket data.
 >
->Campaign Standard och klassiska resurser finns också tillgängliga i slutet av den här sidan för att förhindra databasöverbelastning.
+>Resurser för att förhindra databasöverbelastning i Campaign Standard och Classic finns också tillgängliga i slutet av den här sidan.
 
-Med knappen **[!UICONTROL View all]** får du tillgång till detaljerad information om de här tillfälliga resurserna.
+Med knappen **[!UICONTROL View all]** får du åtkomst till detaljerad information om de här tillfälliga resurserna.
 
 ![](assets/database-top10-view.png)
 
 >[!NOTE]
 >
->Värdet i kolumnen **[!UICONTROL Keep interim results]** anger om alternativet är aktiverat (&quot;1&quot;) eller inaktiverat (&quot;0&quot;) i Campaign. Alternativet **[!UICONTROL Keep interim results]** är tillgängligt i arbetsflödenas egenskaper. Du kan spara resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde (se [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) och [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)-dokumentationen).
+>Värdet i kolumnen **[!UICONTROL Keep interim results]** anger om alternativet är aktiverat (&quot;1&quot;) eller inaktiverat (&quot;0&quot;) i Campaign. Alternativet **[!UICONTROL Keep interim results]** är tillgängligt i arbetsflödenas egenskaper. Du kan spara resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde (se dokumentationen om [Campaign Standard](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) och [Campaign Classic](https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)).
 >
 >Om alternativet är aktiverat för ett av dina arbetsflöden, kan inte arbetsflödet för databasrensning frigöra det utrymme som används av mellanliggande resultat. Vi rekommenderar därför att du granskar arbetsflödet för att kontrollera om alternativet kan inaktiveras.
 
-## Förhindrar databasöverlagring {#preventing-database-overload}
+## Förhindra databasöverbelastning {#preventing-database-overload}
 
-Campaign Standard och Classic erbjuder olika sätt att förhindra överförbrukning av databasdiskutrymme.
+Campaign Standard och Classic erbjuder olika sätt att förhindra överanvändning av databasens diskutrymme.
 
-Avsnittet nedan innehåller användbara resurser från Campaign-dokumentationen som hjälper dig att optimera databasanvändningen:
+Avsnittet nedan innehåller användbara resurser från dokumentationen om Campaign som hjälper dig att optimera databasanvändningen:
 
 **Övervakning av arbetsflöden**
 
-* [Bästa praxis](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html)  för arbetsflöden (Campaign Standard)
-* [Övervaka arbetsflödeskörning](https://docs.adobe.com/help/en/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)  (Campaign Classic)
+* [God praxis för arbetsflöden](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) (Campaign Standard)
+* [Övervaka arbetsflödeskörning](https://docs.adobe.com/help/se-SV/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
 
 **Databasunderhåll**
 
-* Teknisk arbetsgång för databasrensning ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
-* [Underhållshandbok](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html)  för databas (Campaign Classic)
-* [Felsökning](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html)  av databasprestanda (Campaign Classic)
-* [Databasrelaterade alternativ](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)  (Campaign Classic)
-* Datalagring ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
+* Tekniskt arbetsflöde för databasrensning ([Campaign Standard](https://docs.adobe.com/help/sv-SE/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) och [Campaign Classic](https://docs.adobe.com/help/sv-SE/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* [Användarhandbok om databasunderhåll](https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
+* [Felsökning av databasprestanda](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=sv) (Campaign Classic)
+* [Databasrelaterade alternativ](https://docs.adobe.com/help/se-SV/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
+* Datakvarhållning ([Campaign Standard](https://docs.adobe.com/help/sv-SE/campaign-standard/using/administrating/application-settings/data-retention.html) och [Campaign Classic](https://docs.adobe.com/help/se-SV/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
 >[!NOTE]
 >
->Dessutom kan du få meddelanden när någon av dina databaser når sin kapacitet. Om du vill göra det prenumererar du på [e-postaviseringar](../../performance-monitoring/using/email-alerting.md).
+>Dessutom kan du få meddelanden när någon av dina databaser nästan är nått full kapacitet. Om du vill göra det ska du prenumerera på [e-postaviseringar](../../performance-monitoring/using/email-alerting.md).
