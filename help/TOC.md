@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: kontrollpanelen
 audience: end-user
 user-guide-title: Guide till Kontrollpanelen
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Beginner
 translation-type: ht

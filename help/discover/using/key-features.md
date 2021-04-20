@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Åtkomst till kontrollpanelen
 description: Läs om hur man får åtkomst till Kontrollpanelen
-feature: 'Kontrollpanelen  '
-role: Arkitekt
-level: Nybörjare
+feature: Control Panel
+role: Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt

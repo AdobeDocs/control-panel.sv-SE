@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Vanliga frågor och svar om Kontrollpanelen
 description: Vanliga frågor om Kontrollpanelen
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d

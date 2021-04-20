@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Logga in på SFTP-servern
 description: Lär dig logga in på SFTP-servern
-feature: 'Kontrollpanelen  '
-role: Arkitekt
-level: Erfaren
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

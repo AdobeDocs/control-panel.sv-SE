@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Övervaka databaser
 description: Läs om hur du övervakar din Campaign-databas i Kontrollpanelen
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e

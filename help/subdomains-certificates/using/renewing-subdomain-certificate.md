@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Förnya en underdomäns SSL-certifikat
 description: Läs om hur man förnyar underdomäners SSL-certifikat
-feature: 'Kontrollpanelen  '
-role: Arkitekt
-level: Erfaren
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

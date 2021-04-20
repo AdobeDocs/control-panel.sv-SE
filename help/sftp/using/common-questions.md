@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Vanliga frågor
 description: Läs mer om vanliga frågor gällande SFTP-hantering
-feature: 'Kontrollpanelen  '
-role: Arkitekt
-level: Mellanliggande
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

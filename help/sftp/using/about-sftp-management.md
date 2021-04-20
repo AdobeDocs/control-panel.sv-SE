@@ -4,9 +4,9 @@ solution: Campaign
 title: Om SFTP-hantering
 description: Läs mer om SFTP-hantering på Kontrollpanelen
 testing: SSECD-836 2
-feature: 'Kontrollpanelen  '
-role: Arkitekt
-level: Mellanliggande
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

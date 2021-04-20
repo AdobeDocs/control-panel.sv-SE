@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Tillåtelselista med IP-adresser
 description: Läs om hur man lägger till IP-adresser i tillåtelselistan i Kontrollpanelen för åtkomst till instanser
-feature: 'Kontrollpanelen  '
-role: Arkitekt
-level: Mellanliggande
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
