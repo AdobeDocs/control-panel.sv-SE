@@ -3,15 +3,15 @@ product: campaign
 solution: Campaign
 title: Övervaka databaser
 description: Läs om hur du övervakar din Campaign-databas i Kontrollpanelen
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ En överfull instansdatabas kan leda till flera problem (oförmåga att logga in
 
 >[!NOTE]
 >
->Om mängden tillgängligt databasutrymme som visas på Kontrollpanelen inte motsvarar mängden som anges i ditt avtal kan du kontakta kundtjänst.
+>Om mängden tillgängligt databasutrymme som visas på Kontrollpanelen inte motsvarar mängden som anges i ditt avtal kan du kontakta Kundtjänst.
 
 ## Övervaka databasanvändning {#monitoring-instances-database}
 
@@ -45,7 +45,7 @@ Välj önskad instans i **[!UICONTROL Instance List]** om du vill visa informati
 >
 >Observera att data från den här instrumentpanelen uppdateras baserat på **[!UICONTROL Database cleanup technical workflow]** som körs på din instans i Campaign (se dokumentationen om [Campaign Standard](https://docs.adobe.com/help/sv-SE/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) och [Campaign Classic](https://docs.adobe.com/help/sv-SE/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)).
 >
->Du kan kontrollera att du får meddelanden när en av dina databaser når sin kapacitet efter senaste gången arbetsflödet kördes, under måtten **[!UICONTROL Used Space]** och **[!UICONTROL Provided Space]**. Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar kundtjänsten hos Adobe så att de undersöker varför arbetsflödet inte körs.
+>Dessutom kan du få meddelanden när en av dina databaser når sin sista gång arbetsflödet kördes under måtten **[!UICONTROL Used Space]** och **[!UICONTROL Provided Space]**. Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar kundtjänsten hos Adobe så att de undersöker varför arbetsflödet inte körs.
 
 Ytterligare mätvärden, som beskrivs nedan, är tillgängliga på den här instrumentpanelen för att hjälpa dig att analysera hur instansens databas används.
 
@@ -105,11 +105,13 @@ Med knappen **[!UICONTROL View all]** får du åtkomst till detaljerad informati
 
 ![](assets/database-top10-view.png)
 
->[!NOTE]
+Värdet i kolumnen **[!UICONTROL Keep interim results]** anger om alternativet är aktiverat (&quot;1&quot;) eller inaktiverat (&quot;0&quot;) i Campaign. Med det här alternativet kan du spara resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde (se [Campaign Standard](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) och [Campaign Classic](https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)-dokumentationen).
+
+>[!IMPORTANT]
 >
->Värdet i kolumnen **[!UICONTROL Keep interim results]** anger om alternativet är aktiverat (&quot;1&quot;) eller inaktiverat (&quot;0&quot;) i Campaign. Alternativet **[!UICONTROL Keep interim results]** är tillgängligt i arbetsflödenas egenskaper. Du kan spara resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde (se dokumentationen om [Campaign Standard](https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) och [Campaign Classic](https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)).
+>Det här alternativet får aldrig checkas in i ett produktionsarbetsflöde. Den används för att analysera resultaten och är endast avsedd för testning och ska därför endast användas i utvecklings- eller stagingmiljöer.
 >
->Om alternativet är aktiverat för ett av dina arbetsflöden, kan inte arbetsflödet för databasrensning frigöra det utrymme som används av mellanliggande resultat. Vi rekommenderar därför att du granskar arbetsflödet för att kontrollera om alternativet kan inaktiveras.
+>Om värdet på Kontrollpanelen anger att alternativet är aktiverat för ett av dina arbetsflöden rekommenderar vi att du inaktiverar det i Campaign.
 
 ## Förhindra databasöverbelastning {#preventing-database-overload}
 
@@ -124,7 +126,7 @@ Avsnittet nedan innehåller användbara resurser från dokumentationen om Campai
 
 **Databasunderhåll**
 
-* Tekniskt arbetsflöde för databasrensning ([Campaign Standard](https://docs.adobe.com/help/sv-SE/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) och [Campaign Classic](https://docs.adobe.com/help/sv-SE/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Tekniskt arbetsflöde för databasrensning ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) och [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Användarhandbok om databasunderhåll](https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Felsökning av databasprestanda](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=sv) (Campaign Classic)
 * [Databasrelaterade alternativ](https://docs.adobe.com/help/se-SV/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
