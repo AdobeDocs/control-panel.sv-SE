@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Åtkomst till kontrollpanelen
 description: Läs om hur man får åtkomst till Kontrollpanelen
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
+exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
+source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 71%
+source-wordcount: '316'
+ht-degree: 87%
 
 ---
-
 
 # Viktiga funktioner {#key-features}
 
@@ -33,9 +32,9 @@ Viktiga fördelar:
 
 >[!NOTE]
 >
->Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Kontrollpanelen är begränsad till administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 >
->Observera att din instans måste ligga på AWS och uppgraderas med den senaste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)-versionen eller den [senaste GA-versionen (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Lär dig hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Om du vill kontrollera om din instans finns på AWS följer du stegen som beskrivs i [den här sidan](../../faq.md).
+>Observera till exempel att din instans måste ligga hos Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)-versionen. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md) för att kontrollera om instanser har AWS som värd.
 
 <table style="table-layout:fixed">
 <tr>
