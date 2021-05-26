@@ -5,7 +5,7 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9c7a17d3e6d5bb953cb584f5a255d7b76d5c2973
+source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 68%
@@ -31,13 +31,7 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
 >* Kontrollpanelen är begränsad till administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
    >
    >
-* Observera till exempel att din instans måste ligga hos Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)-versionen.
-   >   
-   >   
-   * Lär dig hur du kontrollerar Campaign Classic-versionen i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version).
-      >   
-      >   
-   * Om du vill kontrollera om din Campaign Classic-instans finns på AWS följer du stegen som beskrivs i [den här sidan](faq.md).
+* Observera till exempel att din instans måste ligga hos Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)-versionen. Lär dig hur du kontrollerar Campaign Classic-versionen i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Om du vill kontrollera om din Campaign Classic-instans finns på AWS följer du stegen som beskrivs i [den här sidan](faq.md).
 
 
 ## Ytterligare resurser {#additional-resources}
