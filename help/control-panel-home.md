@@ -29,9 +29,8 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
 >[!NOTE]
 >
 >* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
-   >
-   >
-* Observera att för Campaign Classic måste din instans ha Amazon Web Services (AWS) som värd och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om din instans i Campaign Classic har AWS som värd.
+>
+>* Observera att för Campaign Classic måste din instans ha Amazon Web Services (AWS) som värd och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om din instans i Campaign Classic har AWS som värd.
 
 
 ## Ytterligare resurser {#additional-resources}
