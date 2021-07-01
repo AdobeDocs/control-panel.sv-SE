@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Konfigurera en ny underdomän
 description: Läs om hur man skapar en ny underdomän för instanser i Campaign
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +63,10 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
    ![](assets/subdomain3.png)
 
 1. Skapa den önskade underdomänen och namnservrar i värdlösningen som används av organisationen. Gör detta genom att kopiera och klistra in Adobe Nameserver-informationen som visas i guiden. Se [videon med självstudiekurser](https://video.tv.adobe.com/v/30175) för mer information om hur du skapar en underdomän i en värdlösning.
+
+   >[!NOTE]
+   >
+   > Med underdomäner kan du till exempel skicka både marknadsförings- och transaktionskommunikation via Adobe Campaign Standard.
 
    ![](assets/subdomain4.png)
 
@@ -159,7 +162,7 @@ Du får mer information om underdomänen genom att klicka på knapparna **[!UICO
 
 ![](assets/sender_info.png)
 
-## Felsökning {#troubleshooting}
+## Felsöka {#troubleshooting}
 
 * I vissa fall godkänns konfigurationen medan underdomänen kanske inte kan verifieras. Underdomänen blir kvar i **[!UICONTROL Configured]**-listan med en jobblogg med information om felet. Kontakta kundtjänsten om du behöver hjälp med att lösa problemet.
 * Starta en ny verifiering av underdomäner (**…**/**[!UICONTROL Verify subdomain]**) om underdomänen visas som ”Ej verifierad” efter att den har konfigurerats. Om den fortfarande har samma status kan det bero på att det anpassningar utförs i mottagarschemat som inte kan verifieras med standardprocesser. Försök skicka en kampanj med den underdomänen.
