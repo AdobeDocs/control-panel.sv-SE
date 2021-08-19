@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Hantera TXT-poster
 description: Läs mer om hur man hanterar TXT-poster för verifiering av domänägarskap.
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 90%
+source-wordcount: '354'
+ht-degree: 92%
 
 ---
-
 
 # Hantera TXT-poster {#managing-txt-records}
 
@@ -21,6 +20,10 @@ ht-degree: 90%
 >id="cp_siteverification_add"
 >title="Hantera TXT-poster"
 >abstract="Vissa tjänster såsom Google kräver att du lägger till en TXT-post i domäninställningarna för att verifiera att du äger domänen."
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är inte tillgänglig för Campaign v8.
 
 ## Om TXT-poster {#about-txt-records}
 
@@ -30,7 +33,7 @@ För att säkerställa ett stort antal verkliga e-postmeddelanden och ett lågt 
 
 Gmail är för närvarande en av de populäraste e-postadressleverantörerna. För att säkerställa en god levererbarhet och framgångsrik leverans av e-post till Gmail-adresser kan du med Adobe Campaign lägga till särskilda TXT-poster för Googles webbplatsverifiering i underdomänerna för att säkerställa att de verifieras.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates)
 
 ## Lägga till en Google TXT-post i en underdomän {#adding-a-google-txt-record}
 
