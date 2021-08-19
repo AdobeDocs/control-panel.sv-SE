@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Versioner av Kontrollpanelen
 description: Senaste versionsinformation för Kontrollpanelen.
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: tm+mt
-source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +22,7 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >
 >Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 >
->Observera att för Campaign Classic måste din instans ligga på AWS och uppgraderas med den senaste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=sv)-versionen eller den [senaste GA-versionen (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=sv#release-notes). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om instanser har AWS som värd.
+>Observera att din instans måste ligga på AWS för Campaign Classic v7 och uppgraderas med den senaste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=sv)-versionen eller den [senaste GA-versionen (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=sv#release-notes). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om instanser har AWS som värd.
 
 ## Oktober 2020 {#october-2020}
 
@@ -80,7 +79,7 @@ Kontrollpanelen i Campaign är utrustad med funktioner för e-postavisering i re
 Vi har lagt till nya funktioner för administratörsanvändare som nu kan konfigurera underdomäner och förnya SSL-certifikat via Kontrollpanelen.
 
 Mer information finns på följande sidor:
-* [Konfigurera en ny underdomän ](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Konfigurera en ny underdomän](subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Förnya en underdomäns SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 >[!IMPORTANT]
