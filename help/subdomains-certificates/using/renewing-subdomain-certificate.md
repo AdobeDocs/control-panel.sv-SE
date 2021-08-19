@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Förnya en underdomäns SSL-certifikat
 description: Läs om hur man förnyar underdomäners SSL-certifikat
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 90%
+source-wordcount: '868'
+ht-degree: 93%
 
 ---
-
 
 # Förnya en underdomäns SSL-certifikat {#renewing-subdomains-ssl-certificates}
 
@@ -28,7 +27,9 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->Underdomänskonfigurationen från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
+>Att konfigurera underdomäner i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
+>
+>Den här funktionen är inte tillgänglig för Campaign v8.
 
 Processen gällande förnyelse av SSL-certifikat omfattar tre steg:
 
@@ -39,7 +40,7 @@ När en begäran om certifikatsignering har skapats kan du hämta och använda d
 1. **Installera SSL-certifikatet**
 När du har köpt SSL-certifikatet kan du installera det på önskad underdomän.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## Generera en begäran om certifikatsignering {#generating-csr}
 
