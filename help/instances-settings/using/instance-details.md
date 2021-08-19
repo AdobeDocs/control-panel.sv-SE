@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Instansinformation
 description: Läs om hur man övervakar information om instanser i Kontrollpanelen
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
-
 
 # Instansinformation {#instance-details}
 
@@ -28,9 +27,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Den här funktionen är endast tillgänglig för instanser i Campaign Classic.
+>Den här funktionen är endast tillgänglig för instanser av Campaign Classic v7 och Campaign v8.
 
-Instansarkitekturen i Adobe Campaign Classic kan innehålla flera servrar för att möjliggöra flexibilitet i marknadsföringsaktiviteter. Du kan t.ex. ha servrar för marknadsföring, realtid (eller meddelandecenter) samt mid-sourcing som har stöd för din instans.
+Instansarkitekturen i Adobe Campaign kan innehålla flera servrar för att möjliggöra flexibilitet i marknadsföringsaktiviteter. Du kan t.ex. ha servrar för marknadsföring, realtid (eller meddelandecenter) samt mid-sourcing som har stöd för din instans.
 
 Funktionaliteten i Instansinformationen låter dig se instansens platta arkitektur. Förutom serverinformation får du även reda på om instansens build är aktuell eller inte samt rekommendationer om uppgraderingar när det behövs.
 
@@ -53,7 +52,7 @@ Följ dessa steg för att få information om servrarna som är anslutna till din
    >
    >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
 
-1. Välj den önskade instansen i Campaign Classic i det vänstra fönstret.
+1. Välj den önskade instansen i Campaign i det vänstra fönstret.
 
    >[!NOTE]
    >
