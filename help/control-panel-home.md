@@ -5,10 +5,10 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 88%
+source-wordcount: '225'
+ht-degree: 83%
 
 ---
 
@@ -32,6 +32,9 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
    >
    >
 * Observera att din instans för Campaign Classic v7 måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om din instans i Campaign Classic har AWS som värd.
+   >
+   >
+* Följande funktioner är inte tillgängliga för Campaign v8: Underdomänshantering och certifikatshantering.
 
 
 ## Ytterligare resurser {#additional-resources}
