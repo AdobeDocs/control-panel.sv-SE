@@ -3,19 +3,22 @@ product: campaign
 solution: Campaign
 title: Övervaka underdomäners SSL-certifikat
 description: Läs om hur man övervakar underdomäners SSL-certifikat
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '152'
 ht-degree: 17%
 
 ---
 
-
 # Övervaka underdomänerna {#monitoring-subdomains}
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är inte tillgänglig för Campaign v8.
 
 Det är viktigt att du övervakar dina underdomäner för att se till att alla är konfigurerade på rätt sätt för att fungera med Adobe Campaign.
 
