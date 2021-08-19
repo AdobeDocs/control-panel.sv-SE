@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Hantera GPG-nycklar
 description: Lär dig hur du hanterar GPG-nycklar för att kryptera och dekryptera data i Adobe Campaign.
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1157'
 ht-degree: 8%
 
 ---
-
 
 # Hantera GPG-nycklar {#gpg-keys-management}
 
@@ -31,7 +30,7 @@ Då kan du:
 
 * **Dekryptera inkommande data**: Adobe Campaign tar emot data som har krypterats utanför ett externt system med en offentlig nyckel som hämtats från Kontrollpanelen. Adobe Campaign dekrypterar data med en privat nyckel som genereras från Kontrollpanelen.
 
-## Krypterar data {#encrypting-data}
+## Kryptera data {#encrypting-data}
 
 Med kontrollpanelen kan du kryptera data som kommer från instansen i Adobe Campaign.
 
@@ -90,7 +89,7 @@ Nyckeln kan sedan användas i Adobe Campaign arbetsflöden. Du kan använda den 
 
 Mer information om detta finns i Adobe Campaign-dokumentationen:
 
-**Campaign Classic:**
+**Campaign Classic v7 och Campaign v8:**
 
 * [Zippa eller kryptera en fil](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
@@ -133,7 +132,7 @@ Den offentliga nyckeln är sedan tillgänglig för delning med valfritt externt 
 
 Mer information finns i Adobe Campaign-dokumentationen:
 
-**Campaign Classic:**
+**Campaign Classic v7 och Campaign v8:**
 
 * [Packa upp eller dekryptera en fil före bearbetning](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
 * [Användningsfall: Importera data krypterade med en nyckel som genererats av Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
@@ -177,11 +176,10 @@ Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. De
 >
 >Innan du tar bort en tangent bör du kontrollera att den inte används i något Adobe Campaign-arbetsflöde för att förhindra att den misslyckas.
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 I videon nedan visas hur du genererar och installerar GPG-nycklar för datakryptering.
 
 Ytterligare instruktionsvideor om GPG-knapphantering finns på [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)- och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) självstudiesidor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
-
