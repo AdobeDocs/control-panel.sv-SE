@@ -7,10 +7,10 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 98%
+source-wordcount: '1166'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,14 @@ ht-degree: 98%
 >abstract="Du måste konfigurera en ny underdomän och hantera dina underdomäners SSL-certifikat för att kunna börja skicka e-postmeddelanden eller publicera landningssidor med Adobe Campaign."
 >additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Så övervakar du dina underdomäners SSL-certifikat"
 
+
 ## Måste läsas {#must-read}
 
 >[!IMPORTANT]
 >
 >Att konfigurera underdomäner i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
+>
+>Den här funktionen är inte tillgänglig för Campaign v8.
 
 Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [Varumärke för underdomäner](../../subdomains-certificates/using/subdomains-branding.md).
 
