@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Märka underdomäner
 description: Läs mer om att märka underdomäner
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 80%
 
 ---
-
 
 # Märka underdomäner {#subdomains-branding}
 
@@ -23,11 +22,14 @@ ht-degree: 79%
 >abstract="Övervaka dina underdomäner och associerade SSL-certifikat."
 >additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Så övervakar du dina underdomäners SSL-certifikat"
 
+
 ## Varför konfigurera underdomäner? {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->Underdomänskonfigurationen från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
+>Att konfigurera underdomäner i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
+>
+>Den här funktionen är inte tillgänglig för Campaign v8.
 
 En underdomän är en division av domänen som kan användas för att isolera varumärken eller olika typer av trafik (transaktionsmeddelanden, marknadsföringsinformation osv.).
 
@@ -53,7 +55,7 @@ Tabellen nedan tillhandahåller en sammanfattning av hur dessa metoder fungerar 
 | **Fullständig delegering** | Skapa underdomänen och posten för namnrymden. Adobe konfigurerar sedan alla DNS-poster som krävs för Adobe Campaign.<br/><br/>I den här konfigurationen är Adobe helt ansvarigt för att hantera underdomänen och alla DNS-poster. | Låg |
 | **CNAME och anpassad metod** | Skapa underdomänen och posten för namnrymden. Adobe tillhandahåller sedan de poster som ska placeras i DNS-servrarna och konfigurerar motsvarande värden i Adobe Campaign DNS-servrar.<br/><br/>I den här konfigurationen delar både du och Adobe ansvaret för att underhålla DNS:er. | Hög |
 
-Ytterligare information om domänkonfiguration finns i [den här dokumentationen](https://helpx.adobe.com/se/campaign/kb/domain-name-delegation.html).
+Ytterligare information om domänkonfiguration finns i [den här dokumentationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontakta Adobe Deliverability Team eller så småningom kontakta Kundtjänst för att få rådgivning om slutprodukten.
 
@@ -80,5 +82,5 @@ Möjliga användningsområden är:
 
 **Relaterade ämnen:**
 
-* [Konfigurera en ny underdomän ](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Övervaka underdomänerna](../../subdomains-certificates/using/monitoring-subdomains.md)
