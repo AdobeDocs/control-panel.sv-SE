@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: Tillåtelselista med IP-adresser
 description: Läs om hur man lägger till IP-adresser i tillåtelselistan i Kontrollpanelen för åtkomst till instanser
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 94%
+source-wordcount: '770'
+ht-degree: 91%
 
 ---
 
-
-# Tillåtelselista IP-adresser {#ip-allow-listing}
+# Tillåtelselista med IP-adresser {#ip-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange"
@@ -23,13 +22,13 @@ ht-degree: 94%
 >abstract="Lägg till IP-adresser i tillåtelselistan för att komma åt dina instanser."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Se demovideon"
 
-## Om att tillåtelselista med IP-adresser {#about-ip-allow-listing}
+## Om tillåtelselista med IP-adresser {#about-ip-allow-listing}
 
 >[!IMPORTANT]
 >
->Den här funktionen är endast tillgänglig för instanser i Campaign Classic.
+>Den här funktionen är endast tillgänglig för instanser av Campaign Classic v7 och Campaign v8.
 
-Som standard är din instans i Adobe Campaign Classic endast tillgänglig från specifika IP-adresser.
+Som standard är din instans i Adobe Campaign endast tillgänglig från specifika IP-adresser.
 
 Du måste lägga till din IP-adress i tillåtelselistan för att kunna logga in på instansen från den här adressen. Den specifika IP-adressen för instansen måste ha lagts till i tillåtelselistan för att ansluta ett API till ditt meddelandecenter eller din marknadsföringsinstans.
 
@@ -39,7 +38,7 @@ När IP-adresserna finns i tillåtelselistan kan du skapa och länka Campaign-op
 
 ![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
-## God praxis {#best-practices}
+## Bästa praxis {#best-practices}
 
 Se till att du följer rekommendationerna och begränsningarna nedan när du lägger till IP-adresser i tillåtelselistan i Kontrollpanelen.
 
@@ -83,7 +82,7 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
 1. Ange typen av åtkomst du vill bevilja IP-adresserna:
 
-   * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan ansluta till konsolen i Campaign Classic. Observera att åtkomst till konsolen endast är aktiverad för marknadsföringsinstanser. Observera att åtkomst till MID- och RT-instanser inte är tillåten och därför inte aktiverad.
+   * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan ansluta till Campaign Client Console. Observera att åtkomst till konsolen endast är aktiverad för marknadsföringsinstanser. Observera att åtkomst till MID- och RT-instanser inte är tillåten och därför inte aktiverad.
    * **[!UICONTROL AEM connection]**: de angivna IP-adresserna till AEM kan ansluta till marknadsföringsinstansen.
    * **[!UICONTROL External API connection]**: Externa API:er med de angivna IP-adresserna kan ansluta till instansen för marknadsföring och/eller meddelandecenter (RT). Observera att anslutningen till konsolen i RT-instanser är inaktiverad.
 
