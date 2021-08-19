@@ -5,10 +5,10 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 88%
 
 ---
 
@@ -29,8 +29,9 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
 >[!NOTE]
 >
 >* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
->
->* Observera att för Campaign Classic måste din instans ha Amazon Web Services (AWS) som värd och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om din instans i Campaign Classic har AWS som värd.
+   >
+   >
+* Observera att din instans för Campaign Classic v7 måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om din instans i Campaign Classic har AWS som värd.
 
 
 ## Ytterligare resurser {#additional-resources}
