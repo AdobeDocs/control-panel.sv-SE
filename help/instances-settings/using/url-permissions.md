@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: URL-behörigheter
 description: Läs om hur man hanterar URL-behörigheter i Kontrollpanelen
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
-
 
 # URL-behörigheter {#url-permissions}
 
@@ -27,9 +26,9 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->Den här funktionen är endast tillgänglig för instanser i Campaign Classic från build 8850. Om du använder en tidigare build måste du uppgradera för att kunna använda den här funktionen.
+>Den här funktionen är endast tillgänglig för Campaign v8 och Campaign Classic v7 från version 8850. Om du använder en tidigare build måste du uppgradera för att kunna använda den här funktionen.
 
-Standardlistan med URL:er som kan anropas av JavaScript-koder (arbetsflöden osv.) från dina instanser i Campaign Classic är begränsad. Dessa är URL:er som gör det möjligt för dina instanser att fungerar korrekt.
+Standardlistan med URL:er som kan anropas av JavaScript-koder (arbetsflöden osv.) från dina instanser i Campaign är begränsad. Dessa är URL:er som gör det möjligt för dina instanser att fungerar korrekt.
 
 Som standard tillåts instanser endast att ansluta till interna URL:er. Via Kontrollpanelen kan du lägga till externa URL:er i listan över auktoriserade URL:er. Detta låter instansen ansluta till dem. Detta gör det möjligt för dig att ansluta instanserna i Campaign till externa system såsom SFTP-servrar eller webbplatser för att möjliggöra fil- och/eller dataöverföring.
 
@@ -42,7 +41,7 @@ När en URL har lagts till refereras den i instansens konfigurationsfil (serverC
 * [Konfigurera en Campaign-server](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Skydd för utgående anslutningar](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
-## God praxis {#best-practices}
+## Bästa praxis {#best-practices}
 
 * Anslut instansen i Campaign endast till webbplatser/servrar som du vill ansluta till.
 * Ta bort URL:er som du inte längre arbetar med. Tänk på att andra delar av företaget endast kan ansluta till de URL:er som finns i listan med auktoriserade URL:er.
@@ -61,7 +60,7 @@ Följ dessa steg för att lägga till en URL som instansen kan ansluta till:
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign-instanser
    >
    >På fliken <b><span class="uicontrol">URL-behörigheter</span></b> listas alla externa URL:er som din instans kan ansluta till. Den här listan innehåller inte URL:er som krävs för att Campaign ska fungera (t.ex. anslutningar mellan infrastrukturenheter).
 
