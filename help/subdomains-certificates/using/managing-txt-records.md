@@ -7,7 +7,7 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 92%
@@ -21,11 +21,11 @@ ht-degree: 92%
 >title="Hantera TXT-poster"
 >abstract="Vissa tjänster såsom Google kräver att du lägger till en TXT-post i domäninställningarna för att verifiera att du äger domänen."
 
+## Om TXT-poster {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >Den här funktionen är inte tillgänglig för Campaign v8.
-
-## Om TXT-poster {#about-txt-records}
 
 TXT-poster är en typ av DNS-poster som används för att tillhandahålla textinformation om en domän som kan läsas av externa källor.
 
