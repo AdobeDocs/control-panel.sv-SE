@@ -7,14 +7,14 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+source-git-commit: 224bad296e416288ea717c904ce679653495c046
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 94%
 
 ---
 
-# Vanliga frågor och svar  {#faq}
+# Vanliga frågor och svar {#faq}
 
 ## IMS-organisations-ID {#ims-org-id}
 
