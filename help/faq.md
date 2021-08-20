@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: Vanliga frågor och svar om Kontrollpanelen
 description: Vanliga frågor om Kontrollpanelen
-feature: Control Panel
+feature: 'Kontrollpanelen  '
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 94%
 
 ---
 
-# Vanliga frågor och svar {#faq}
+# Vanliga frågor och svar  {#faq}
 
 ## IMS-organisations-ID {#ims-org-id}
 
@@ -27,7 +26,7 @@ Se [dokumentationen om Adobe Experience Cloud](https://docs.adobe.com/content/he
 
 **Var hittar jag mitt IMS-organisations-ID?**
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://docs.adobe.com/content/help/sv-SE/core-services/interface/manage-users-and-products/organizations.translate.html).
+Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Det andra sättet är att starta **Administratörskonsolen**. Ditt IMS-organisations-ID visas i din URL. Det bör se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -89,7 +88,7 @@ Följ dessa steg för att kontrollera om AWS är värd för din instans:
 >
 >Kontakta din Customer Success Manager för att starta processen att migrera till AWS.
 
-## Kontrollpanelen {#control-panel}
+## Kontrollpanelen   {#control-panel}
 
 **Vad är Kontrollpanelen?**
 
@@ -100,6 +99,10 @@ Kontrollpanelen ger produktadministratörer möjligheten att direkt hantera olik
 Med kontrollpanelen kan du spåra lagring, lägga till IP-adresser i tillåtelselistan och hantera SSH-nycklar för dina SFTP-servrar baserat på dina behov samt andra åtgärder.
 
 Mer information finns i dokumentationen om åtgärder som Kontrollpanelen har stöd för.
+
+**Vilka funktioner som inte stöds i Campaign v8 men som är tillgängliga i Campaign Classic v7**
+
+Funktioner relaterade till subdomän- och certifikatshantering stöds ännu inte via Kontrollpanelen i Campaign v8. Kontakta Kundtjänst för Campaign om du behöver någon relaterad support.
 
 **Är Kontrollpanelen endast för Adobe Campaign?**
 
