@@ -7,10 +7,10 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 87%
+source-wordcount: '315'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >id="cp_overview"
 >title="Om Kontrollpanelen"
 >abstract="På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på instanserna i Campaign."
->additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Lära känna gränssnittet"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Lära känna gränssnittet"
 
 Med Kontrollpanelen kan du effektivisera arbetet som produktadministratör för Adobe Campaign Standard och/eller Classic genom att hantera inställningar och spåra användningen för var och en av instanserna. Det intuitiva gränssnittet låter dig enkelt övervaka användningen av nyckelresurser och utföra administrativa uppgifter såsom att lägga till IP-adresser i tillåtelselistan, övervaka SFTP-lagring, hantera nycklar och mycket annat.
 
@@ -32,9 +32,9 @@ Viktiga fördelar:
 
 >[!NOTE]
 >
->Kontrollpanelen är begränsad till administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
+>Kontrollpanelen är bara tillgänglig för administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 >
->Observera till exempel att din instans måste ligga hos Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)-versionen. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md) för att kontrollera om instanser har AWS som värd.
+>Observera att för Campaign Classic måste din instans ha Amazon Web Services (AWS) som värd och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md) för att kontrollera om instanser har AWS som värd.
 
 <table style="table-layout:fixed">
 <tr>
