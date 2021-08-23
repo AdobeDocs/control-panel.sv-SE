@@ -7,9 +7,9 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1153'
 ht-degree: 8%
 
 ---
@@ -92,11 +92,11 @@ Mer information om detta finns i Adobe Campaign-dokumentationen:
 **Campaign Classic v7 och Campaign v8:**
 
 * [Zippa eller kryptera en fil](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [Hantera krypterade data](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Hantera krypterade data](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## Dekryptera data {#decrypting-data}
@@ -139,8 +139,8 @@ Mer information finns i Adobe Campaign-dokumentationen:
 
 **Campaign Standard:**
 
-* [Hantera krypterade data](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Användningsfall: Importera data krypterade med en nyckel som genererats av Kontrollpanelen](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Hantera krypterade data](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Användningsfall: Importera data krypterade med en nyckel som genererats av Kontrollpanelen](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Övervaka GPG-nycklar
 
