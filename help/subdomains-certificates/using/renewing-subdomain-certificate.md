@@ -7,10 +7,10 @@ feature: 'Kontrollpanelen  '
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 93%
+source-wordcount: '863'
+ht-degree: 88%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 93%
 >id="cp_add_ssl_certificate"
 >title="Lägga till ett SSL-certifikat"
 >abstract="För att lägga till ett SSL-certifikat måste du generera en begäran om certifikatsignering (CSR), köpa SSL-certifikatet för underdomänerna och installera certifikatpaketet."
->additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generera en begäran om certifikatsignering"
->additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Så installerar du ett SSL-certifikat"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generera en begäran om certifikatsignering"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Så installerar du ett SSL-certifikat"
 
 ## Om certifikatförnyelse {#about-certificate-renewal-process}
 
@@ -53,8 +53,8 @@ När du har köpt SSL-certifikatet kan du installera det på önskad underdomän
 >id="cp_select_subdomains"
 >title="Välj underdomänerna för din begäran om certifikatsignering"
 >abstract="Du kan välja att inkludera alla eller endast vissa underdomäner i din begäran om certifikatsignering. Endast valda underdomäner certifieras via inköpt SSL-certifikat."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generera en begäran om certifikatsignering"
->additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Om att märka underdomäner"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generera en begäran om certifikatsignering"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Om att märka underdomäner"
 
 Följ dessa steg för att skapa en begäran om certifikatsignering:
 
@@ -104,7 +104,7 @@ När du har erhållit en begäran om certifikatsignering från Kontrollpanelen s
 >id="cp_install_ssl_certificate"
 >title="Installera SSL-certifikat"
 >abstract="Installera SSL-certifikatet som du har köpt från den certifikatutfärdare som har godkänts av din organisation."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Om att märka underdomäner"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Om att märka underdomäner"
 
 När ett SSL-certifikat har köpts kan du installera det på din instans. Innan du fortsätter ska du se till att du är medveten om förutsättningarna nedan:
 
