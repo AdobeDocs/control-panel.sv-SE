@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Konfigurera en ny underdomän
 description: Läs om hur man skapar en ny underdomän för instanser i Campaign
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="Konfigurera nya underdomäner och hantera certifikat"
 >abstract="Du måste konfigurera en ny underdomän och hantera dina underdomäners SSL-certifikat för att kunna börja skicka e-postmeddelanden eller publicera landningssidor med Adobe Campaign."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Så övervakar du dina underdomäners SSL-certifikat"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=sv" text="Så här övervakar du underdomänernas SSL-certifikat"
 
 
 ## Måste läsas {#must-read}
 
 >[!IMPORTANT]
 >
->Att konfigurera underdomäner i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
+>Konfiguration av underdomäner på Kontrollpanelen finns som betaversion, och funktionen uppdateras och ändras ofta utan föregående meddelande.
 >
->Den här funktionen är inte tillgänglig för Campaign v8.
+>Den här funktionen finns inte i Campaign v8.
 
 Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [Varumärke för underdomäner](../../subdomains-certificates/using/subdomains-branding.md).
 
 **Relaterat ämne:**
 
-* [Övervaka underdomänerna](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Övervaka underdomäner](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ### Val av instans
 
@@ -69,7 +69,7 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
 
    >[!NOTE]
    >
-   > För Adobe Campaign Standard tillåter delegerade underdomäner att du skickar både **Marknadsföring** och **Transaktionell** kommunikation.
+   > Med delegerade underdomäner i Adobe Campaign Standard kan du skicka både **marknads-** och **transaktionskommunikation**.
 
    ![](assets/subdomain4.png)
 
@@ -127,7 +127,7 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
 När underdomänen har skickats utförs olika kontroller och konfigurationssteg av Kontrollpanelen. Mer information finns i [Kontroller och konfiguration av underdomäner](#subdomain-checks-and-configuration).
 
-## Kontroller och konfiguration av underdomäner {#subdomain-checks-and-configuration}
+## Kontroll och konfiguration av underdomäner {#subdomain-checks-and-configuration}
 
 1. När underdomänen har skickats in kontrollerar Kontrollpanelen att den pekar korrekt på Adobe NS-poster och att posten Start of Authority (SOA) inte finns för den här underdomänen.
 
@@ -165,7 +165,7 @@ Du får mer information om underdomänen genom att klicka på knapparna **[!UICO
 
 ![](assets/sender_info.png)
 
-## Felsöka {#troubleshooting}
+## Felsökning {#troubleshooting}
 
 * I vissa fall godkänns konfigurationen medan underdomänen kanske inte kan verifieras. Underdomänen blir kvar i **[!UICONTROL Configured]**-listan med en jobblogg med information om felet. Kontakta kundtjänsten om du behöver hjälp med att lösa problemet.
 * Starta en ny verifiering av underdomäner (**…**/**[!UICONTROL Verify subdomain]**) om underdomänen visas som ”Ej verifierad” efter att den har konfigurerats. Om den fortfarande har samma status kan det bero på att det anpassningar utförs i mottagarschemat som inte kan verifieras med standardprocesser. Försök skicka en kampanj med den underdomänen.
