@@ -1,14 +1,14 @@
 ---
 title: Produktdokumentation
 description: Dokumentation om Kontrollpanelen.
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
-workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 72%
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+workflow-type: ht
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
 
@@ -29,12 +29,10 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
 >[!CAUTION]
 >
 >* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel)
-   >
-   >
-* För Campaign Classic v7 gäller distributionsrestriktionerna. [Läs mer](faq.md#v7-restrictions)
-   >
-   >
-* Vissa funktioner är inte tillgängliga för Campaign v8. [Läs mer](faq.md#v8-restrictions)
+>
+>* Distributionsrestriktioner gäller för Campaign Classic v7. [Läs mer](faq.md#v7-restrictions)
+>
+>* Vissa funktioner är inte tillgängliga i Campaign v8. [Läs mer](faq.md#v8-restrictions)
 
 
 ## Ytterligare resurser {#additional-resources}
@@ -43,20 +41,20 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=sv">Videor med självstudiekurser om Kontrollpanelen för Campaign Standard</a></li>
-            <li><a href="https://docs.adobe.com/content/help/sv-SE/campaign-standard/using/campaign-standard-home.html">Produktdokumentation om Campaign Standard</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=sv">Produktdokumentation om Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=sv">Självstudievideor om Kontrollpanelen för Campaign Classic v7</a></li>
-            <li><a href="https://docs.adobe.com/content/help/sv-SE/campaign-classic/using/campaign-classic-home.html">Campaign Classic v7 - produktdokumentation</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=sv">Produktdokumentation om Campaign Classic v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Självstudievideor på Kontrollpanelen för Campaign v8</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Produktdokumentation för Campaign v8</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=sv">Produktdokumentation om Campaign v8</a></li>
         </ul>
         </td>
     </tr>
