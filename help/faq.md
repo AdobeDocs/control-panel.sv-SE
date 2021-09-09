@@ -3,38 +3,38 @@ product: campaign
 solution: Campaign
 title: Vanliga frågor och svar om Kontrollpanelen
 description: Vanliga frågor om Kontrollpanelen
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
 # Vanliga frågor och svar {#faq}
 
-## Kontrollpanelen   {#control-panel}
+## Kontrollpanelen {#control-panel}
 
 ### Vad är Kontrollpanelen?
 
-Kontrollpanelen ger produktadministratörer möjligheten att direkt hantera olika inställningar och övervaka kapaciteten hos SFTP-servrar som är anslutna till Adobe Campaign.
+Med Kontrollpanelen kan produktadministratörer hantera olika inställningar direkt och övervaka kapaciteten hos SFTP-servrar som är anslutna till Adobe Campaign.
 
-### Vilka är de aktuella funktionerna i Kontrollpanelen?
+### Vilka funktioner finns på Kontrollpanelen just nu?
 
 Med kontrollpanelen kan du spåra lagring, lägga till IP-adresser i tillåtelselistan och hantera SSH-nycklar för dina SFTP-servrar baserat på dina behov samt andra åtgärder.
 
 Mer information finns i dokumentationen om åtgärder som Kontrollpanelen har stöd för.
 
-### Vilka funktioner som inte stöds i Campaign v8 men som är tillgängliga i Campaign Classic v7{#v8-restrictions}
+### Vilka funktioner i Campaign Classic v7 stöds inte i Campaign v8?{#v8-restrictions}
 
-Funktioner relaterade till subdomän- och certifikatshantering stöds ännu inte via Kontrollpanelen i Campaign v8. Kontakta Kundtjänst för Campaign om du behöver någon relaterad support.
+Funktioner som rör underdomäner och certifikathantering stöds ännu inte via Kontrollpanelen i Campaign v8. Kontakta kundtjänsten för Campaign om du behöver relaterad support.
 
-### Är Kontrollpanelen endast för Adobe Campaign?
+### Fungerar Kontrollpanelen bara för Adobe Campaign?
 
-Ja, du kan endast hantera inställningarna för Adobe Campaign via Kontrollpanelen.
+Ja, du kan bara hantera inställningar för Adobe Campaign via Kontrollpanelen.
 
 ### Kan jag använda Kontrollpanelen?
 
@@ -42,19 +42,19 @@ Kontrollpanelen kan endast användas av produktadministratörer för våra nuvar
 
 Kontakta produktadministratören om du inte är administratör men vill ha åtkomst. De hjälper dig genom att lägga till dig som administratör.
 
-### Vilka är villkoren för att få åtkomst till Kontrollpanelen som Campaign Classic v7-användare? {#v7-restrictions}
+### Vad krävs för att som Campaign Classic v7-användare få tillgång till Kontrollpanelen? {#v7-restrictions}
 
 Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 
-Observera att din instans för Campaign Classic v7 måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen i [det här avsnittet](#hosted-aws) för att kontrollera om din Campaign Classic-instans finns på AWS.
+Observera att för Campaign Classic v7 måste din instans ha Amazon Web Services (AWS) som värd och vara uppgraderad till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen i [det här avsnittet](#hosted-aws) för att kontrollera om din instans av Campaign Classic har AWS som värd.
 
-### Hur får jag åtkomst till Kontrollpanelen?
+### Hur kommer jag åt Kontrollpanelen?
 
-Följ de detaljerade instruktionerna i dokumentationen om åtkomst till Kontrollpanelen.
+Följ de detaljerade instruktionerna i dokumentationen för hur du kommer åt Kontrollpanelen.
 
-### Finns det en extra avgift för att använda Kontrollpanelen?
+### Kostar det mer att använda Kontrollpanelen?
 
-Du kan använda den utan extra kostnad om du för närvarande är kund hos Adobe Campaign.
+Nej, du kan använda den utan någon extra kostnad om du just nu är Adobe Campaign-kund.
 
 ## IMS-organisations-ID {#ims-org-id}
 
@@ -62,17 +62,17 @@ Du kan använda den utan extra kostnad om du för närvarande är kund hos Adobe
 
 Det är ett unikt ID som ges till instansen när du först loggar in på Adobe Experience Cloud. Den ska ha följande format: xxx@AdobeOrg.
 
-Se [dokumentationen om Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en) för mer information.
+Se [dokumentationen om Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv) för mer information.
 
 ### Var hittar jag mitt IMS-organisations-ID?
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/?lang=sv) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv).
 
 Det andra sättet är att starta **Administratörskonsolen**. Ditt IMS-organisations-ID visas i din URL. Det bör se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
 ### Varför behöver jag känna till mitt IMS-organisations-ID?
 
-För att du ska kunna hantera instansinställningar måste du se till att ha rätt information för rätt instans om du använder flera instanser för ditt företag.
+För att du ska kunna hantera inställningarna för din instans vill vi försäkra oss om att du har rätt information för rätt instans ifall du använder flera instanser för ditt företag.
 
 ### Vad händer om jag har flera IMS-organisations-ID:n?
 
@@ -84,7 +84,7 @@ Du kan ha mer än ett IMS-organisation-ID om du har tillgång till flera Adobe-l
 >
 >Om du har olika IMS-organisations-ID:n för Adobe Campaign och Adobe Analytics ska du kontakta kundtjänst för att få dem korrigerade.
 
-### Hur vet jag att AWS är värd för min instans i Adobe Campaign?{#hosted-aws}
+### Hur vet jag att AWS är värd för min Adobe Campaign-instans?{#hosted-aws}
 
 Följ dessa steg för att kontrollera om AWS är värd för din instans:
 
