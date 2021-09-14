@@ -6,14 +6,13 @@ description: Lär dig hantera behörigheter på Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
+source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
-
 
 # Hantera behörigheter till Kontrollpanelen {#managing-permissions-control-panel}
 
@@ -21,21 +20,19 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 
 ![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](../../discover/using/managing-permissions.md#video)
 
-1. Gå till [Adobe Experience Cloud](https://experiencecloud.adobe.com/) och välj sedan fliken **[!UICONTROL Administration]**.
+1. Navigera till [Adobe Experience Cloud hemsida](https://experiencecloud.adobe.com/?lang=sv){target=&quot;_blank&quot;}.
 
-   ![](assets/do-not-localize/control_panel_add_user1.png)
+1. Starta **Admin Console** genom att klicka på den tillgängliga länken i **snabbåtkomstsektionen** eller den övre högra menyn.
+
+   ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Om fliken <b>Administration</b> inte visas betyder det att du inte har administratörsbehörighet för din organisation. Kontakta organisationens administratörer för att utföra stegen med dem.
+   >Om länken **Admin Console** inte visas betyder det att du inte har administratörsbehörighet för din organisation. Kontakta organisationens administratörer för att utföra stegen med dem.
 
-1. Starta **Admin Console** genom att klicka på de tillgängliga länkarna.
+1. I **Admin Console** väljer du önskad kampanjprodukt i listan **[!UICONTROL Products and services]**.
 
-   ![](assets/do-not-localize/control_panel_admin1.png)
-
-1. Välj önskad kampanjprodukt.
-
-   ![](assets/do-not-localize/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_product-list.png)
 
    >[!NOTE]
    >
@@ -43,13 +40,13 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 
 1. Listan med instanser för din Campaign-produkt visas. Markera instansen som du vill lägga till en Admin-användare i.
 
-   ![](assets/do-not-localize/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user_4.png)
 
    >[!NOTE]
    >
-   >Du kan lägga till olika administratörsanvändare för varje Campaign-instans. I så fall får administratörsanvändare tillgång till Kontrollpanelen för den instans de bara tillhör.
+   >Du kan lägga till olika administratörsanvändare för varje Campaign-instans. Administratörsanvändare kommer bara åt Kontrollpanelen för den instans de tillhör.
 
-1. Listan med produktprofiler för den valda instansen visas. Klicka på **[!UICONTROL Administrators]**-produktprofilen för att få tillgång till listan med admin-användare.
+1. Listan med **[!UICONTROL Product Profiles]** för den valda instansen visas. Klicka på **[!UICONTROL Administrators]**-produktprofilen för att få tillgång till listan med admin-användare.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -65,6 +62,6 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 >
 >När åtkomsten är konfigurerad måste användaren logga ut från Adobe Experience Cloud och logga in igen för att komma åt Kontrollpanelen.
 
-## Självstudievideo {#video}
+## Videokurs {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)

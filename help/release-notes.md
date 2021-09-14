@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Versioner av Kontrollpanelen
 description: Senaste versionsinformation för Kontrollpanelen.
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: bffe0b17dad980e045bf4f56beadfb444a31dc88
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '669'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,10 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 >
 >Observera att din instans måste ligga på AWS för Campaign Classic v7 och uppgraderas med den senaste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=sv)-versionen eller den [senaste GA-versionen (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=sv#release-notes). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om instanser har AWS som värd.
+
+## Augusti 2021 {#august-2021}
+
+Kontrollpanelen är nu tillgänglig för Adobe Campaign v8, förutom hanteringsfunktionerna **Underdomän** och **Certificate**, som ännu inte stöds. Läs mer i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target=&quot;_blank&quot;}
 
 ## Oktober 2020 {#october-2020}
 
