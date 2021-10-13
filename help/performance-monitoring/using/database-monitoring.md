@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: ht
-source-wordcount: '954'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,12 @@ En överfull instansdatabas kan leda till flera problem (oförmåga att logga in
 >Om mängden tillgängligt databasutrymme som visas på Kontrollpanelen inte motsvarar mängden som anges i ditt avtal ska du kontakta kundtjänst.
 
 ## Övervaka databasanvändning {#monitoring-instances-database}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_database"
+>title="Om databasövervakning"
+>abstract="På den här fliken kan du få realtidsinformation om den senaste och historiska databasanvändningen och utvecklingen för var och en av era Campaign-instanser."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestandaövervakning"
 
 ![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring)
 
@@ -61,6 +67,11 @@ Om du vill ha mer information om en viss tidsperiod håller du pekaren över dia
 ![](assets/databases_dashboard_detail.png)
 
 ### Lagringsöversikt {#storage-overview}
+
+>[!CONTEXTUALHELP]
+>id="cp_dbdetails_storagedetails"
+>title="Om lagring - översikt"
+>abstract="På den här fliken kan du få detaljerad information om olika Campaign-resurser som förbrukar databasutrymme."
 
 Området **[!UICONTROL Storage overview]** innehåller en grafisk representation av det utrymme som används av:
 
@@ -125,7 +136,7 @@ Avsnittet nedan innehåller användbara resurser från dokumentationen om Campai
 
 **Databasunderhåll**
 
-* Tekniskt arbetsflöde för databasrensning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv#list-of-technical-workflows) – [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=sv)
+* Tekniskt arbetsflöde för databasrensning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) – [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en)
 * [Användarhandbok om databasunderhåll](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=sv) (Campaign Classic)
 * [Felsökning av databasprestanda](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=sv) (Campaign Classic)
 * [Databasrelaterade alternativ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=sv#database) (Campaign Classic)

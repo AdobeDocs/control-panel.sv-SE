@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Tillåtelselista med IP-adresser
 description: Läs om hur man lägger till IP-adresser i tillåtelselistan i Kontrollpanelen för åtkomst till instanser
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 91%
+source-wordcount: '767'
+ht-degree: 89%
 
 ---
 
@@ -46,11 +46,11 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 * **Om du tillfälligt har aktiverat åtkomst till din instans för en viss IP-adress** bör du se till att ta bort IP-adresserna från tillåtelselistan när du inte längre behöver ansluta till instansen.
 * **Vi rekommenderar att man inte lägger till IP-adresser för offentliga platser i tillåtelselistan** (flygplatser och hotell osv.). Använd företagets VPN-adress för att alltid skydda din instans.
 
-## Lägga till IP-adresser i tillåtelselistan för åtkomst till instansen {#adding-ip-addresses-allow-list}
+## Lägga till IP-adresser i tillåtelselista för instansåtkomst {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Lägga till ett nytt IP-intervall"
+>title="IP-intervallkonfiguration"
 >abstract="Definiera IP-intervallet som du vill lägga till i tillåtelselistan för att ansluta till instansen."
 
 Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:

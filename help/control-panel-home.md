@@ -5,14 +5,21 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: 959fb37034e787d5f61634d55abfe931968613d2
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 91%
 
 ---
 
 # Hjälpcenter {#control-panel-documentation}
+
+>[!CONTEXTUALHELP]
+>id="cp_overview"
+>title="Om Kontrollpanelen"
+>abstract="På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på instanserna i Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Upptäck gränssnittet"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en" text="Hur kommer jag åt Kontrollpanelen"
 
 ![](assets/do-not-localize/banner.png)
 

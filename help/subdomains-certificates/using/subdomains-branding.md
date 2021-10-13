@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Märka underdomäner
 description: Läs mer om att märka underdomäner
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 80%
+source-wordcount: '753'
+ht-degree: 78%
 
 ---
 
@@ -20,16 +20,15 @@ ht-degree: 80%
 >id="cp_certificate_management"
 >title="Om underdomäner och SSL-certifikat"
 >abstract="Övervaka dina underdomäner och associerade SSL-certifikat."
->additional-url="https://docs.adobe.com/content/help/sv-SE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Så övervakar du dina underdomäners SSL-certifikat"
-
+>additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=sv" text="Övervaka SSL-certifikat "
 
 ## Varför konfigurera underdomäner? {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->Att konfigurera underdomäner i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
+>Konfiguration av underdomäner på Kontrollpanelen finns som betaversion, och funktionen uppdateras och ändras ofta utan föregående meddelande.
 >
->Den här funktionen är inte tillgänglig för Campaign v8.
+>Den här funktionen finns inte i Campaign v8.
 
 En underdomän är en division av domänen som kan användas för att isolera varumärken eller olika typer av trafik (transaktionsmeddelanden, marknadsföringsinformation osv.).
 
@@ -61,6 +60,13 @@ Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontak
 
 ## Användningsexempel för underdomäner (Campaign Classic){#subdomains-use-cases}
 
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="Välj användningsexempel för din underdomän"
+>abstract="Att dela upp dina underdomäner efter användningsfall är det bästa sättet att leverera. På så sätt isoleras och skyddas varje underdomäns rykte."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Märka underdomäner"
+
 När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja det användningsfall som underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Möjliga användningsområden är:
@@ -83,4 +89,4 @@ Möjliga användningsområden är:
 **Relaterade ämnen:**
 
 * [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Övervaka underdomänerna](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Övervaka underdomäner](../../subdomains-certificates/using/monitoring-subdomains.md)

@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Övervaka aktiva profiler
 description: Läs mer om hur man får information i realtid om den senaste och historiska användningen gällande aktiva profiler och utvecklingen för var och en av sina instanser i Campaign.
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 84%
+source-wordcount: '402'
+ht-degree: 78%
 
 ---
 
@@ -36,6 +36,12 @@ Mer information om aktiva profiler finns i [Campaign Standard](https://https://e
 
 ## Övervaka aktiva profiler {#monitoring-active-profiles}
 
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_active_profile"
+>title="Om övervakning av aktiva profiler"
+>abstract="På den här fliken kan du få information i realtid om den senaste och historiska aktiva profilanvändningen och utvecklingen för var och en av era Campaign-instanser."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestandaövervakning"
+
 Kontrollpanelen låter dig övervaka användningen av aktiva profiler för var och en av instanserna i Campaign.
 
 Följ dessa steg för att göra detta:
@@ -52,7 +58,7 @@ Följ dessa steg för att göra detta:
 >
 >Aktiva profiler räknas baserat på dedikerade tekniska arbetsflöden som körs varje dag på instanserna:
 >
->* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en) i Campaign Standard,
+>* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) i Campaign Standard,
 >* Arbetsflödet [”Antal aktiva faktureringsprofiler”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) i Campaign Classic.
 
 

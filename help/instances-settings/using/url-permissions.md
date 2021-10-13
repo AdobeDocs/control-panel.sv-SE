@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: URL-behörigheter
 description: Läs om hur man hanterar URL-behörigheter i Kontrollpanelen
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 89%
 
 ---
@@ -51,7 +51,7 @@ När en URL har lagts till refereras den i instansens konfigurationsfil (serverC
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="Lägga till ny URL"
+>title="URL-definition"
 >abstract="Lägg till URL:er för att tillåta anslutningar till din instans i Campaign."
 
 Följ dessa steg för att lägga till en URL som instansen kan ansluta till:

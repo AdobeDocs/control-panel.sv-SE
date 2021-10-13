@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: Hantera TXT-poster
 description: Läs mer om hur man hanterar TXT-poster för verifiering av domänägarskap.
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '364'
 ht-degree: 92%
 
 ---
@@ -20,12 +20,13 @@ ht-degree: 92%
 >id="cp_siteverification_add"
 >title="Hantera TXT-poster"
 >abstract="Vissa tjänster såsom Google kräver att du lägger till en TXT-post i domäninställningarna för att verifiera att du äger domänen."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
 
 ## Om TXT-poster {#about-txt-records}
 
 >[!AVAILABILITY]
 >
->Den här funktionen är inte tillgänglig för Campaign v8.
+>Den här funktionen finns inte i Campaign v8.
 
 TXT-poster är en typ av DNS-poster som används för att tillhandahålla textinformation om en domän som kan läsas av externa källor.
 

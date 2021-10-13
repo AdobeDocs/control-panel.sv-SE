@@ -6,14 +6,13 @@ description: Läs om hur man lägger till IP-intervall i tillåtelselistan för 
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '631'
+ht-degree: 96%
 
 ---
-
 
 # Tillåtelselista med IP-intervall {#ip-range-allow-listing}
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 
 SFTP-servrar är skyddade. För att få åtkomst till dem för att kunna se filer eller skriva nya måste du lägga till den offentliga IP-adressen i tillåtelselistan för det system eller den klient som kommer åt servrarna.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
 
 ## Om CIDR-formatet {#about-cidr-format}
 
@@ -35,7 +34,7 @@ Syntaxen består av en IP-adress följt av tecknet / och ett decimaltal. Fullst�
 
 Du kan söka på internet efter kostnadsfria verktyg online som hjälper dig att konvertera det aktuella IP-intervallet till ett CIDR-format.
 
-## God praxis {#best-practices}
+## Bästa praxis {#best-practices}
 
 Se till att du följer rekommendationerna och begränsningarna nedan när du lägger till IP-adresser i tillåtelselistan i Kontrollpanelen.
 
@@ -48,7 +47,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Lägg till ett nytt IP-intervall"
+>title="IP-intervallkonfiguration"
 >abstract="Definiera de IP-intervall som du vill lägga till i tillåtelselistan för att ansluta till dina SFTP-serverar."
 
 Följ dessa steg för att lägga till ett IP-intervall i tillåtelselistan:

@@ -3,18 +3,24 @@ product: campaign
 solution: Campaign
 title: Hantera GPG-nycklar
 description: Lär dig hur du hanterar GPG-nycklar för att kryptera och dekryptera data i Adobe Campaign.
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1192'
 ht-degree: 8%
 
 ---
 
 # Hantera GPG-nycklar {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="Om GPG-tangenter"
+>abstract="På den här fliken kan du installera och/eller generera GPG-nycklar på en marknadsinstans för att kryptera data som skickas från Campaign och dekryptera inkommande data."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestandaövervakning"
 
 ## Om GPG-kryptering {#about-gpg-encryption}
 
@@ -92,7 +98,7 @@ Mer information om detta finns i Adobe Campaign-dokumentationen:
 **Campaign Classic v7 och Campaign v8:**
 
 * [Zippa eller kryptera en fil](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 

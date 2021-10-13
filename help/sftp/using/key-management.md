@@ -6,21 +6,20 @@ description: Läs om hur man hanterar nycklar för att ansluta till SFTP-servrar
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '646'
+ht-degree: 91%
 
 ---
-
 
 # Hantera nycklar {#key-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="Om att hantera nycklar"
->abstract="Du kan hantera dina offentliga nycklar på den här fliken."
+>title="Om hantering av offentlig nyckel"
+>abstract="På den här fliken kan du skapa, hantera och redigera dina offentliga nycklar."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Se demovideon"
 
 Adobe rekommenderar att alla kunder upprättar anslutningar till sina SFTP-servrar med ett **nyckelpar med offentlig och privat nyckel**.
@@ -33,9 +32,9 @@ Konfigurera först åtkomsten till servern men kom ihåg att **lägga till IP-ad
 >
 >Det går för närvarande inte att ta bort en offentlig SSH-nyckel.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
 
-## God praxis {#best-practices}
+## Bästa praxis {#best-practices}
 
 **Om den offentliga SSH-nyckeln**
 
@@ -53,8 +52,8 @@ I mycket sällsynta fall möjliggörs lösenordsbaserad autentisering på vissa 
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Lägga till ny offentlig nyckel"
->abstract="Lägg till en ny offentlig nyckel till en instans."
+>title="Tillägg för offentlig nyckel"
+>abstract="Generera en offentlig SSH-nyckel för en instans och lägg till den på Kontrollpanelen för att komma åt SFTP-servern."
 
 >[!IMPORTANT]
 >

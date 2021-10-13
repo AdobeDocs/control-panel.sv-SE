@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Övervaka underdomäners SSL-certifikat
 description: Läs om hur man övervakar underdomäners SSL-certifikat
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->Den här funktionen är inte tillgänglig för Campaign v8.
+>Den här funktionen finns inte i Campaign v8.
 
 ## Om SSL-certifikat {#about-ssl-certificates}
 
@@ -37,7 +37,7 @@ Adobe Campaign rekommenderar att du säkrar de underdomäner som är värdar fö
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="Information om underdomäner"
->abstract="Hämta information om underdomänerna."
+>abstract="Hämta information om dina underdomäners SSL-certifikat."
 
 Statusen för underdomänernas SSL-certifikat finns tillgänglig direkt från listan över underdomäner när du väljer **[!UICONTROL Subdomains & Certificates]**-kortet.
 
