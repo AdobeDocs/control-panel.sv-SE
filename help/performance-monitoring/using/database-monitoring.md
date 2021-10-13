@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 94%
+source-wordcount: '987'
+ht-degree: 84%
 
 ---
 
@@ -36,9 +36,9 @@ En överfull instansdatabas kan leda till flera problem (oförmåga att logga in
 >id="cp_performancemonitoring_database"
 >title="Om databasövervakning"
 >abstract="På den här fliken kan du få realtidsinformation om den senaste och historiska databasanvändningen och utvecklingen för var och en av era Campaign-instanser."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestandaövervakning"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="Prestandaövervakning"
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring)
 
 Kontrollpanelen låter dig övervaka användningen av databaser för var och en av instanserna i Campaign. Det gör du genom att öppna kortet **[!UICONTROL Performance Monitoring]** och sedan välja fliken **[!UICONTROL Databases]**.
 
@@ -48,7 +48,7 @@ Välj önskad instans i **[!UICONTROL Instance List]** om du vill visa informati
 
 >[!NOTE]
 >
->Observera att data från den här instrumentpanelen uppdateras baserat på **[!UICONTROL Database cleanup technical workflow]** som körs på din instans i Campaign (se dokumentationen om [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv#list-of-technical-workflows) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=sv)).
+>Observera att data från den här instrumentpanelen uppdateras baserat på **[!UICONTROL Database cleanup technical workflow]** som körs på din instans i Campaign (se dokumentationen om [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)).
 >
 >Du kan också få meddelanden när en av dina databaser når sin kapacitet efter senaste gången arbetsflödet kördes, under måtten **[!UICONTROL Used Space]** och **[!UICONTROL Provided Space]** Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar kundtjänsten hos Adobe så att de undersöker varför arbetsflödet inte körs.
 
@@ -115,7 +115,7 @@ Med knappen **[!UICONTROL View all]** får du åtkomst till detaljerad informati
 
 ![](assets/database-top10-view.png)
 
-Värdet i kolumnen **[!UICONTROL Keep interim results]** anger om alternativet är aktiverat (&quot;1&quot;) eller inaktiverat (&quot;0&quot;) i Campaign. Du kan spara resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde (se dokumentationen om [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=sv) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html?lang=sv#logs) ).
+Värdet i kolumnen **[!UICONTROL Keep interim results]** anger om alternativet är aktiverat (&quot;1&quot;) eller inaktiverat (&quot;0&quot;) i Campaign. Du kan spara resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde (se dokumentationen om [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=sv) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) ).
 
 >[!IMPORTANT]
 >
@@ -131,16 +131,16 @@ Avsnittet nedan innehåller användbara resurser från dokumentationen om Campai
 
 **Övervakning av arbetsflöden**
 
-* [God praxis för arbetsflöden](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=sv) (Campaign Standard)
-* [Övervaka arbetsflödeskörning](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=sv) (Campaign Classic)
+* [God praxis för arbetsflöden](://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=sv) (Campaign Standard)
+* [Övervaka arbetsflödeskörning](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
 
 **Databasunderhåll**
 
-* Tekniskt arbetsflöde för databasrensning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) – [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en)
-* [Användarhandbok om databasunderhåll](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=sv) (Campaign Classic)
+* Tekniskt arbetsflöde för databasrensning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) – [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)
+* [Användarhandbok om databasunderhåll](://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=sv) (Campaign Classic)
 * [Felsökning av databasprestanda](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=sv) (Campaign Classic)
-* [Databasrelaterade alternativ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=sv#database) (Campaign Classic)
-* Datakvarhållning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=sv) – [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=sv#data-retention)
+* [Databasrelaterade alternativ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
+* Datakvarhållning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html) – [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention)
 
 >[!NOTE]
 >

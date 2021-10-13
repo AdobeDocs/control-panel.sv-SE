@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1183'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 >id="cp_instancesettings_gpg_management"
 >title="Om GPG-tangenter"
 >abstract="På den här fliken kan du installera och/eller generera GPG-nycklar på en marknadsinstans för att kryptera data som skickas från Campaign och dekryptera inkommande data."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestandaövervakning"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="Prestandaövervakning"
 
 ## Om GPG-kryptering {#about-gpg-encryption}
 
@@ -102,7 +102,7 @@ Mer information om detta finns i Adobe Campaign-dokumentationen:
 
 **Campaign Standard:**
 
-* [Hantera krypterade data](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Hantera krypterade data](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## Dekryptera data {#decrypting-data}
@@ -145,8 +145,8 @@ Mer information finns i Adobe Campaign-dokumentationen:
 
 **Campaign Standard:**
 
-* [Hantera krypterade data](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Användningsfall: Importera data krypterade med en nyckel som genererats av Kontrollpanelen](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Hantera krypterade data](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Användningsfall: Importera data krypterade med en nyckel som genererats av Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Övervaka GPG-nycklar
 
@@ -186,6 +186,6 @@ Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. De
 
 I videon nedan visas hur du genererar och installerar GPG-nycklar för datakryptering.
 
-Ytterligare instruktionsvideor om GPG-knapphantering finns på [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)- och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) självstudiesidor.
+Ytterligare instruktionsvideor om GPG-knapphantering finns på [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings)- och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) självstudiesidor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

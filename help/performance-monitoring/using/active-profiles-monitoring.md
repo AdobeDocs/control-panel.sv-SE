@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 78%
+source-wordcount: '396'
+ht-degree: 76%
 
 ---
 
@@ -32,7 +32,7 @@ Profiler anses vara aktiva om de har riktats in på eller kommunicerats med unde
 >
 >Facebook- och Twitter-kanaler beaktas inte.
 
-Mer information om aktiva profiler finns i [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) och [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)-dokumentation.
+Mer information om aktiva profiler finns i [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) och [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)-dokumentation.
 
 ## Övervaka aktiva profiler {#monitoring-active-profiles}
 
@@ -40,7 +40,7 @@ Mer information om aktiva profiler finns i [Campaign Standard](https://https://e
 >id="cp_performancemonitoring_active_profile"
 >title="Om övervakning av aktiva profiler"
 >abstract="På den här fliken kan du få information i realtid om den senaste och historiska aktiva profilanvändningen och utvecklingen för var och en av era Campaign-instanser."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestandaövervakning"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="Prestandaövervakning"
 
 Kontrollpanelen låter dig övervaka användningen av aktiva profiler för var och en av instanserna i Campaign.
 
@@ -58,7 +58,7 @@ Följ dessa steg för att göra detta:
 >
 >Aktiva profiler räknas baserat på dedikerade tekniska arbetsflöden som körs varje dag på instanserna:
 >
->* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) i Campaign Standard,
+>* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) i Campaign Standard,
 >* Arbetsflödet [”Antal aktiva faktureringsprofiler”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) i Campaign Classic.
 
 

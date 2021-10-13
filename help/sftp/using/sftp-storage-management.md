@@ -6,14 +6,13 @@ description: Läs om hur man övervakar och hanterar SFTP-serverns lagring
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 86%
+source-wordcount: '344'
+ht-degree: 90%
 
 ---
-
 
 # Hantera SFTP-lagring {#sftp-storage-management}
 
@@ -27,7 +26,7 @@ Olika lagringskapaciteter kan tillhandahållas på SFTP-servern beroende på din
 
 Det är viktigt att du regelbundet övervakar tillgängligt utrymme för var och en av SFTP-servrarna. I annat fall kan det vara omöjligt att spara ytterligare filer på servern eller köra arbetsflöden som är beroende av uppdateringarna från den här servern.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) Classic  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management)
 
 ## Åtkomst till information om lagringskapacitet {#accessing-storage-capacity-information}
 
