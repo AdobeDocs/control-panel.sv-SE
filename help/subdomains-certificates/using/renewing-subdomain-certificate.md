@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 1f422833e1495525612e760714e50a9aaf744db5
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 87%
+source-wordcount: '836'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,6 @@ När du har köpt SSL-certifikatet kan du installera det på önskad underdomän
 >id="cp_select_subdomains"
 >title="Välj underdomänerna för din begäran om certifikatsignering"
 >abstract="Du kan välja att inkludera alla eller endast vissa underdomäner i din begäran om certifikatsignering. Endast valda underdomäner certifieras via inköpt SSL-certifikat."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generera en begäran om certifikatsignering"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Om att märka underdomäner"
 
 Följ dessa steg för att skapa en begäran om certifikatsignering:
