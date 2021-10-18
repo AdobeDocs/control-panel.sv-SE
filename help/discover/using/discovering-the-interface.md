@@ -6,22 +6,21 @@ description: Läs mer om gränssnittet i Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
+source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 47%
+source-wordcount: '124'
+ht-degree: 52%
 
 ---
-
 
 # Lär känna Kontrollpanelens gränssnitt {#discovering-interface}
 
 På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på instanserna i Campaign.
 
-De representeras av kort som är ordnade i ämnen, till exempel **Lagring och databashantering**.
+De representeras av kort som är ordnade i ämnen, till exempel **Prestandaövervakning**.
 
-I kommande kampanjversioner kommer fler ämnen och kort att bli tillgängliga.
+<!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
 ![](assets/control_panel_interface.png)
 
