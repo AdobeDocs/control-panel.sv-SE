@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 69f01abc8003a46e50082ea68b67df2d660f9bb7
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 84%
+source-wordcount: '792'
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,27 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >
 >Observera att din instans måste ligga på AWS och uppgraderas med den senaste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=sv)-versionen eller den [senaste GA-versionen (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=sv#release-notes) för Campaign Classic v7. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om instanser har AWS som värd.
 
+## Oktober 2021 {#october-2021}
+
+**IP-intervall och publika nyckelutgåvor**
+
+Du kan nu redigera de [IP-intervall](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) och [publika nycklar](sftp/using/key-management.md#editing-public-keys) som du skapar. Observera att den här funktionen inte är tillgänglig för objekt som skapats före den aktuella versionen av Kontrollpanelen.
+
+**Giltighetsperiod för IP-intervall och offentlig nyckel**
+
+Det går nu att ange en varaktighet för tillgängligheten för IP-intervall och offentliga nycklar. Läs mer i avsnitten [IP-intervall som tillåter listning av](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) och [Nyckelhantering](sftp/using/key-management.md#installing-ssh-key)
+
+**Varningar vid SFTP IP-intervall och utgångsdatum för offentlig nyckel**
+
+Funktionen för e-postvarningar innehåller nu varningar om att SFTP IP-adresser tillåter listning av förfallodatum och att SFTP-offentlig nyckel förfaller. [Läs mer](performance-monitoring/using/email-alerting.md)
+
+**Fullt stöd med Campaign v8**
+
+Hanteringsfunktionerna **Underdomän** och **Certificate** stöds nu av Kontrollpanelen i Adobe Campaign v8.
+
 ## Augusti 2021 {#august-2021}
+
+**Stöd för Campaign v8**
 
 Kontrollpanelen är nu tillgänglig för Adobe Campaign v8, förutom hanteringsfunktionerna **Underdomän** och **Certificate**, som ännu inte stöds. Läs mer i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
