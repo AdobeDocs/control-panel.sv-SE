@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: eb574ab42ae8cf1fd7d9e85ea0c811add77a3940
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 36%
 
 ---
@@ -69,7 +69,7 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
    >
    >En eller flera offentliga SSH-nycklar kan läggas till för varje användare.
 
-1. Om du vill hantera dina offentliga nycklar bättre kan du ange en varaktighet för tillgängligheten för varje nyckel. Om du vill göra det väljer du en enhet i listrutan **[!UICONTROL Type]** och definierar en varaktighet i motsvarande fält. Mer information om att offentlig nyckel upphör att gälla finns i [det här avsnittet](#managing-public-keys).
+1. Om du vill hantera dina offentliga nycklar bättre kan du ange en varaktighet för tillgängligheten för varje nyckel. Om du vill göra det väljer du en enhet i listrutan **[!UICONTROL Type]** och definierar en varaktighet i motsvarande fält. Mer information om att offentlig nyckel upphör att gälla finns i [det här avsnittet](#expiry).
 
    ![](assets/key_expiry.png)
 
@@ -130,6 +130,8 @@ Mer information om hur du redigerar ett eller flera IP-intervall finns i [det h�
 Om du vill ta bort en eller flera offentliga nycklar från listan markerar du dem och klickar sedan på knappen **[!UICONTROL Delete public key]**.
 
 ![](assets/control_panel_delete_key.png)
+
+### Förfaller {#expiry}
 
 Kolumnen **[!UICONTROL Expires]** visar hur många dagar som återstår tills den offentliga nyckeln upphör att gälla.
 
