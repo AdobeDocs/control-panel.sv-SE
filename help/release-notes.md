@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 69f01abc8003a46e50082ea68b67df2d660f9bb7
+source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 71%
@@ -26,13 +26,13 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 
 ## Oktober 2021 {#october-2021}
 
+**Giltighetsperiod för IP-intervall och offentlig nyckel**
+
+Det går nu att ange en varaktighet för tillgängligheten för IP-intervall och offentliga nycklar. Läs mer i avsnitten [IP-intervall tillåter listning](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) och [Nyckelhantering](sftp/using/key-management.md#installing-ssh-key).
+
 **IP-intervall och publika nyckelutgåvor**
 
 Du kan nu redigera de [IP-intervall](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) och [publika nycklar](sftp/using/key-management.md#editing-public-keys) som du skapar. Observera att den här funktionen inte är tillgänglig för objekt som skapats före den aktuella versionen av Kontrollpanelen.
-
-**Giltighetsperiod för IP-intervall och offentlig nyckel**
-
-Det går nu att ange en varaktighet för tillgängligheten för IP-intervall och offentliga nycklar. Läs mer i avsnitten [IP-intervall som tillåter listning av](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) och [Nyckelhantering](sftp/using/key-management.md#installing-ssh-key)
 
 **Varningar vid SFTP IP-intervall och utgångsdatum för offentlig nyckel**
 
