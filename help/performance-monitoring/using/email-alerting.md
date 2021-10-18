@@ -6,14 +6,13 @@ description: Lär dig hur du tar emot e-postmeddelanden i händelse av problem m
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
+source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 3%
+source-wordcount: '219'
+ht-degree: 1%
 
 ---
-
 
 # E-postavisering {#email-alerting}
 
@@ -33,7 +32,6 @@ Så här prenumererar du på dessa aviseringar:
 
    ![](assets/alert_sample.png)
 
-
 Listan med varningar är följande:
 
 * **Användning** av SFTP-lagring: En av dina SFTP-servrar har nått 80 % eller mer av sin kapacitet. Se [SFTP-lagringshantering](../../sftp/using/sftp-storage-management.md).
@@ -42,3 +40,6 @@ Listan med varningar är följande:
 
 * **SSL-certifikatets förfallodatum**: En av dina underdomäners SSL-certifikat har gått ut eller går ut om 60 dagar eller mindre. Se [Övervaka underdomäners SSL-certifikat](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
+* **SFTP IP-listan tillåter förfallodatum**: Ett av IP-intervallen som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Lista över tillåtna IP-intervall](../../sftp/using/ip-range-allow-listing.md).
+
+* **Giltighetstid** för offentlig SFTP-nyckel: En av de offentliga nycklarna som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Nyckelhantering](../../sftp/using/key-management.md).
