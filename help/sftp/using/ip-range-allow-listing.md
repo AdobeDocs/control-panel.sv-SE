@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: eb574ab42ae8cf1fd7d9e85ea0c811add77a3940
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1049'
 ht-degree: 37%
 
 ---
@@ -78,7 +78,7 @@ Följ dessa steg för att lägga till ett IP-intervall i tillåtelselistan:
    >Följande specialtecken tillåts i fältet **[!UICONTROL Label]**:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. Om du vill hantera IP-tillåtelselista bättre kan du ange en längd för tillgängligheten för varje IP-intervall. Om du vill göra det väljer du en enhet i listrutan **[!UICONTROL Type]** och definierar en varaktighet i motsvarande fält. Mer information om att IP-intervallet upphör finns i [det här avsnittet](#managing-ip-ranges).
+1. Om du vill hantera IP-tillåtelselista bättre kan du ange en längd för tillgängligheten för varje IP-intervall. Om du vill göra det väljer du en enhet i listrutan **[!UICONTROL Type]** och definierar en varaktighet i motsvarande fält. Mer information om att IP-intervallet upphör finns i [det här avsnittet](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
@@ -111,6 +111,8 @@ Mer information om hur du redigerar ett eller flera IP-intervall finns i [det h�
 Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]**.
 
 ![](assets/control_panel_delete_range.png)
+
+### Förfaller {#expiry}
 
 Kolumnen **[!UICONTROL Expires]** visar hur många dagar som återstår tills IP-intervallet upphör att gälla.
 
