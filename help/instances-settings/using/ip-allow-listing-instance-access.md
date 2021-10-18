@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 89%
+source-wordcount: '770'
+ht-degree: 87%
 
 ---
 
@@ -53,13 +53,15 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 >title="IP-intervallkonfiguration"
 >abstract="Definiera IP-intervallet som du vill lägga till i tillåtelselistan för att ansluta till instansen."
 
+>[!NOTE]
+>
+>Om **[!UICONTROL Instance Settings]**-kortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic v7- eller Campaign v8-instanser.
+
 Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
 1. Öppna **[!UICONTROL Instances Settings card]** för att öppna fliken IP-tillåtelselista och klicka sedan på **[!UICONTROL Add new IP Range]**.
 
-   >[!NOTE]
-   >
-   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
+
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -90,9 +92,11 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
 1. Klicka på knappen **[!UICONTROL Save]**. IP-intervallet läggs till i tillåtelselistan.
 
-   ![](assets/ip_whitelist_added.png)
+   <!--![](assets/ip_whitelist_added.png)-->
 
-Ta bort IP-intervall från tillåtelselistan genom att markerar dem och sedan klicka på knappen **[!UICONTROL Delete IP range]**.
+Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]**.
+
+![](assets/ip_whitelist_delete.png)
 
 **Relaterat ämne:**
 
