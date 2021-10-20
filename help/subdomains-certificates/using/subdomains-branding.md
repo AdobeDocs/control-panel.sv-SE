@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '745'
 ht-degree: 78%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 78%
 >[!IMPORTANT]
 >
 >Konfiguration av underdomäner på Kontrollpanelen finns som betaversion, och funktionen uppdateras och ändras ofta utan föregående meddelande.
->
->Den här funktionen finns inte i Campaign v8.
 
 En underdomän är en division av domänen som kan användas för att isolera varumärken eller olika typer av trafik (transaktionsmeddelanden, marknadsföringsinformation osv.).
 
@@ -67,7 +65,7 @@ Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontak
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Märka underdomäner"
 
-När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja det användningsfall som underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Möjliga användningsområden är:
 
@@ -77,7 +75,7 @@ Möjliga användningsområden är:
 
 **Att dela upp underdomänerna per användningsfall är bästa praxis för levererbarhet**. På så sätt isoleras och skyddas varje underdomäns rykte. Om till exempel din underdomän för marknadsföringskommunikation läggs till i blockeringslistan hos internetleverantörer påverkas inte den för transaktionskommunikation och kan fortsätta att skicka kommunikation.
 
-**Du kan konfigurera en underdomän för både Marketing och Transactional use-fall**:
+**Du kan konfigurera en underdomän för både marknadsföring och transaktionsanvändning**:
 
 * I användningsfall för Marknadsföring konfigureras underdomäner på **MID**-instanser (mid-sourcing).
 * I användningsfall för Transaktioner konfigureras underdomäner på ALLA **RT**-instanser (meddelandecenter/realtidsmeddelanden) för att säkerställa anslutningen. Underdomänerna fungerar därför med alla RT-instanser.

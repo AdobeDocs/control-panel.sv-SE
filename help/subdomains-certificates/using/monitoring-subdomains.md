@@ -3,28 +3,24 @@ product: campaign
 solution: Campaign
 title: Övervaka underdomäners SSL-certifikat
 description: Läs om hur man övervakar underdomäners SSL-certifikat
-feature: 'Kontrollpanelen  '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 17%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
-# Övervaka underdomänerna {#monitoring-subdomains}
-
->[!AVAILABILITY]
->
->Den här funktionen är inte tillgänglig för Campaign v8.
+# Övervaka underdomäner {#monitoring-subdomains}
 
 Det är viktigt att du övervakar dina underdomäner för att se till att alla är konfigurerade på rätt sätt för att fungera med Adobe Campaign.
 
-Listan med underdomäner för var och en av dina produktionsinstanser är tillgänglig direkt när du väljer **[!UICONTROL Subdomains & Certificates]**-kortet.
+Listan med underdomäner för var och en av dina produktionsinstanser är tillgänglig direkt när du väljer **[!UICONTROL Subdomains & Certificates]** kort.
 
-Kolumnen **[!UICONTROL Last verification]** anger när en underdomän verifierades för senaste gången. Du kan starta en verifiering när som helst genom att klicka på **..** / **[!UICONTROL Verify subdomain]** knapp.
+The **[!UICONTROL Last verification]** kolumnen anger när en underdomän verifierades för senaste gången. Du kan starta en verifiering när som helst genom att klicka på **...** / **[!UICONTROL Verify subdomain]** -knappen.
 
 ![](assets/subdomain_verification.png)
 

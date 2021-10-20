@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1334'
 ht-degree: 85%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 85%
 >[!IMPORTANT]
 >
 >Konfiguration av underdomäner på Kontrollpanelen finns som betaversion, och funktionen uppdateras och ändras ofta utan föregående meddelande.
->
->Den här funktionen finns inte i Campaign v8.
 
 Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [Varumärke för underdomäner](../../subdomains-certificates/using/subdomains-branding.md).
 
