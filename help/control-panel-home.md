@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 86%
+source-wordcount: '232'
+ht-degree: 54%
 
 ---
 
@@ -25,21 +25,23 @@ ht-degree: 86%
 
 ## Nyheter
 
-**Konfiguration av underdomäner med CNAME:er**
+**Fullt stöd med Campaign v8**
 
-Med Kontrollpanelen kan du nu konfigurera en underdomän så att den fungerar med Adobe med CNAME:er direkt från gränssnittet. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
+Alla funktioner, inklusive **Underdomän** och **Certifikat** hantering stöds nu av Kontrollpanelen i Adobe Campaign v8. [Läs mer](faq.md#v8-restrictions)
 
-**Förbättringar i databasövervakningen**
+**Giltighetsperiod för IP-intervall och utgåva**
 
-Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare mätvärden vilket gör att du får detaljerad information om resurser som förbrukar utrymme i databasen. [Läs mer](performance-monitoring/using/database-monitoring.md)
+Det är nu möjligt att ange en varaktighet för tillgängligheten för IP-intervall och att redigera de IP-intervall som du skapar. [Läs mer](sftp/using/ip-range-allow-listing.md)
+
+**Giltighetsperiod för offentlig nyckel och utgåva**
+
+På samma sätt kan du nu ange en längd för tillgängligheten för publika nycklar och redigera de publika nycklarna som du skapar. [Läs mer](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
 >* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Distributionsrestriktioner gäller för Campaign Classic v7. [Läs mer](faq.md#v7-restrictions)
->
->* Vissa funktioner är inte tillgängliga i Campaign v8. [Läs mer](faq.md#v8-restrictions)
 
 
 ## Ytterligare resurser {#additional-resources}
@@ -60,7 +62,7 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.htmll?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html">Produktdokumentation om Campaign v8</a></li>
         </ul>
         </td>
