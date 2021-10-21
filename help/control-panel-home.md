@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
+source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 54%
+source-wordcount: '212'
+ht-degree: 86%
 
 ---
 
@@ -25,23 +25,21 @@ ht-degree: 54%
 
 ## Nyheter
 
-**Fullt stöd med Campaign v8**
+**Konfiguration av underdomäner med CNAME:er**
 
-Alla funktioner, inklusive **Underdomän** och **Certifikat** hantering stöds nu av Kontrollpanelen i Adobe Campaign v8. [Läs mer](faq.md#v8-restrictions)
+Med Kontrollpanelen kan du nu konfigurera en underdomän så att den fungerar med Adobe med CNAME:er direkt från gränssnittet. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-**Giltighetsperiod för IP-intervall och utgåva**
+**Förbättringar i databasövervakningen**
 
-Det är nu möjligt att ange en varaktighet för tillgängligheten för IP-intervall och att redigera de IP-intervall som du skapar. [Läs mer](sftp/using/ip-range-allow-listing.md)
-
-**Giltighetsperiod för offentlig nyckel och utgåva**
-
-På samma sätt kan du nu ange en längd för tillgängligheten för publika nycklar och redigera de publika nycklarna som du skapar. [Läs mer](sftp/using/key-management.md)
+Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare mätvärden vilket gör att du får detaljerad information om resurser som förbrukar utrymme i databasen. [Läs mer](performance-monitoring/using/database-monitoring.md)
 
 >[!CAUTION]
 >
 >* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Distributionsrestriktioner gäller för Campaign Classic v7. [Läs mer](faq.md#v7-restrictions)
+>
+>* Vissa funktioner är inte tillgängliga i Campaign v8. [Läs mer](faq.md#v8-restrictions)
 
 
 ## Ytterligare resurser {#additional-resources}
