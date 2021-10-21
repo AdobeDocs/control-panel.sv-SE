@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
+source-git-commit: 75d369f52be140732525411239ae18b7269e761f
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,17 @@ ht-degree: 86%
 
 ## Nyheter
 
-**Konfiguration av underdomäner med CNAME:er**
+**Giltighetsperiod för IP-intervall och utgåva**
 
-Med Kontrollpanelen kan du nu konfigurera en underdomän så att den fungerar med Adobe med CNAME:er direkt från gränssnittet. [Läs mer](subdomains-certificates/using/setting-up-new-subdomain.md)
+Det är nu möjligt att ange en varaktighet för tillgängligheten för IP-intervall och att redigera de IP-intervall som du skapar. [Läs mer](sftp/using/ip-range-allow-listing.md)
 
-**Förbättringar i databasövervakningen**
+**Giltighetsperiod för offentlig nyckel och utgåva**
 
-Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare mätvärden vilket gör att du får detaljerad information om resurser som förbrukar utrymme i databasen. [Läs mer](performance-monitoring/using/database-monitoring.md)
+På samma sätt kan du nu ange en längd för tillgängligheten för publika nycklar och redigera de publika nycklarna som du skapar. [Läs mer](sftp/using/key-management.md)
+
+**Stöd för Campaign v8**
+
+Kontrollpanelen är nu tillgänglig för Adobe Campaign v8, förutom **Underdomän** och **Certifikat** hanteringsfunktioner som ännu inte stöds.
 
 >[!CAUTION]
 >
