@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 86%
 
 ---
 
@@ -55,7 +55,7 @@ Fliken **[!UICONTROL Database monitoring]** har förbättrats med ytterligare m�
         <td><b>Campaign Classic v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
-            <li><a href="://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=sv">Produktdokumentation om Campaign Classic v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=sv">Produktdokumentation om Campaign Classic v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
