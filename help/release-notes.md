@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8b0f652559e0296a22b3eac92057e6f4487215e1
+source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '792'
+ht-degree: 71%
 
 ---
 
@@ -38,9 +38,9 @@ Nu kan du redigera [IP-intervall](sftp/using/ip-range-allow-listing.md#editing-i
 
 Funktionen för e-postvarningar innehåller nu varningar om att SFTP IP-adresser tillåter listning av förfallodatum och att SFTP-offentlig nyckel förfaller. [Läs mer](performance-monitoring/using/email-alerting.md)
 
-<!--**Full support with Campaign v8**
+**Fullt stöd med Campaign v8**
 
-The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.-->
+The **Underdomän** och **Certifikat** hanteringsfunktioner stöds nu av Kontrollpanelen i Adobe Campaign v8.
 
 ## Augusti 2021 {#august-2021}
 
