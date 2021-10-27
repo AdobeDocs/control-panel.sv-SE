@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 75d369f52be140732525411239ae18b7269e761f
+source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '232'
+ht-degree: 54%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 0%
 
 ## Nyheter
 
+**Fullt stöd med Campaign v8**
+
+Alla funktioner, inklusive **Underdomän** och **Certifikat** hantering stöds nu av Kontrollpanelen i Adobe Campaign v8. [Läs mer](faq.md#v8-restrictions)
+
 **Giltighetsperiod för IP-intervall och utgåva**
 
 Det är nu möjligt att ange en varaktighet för tillgängligheten för IP-intervall och att redigera de IP-intervall som du skapar. [Läs mer](sftp/using/ip-range-allow-listing.md)
@@ -33,17 +37,11 @@ Det är nu möjligt att ange en varaktighet för tillgängligheten för IP-inter
 
 På samma sätt kan du nu ange en längd för tillgängligheten för publika nycklar och redigera de publika nycklarna som du skapar. [Läs mer](sftp/using/key-management.md)
 
-**Stöd för Campaign v8**
-
-Kontrollpanelen är nu tillgänglig för Adobe Campaign v8, förutom **Underdomän** och **Certifikat** hanteringsfunktioner som ännu inte stöds.
-
 >[!CAUTION]
 >
 >* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Distributionsrestriktioner gäller för Campaign Classic v7. [Läs mer](faq.md#v7-restrictions)
->
->* Vissa funktioner är inte tillgängliga i Campaign v8. [Läs mer](faq.md#v8-restrictions)
 
 
 ## Ytterligare resurser {#additional-resources}

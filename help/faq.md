@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: d6bf3db521085078499e88c9a2077f63914d9c4c
+source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 97%
+source-wordcount: '771'
+ht-degree: 91%
 
 ---
 
@@ -28,9 +28,9 @@ Med kontrollpanelen kan du spåra lagring, lägga till IP-adresser i tillåtelse
 
 Mer information finns i dokumentationen om åtgärder som Kontrollpanelen har stöd för.
 
-### Vilka funktioner i Campaign Classic v7 stöds inte i Campaign v8?{#v8-restrictions}
+### Finns det vissa funktioner som ännu inte stöds i Campaign v8 men som är tillgängliga i Campaign Classic v7?{#v8-restrictions}
 
-Funktioner som rör underdomäner och certifikathantering stöds ännu inte via Kontrollpanelen i Campaign v8. Kontakta kundtjänsten för Campaign om du behöver relaterad support.
+Nej. Alla funktioner som är tillgängliga på Campaign Classic v7 stöds nu även via Kontrollpanelen i Campaign v8, inklusive funktioner som rör subdomain och Certificate Management.
 
 ### Fungerar Kontrollpanelen bara för Adobe Campaign?
 
