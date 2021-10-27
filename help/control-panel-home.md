@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 54%
 >id="cp_overview"
 >title="Om Kontrollpanelen"
 >abstract="På Kontrollpanelens startsida får du tillgång till alla åtgärder som kan utföras på instanserna i Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Lära känna gränssnittet"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html" text="Åtkomst till kontrollpanelen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=sv" text="Lära känna gränssnittet"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=sv" text="Åtkomst till kontrollpanelen"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -39,7 +39,7 @@ På samma sätt kan du nu ange en längd för tillgängligheten för publika nyc
 
 >[!CAUTION]
 >
->* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
+>* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel)
 >
 >* Distributionsrestriktioner gäller för Campaign Classic v7. [Läs mer](faq.md#v7-restrictions)
 
@@ -62,8 +62,8 @@ På samma sätt kan du nu ange en längd för tillgängligheten för publika nyc
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.htmll?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html">Produktdokumentation om Campaign v8</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv">Produktdokumentation om Campaign v8</a></li>
         </ul>
         </td>
     </tr>
