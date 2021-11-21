@@ -20,7 +20,7 @@ Kontrollpanelen är utrustad med e-postaviseringsfunktioner i realtid för att g
 
 Så här prenumererar du på dessa aviseringar:
 
-1. Klicka på knappen **[!UICONTROL Alerting notifications]** som är tillgänglig från valfri plats på kontrollpanelen och klicka sedan på **[!UICONTROL Subscribe]**.
+1. Klicka på **[!UICONTROL Alerting notifications]** som är tillgängliga från valfri plats på Kontrollpanelen och sedan klickar du på **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
@@ -28,18 +28,18 @@ Så här prenumererar du på dessa aviseringar:
 
    ![](assets/email_subscription.png)
 
-1. Efter prenumerationen kommer Kontrollpanelen att meddela om systemproblem och rekommendera vilka åtgärder som ska vidtas. E-postaviseringar skickas till alla som har registrerat sig för **alla instanser** som de är administratörer för.
+1. Efter prenumerationen kommer Kontrollpanelen att meddela om systemproblem och rekommendera vilka åtgärder som ska vidtas. E-postaviseringar skickas till alla som har anmält sig för **alla instanser** som de är administratörer för.
 
    ![](assets/alert_sample.png)
 
 Listan med varningar är följande:
 
-* **Användning** av SFTP-lagring: En av dina SFTP-servrar har nått 80 % eller mer av sin kapacitet. Se [SFTP-lagringshantering](../../sftp/using/sftp-storage-management.md).
+* **SFTP-lagringsanvändning**: En av dina SFTP-servrar har nått 80 % eller mer av sin kapacitet. Se [SFTP-lagringshantering](../../sftp/using/sftp-storage-management.md).
 
 * **Databasanvändning**: En av instansdatabaserna har nått 80 % eller mer av sin kapacitet. Se [Databasövervakning](../../performance-monitoring/using/database-monitoring.md).
 
 * **SSL-certifikatets förfallodatum**: En av dina underdomäners SSL-certifikat har gått ut eller går ut om 60 dagar eller mindre. Se [Övervaka underdomäners SSL-certifikat](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
-* **SFTP IP-listan tillåter förfallodatum**: Ett av IP-intervallen som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Lista över tillåtna IP-intervall](../../sftp/using/ip-range-allow-listing.md).
+* **SFTP IP-listan tillåter att listan går ut**: Ett av IP-intervallen som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [IP-intervall tillåter listning](../../sftp/using/ip-range-allow-listing.md).
 
-* **Giltighetstid** för offentlig SFTP-nyckel: En av de offentliga nycklarna som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Nyckelhantering](../../sftp/using/key-management.md).
+* **SFTP-utgångsdatum för offentlig nyckel**: En av de offentliga nycklarna som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Nyckelhantering](../../sftp/using/key-management.md).

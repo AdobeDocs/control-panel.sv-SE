@@ -28,7 +28,7 @@ Adobe Campaign rekommenderar att du säkrar de underdomäner som är värdar fö
 
 ![](assets/no_certificate.png)
 
-## Övervaka SSL-certifikat  {#monitoring-certificates}
+## Övervakning av SSL-certifikat  {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"

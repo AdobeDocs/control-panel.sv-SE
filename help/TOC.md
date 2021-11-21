@@ -1,15 +1,14 @@
 ---
 product: adobe campaign
-sub-product: kontrollpanelen
+sub-product: control panel
 audience: end-user
 user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: ht
-source-wordcount: '102'
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
@@ -21,21 +20,21 @@ ht-degree: 100%
 + [Versionsinformation](release-notes.md)
 + Lär känna Kontrollpanelen {#discover-control-panel}
    + [Viktiga funktioner](discover/using/key-features.md)
-   + [Åtkomst till Kontrollpanelen](discover/using/accessing-control-panel.md)
+   + [Åtkomst till kontrollpanelen](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
    + [Hantera SFTP-lagring](sftp/using/sftp-storage-management.md)
-   + [Tillåtelselista IP-intervall ](sftp/using/ip-range-allow-listing.md)
+   + [Tillåtelselista med IP-intervall](sftp/using/ip-range-allow-listing.md)
    + [Hantera nycklar](sftp/using/key-management.md)
    + [Logga in på SFTP-servern](sftp/using/logging-into-sftp-server.md)
    + [Vanliga frågor](sftp/using/common-questions.md)
 + Underdomäner och certifikat {#subdomains-and-certificates}
    + [Märka underdomäner](subdomains-certificates/using/subdomains-branding.md)
-   + [Övervaka underdomänerna](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Övervaka underdomäner](subdomains-certificates/using/monitoring-subdomains.md)
    + [Konfigurera en ny underdomän](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Övervaka SSL-certifikat ](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + [Övervakning av SSL-certifikat ](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Förnya SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [Hantera TXT-poster](subdomains-certificates/using/managing-txt-records.md)
 + Övervaka prestanda {#performance-monitoring}
@@ -44,7 +43,7 @@ ht-degree: 100%
    + [Övervaka aktiva profiler](performance-monitoring/using/active-profiles-monitoring.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
 + Instansinställningar {#instances-settings}
-   + [Tillåtelselista med IP-adresser för åtkomst till instanser](instances-settings/using/ip-allow-listing-instance-access.md)
+   + [Tillåtslista IP-adresser för åtkomst till instanser](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
    + [Hantera GPG-nycklar](instances-settings/using/gpg-keys-management.md)

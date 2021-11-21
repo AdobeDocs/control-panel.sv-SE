@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 >id="cp_certificate_management"
 >title="Om underdomäner och SSL-certifikat"
 >abstract="Övervaka dina underdomäner och associerade SSL-certifikat."
->additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=sv" text="Övervaka SSL-certifikat "
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=sv" text="Övervakning av SSL-certifikat "
 
 ## Varför konfigurera underdomäner? {#why-setting-up-subdomains}
 
@@ -62,8 +62,8 @@ Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontak
 >id="cp_add_subdomain_usecase_selection"
 >title="Välj användningsexempel för din underdomän"
 >abstract="Att dela upp dina underdomäner efter användningsfall är det bästa sättet att leverera. På så sätt isoleras och skyddas varje underdomäns rykte."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Märka underdomäner"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv" text="Märka underdomäner"
 
 När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 

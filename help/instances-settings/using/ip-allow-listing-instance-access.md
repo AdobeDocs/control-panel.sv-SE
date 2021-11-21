@@ -55,7 +55,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 
 >[!NOTE]
 >
->Om **[!UICONTROL Instance Settings]**-kortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic v7- eller Campaign v8-instanser.
+>Om **[!UICONTROL Instance Settings]** kortet visas inte på kontrollpanelens hemsida, vilket innebär att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic v7- eller Campaign v8-instanser.
 
 Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
@@ -94,7 +94,7 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
    <!--![](assets/ip_whitelist_added.png)-->
 
-Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]**.
+Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]** -knappen.
 
 ![](assets/ip_whitelist_delete.png)
 

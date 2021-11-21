@@ -10,7 +10,7 @@ exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 >id="cp_siteverification_add"
 >title="Hantera TXT-poster"
 >abstract="Vissa tjänster såsom Google kräver att du lägger till en TXT-post i domäninställningarna för att verifiera att du äger domänen."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 
 ## Om TXT-poster {#about-txt-records}
 

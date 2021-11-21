@@ -7,14 +7,13 @@ testing: SSECD-836 2
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 4%
+source-wordcount: '168'
+ht-degree: 16%
 
 ---
-
 
 # Om SFTP-hantering {#about-sftp-management}
 
@@ -24,8 +23,8 @@ På Kontrollpanelen kan du interagera med alla SFTP-servrar som är anslutna til
 
 Med kontrollpanelen kan du utföra åtgärderna nedan för att hantera dina SFTP-servrar:
 
-* övervaka deras **lagringskapacitet**,
+* Övervaka deras **lagringskapacitet**,
 * Hantera **IP-adresser tillåter listning**: lägga till eller ta bort IP-adressintervall för en eller flera servrar,
-* Hantera **publika SSH-nycklar** för att komma åt dina servrar.
+* Hantera **publika SSH-nycklar** för att få tillgång till dina avhandlingar.
 
 Detaljerad information om dessa åtgärder finns i avsnitten nedan.

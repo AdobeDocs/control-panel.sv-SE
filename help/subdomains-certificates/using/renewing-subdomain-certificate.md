@@ -51,7 +51,7 @@ När du har köpt SSL-certifikatet kan du installera det på önskad underdomän
 >id="cp_select_subdomains"
 >title="Välj underdomänerna för din begäran om certifikatsignering"
 >abstract="Du kan välja att inkludera alla eller endast vissa underdomäner i din begäran om certifikatsignering. Endast valda underdomäner certifieras via inköpt SSL-certifikat."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Om att märka underdomäner"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv" text="Om att märka underdomäner"
 
 Följ dessa steg för att skapa en begäran om certifikatsignering:
 

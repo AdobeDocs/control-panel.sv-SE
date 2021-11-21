@@ -38,6 +38,6 @@ Med knappen **[!UICONTROL Open]** kommer du direkt till den flik på kontrollpan
 
 ## Hjälpresurser {#help-resources}
 
-Avsnittet **[!UICONTROL Help Resources]** innehåller användbar dokumentation som hjälper dig att använda kontrollpanelen och Campaign-produkterna. Tveka inte att utforska dem.
+The **[!UICONTROL Help Resources]** innehåller användbar dokumentation som kan hjälpa dig att använda Kontrollpanelen och Campaign-produkterna. Tveka inte att utforska dem.
 
 ![](assets/helpresources.png)

@@ -18,25 +18,25 @@ ht-degree: 12%
 
 Kontrollpanelen är tillgänglig direkt från Experience Cloud eller från själva produkten.
 
-Det är endast tillgängligt för **Admin-användare**. Mer information om hur du tilldelar användare till gruppen Administratörer finns i [det här avsnittet](../../discover/using/managing-permissions.md).
+Det är tillgängligt för **Administratörsanvändare** endast. Mer information om hur du tilldelar användare till gruppen Administratörer finns i [det här avsnittet](../../discover/using/managing-permissions.md).
 
 ## Åtkomst från Experience Cloud Platform {#access-experience-cloud-platform}
 
 Följ stegen nedan för att öppna Kontrollpanelen från Adobe Experience Cloud Platform.
 
-1. Gå till startsidan för [Experience Cloud](https://experiencecloud.adobe.com/?lang=sv){target=&quot;_blank&quot;}.
+1. Navigera till [Experience Cloud hemsida](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. Klicka på den dedikerade länken i avsnittet **Snabbåtkomst**.
+1. Klicka på den dedikerade länken i **Snabb åtkomst** -avsnitt.
 
    ![](assets/do-not-localize/quickaccess.png)
 
-Kontrollpanelen är också tillgänglig från Experience Cloud Platform **lösningsväljaren**:
+Kontrollpanelen är också tillgänglig från Experience Cloud-plattformen **lösningsväljare**:
 
-1. På [Adobe Experience Cloud hemsida](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;} väljer du **Campaign** i **snabbåtkomstsektionen** eller den översta menyn till höger.
+1. Från [Adobe Experience Cloud hemsida](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, välj **Campaign** från **Snabb åtkomst** eller den översta menyn till höger.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. Listan över era Campaign-instanser visas. Klicka på kortet **Kontrollpanelen** för att starta det.
+1. Listan över era Campaign-instanser visas. Klicka på **Kontrollpanelen** för att starta det.
 
    ![](assets/do-not-localize/control_panel_access2.png)
 
@@ -44,14 +44,14 @@ Kontrollpanelen är också tillgänglig från Experience Cloud Platform **lösni
 
 >[!NOTE]
 >
->Åtkomst inifrån produkten är endast tillgänglig för [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=sv){target=&quot;_blank&quot;}.
+>Du kan få åtkomst inifrån programmet via [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=sv)Endast {target=&quot;_blank&quot;}.
 
 1. Öppna Campaign Standarden.
 
-1. Välj menyn **[!UICONTROL Administration]** i rutan **Navigering**.
+1. Välj **[!UICONTROL Administration]** från **Navigering** fönster.
 
    ![](assets/control_panel_access3.png)
 
-1. Klicka på ikonen **[!UICONTROL Control Panel]**.
+1. Klicka på **[!UICONTROL Control Panel]** ikon.
 
    ![](assets/control_panel_access4.png)

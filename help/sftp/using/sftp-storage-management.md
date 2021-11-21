@@ -10,7 +10,7 @@ exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -44,6 +44,6 @@ Det finns även fler tips som hjälper dig med vad du bör göra när servern n�
 ## Bästa praxis när lagringskapaciteten tar slut {#best-practices-when-capacity-runs-out}
 
 1. **Rensa SFTP-servern från gamla eller onödiga filer**. Se [det här avsnittet](../../sftp/using/logging-into-sftp-server.md) för mer information om hur du får åtkomst till SFTP-serverns mapp.
-1. Se till att **arbetsflödena** som rensar SFTP-servrarna körs. Se den särskilda dokumentationen om [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) för mer information om tekniska arbetsflöden i Adobe Campaign.
+1. Se till att **arbetsflödena** som rensar SFTP-servrarna körs. Se den särskilda dokumentationen om [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) för mer information om tekniska arbetsflöden i Adobe Campaign.
 1. Kontakta ditt kontoteam för att **begära mer lagringsutrymme** (extra avgifter kan tillkomma).
 1. Kontakta **Kundtjänst** om du tror att det är något problem.

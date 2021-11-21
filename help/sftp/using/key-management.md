@@ -69,17 +69,17 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
    >
    >En eller flera offentliga SSH-nycklar kan läggas till för varje användare.
 
-1. Om du vill hantera dina offentliga nycklar bättre kan du ange en varaktighet för tillgängligheten för varje nyckel. Om du vill göra det väljer du en enhet i listrutan **[!UICONTROL Type]** och definierar en varaktighet i motsvarande fält. Mer information om att offentlig nyckel upphör att gälla finns i [det här avsnittet](#expiry).
+1. Om du vill hantera dina offentliga nycklar bättre kan du ange en varaktighet för tillgängligheten för varje nyckel. Välj en enhet i **[!UICONTROL Type]** och definiera en varaktighet i motsvarande fält. Mer information om publika nycklar finns på [det här avsnittet](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >Som standard är fältet **[!UICONTROL Type]** inställt på **[!UICONTROL Unlimited]**, vilket betyder att den offentliga nyckeln aldrig upphör att gälla.
+   >Som standard är **[!UICONTROL Type]** fältet är inställt på **[!UICONTROL Unlimited]**, vilket betyder att den offentliga nyckeln aldrig upphör att gälla.
 
-1. I fältet **[!UICONTROL Comment]** kan du ange en orsak till att du har lagt till den här offentliga nyckeln (varför, för vem, osv.).
+1. I **[!UICONTROL Comment]** kan du ange en anledning till att du lägger till den här offentliga nyckeln (varför, för vem, osv.).
 
-1. Om du vill kunna fylla i **[!UICONTROL Public Key]**-fältet måste du generera en offentlig SSH-nyckel. Följ stegen nedan i enlighet med ditt operativsystem.
+1. För att kunna fylla i **[!UICONTROL Public Key]** måste du generera en offentlig SSH-nyckel. Följ stegen nedan i enlighet med ditt operativsystem.
 
    **Linux och Mac:**
 
@@ -91,7 +91,7 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
 
    **Windows:**
 
-   Du kan behöva installera ett verktyg från tredje part som hjälper dig att generera nyckelpar för privat/offentlig nyckel i samma format,&quot;name.pub&quot;.
+   Du kan behöva installera ett tredjepartsverktyg som hjälper dig att generera nyckelpar för privat/offentlig nyckel i samma format,&quot;name.pub&quot;.
 
 1. Öppna .pub-filen och kopiera och klistra sedan in hela strängen med börjar med ”ssh …” i Kontrollpanelen.
 
@@ -99,7 +99,7 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
 
    >[!NOTE]
    >
-   >Fältet **[!UICONTROL Public Key]** accepterar bara OpenSSH-format. Storleken på den offentliga SSH-nyckeln ska vara **2 048 bitar**.
+   >The **[!UICONTROL Public Key]** Endast OpenSSH-formatet accepteras. Storleken på den offentliga SSH-nyckeln ska vara **2 048 bitar**.
 
 1. Klicka på knappen **[!UICONTROL Save]** för att skapa nyckeln. Kontrollpanelen sparar den offentliga nyckeln och tillhörande fingeravtryck, som är krypterat med SHA256-formatet.
 
@@ -117,7 +117,7 @@ Med knappen ”**…**” kan du ta bort en befintlig nyckel eller kopiera tillh
 
 ## Hantera offentliga nycklar {#managing-public-keys}
 
-De offentliga nycklar som du skapar visas på fliken **[!UICONTROL Key Management]**.
+De offentliga nycklarna som du skapar visas i **[!UICONTROL Key Management]** -fliken.
 
 Du kan sortera objekten baserat på skapandedatum eller utgåvedatum, på den användare som skapade eller redigerade dem och på IP-intervallets förfallodatum.
 
@@ -125,23 +125,23 @@ Du kan också söka efter en offentlig nyckel genom att börja skriva ett namn e
 
 ![](assets/control_panel_key_management_sort.png)
 
-Mer information om hur du redigerar ett eller flera IP-intervall finns i [det här avsnittet](#editing-public-keys).
+Information om hur du redigerar ett eller flera IP-intervall finns i [det här avsnittet](#editing-public-keys).
 
-Om du vill ta bort en eller flera offentliga nycklar från listan markerar du dem och klickar sedan på knappen **[!UICONTROL Delete public key]**.
+Om du vill ta bort en eller flera offentliga nycklar från listan markerar du dem och klickar sedan på knappen **[!UICONTROL Delete public key]** -knappen.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Förfaller {#expiry}
 
-Kolumnen **[!UICONTROL Expires]** visar hur många dagar som återstår tills den offentliga nyckeln upphör att gälla.
+The **[!UICONTROL Expires]** visas hur många dagar som återstår tills den offentliga nyckeln upphör att gälla.
 
-Om du prenumererar på [e-postvarningar](../../performance-monitoring/using/email-alerting.md) får du meddelanden via e-post 10 dagar och 5 dagar innan en offentlig nyckel går ut och samma dag som den går ut. När du får en varning kan du [redigera den offentliga nyckeln](#editing-public-keys) och vid behov förlänga dess giltighetsperiod.
+Om du prenumererar på [e-postavisering](../../performance-monitoring/using/email-alerting.md)får du meddelanden via e-post 10 dagar och 5 dagar innan en offentlig nyckel upphör att gälla och den dag då den upphör att gälla. När du fått en varning kan du [redigera den offentliga nyckeln](#editing-public-keys) vid behov förlänga giltighetsperioden.
 
-En utgången offentlig nyckel tas automatiskt bort efter 7 dagar. Det visas som **[!UICONTROL Expired]** i kolumnen **[!UICONTROL Expires]**. Inom denna 7-dagarsperiod:
+En utgången offentlig nyckel tas automatiskt bort efter 7 dagar. Det visas som **[!UICONTROL Expired]** i **[!UICONTROL Expires]** kolumn. Inom denna 7-dagarsperiod:
 
 * Det går inte längre att använda en utgången offentlig nyckel för att ansluta till SFTP-servern.
 
-* Du kan [redigera](#editing-public-keys) en offentlig nyckel som har gått ut och uppdatera dess varaktighet så att den blir tillgänglig igen.
+* Du kan [redigera](#editing-public-keys) en utgången offentlig nyckel och uppdatera dess varaktighet så att den blir tillgänglig igen.
 
 * Du kan ta bort den från listan.
 
@@ -158,7 +158,7 @@ Följ stegen nedan om du vill redigera offentliga nycklar.
 >
 >Du kan bara redigera offentliga nycklar som har skapats sedan Kontrollpanelen i oktober 2021-versionen.
 
-1. Markera ett eller flera objekt i listan **[!UICONTROL Key Management]**.
+1. Markera ett eller flera objekt i dialogrutan **[!UICONTROL Key Management]** lista.
 1. Klicka på knappen **[!UICONTROL Update public key]**.
 
    ![](assets/control_panel_edit_key.png)
