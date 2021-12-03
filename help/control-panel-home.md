@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 66%
 
 **Fullt stöd med Campaign v8**
 
-Alla funktioner, inklusive **Underdomän** och **Certifikat** hantering stöds nu av Kontrollpanelen i Adobe Campaign v8. [Läs mer](faq.md#v8-restrictions)
+Alla funktioner, inklusive hantering av **Underdomän** och **Certifikat**, stöds nu av Kontrollpanelen i Adobe Campaign v8. [Läs mer](faq.md#v8-restrictions)
 
 **Giltighetsperiod för IP-intervall och utgåva**
 
