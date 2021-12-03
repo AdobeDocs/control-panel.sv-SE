@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Mer information finns i dokumentationen om åtgärder som Kontrollpanelen har st
 
 ### Finns det vissa funktioner som ännu inte stöds i Campaign v8 men som är tillgängliga i Campaign Classic v7?{#v8-restrictions}
 
-Nej. Alla funktioner som är tillgängliga på Campaign Classic v7 stöds nu även via Kontrollpanelen i Campaign v8, inklusive funktioner som rör subdomain och Certificate Management.
+Nej. Alla funktioner som är tillgängliga på Campaign Classic v7 stöds nu även via Kontrollpanelen i Campaign v8, inklusive funktioner som rör hantering av underdomäner och certifikat.
 
 ### Fungerar Kontrollpanelen bara för Adobe Campaign?
 
@@ -66,7 +66,7 @@ Se [dokumentationen om Adobe Experience Cloud](https://experienceleague.adobe.co
 
 ### Var hittar jag mitt IMS-organisations-ID?
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv).
 
 Det andra sättet är att starta **Administratörskonsolen**. Ditt IMS-organisations-ID visas i din URL. Det bör se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
