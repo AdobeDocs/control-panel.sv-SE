@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
+source-git-commit: 8c604e9b1f657be938b04d096ac22efed99e1cbe
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '778'
 ht-degree: 72%
 
 ---
@@ -22,7 +22,7 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >
 >Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 >
->Observera att din instans måste lagras på AWS och uppgraderas med den senaste versionen av Campaign Classic v7 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=sv) eller [senaste GA-bygge (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=sv#release-notes). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om instanser har AWS som värd.
+>Observera att din instans måste lagras på AWS och uppgraderas med den senaste versionen av Campaign Classic v7 [stabil](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/rn-overview.html). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om instanser har AWS som värd.
 
 ## Oktober 2021 {#october-2021}
 
