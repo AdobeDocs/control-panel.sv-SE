@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8c604e9b1f657be938b04d096ac22efed99e1cbe
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 72%
+ht-degree: 70%
 
 ---
 
@@ -20,9 +20,9 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 
 >[!NOTE]
 >
->Kontrollpanelen är tillgänglig för alla administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
+>Kontrollpanelen är bara tillgänglig för administratörsanvändare. Läs mer om behörigheter i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 >
->Observera att din instans måste lagras på AWS och uppgraderas med den senaste versionen av Campaign Classic v7 [stabil](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/rn-overview.html). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md) för att kontrollera om instanser har AWS som värd.
+>För Campaign Classic v7 måste din instans lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Stabilt kampanjbygge](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) (eller för att bygga 9032 eller senare). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
 
 ## Oktober 2021 {#october-2021}
 

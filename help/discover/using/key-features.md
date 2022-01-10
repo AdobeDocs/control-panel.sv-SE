@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 89%
 
 ---
 
@@ -26,9 +26,9 @@ Viktiga fördelar:
 
 >[!NOTE]
 >
->Kontrollpanelen är bara tillgänglig för administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
+>Kontrollpanelen är bara tillgänglig för administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](managing-permissions.md).
 >
->Observera att för Campaign Classic måste din instans ha Amazon Web Services (AWS) som värd och uppgraderas till den senaste [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses)-versionen. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md) för att kontrollera om instanser har AWS som värd.
+>Observera till exempel att din instans måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Stabilt kampanjbygge](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller för att bygga 9032 eller senare. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
 
 <table style="table-layout:fixed">
 <tr>
