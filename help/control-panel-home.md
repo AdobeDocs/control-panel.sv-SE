@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 77%
 
 ---
 
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## Nyheter
 
-**Fullt stöd med Campaign v8**
+**Övervakning av aktiva frågor**
 
-Alla funktioner, inklusive hantering av **Underdomän** och **Certifikat**, stöds nu av Kontrollpanelen i Adobe Campaign v8. [Läs mer](faq.md#v8-restrictions)
+Med kontrollpanelen kan du nu övervaka frågor som har körts längst på dina instanser. [Läs mer](performance-monitoring/using/database-active-queries.md)
 
-**Giltighetsperiod för IP-intervall och utgåva**
+**Genomströmning och fördröjningsövervakning**
 
-Det är nu möjligt att ange en varaktighet för tillgängligheten för IP-intervall och att redigera de IP-intervall som du skapar. [Läs mer](sftp/using/ip-range-allow-listing.md)
+Nu kan du övervaka hur leveransdataflödena och tidsfördröjningen trendar över en tidsperiod för dina instanser. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
 
-**Giltighetsperiod för offentlig nyckel och utgåva**
-
-På samma sätt kan du nu ange en längd för tillgängligheten för publika nycklar och redigera de publika nycklarna som du skapar. [Läs mer](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
