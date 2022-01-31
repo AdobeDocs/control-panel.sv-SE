@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 70%
+source-wordcount: '858'
+ht-degree: 65%
 
 ---
 
@@ -23,6 +23,20 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 >Kontrollpanelen är bara tillgänglig för administratörsanvändare. Läs mer om behörigheter i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 >
 >För Campaign Classic v7 måste din instans lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Stabilt kampanjbygge](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) (eller för att bygga 9032 eller senare). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
+
+## Januari 2022 {#january-2022}
+
+**Övervakning av aktiva frågor**
+
+Med kontrollpanelen kan du nu övervaka frågor som har körts längst på dina instanser. [Läs mer](performance-monitoring/using/database-active-queries.md)
+
+**Genomströmning och fördröjningsövervakning**
+
+Nu kan du övervaka hur leveransdataflödena och tidsfördröjningen trendar över en tidsperiod för dina instanser. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
+
+**SSL-certifikatåtgärder på nya underdomäner**
+
+SSL-certifikatåtgärder kan nu utföras på en nyligen konfigurerad underdomän, även om en granskning av leveransen fortfarande pågår. [Läs mer](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Oktober 2021 {#october-2021}
 

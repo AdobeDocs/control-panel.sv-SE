@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,7 @@ Den här sidan innehåller information om hur du konfigurerar nya underdomäner 
 
 Konfiguration av en underdomän är endast tillgänglig för **produktionsinstanser**.
 
-Om instansen som du väljer i guiden inte har några tidigare konfigurerade underdomäner, blir den första konfigurerade underdomänen den **primära underdomänen** för den instansen och du kan inte ändra den i framtiden.
-
-Därför skapas **omvända DNS-poster** för andra underdomäner som använder den här primära underdomänen. **Svars- och returadresser för andra underdomäner genereras från den primära underdomänen.**
+Om instansen som du väljer i guiden inte har några tidigare konfigurerade underdomäner, blir den första konfigurerade underdomänen den **primära underdomänen** för den instansen och du kan inte ändra den i framtiden. Därför skapas **omvända DNS-poster** för andra underdomäner som använder den här primära underdomänen. **Svars- och returadresser för andra underdomäner genereras från den primära underdomänen.**
 
 ### Konfiguration av namnservrar
 
@@ -62,13 +60,13 @@ Skapa **inte heller någon separat zonfil** för den nya underdomänen.
 >id="cp_add_subdomain_create_delegate"
 >title="Skapa och delegera din underdomän"
 >abstract="Skapa den underdomän som du vill använda med Adobe Campaign i din värdlösning och delegera den till Adobe."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Skicka in din underdomän"
 >abstract="Bekräfta och skicka in den underdomän som har konfigurerats i föregående steg."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
 
 Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe Campaign.
 
@@ -110,19 +108,19 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
 >id="cp_add_cname_subdomain_create_delegate"
 >title="Konfigurera din underdomän"
 >abstract="På den här skärmen anger du den underdomän som du vill konfigurera genom att använda CNAME."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="Generera poster"
 >abstract="Navigera till din värdlösning för att generera listan med DNS-poster som visas på den här skärmen."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Skicka in din underdomän"
 >abstract="Bekräfta och skicka in den underdomän som har konfigurerats i föregående steg."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
 
 Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
@@ -168,7 +166,7 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
 
    >[!NOTE]
    >
-   >Observera att när konfiguration av underdomäner körs ställs andra begäranden via Kontrollpanelen i kö och utförs först när konfigurationen av underdomäner har slutförts. Det här händer för att undvika prestandaproblem.
+   >Observera att medan underdomänskonfigurationen körs kommer andra begäranden från Kontrollpanelen att anges i en kö och utföras först när subdomänkonfigurationen har slutförts, för att undvika prestandaproblem.
 
 1. Om kontrollerna är godkända börjar Kontrollpanelen konfigurera underdomänen med DNS-poster, ytterligare URL:er, inkorgar osv.
 
@@ -183,6 +181,8 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
    >[!IMPORTANT]
    >
    >De kontroller som utförs omfattar tester av feedbackslingor och feedbackslingor gällande skräppost. Vi rekommenderar därför inte att du använder underdomänen innan granskningen har slutförts eftersom det kan leda till ett dåligt rykte för underdomänen.
+   >
+   >Observera dock att du kan utföra åtgärder relaterade till SSL-certifikat på din underdomän, även om leveransgranskningen fortfarande bearbetas.
 
 1. Vid slutet av processen konfigureras underdomänerna så att de fungerar med instansen i Adobe Campaign och elementen nedan skapas:
 

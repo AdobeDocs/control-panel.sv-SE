@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 94%
 
 ---
 
@@ -39,8 +39,15 @@ ht-degree: 100%
    + [Hantera TXT-poster](subdomains-certificates/using/managing-txt-records.md)
 + Övervaka prestanda {#performance-monitoring}
    + [Om att övervaka prestanda](performance-monitoring/using/about-performance-monitoring.md)
-   + [Övervaka databaser](performance-monitoring/using/database-monitoring.md)
+   + Övervaka databaser {#database-monitoring}
+      + [Om databasövervakning](performance-monitoring/using/database-monitoring.md)
+      + [Databasanvändning](performance-monitoring/using/database-utilization.md)
+      + [Lagringsöversikt](performance-monitoring/using/database-storage-overview.md)
+      + [De 10 viktigaste tillfälliga resurserna](performance-monitoring/using/database-top-ten-resources.md)
+      + [Övervaka aktiva frågor](performance-monitoring/using/database-active-queries.md)
+      + [Förhindra databasöverbelastning](performance-monitoring/using/database-preventing-overload.md)
    + [Övervaka aktiva profiler](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Genomströmning och fördröjningsövervakning](performance-monitoring/using/thoughputs-latencies.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
 + Instansinställningar {#instances-settings}
    + [Tillåtslista IP-adresser för åtkomst till instanser](instances-settings/using/ip-allow-listing-instance-access.md)
