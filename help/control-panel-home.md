@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 77%
 
 ## Nyheter
 
-**Övervakning av aktiva frågor**
+**Övervaka aktiva frågor**
 
-Med kontrollpanelen kan du nu övervaka frågor som har körts längst på dina instanser. [Läs mer](performance-monitoring/using/database-active-queries.md)
+Med Kontrollpanelen kan du nu övervaka frågor som har körts längst på dina instanser. [Läs mer](performance-monitoring/using/database-active-queries.md)
 
-**Genomströmning och fördröjningsövervakning**
+**Genomflöden och fördröjningsövervakning**
 
-Nu kan du övervaka hur leveransdataflödena och tidsfördröjningen trendar över en tidsperiod för dina instanser. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
+Nu kan du övervaka hur leveransgenomflöden och fördröjning trendar över en tidsperiod för dina instanser. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
 
 
 >[!CAUTION]
