@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Kontakta produktadministratören om du inte är administratör men vill ha åtko
 
 Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](discover/using/managing-permissions.md).
 
-Observera att din instans måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste versionen för Campaign Classic v7 [Stabilt kampanjbygge](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller för att bygga 9032 eller senare. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen i [det här avsnittet](#hosted-aws) för att kontrollera om din instans av Campaign Classic har AWS som värd.
+Observera att för Campaign Classic v7 måste din instans finnas på Amazon Web Services (AWS) och vara uppgraderad till den senaste [stabila builden av Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller till build 9032 eller senare. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen i [det här avsnittet](#hosted-aws) för att kontrollera om din instans av Campaign Classic har AWS som värd.
 
 ### Hur kommer jag åt Kontrollpanelen?
 
@@ -66,7 +66,7 @@ Se [dokumentationen om Adobe Experience Cloud](https://experienceleague.adobe.co
 
 ### Var hittar jag mitt IMS-organisations-ID?
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv).
 
 Det andra sättet är att starta **Administratörskonsolen**. Ditt IMS-organisations-ID visas i din URL. Det bör se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
