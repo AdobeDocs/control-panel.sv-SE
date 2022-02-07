@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -43,3 +43,5 @@ Listan med varningar är följande:
 * **SFTP IP-listan tillåter att listan går ut**: Ett av IP-intervallen som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [IP-intervall tillåter listning](../../sftp/using/ip-range-allow-listing.md).
 
 * **SFTP-utgångsdatum för offentlig nyckel**: En av de offentliga nycklarna som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Nyckelhantering](../../sftp/using/key-management.md).
+
+* **Långa frågor**: En fråga har körts i över 24 timmar på en av dina förekomster. Se [Övervaka aktiva frågor](database-active-queries.md).
