@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 65%
+source-wordcount: '834'
+ht-degree: 69%
 
 ---
 
@@ -26,13 +26,13 @@ Här finns information om de senaste versionerna av Kontrollpanelen.
 
 ## Januari 2022 {#january-2022}
 
-**Övervakning av aktiva frågor**
+<!-- **Active queries monitoring**
 
-Med kontrollpanelen kan du nu övervaka frågor som har körts längst på dina instanser. [Läs mer](performance-monitoring/using/database-active-queries.md)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
 
-**Genomströmning och fördröjningsövervakning**
+**Genomflöden och fördröjningsövervakning**
 
-Nu kan du övervaka hur leveransdataflödena och tidsfördröjningen trendar över en tidsperiod för dina instanser. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
+Nu kan du övervaka hur leveransgenomflöden och fördröjning trendar över en tidsperiod för dina instanser. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
 
 **SSL-certifikatåtgärder på nya underdomäner**
 

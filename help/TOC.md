@@ -6,9 +6,9 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
-workflow-type: ht
-source-wordcount: '118'
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 100%
       + [Databasanvändning](performance-monitoring/using/database-utilization.md)
       + [Lagringsöversikt](performance-monitoring/using/database-storage-overview.md)
       + [De 10 viktigaste tillfälliga resurserna](performance-monitoring/using/database-top-ten-resources.md)
-      + [Övervaka aktiva frågor](performance-monitoring/using/database-active-queries.md)
       + [Förhindra databasöverbelastning](performance-monitoring/using/database-preventing-overload.md)
    + [Aktiv profilövervakning](performance-monitoring/using/active-profiles-monitoring.md)
    + [Genomflöden och fördröjningsövervakning](performance-monitoring/using/thoughputs-latencies.md)
