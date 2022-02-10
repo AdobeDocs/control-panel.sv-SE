@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '118'
+ht-degree: 100%
 
 ---
 
@@ -25,4 +25,4 @@ Kolumnerna **[!UICONTROL Duration]** anger hur länge en fråga har körts på i
 >
 >Om någon av frågorna har varit aktiv i mer än 24 timmar får du ett e-postmeddelande om du prenumererar på [e-postavisering](email-alerting.md).
 >
->Kontakta då kundtjänst så att de kan identifiera och lösa problemet. Du måste ge dem **[!UICONTROL PID]** kolumnvärde, som är en unik identifierare för frågan.
+>Kontakta i så fall kundtjänst så att de kan identifiera och lösa problemet. Du måste förse dem med värdet i kolumnen **[!UICONTROL PID]** som är en unik identifierare för frågan.
