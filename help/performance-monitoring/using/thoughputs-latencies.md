@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 79%
 
 Det är viktigt att övervaka hur leveransgenomflöden och fördröjning trender över en tidsperiod för att förstå användningen av dina instanser och säkerställa att de presterar väl.
 
-Den här informationen är tillgänglig på Kontrollpanelen för var och en av era Campaign-instanser i **[!UICONTROL Performance Monitoring]** kort, **[!UICONTROL Throughputs & Latency]** -fliken (observera att det kan ta upp till en timme för kontrollpanelen att visa siffrorna).
+Den här informationen är tillgänglig på Kontrollpanelen för var och en av dina Campaign-instanser i kortet **[!UICONTROL Performance Monitoring]**, fliken **[!UICONTROL Throughputs & Latency]** (observera att det kan ta upp till en timme för Kontrollpanelen att visa siffrorna).
 
 * Området **[!UICONTROL Throughput]** innehåller information om antalet meddelanden som skickas per timme från den valda Campaign-instansen för alla kommunikationskanaler som du är berättigad till.
 
@@ -36,6 +36,6 @@ Den här informationen är tillgänglig på Kontrollpanelen för var och en av e
 
 Som standard visas data för den aktuella dagen. Du kan ändra tidsperioden som visas genom att använda knapparna **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** och **[!UICONTROL 7 days]**.
 
-Du kan även visualisera information i ett tabellformat med sorterbara spalter i stället för ett diagram. Du gör detta genom att klicka på knappen **[!UICONTROL Visualization settings]** och sedan välja **[!UICONTROL Table]**.
+Du kan också visa information i ett tabellformat med sorterbara kolumner i stället för i ett diagram. Du gör detta genom att klicka på knappen **[!UICONTROL Visualization settings]** och sedan välja **[!UICONTROL Table]**.
 
 ![](assets/throughput-latencies-table.png)
