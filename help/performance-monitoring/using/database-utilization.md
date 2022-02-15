@@ -6,10 +6,10 @@ description: Lär dig hur du övervakar användningen av Campaign-databasen på 
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 12e9326ba220776874654705587152bf3978949c
+source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '112'
+ht-degree: 89%
 
 ---
 
