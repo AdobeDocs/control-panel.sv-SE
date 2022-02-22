@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 84%
+source-wordcount: '160'
+ht-degree: 56%
 
 ---
 
@@ -35,8 +35,8 @@ Området **[!UICONTROL Storage overview]** innehåller en grafisk representation
 
 Klicka på knappen **[!UICONTROL View details]** om du vill ha mer information om de olika resurser som förbrukar databasutrymme.
 
+Du kan använda listrutan för att förfina dina söknings- och visningstabeller från en viss resurstyp (arbetsflöden, leveranser, mottagare).
+
 ![](assets/database-storage-details.png)
 
-Använd filtret för att förfina sökningen och bara visa tabeller från en viss resurstyp.
-
-![](assets/database-storage-overview-filter.png)
+Observera att du på den här skärmen även kan övervaka arbetsflödesparametrar som kan kräva särskild uppmärksamhet för att undvika problem i dina instanser. Läs mer i [den här sidan](workflow-monitoring.md).

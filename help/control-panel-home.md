@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 100%
 ![](assets/do-not-localize/banner.png)
 
 ## Nyheter
+
+**Övervakning av arbetsflödesparametrar**
+
+Du kan nu övervaka arbetsflödesparametrar som kan kräva särskild uppmärksamhet för att undvika problem i dina instanser. [Läs mer](performance-monitoring/using/workflow-monitoring.md)
+
 
 **Övervaka aktiva frågor**
 

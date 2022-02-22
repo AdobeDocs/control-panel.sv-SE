@@ -6,10 +6,11 @@ description: Lär dig hur du på Kontrollpanelen övervakar de 10 största tillf
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
+source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 69%
 
 ---
 
@@ -21,24 +22,10 @@ I **[!UICONTROL Top 10 temporary resources]**-området visas de 10 största till
 
 >[!IMPORTANT]
 >
->Den allmänna rekommendationen är att undvika att ha **fler än 40 kolumner** i resurser som inte är färdiga.
+>Den allmänna rekommendationen är att undvika att ha **fler än 40 kolumner** i resurser som inte är färdiga. Om ett arbetsflöde har ett stort antal tabeller eller en stor databas rekommenderar vi att du granskar arbetsflödet för att ta reda på varför det genererar så mycket data.
+>
+>Riktlinjer för Campaign Standard och klassiska finns även i [den här sidan](database-preventing-overload.md) för att förhindra databasöverbelastning.
 
 ![](assets/database-top10.png)
 
->[!NOTE]
->
->Om ett arbetsflöde har ett stort antal tabeller eller en stor databas rekommenderar vi att du granskar arbetsflödet för att ta reda på varför det genererar så mycket data.
->
->Resurser för att förhindra databasöverbelastning i Campaign Standard och Classic finns också tillgängliga i slutet av den här sidan.
-
-Med knappen **[!UICONTROL View all]** får du åtkomst till detaljerad information om de här tillfälliga resurserna.
-
-![](assets/database-top10-view.png)
-
-Värdet i kolumnen **[!UICONTROL Keep interim results]** anger om alternativet är aktiverat (&quot;1&quot;) eller inaktiverat (&quot;0&quot;) i Campaign. Du kan spara resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde (se dokumentationen om [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=sv) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=sv#logs) ).
-
->[!IMPORTANT]
->
->Det här alternativet får aldrig kontrolleras i ett produktionsarbetsflöde. Det används för att analysera resultaten och är endast avsett för testning och ska därför endast användas i utvecklings- eller stagingmiljöer.
->
->Om värdet på Kontrollpanelen anger att alternativet är aktiverat för ett av dina arbetsflöden rekommenderar vi att du inaktiverar det i Campaign.
+The **[!UICONTROL View all]** kan du komma åt **[!UICONTROL Storage overview]** information för att få detaljerad information om dessa tillfälliga resurser. Mer information finns på [den här sidan](database-storage-overview.md).
