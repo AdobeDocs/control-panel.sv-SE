@@ -1,13 +1,14 @@
 ---
 title: Övervaka arbetsflöden
-description: Lär dig hur du övervakar specifika arbetsflödesparametrar som kan behöva åtgärdas för att undvika problem i dina instanser.
+description: Läs om hur du övervakar specifika arbetsflödesparametrar som kan behöva åtgärdas för att undvika problem i dina instanser.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
-workflow-type: tm+mt
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
@@ -43,25 +44,25 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-I Adobe Campaign kan vissa arbetsflödesparametrar behöva åtgärdas för att undvika problem i dina instanser. Kontrollpanelen **[!UICONTROL Storage overview]** kan du kontrollera om något av dessa alternativ är aktiverat för dina arbetsflöden.
+I Adobe Campaign kan vissa arbetsflödesparametrar behöva åtgärdas för att undvika problem i dina instanser. I Kontrollpanelen **[!UICONTROL Storage overview]** kan du kontrollera om några av dessa alternativ är aktiverade för dina arbetsflöden.
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL Keep interim results]** {#keep-results}
 
-När det här alternativet är aktiverat (värdet&quot;1&quot;) sparas resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde. Läs mer i [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=sv) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=sv#logs) dokumentation.
+När det här alternativet är aktiverat (värde ”1”) sparas resultatet av övergångarna mellan de olika aktiviteterna i ett arbetsflöde. Läs mer i dokumentationen om [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=sv) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=sv#logs).
 
 >[!IMPORTANT]
 >
->Det här alternativet får aldrig kontrolleras i ett produktionsarbetsflöde. Den används för analys- och testningsändamål och får därför endast användas i utvecklings- eller stagingmiljöer. Vi rekommenderar starkt att du stänger av det i Campaign.
+>Det här alternativet får aldrig kontrolleras i ett produktionsarbetsflöde. Det används för analys- och testningsändamål och får därför endast användas i utvecklings- eller testmiljöer. Vi rekommenderar att du inaktiverar det i Campaign.
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-När det här alternativet är aktiverat visas de SQL-frågor som skickas till databasen under arbetsflödeskörningen i Adobe Campaign. Läs mer i [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) dokumentation.
+När det här alternativet är aktiverat visas de SQL-frågor som skickas till databasen under arbetsflödeskörningen i Adobe Campaign. Läs mer i dokumentationen om [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=sv) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=sv#execution).
 
-Värdet &quot;1&quot; anger att arbetsflödet har **Allvarlighetsgrad** fältet är inställt på &quot;Produktion&quot; och att alternativet SQL-frågelogg är aktiverat.
+Värdet ”1” anger att arbetsflödet har fältet **Svårighetsgrad** inställt på ”Produktion” och att alternativet SQL-frågelogg är aktiverat.
 
 >[!IMPORTANT]
 >
@@ -71,8 +72,8 @@ Värdet &quot;1&quot; anger att arbetsflödet har **Allvarlighetsgrad** fältet 
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-I det här fältet kan du tilldela en operator till ett arbetsflöde. Om arbetsflödet misslyckas får den associerade operatorn ett varningsmeddelande. Läs mer i [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) dokumentation.
+I det här fältet kan du tilldela en operatör till ett arbetsflöde. Om arbetsflödet misslyckas får den associerade operatören ett varningsmeddelande. Läs mer i dokumentationen om [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=sv#error-management) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=sv#error-management).
 
-Värdet &quot;1&quot; anger att arbetsflödet har **Allvarlighetsgrad** fältet är inställt på &quot;Produktion&quot; och ingen arbetsflödestillsynsgrupp har tilldelats.
+Värdet ”1” anger att arbetsflödet har fältet **Svårighetsgrad** inställt på ”Produktion” och ingen arbetsflödestillsynsgrupp har tilldelats.
 
 ![](assets/wkf-monitoring-supervisors.png)
