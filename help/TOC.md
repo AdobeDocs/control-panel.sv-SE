@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
