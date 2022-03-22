@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: Övervaka underdomäners SSL-certifikat
-description: Läs om hur man övervakar underdomäners SSL-certifikat
+title: Övervaka underdomäner
+description: Övervaka dina underdomäner för att säkerställa att alla är korrekt konfigurerade för att fungera med Adobe Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 16%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 
