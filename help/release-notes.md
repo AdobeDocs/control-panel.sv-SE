@@ -4,9 +4,9 @@ solution: Campaign
 title: Versioner av Kontrollpanelen
 description: På den här sidan visas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1022'
 ht-degree: 63%
 
 ---
@@ -32,7 +32,7 @@ På den här sidan visas alla nya funktioner och förbättringar för Kontrollpa
 <tbody>
 <tr>
 <td>
-<p>Dataströmmar och fördröjningsövervakning är nu tillgängliga för alla Campaign Standards- och v8-kunder med build-nummer 9032, 9330, 9346 eller 9349 som har fristående distributioner (utan några mellaninstanser).</p><p>Mer information finns i den <a href="performance-monitoring/using/thoughputs-latencies.md">detaljerade dokumentationen.</a></p>
+<p>Dataströmmar och fördröjningsövervakning är nu tillgängliga för alla Campaign Standards- och v8-kunder och för Campaign V7-kunder med build-nummer 9032, 9330, 9346 eller 9349 som har fristående driftsättningar (utan några mellaninstanser).</p><p>Mer information finns i den <a href="performance-monitoring/using/thoughputs-latencies.md">detaljerade dokumentationen.</a></p>
 </td>
 </tr>
 </tbody>
