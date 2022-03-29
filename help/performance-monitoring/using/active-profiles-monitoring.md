@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 81%
+source-wordcount: '397'
+ht-degree: 78%
 
 ---
 
-# Övervaka aktiva profiler {#active-profiles-monitoring}
+# Aktiv profilövervakning {#active-profiles-monitoring}
 
 ## Om aktiva profiler {#about-active-profiles}
 
@@ -32,7 +32,7 @@ Profiler anses vara aktiva om de har riktats in på eller kommunicerats med unde
 >
 >Facebook- och Twitter-kanaler beaktas inte.
 
-Mer information om aktiva profiler finns i [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) och [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) dokument.
+Mer information om aktiva profiler finns i [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) och [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) dokument.
 
 ## Övervaka aktiva profiler {#monitoring-active-profiles}
 
@@ -59,7 +59,7 @@ Följ dessa steg för att göra detta:
 >Aktiva profiler räknas baserat på dedikerade tekniska arbetsflöden som körs varje dag på instanserna:
 >
 >* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) i Campaign Standard,
->* Arbetsflödet [”Antal aktiva faktureringsprofiler”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) i Campaign Classic.
+>* The [&quot;Antal aktiva faktureringsprofiler&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) arbetsflöde för Campaign v7/v8.
 
 
 Det nedre området visar de aktiva profilernas användning under de senaste 30 dagarna. Du kan ändra den tidsperiod som visas upp till ett år med de tillgängliga filtren i det övre högra hörnet.

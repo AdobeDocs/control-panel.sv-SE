@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 87%
+source-wordcount: '764'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Den här funktionen är endast tillgänglig för instanser av Campaign Classic v7 och Campaign v8.
+>Den här funktionen är endast tillgänglig för Campaign v7-/v8-instanser.
 
 Som standard är din instans i Adobe Campaign endast tillgänglig från specifika IP-adresser.
 
@@ -55,7 +55,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 
 >[!NOTE]
 >
->Om **[!UICONTROL Instance Settings]** kortet visas inte på kontrollpanelens hemsida, vilket innebär att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic v7- eller Campaign v8-instanser.
+>Om **[!UICONTROL Instance Settings]** kortet visas inte på kontrollpanelens hemsida, vilket innebär att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign v7/v8-instanser.
 
 Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 

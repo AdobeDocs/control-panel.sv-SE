@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ Skapa **inte heller någon separat zonfil** för den nya underdomänen.
 
 Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe Campaign.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=sv#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=sv#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=sv#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=sv#subdomains-and-certificates)
 
 1. Välj önskad produktionsinstans på kortet **[!UICONTROL Subdomains & Certificates]** och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
@@ -90,7 +90,7 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
 
 1. Skapa underdomänen med motsvarande Adobe-namnserverinformation och klicka sedan på **[!UICONTROL Next]**.
 
-1. Om du har valt en Campaign Classic-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/subdomain5.png)
 
@@ -124,7 +124,7 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
 
 Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=sv#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=sv)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=sv#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=sv)
 
 1. Välj önskad produktionsinstans på kortet **[!UICONTROL Subdomains & Certificates]** och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
@@ -134,7 +134,7 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    ![](assets/cname-method-selection.png)
 
-1. Om du har valt en Campaign Classic-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/cname-use-case.png)
 

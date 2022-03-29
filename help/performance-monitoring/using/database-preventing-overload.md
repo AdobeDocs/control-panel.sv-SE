@@ -6,10 +6,11 @@ description: Få tillgång till resurser från Campaign-dokumentation som hjälp
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 92%
+source-wordcount: '195'
+ht-degree: 72%
 
 ---
 
@@ -22,15 +23,15 @@ Avsnittet nedan innehåller användbara resurser från dokumentationen om Campai
 **Övervakning av arbetsflöden**
 
 * [God praxis för arbetsflöden](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=sv) (Campaign Standard)
-* [Övervaka arbetsflödeskörning](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=sv) (Campaign Classic)
+* [Övervaka körning av arbetsflöde](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=sv) (Campaign v7/v8)
 
 **Databasunderhåll**
 
-* Tekniskt arbetsflöde för databasrensning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv#list-of-technical-workflows) – [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=sv)
-* [Användarhandbok om databasunderhåll](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=sv) (Campaign Classic)
-* [Felsökning av databasprestanda](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=sv) (Campaign Classic)
-* [Databasrelaterade alternativ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=sv#database) (Campaign Classic)
-* Datakvarhållning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=sv) – [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=sv#data-retention)
+* Teknisk arbetsgång för databasrensning: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv#list-of-technical-workflows) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=sv)
+* [Underhållshandbok för databas](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=sv) (Campaign v7/v8)
+* [Felsökning av databasprestanda](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=sv) (Campaign v7/v8)
+* [Databasrelaterade alternativ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=sv#database) (Campaign v7/v8)
+* Datalagring: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=sv) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=sv#data-retention)
 
 >[!NOTE]
 >

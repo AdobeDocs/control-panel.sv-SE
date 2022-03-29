@@ -6,10 +6,11 @@ description: Läs om hur du övervakar din Campaign-databas i Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '380'
+ht-degree: 81%
 
 ---
 
@@ -45,7 +46,7 @@ Dessutom kan du få meddelanden när någon av dina databaser nästan är nått 
 
 ![](assets/databases_dashboard.png)
 
-Data från den här instrumentpanelen uppdateras baserat på **[!UICONTROL Database cleanup technical workflow]** som körs i Campaign-instansen (se [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv#list-of-technical-workflows) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=sv) dokumentation). Du kan kontrollera den senaste gången arbetsflödet kördes under **[!UICONTROL Used Space]** och **[!UICONTROL Provided Space]** mätvärden. Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar kundtjänsten hos Adobe så att de undersöker varför arbetsflödet inte körs.
+Data från den här instrumentpanelen uppdateras baserat på **[!UICONTROL Database cleanup technical workflow]** som körs i Campaign-instansen (se [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv#list-of-technical-workflows) och [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=sv) dokumentation). Du kan kontrollera den senaste gången arbetsflödet kördes under **[!UICONTROL Used Space]** och **[!UICONTROL Provided Space]** mätvärden. Observera att om arbetsflödet inte har körts sedan mer än tre dagar rekommenderar vi att du kontaktar kundtjänsten hos Adobe så att de undersöker varför arbetsflödet inte körs.
 
 Det finns ytterligare mätvärden på den här kontrollpanelen som hjälper dig att analysera hur instansens databas används. De beskrivs i följande avsnitt:
 
@@ -54,4 +55,4 @@ Det finns ytterligare mätvärden på den här kontrollpanelen som hjälper dig 
 * [De 10 viktigaste tillfälliga resurserna](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Aktiva frågor](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring)

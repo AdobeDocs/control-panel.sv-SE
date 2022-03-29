@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '748'
+ht-degree: 75%
 
 ---
 
@@ -56,7 +56,7 @@ Ytterligare information om domänkonfiguration finns i [den här dokumentationen
 
 Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontakta Adobe Deliverability Team eller så småningom kontakta Kundtjänst för att få rådgivning om slutprodukten.
 
-## Användningsexempel för underdomäner (Campaign Classic){#subdomains-use-cases}
+## Användningsexempel för underdomäner (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -65,7 +65,7 @@ Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontak
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv" text="Märka underdomäner"
 
-När du konfigurerar underdomäner för Campaign Classic-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+När du konfigurerar underdomäner för Campaign v7/v8-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Möjliga användningsområden är:
 
@@ -82,7 +82,7 @@ Möjliga användningsområden är:
 
 >[!NOTE]
 >
->Om du använder Campaign Classic kan du via Kontrollpanelen se vilka RT/MID-instanser som är anslutna till den marknadsföringsinstans du arbetar med. Se avsnittet [Information om instanser](../../instances-settings/using/instance-details.md) för mer information.
+>Om du använder Campaign v7/v8 kan du på Kontrollpanelen se vilka RT/MID-instanser som är kopplade till den marknadsinstans som du arbetar med. Se avsnittet [Information om instanser](../../instances-settings/using/instance-details.md) för mer information.
 
 **Relaterade ämnen:**
 

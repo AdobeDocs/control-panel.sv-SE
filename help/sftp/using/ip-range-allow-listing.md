@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 37%
+source-wordcount: '1050'
+ht-degree: 36%
 
 ---
 
-# Tillåtelselista med IP-intervall {#ip-range-allow-listing}
+# Tillåtelselista för IP-intervall {#ip-range-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
@@ -24,7 +24,7 @@ ht-degree: 37%
 
 SFTP-servrar är skyddade. För att kunna komma åt dem för att visa filer eller skriva nya måste du lägga till den offentliga IP-adressen för det system eller den klient som kommer åt servrarna till tillåtelselista.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen via video med [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
 
 ## Om CIDR-formatet {#about-cidr-format}
 

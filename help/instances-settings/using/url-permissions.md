@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 89%
+source-wordcount: '600'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->Den här funktionen är endast tillgänglig för Campaign v8 och Campaign Classic v7 från version 8850. Om du använder en tidigare build måste du uppgradera för att kunna använda den här funktionen.
+>Den här funktionen är endast tillgänglig för Campaign v7/v8-instanser från version 8850. Om du använder en tidigare build måste du uppgradera för att kunna använda den här funktionen.
 
 Standardlistan med URL:er som kan anropas av JavaScript-koder (arbetsflöden osv.) från dina instanser i Campaign är begränsad. Dessa är URL:er som gör det möjligt för dina instanser att fungerar korrekt.
 
@@ -72,7 +72,7 @@ Följ dessa steg för att lägga till en URL som instansen kan ansluta till:
    >
    >Alla instanser i Campaign visas i listan i det vänstra fönstret.
    >
-   >Eftersom hanteringen av URL-behörigheter endast är avsedd för instanser i Campaign Classic visas meddelandet ”Ej tillämpbar instans” om du väljer en instans i Campaign Standard.
+   >Eftersom hanteringen av URL-behörigheter endast är dedikerad till Campaign v7/v8-instanser visas meddelandet&quot;Ej tillämpbar instans&quot; om du markerar en Campaign Standard.
 
 1. Ange den URL som ska auktoriseras med tillhörande protokoll (http, https eller sftp).
 

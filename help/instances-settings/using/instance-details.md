@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 86%
+source-wordcount: '530'
+ht-degree: 77%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 86%
 >id="cp_instancesettings_instancedetails"
 >title="Om instansinformation"
 >abstract="Visa information om dina Adobe Campaign-instanser: typer, namn, bygginformation och möjliga uppgraderingsrekommendationer."
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Versionsinformation om Campaign Classic"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Versionsinformation om Campaign Standard"
 
 ## Om instansinformation {#about-instance-details}
 
 >[!IMPORTANT]
 >
->Den här funktionen är endast tillgänglig för instanser av Campaign Classic v7 och Campaign v8.
+>Den här funktionen är endast tillgänglig för Campaign v7-/v8-instanser.
 
 Instansarkitekturen i Adobe Campaign kan innehålla flera servrar för att möjliggöra flexibilitet i marknadsföringsaktiviteter. Du kan t.ex. ha servrar för marknadsföring, realtid (eller meddelandecenter) samt mid-sourcing som har stöd för din instans.
 
@@ -35,7 +33,7 @@ Funktionaliteten i Instansinformationen låter dig se instansens platta arkitekt
 
 >[!NOTE]
 >
->Vi rekommenderar att du uppgraderar dina instanser minst en gång per år för att undvika prestandaförsämringar. På så sätt kan du även utnyttja de senaste funktionerna och korrigeringarna som Adobe Campaign Classic har att erbjuda.
+>Vi rekommenderar att dina instanser uppgraderas minst en gång per år för att undvika prestandaförsämringar och att du kan utnyttja de senaste funktionerna och korrigeringarna som Adobe Campaign v7/v8 har att erbjuda.
 
 **Relaterade ämnen:**
 
@@ -50,13 +48,13 @@ Följ dessa steg för att få information om servrarna som är anslutna till din
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign Classic-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign v7/v8-instanser
 
 1. Välj den önskade instansen i Campaign i det vänstra fönstret.
 
    >[!NOTE]
    >
-   >Alla instanser i Campaign visas i listan i det vänstra fönstret. Eftersom funktionen Instansinformation endast är avsedd för instanser i Campaign Classic visas meddelandet ”Ej tillämpbar instans” om du väljer en instans i Campaign Standard.
+   >Alla instanser i Campaign visas i listan i det vänstra fönstret. Eftersom funktionen Instansinformation endast är dedikerad till Campaign v7/v8-instanser visas meddelandet&quot;Ej tillämpbar instans&quot; om du väljer en Campaign Standard.
 
 1. Servrarna som är anslutna till instansen visas.
 

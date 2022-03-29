@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Mer information finns i dokumentationen om åtgärder som Kontrollpanelen har st
 
 ### Finns det vissa funktioner som ännu inte stöds i Campaign v8 men som är tillgängliga i Campaign Classic v7?{#v8-restrictions}
 
-Nej. Alla funktioner som är tillgängliga på Campaign Classic v7 stöds nu även via Kontrollpanelen i Campaign v8, inklusive funktioner som rör hantering av underdomäner och certifikat.
+Nej. Alla funktioner som är tillgängliga på Campaign v7 stöds nu även via Kontrollpanelen i Campaign v8, inklusive funktioner som rör hantering av underdomäner och certifikat.
 
 ### Fungerar Kontrollpanelen bara för Adobe Campaign?
 
@@ -46,7 +46,7 @@ Kontakta produktadministratören om du inte är administratör men vill ha åtko
 
 Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](discover/using/managing-permissions.md).
 
-Observera att för Campaign Classic v7 måste din instans finnas på Amazon Web Services (AWS) och vara uppgraderad till den senaste [stabila builden av Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller till build 9032 eller senare. Läs om hur du kontrollerar din version av Campaign Classic i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen i [det här avsnittet](#hosted-aws) för att kontrollera om din instans av Campaign Classic har AWS som värd.
+Observera att för Campaign  v7 måste din instans finnas på Amazon Web Services (AWS) och vara uppgraderad till den senaste [stabila builden av Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller till build 9032 eller senare. Lär dig hur du kontrollerar din version av Campaign Classic v7 i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen i [det här avsnittet](#hosted-aws) för att kontrollera om din instans av Campaign Classic har AWS som värd.
 
 ### Hur kommer jag åt Kontrollpanelen?
 
@@ -66,7 +66,7 @@ Se [dokumentationen om Adobe Experience Cloud](https://experienceleague.adobe.co
 
 ### Var hittar jag mitt IMS-organisations-ID?
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv).
+Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 
 Det andra sättet är att starta **Administratörskonsolen**. Ditt IMS-organisations-ID visas i din URL. Det bör se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 9%
 
 ---
@@ -95,7 +95,7 @@ Nyckeln kan sedan användas i Adobe Campaign arbetsflöden. Du kan använda den 
 
 Mer information om detta finns i Adobe Campaign-dokumentationen:
 
-**Campaign Classic v7 och Campaign v8:**
+**Campaign v7/v8:**
 
 * [Zippa eller kryptera en fil](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [Användningsfall: Kryptera och exportera data med en tangent som är installerad på Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
@@ -138,7 +138,7 @@ Den offentliga nyckeln är sedan tillgänglig för delning med valfritt externt 
 
 Mer information finns i Adobe Campaign-dokumentationen:
 
-**Campaign Classic v7 och Campaign v8:**
+**Campaign v7 och v8:**
 
 * [Packa upp eller dekryptera en fil före bearbetning](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
 * [Användningsfall: Importera data som krypterats med en nyckel som genererats av Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
@@ -186,6 +186,6 @@ Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. Om
 
 I videon nedan visas hur du genererar och installerar GPG-nycklar för datakryptering.
 
-Fler instruktionsvideor om hantering av GPG-nycklar finns i  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) självstudiekurser på sidor.
+Fler instruktionsvideor om hantering av GPG-nycklar finns i  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) självstudiekurser på sidor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
