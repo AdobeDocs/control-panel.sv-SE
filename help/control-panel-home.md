@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-Med Campaign Control Panel kan ni effektivisera arbetet som produktadministratör för Campaign Standard och V7/v8, genom att ni kan hantera inställningar och spåra användningen för var och en av era Campaign-instanser.
+Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministratör för Campaign Standard och v7/v8 genom att hantera inställningar och spåra användningen för var och en av Campaign-instanserna.
 
 ## Nyheter
 
@@ -40,7 +40,7 @@ Nu kan du övervaka hur leveransgenomflöden och fördröjning trendar över en 
 >
 >* Kontrollpanelen är bara tillgänglig för administratörsanvändare. [Läs mer](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel)
 >
->* Distributionsrestriktioner gäller för Campaign v7. [Läs mer](faq.md#v7-restrictions)
+>* Distributionsrestriktioner tillämpas i Campaign v7. [Läs mer](faq.md#v7-restrictions)
 
 
 ## Ytterligare resurser {#additional-resources}
@@ -50,13 +50,13 @@ Nu kan du övervaka hur leveransgenomflöden och fördröjning trendar över en 
         <td><b>Campaign Standard</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=sv">Produktdokumentation om Campaign Standard</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=sv">Produktdokumentation för Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=sv">Videofilmer med självstudier om Kontrollpanelen</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=sv">Produktdokumentation om Campaign v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=sv">Produktdokumentation för Campaign v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
