@@ -4,10 +4,10 @@ solution: Campaign
 title: Versioner av Kontrollpanelen
 description: På den här sidan visas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 63%
+source-wordcount: '1070'
+ht-degree: 61%
 
 ---
 
@@ -20,6 +20,23 @@ På den här sidan visas alla nya funktioner och förbättringar för Kontrollpa
 >Kontrollpanelen är bara tillgänglig för administratörsanvändare. Läs mer om behörigheter i [det här avsnittet](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=sv#discover-control-panel).
 >
 >För Campaign v7 måste din instans lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Stabilt kampanjbygge](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) (eller för att bygga 9032 eller senare). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
+
+## April 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Övervaka viktiga kontakter och händelser i dina instanser</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Du kan nu övervaka tidigare och kommande versioner och servicegranskningar som görs i dina instanser, samt få tillgång till en lista över viktiga kontakter på Adobe för alla förfrågningar och problem.</p><p>Mer information finns i den <a href="service-events/service-events.md">detaljerade dokumentationen.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Mars 2022 {#march-2022}
 

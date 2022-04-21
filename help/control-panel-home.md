@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -27,14 +27,9 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 ## Nyheter
 
-**Övervakning av arbetsflödesparametrar**
+**Övervaka viktiga kontakter och händelser i dina instanser**
 
-Du kan nu övervaka arbetsflödesparametrar som kan kräva särskild uppmärksamhet för att undvika problem i dina instanser. [Läs mer](performance-monitoring/using/workflow-monitoring.md)
-
-**Genomflöden och fördröjningsövervakning**
-
-Nu kan du övervaka hur leveransgenomflöden och fördröjning trendar över en tidsperiod för dina instanser. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
-
+Du kan nu övervaka tidigare och kommande versioner och servicegranskningar som görs i dina instanser, samt få tillgång till en lista över viktiga kontakter på Adobe för alla förfrågningar och problem. [Läs mer](service-events/service-events.md)
 
 >[!CAUTION]
 >
