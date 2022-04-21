@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 93%
+source-wordcount: '124'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 93%
    + [Åtkomst till Kontrollpanelen](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
++ [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
    + [Hantera SFTP-lagring](sftp/using/sftp-storage-management.md)
@@ -55,5 +56,4 @@ ht-degree: 93%
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
    + [Hantera GPG-nycklar](instances-settings/using/gpg-keys-management.md)
-+ [Identifiera viktiga kontakter och händelser i dina instanser](service-events/service-events.md)
 + [Vanliga frågor och svar ](faq.md)
