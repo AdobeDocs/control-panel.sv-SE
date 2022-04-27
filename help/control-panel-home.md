@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 ## Nyheter
 
-**Övervaka viktiga kontakter och händelser i dina instanser**
+**Övervaka viktiga kontakter och händelser i instanserna**
 
-Du kan nu övervaka tidigare och kommande versioner och servicegranskningar som görs i dina instanser, samt få tillgång till en lista över viktiga kontakter på Adobe för alla förfrågningar och problem. [Läs mer](service-events/service-events.md)
+Du kan nu övervaka tidigare och kommande versioner och servicegranskningar som görs i instanserna, samt få tillgång till en lista över viktiga kontakter hos Adobe för alla förfrågningar och problem. [Läs mer](service-events/service-events.md)
 
 >[!CAUTION]
 >
