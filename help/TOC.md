@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: d99076ab844c348dbca2ae2ca2f3dc83da29406e
+source-git-commit: d8843ddcce0de7a29bbdd83af629c8d8f0d32920
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 96%
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,4 @@ ht-degree: 96%
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
    + [Hantera GPG-nycklar](instances-settings/using/gpg-keys-management.md)
-   + [Connect MID/RT-instanser](instances-settings/using/external-accounts.md)
 + [Vanliga frågor och svar ](faq.md)
