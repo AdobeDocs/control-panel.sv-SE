@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 75%
 
 ---
 
@@ -56,33 +56,33 @@ Följ de detaljerade instruktionerna i dokumentationen för hur du kommer åt Ko
 
 Nej, du kan använda den utan någon extra kostnad om du just nu är Adobe Campaign-kund.
 
-## IMS-organisations-ID {#ims-org-id}
+## Organisations-ID {#ims-org-id}
 
-### Vad är ett IMS-organisations-ID?
+### Vad är ett organisations-ID?
 
 Det är ett unikt ID som ges till instansen när du först loggar in på Adobe Experience Cloud. Den ska ha följande format: xxx@AdobeOrg.
 
-Se [dokumentationen om Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv) för mer information.
+Mer information finns i [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv){_blank}.
 
-### Var hittar jag mitt IMS-organisations-ID?
+### Var hittar jag mitt organisations-ID?
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt IMS-organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv).
+Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Organisations-ID:t finns längst ned i Administration **[!UICONTROL Quick Access]** -avsnitt. Mer information finns i [Adobe Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
 
-Det andra sättet är att starta **Administratörskonsolen**. Ditt IMS-organisations-ID visas i din URL. Det bör se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+Det andra sättet är att starta **Administratörskonsolen**. Organisations-ID:t visas i URL:en och ska se ut ungefär så här: `https://adminconsole.adobe.com/xxx@AdobeOrg/overview`.
 
-### Varför behöver jag känna till mitt IMS-organisations-ID?
+### Varför måste jag känna till mitt företags-ID?
 
 För att du ska kunna hantera inställningarna för din instans vill vi försäkra oss om att du har rätt information för rätt instans ifall du använder flera instanser för ditt företag.
 
-### Vad händer om jag har flera IMS-organisations-ID:n?
+### Vad händer om jag har flera organisations-ID:n?
 
-Du kan ha mer än ett IMS-organisation-ID om du har tillgång till flera Adobe-lösningar. I det här fallet bör du använda det IMS-organisations-ID du ser under din instans i Adobe Campaign.
+Du kan ha mer än ett organisations-ID om du har tillgång till flera Adobe-lösningar. I det här fallet bör du använda rätt organisations-ID under din Adobe Campaign-instans.
 
 >[!NOTE]
 >
->Det är perfekt om du har samma IMS-organisations-ID för Adobe Campaign och Adobe Analytics. Att ha ett IMS-organisations-ID för både Analytics och Campaign är ett krav om du planerar att integrera lösningarna för att utnyttja komplexa användningsområden såsom övergivna kundvagnar (för AA + AC).
+>Om du har samma organisations-ID för Adobe Campaign och Adobe Analytics är detta bra. Att ha ett organisations-ID mellan Analytics och Campaign är ett krav om ni planerar att integrera lösningarna för att dra nytta av komplexa användningsfall, som till exempel att kunden överger kundvagnen (för AA + AC).
 >
->Om du har olika IMS-organisations-ID:n för Adobe Campaign och Adobe Analytics ska du kontakta kundtjänst för att få dem korrigerade.
+>Om du har olika organisations-ID för Adobe Campaign och Adobe Analytics kan du kontakta kundtjänst för att få dem anpassade.
 
 ### Hur vet jag att AWS är värd för min Adobe Campaign-instans?{#hosted-aws}
 

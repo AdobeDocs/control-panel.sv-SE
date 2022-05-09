@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 86%
 
 ---
@@ -60,7 +60,7 @@ Följ dessa steg för att lägga till en URL som instansen kan ansluta till:
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens startsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt organisations-ID inte är kopplat till några Adobe Campaign-instanser
    >
    >På fliken <b><span class="uicontrol">URL-behörigheter</span></b> listas alla externa URL:er som din instans kan ansluta till. Den här listan innehåller inte URL:er som krävs för att Campaign ska fungera (t.ex. anslutningar mellan infrastrukturenheter).
 

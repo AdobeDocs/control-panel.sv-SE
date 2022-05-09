@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 88%
 
 ---
@@ -55,7 +55,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 
 >[!NOTE]
 >
->Om **[!UICONTROL Instance Settings]** kortet visas inte på kontrollpanelens hemsida, vilket innebär att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign v7/v8-instanser.
+>Om **[!UICONTROL Instance Settings]** kortet visas inte på kontrollpanelens hemsida, vilket innebär att ditt organisations-ID inte är kopplat till några Adobe Campaign v7/v8-instanser.
 
 Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
