@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Konfiguration av underdomäner på Kontrollpanelen finns som betaversion, och funktionen uppdateras och ändras ofta utan föregående meddelande.
+>SSL-certifikatförnyelse från Kontrollpanelen är tillgänglig som betaversion och kan uppdateras ofta och ändras utan föregående meddelande.
+>
+>Om du använder en instans med en hybridvärdmodell kan du bara visa certifikat som är kopplade till de delegerade underdomänerna. Du kommer inte att kunna förnya SSL-certifikat.
 
 Processen gällande förnyelse av SSL-certifikat omfattar tre steg:
 

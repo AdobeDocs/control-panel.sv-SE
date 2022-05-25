@@ -4,10 +4,10 @@ solution: Campaign
 title: Versioner av Kontrollpanelen
 description: På den här sidan visas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,18 +21,51 @@ På den här sidan visas alla nya funktioner och förbättringar för Kontrollpa
 >
 >För Campaign v7 måste din instans lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Stabilt kampanjbygge](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) (eller för att bygga 9032 eller senare). Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
 
-## April 2022 {#april-2022}
+## Maj 2022 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Övervaka viktiga kontakter och händelser i dina instanser</strong><br/></th>
+<th><strong>Kontrollpanelens tillgänglighet till hybridvärdmodellen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Du kan nu övervaka tidigare och kommande versioner och servicegranskningar som görs i dina instanser, samt få tillgång till en lista över viktiga kontakter på Adobe för alla förfrågningar och problem.</p><p>Mer information finns i den <a href="service-events/service-events.md">detaljerade dokumentationen.</a></p>
+<p>Kontrollpanelen är nu tillgänglig för kunder med hybridvärdmodell. Dessa kunder kan utnyttja funktionerna i Kontrollpanelen genom att tillhandahålla sin MID/RT-instans-URL som konfigurerats i deras marknadsinstans på Kontrollpanelen.</p><p>Mer information finns i den <a href="instances-settings/using/external-accounts.md">detaljerade dokumentationen.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Uppdateringar om genomströmning och fördröjningar</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Funktionerna för övervakning av dataflöden och fördröjningar har förbättrats:<ul><li>Nu kan du identifiera ID:n för de fem vanligaste leveranserna som bidrar till genomströmningen av din instans.</li><li>Campaign Classic v7-/v8-kunder kan nu visualisera latens för en viss kanal.</p></li><p>Mer information finns i den <a href="performance-monitoring/using/thoughputs-latencies.md">detaljerade dokumentationen.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## April 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Övervaka viktiga kontakter och händelser i instanserna</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Du kan nu övervaka tidigare och kommande versioner och servicegranskningar som görs i instanserna, samt få tillgång till en lista över viktiga kontakter hos Adobe för alla förfrågningar och problem.</p><p>Mer information finns i den <a href="service-events/service-events.md">detaljerade dokumentationen.</a></p>
 </td>
 </tr>
 </tbody>

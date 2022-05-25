@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 2458263ef5981a16d983912b498e320501df7889
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >Den här funktionen är endast tillgänglig för Campaign v7-/v8-instanser.
+>
+>Om du använder en instans med en hybridvärdmodell kan du bara lägga till IP-adresser i External API Connection för RT-instans.
 
 Som standard är din instans i Adobe Campaign endast tillgänglig från specifika IP-adresser.
 
@@ -55,7 +57,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 
 >[!NOTE]
 >
->Om **[!UICONTROL Instance Settings]** kortet visas inte på kontrollpanelens hemsida, vilket innebär att ditt organisations-ID inte är kopplat till några Adobe Campaign v7/v8-instanser.
+>Om **[!UICONTROL Instance Settings]** kortet visas inte på kontrollpanelens hemsida, vilket innebär att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign v7/v8-instanser.
 
 Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
@@ -88,11 +90,16 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
    * **[!UICONTROL AEM connection]**: de angivna IP-adresserna till AEM kan ansluta till marknadsföringsinstansen.
    * **[!UICONTROL External API connection]**: Externa API:er med de angivna IP-adresserna kan ansluta till instansen för marknadsföring och/eller meddelandecenter (RT). Observera att anslutningen till konsolen i RT-instanser är inaktiverad.
 
+      >[!NOTE]
+      >
+      >Om du använder en instans med en hybridvärdmodell kan du bara lägga till IP-adresser i External API Connection för RT-instans.
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Klicka på knappen **[!UICONTROL Save]**. IP-intervallet läggs till i tillåtelselistan.
 
    <!--![](assets/ip_whitelist_added.png)-->
+
+Som standard är din instans i Adobe Campaign endast tillgänglig från specifika IP-adresser.
 
 Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]** -knappen.
 
