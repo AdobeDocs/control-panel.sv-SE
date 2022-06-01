@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 67%
 
 ---
 
@@ -27,9 +27,17 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 ## Nyheter
 
-**Övervaka viktiga kontakter och händelser i instanserna**
+**Kontrollpanelens tillgänglighet till hybridvärdmodellen**
 
-Du kan nu övervaka tidigare och kommande versioner och servicegranskningar som görs i instanserna, samt få tillgång till en lista över viktiga kontakter hos Adobe för alla förfrågningar och problem. [Läs mer](service-events/service-events.md)
+Kontrollpanelen är nu tillgänglig för kunder med hybridvärdmodell. Dessa kunder kan utnyttja funktionerna i Kontrollpanelen genom att tillhandahålla sin MID/RT-instans-URL som konfigurerats i deras marknadsinstans på Kontrollpanelen. [Läs mer](instances-settings/using/external-accounts.md)
+
+
+**Uppdateringar om genomströmning och fördröjningar**
+
+Övervakning av dataflöden och fördröjningar har förbättrats. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
+
+* Nu kan du identifiera ID:n för de fem vanligaste leveranserna som bidrar till genomströmningen av din instans.
+* Campaign Classic v7-/v8-kunder kan nu visualisera latens för en viss kanal.
 
 >[!CAUTION]
 >
