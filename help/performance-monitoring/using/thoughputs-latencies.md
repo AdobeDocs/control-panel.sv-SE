@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Med Kontrollpanelen kan du övervaka leveransgenomflöden och fördröjning för
 
 >[!IMPORTANT]
 >
->Den här funktionen är tillgänglig för alla Campaign Standard- och v8-kunder samt för Campaign V7-kunder med build-nummer 9032, 9330, 9346 eller 9349 som har [fristående](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=sv) distributioner (utan några mellaninstanser).
+>Den här funktionen är tillgänglig för alla Campaign Standarder, v8-kunder och Campaign v7-kunder med build-nummer 9032 och senare, inklusive [fristående driftsättningar](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=sv) (utan någon mellaninstans).
 
 Det är viktigt att övervaka hur leveransgenomflöden och fördröjning trendar över en tidsperiod för att förstå användningen av dina instanser och säkerställa att de presterar väl.
 
