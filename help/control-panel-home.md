@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 ## Nyheter
 
-**Kontrollpanelens tillgänglighet till hybridvärdmodellen**
+**Kontrollpanelens tillgänglighet för hybridvärdmodell**
 
-Kontrollpanelen är nu tillgänglig för kunder med hybridvärdmodell. Dessa kunder kan utnyttja funktionerna i Kontrollpanelen genom att tillhandahålla sin MID/RT-instans-URL som konfigurerats i deras marknadsinstans på Kontrollpanelen. [Läs mer](instances-settings/using/external-accounts.md)
+Kontrollpanelen är nu tillgänglig för kunder med hybridvärdmodell. Dessa kunder kan utnyttja funktionerna i Kontrollpanelen genom att tillhandahålla URL:en för MID/RT-instansen som konfigurerats i deras marknadsinstans på Kontrollpanelen. [Läs mer](instances-settings/using/external-accounts.md)
 
 
-**Uppdateringar om genomströmning och fördröjningar**
+**Övervakningsuppdateringar om genomflöden och fördröjningar**
 
-Övervakning av dataflöden och fördröjningar har förbättrats. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
+Övervakningsfunktioner av genomflöden och fördröjningar har förbättrats. [Läs mer](performance-monitoring/using/thoughputs-latencies.md)
 
-* Nu kan du identifiera ID:n för de fem vanligaste leveranserna som bidrar till genomströmningen av din instans.
-* Campaign Classic v7-/v8-kunder kan nu visualisera latens för en viss kanal.
+* Nu kan du identifiera ID:n för de fem vanligaste leveranserna som bidrar till genomflödet av din instans.
+* Campaign Classic v7-/v8-kunder kan nu visualisera fördröjning för en viss kanal.
 
 >[!CAUTION]
 >
