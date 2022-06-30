@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 84%
+source-wordcount: '388'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="Om lagringskapacitet"
->abstract="Den här fliken visar information om lagringskapacitet och utnyttjande för SFTP-servrarna. Endast SFTP-servrar som du har åtkomst till visas här. Kontakta din administratör för att begära åtkomst till andra SFTP-servrar."
+>abstract="Den här fliken visar information om lagringskapacitet och utnyttjande för SFTP-servrarna. Du kan också lista de 10 mest använda filerna på en SFTP-server genom att klicka på dess namn. Endast SFTP-servrar som du har åtkomst till visas här. Kontakta din administratör för att begära åtkomst till andra SFTP-servrar."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Se demovideon"
 
 Olika lagringskapaciteter kan tillhandahållas på SFTP-servern beroende på dina avtalsvillkor.
@@ -38,6 +38,10 @@ För varje instans visas en visuell varning som anger när dess lagring överskr
 
 * **Orange**: instansen överskred 80 % av sin kapacitet.
 * **Röd**: instansen överskred 90 % av sin kapacitet.
+
+Du kan också identifiera de 10 mest använda filerna på en SFTP-server genom att klicka på dess namn.
+
+![](assets/sftp-top10.png)
 
 Det finns även fler tips som hjälper dig med vad du bör göra när servern närmar sig sin maximala kapacitet.
 

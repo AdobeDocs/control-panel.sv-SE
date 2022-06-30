@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 9%
+source-wordcount: '1189'
+ht-degree: 8%
 
 ---
 
@@ -41,6 +41,10 @@ Då kan du:
 Med kontrollpanelen kan du kryptera data som kommer från instansen i Adobe Campaign.
 
 För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteringsverktyg och sedan installera den offentliga nyckeln på Kontrollpanelen. Du kan sedan kryptera data innan du skickar dem från din instans. Följ stegen nedan för att göra detta.
+
+>[!NOTE]
+>
+>Du kan installera upp till 60 GPG-tangenter på Kontrollpanelen.
 
 ![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](#video)
 

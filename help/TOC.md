@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 73%
 
 ---
 
@@ -17,12 +17,17 @@ ht-degree: 100%
 # Guide till Kontrollpanelen {#using}
 
 + [Produktdokumentation](control-panel-home.md)
-+ [Versionsinformation](release-notes.md)
++ Versionsinformation {#release-notes}
+   + [Senaste versionen](rn/release-notes.md)
+   + Tidigare versioner {#previous-releases}
+      + [Versionsinformation för 2021](rn/release-notes-2021.md)
+      + [Versionsinformation för 2020](rn/release-notes-2020.md)
+      + [Versionsinformation för 20219](rn/release-notes-2019.md)
 + Lär känna Kontrollpanelen {#discover-control-panel}
    + [Viktiga funktioner](discover/using/key-features.md)
-   + [Åtkomst till Kontrollpanelen](discover/using/accessing-control-panel.md)
+   + [Kontrollpanelen Åtkomst](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
-   + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
+   + [Gränssnittet i Kontrollpanelen](discover/using/discovering-the-interface.md)
 + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
@@ -33,11 +38,14 @@ ht-degree: 100%
    + [Vanliga frågor](sftp/using/common-questions.md)
 + Underdomäner och certifikat {#subdomains-and-certificates}
    + [Märka underdomäner](subdomains-certificates/using/subdomains-branding.md)
-   + [Övervaka underdomäner](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Övervaka underdomänerna](subdomains-certificates/using/monitoring-subdomains.md)
    + [Konfigurera en ny underdomän](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Övervaka SSL-certifikat ](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [Förnya SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [Hantera TXT-poster](subdomains-certificates/using/managing-txt-records.md)
+   + [Övervaka SSL-certifikat](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + Förnya SSL-certifikat {#renew-ssl}
+      + [Om förnyelse av SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [Generera CSR](subdomains-certificates/using/generate-csr.md)
+      + [Installera SSL-certifikatet](subdomains-certificates/using/install-ssl-certificate.md)
 + Prestandaövervakning {#performance-monitoring}
    + [Om prestandaövervakning](performance-monitoring/using/about-performance-monitoring.md)
    + Databasövervakning {#database-monitoring}
@@ -47,7 +55,7 @@ ht-degree: 100%
       + [De 10 viktigaste tillfälliga resurserna](performance-monitoring/using/database-top-ten-resources.md)
       + [Aktiva frågor](performance-monitoring/using/database-active-queries.md)
       + [Övervaka arbetsflöden](performance-monitoring/using/workflow-monitoring.md)
-      + [Förhindra databasöverbelastning](performance-monitoring/using/database-preventing-overload.md)
+      + [Förhindra databasöverlagring](performance-monitoring/using/database-preventing-overload.md)
    + [Aktiv profilövervakning](performance-monitoring/using/active-profiles-monitoring.md)
    + [Genomflöden och fördröjningsövervakning](performance-monitoring/using/thoughputs-latencies.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
