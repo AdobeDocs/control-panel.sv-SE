@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 73%
@@ -34,7 +34,7 @@ Nu kan du identifiera de 10 mest använda filerna på en SFTP-server. [Läs mer]
 
 **Påminnelser om servicekalender**
 
-Med Service Calendar kan du nu ange påminnelser så att de kan meddelas via e-post innan en händelse inträffar på dina instanser. [Läs mer](instances-settings/using/external-accounts.md)
+Med Service Calendar kan du nu ange påminnelser så att de kan meddelas via e-post innan en händelse inträffar på dina instanser. [Läs mer](service-events/service-events.md)
 
 **Förbättrad CSR-generering för underdomäner**
 

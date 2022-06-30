@@ -2,7 +2,7 @@
 title: Senaste versionen
 description: På den här sidan visas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 55%
@@ -42,7 +42,7 @@ På den här sidan visas alla nya funktioner och förbättringar för Kontrollpa
 <tbody>
 <tr>
 <td>
-<p>Med Service Calendar kan du nu ange påminnelser så att de kan meddelas via e-post innan en händelse inträffar på dina instanser. <a href="../instances-settings/using/external-accounts.md">Läs mer</a></p>
+<p>Med Service Calendar kan du nu ange påminnelser så att de kan meddelas via e-post innan en händelse inträffar på dina instanser. <a href="../service-events/service-events.md">Läs mer</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
