@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
-workflow-type: ht
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ När det här alternativet är aktiverat (värde ”1”) sparas resultatet av �
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-När det här alternativet är aktiverat visas de SQL-frågor som skickas till databasen under arbetsflödeskörningen i Adobe Campaign. Läs mer i dokumentationen om [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=sv) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=sv#execution).
+När det här alternativet är aktiverat visas de SQL-frågor som skickas till databasen under arbetsflödeskörningen i Adobe Campaign. Läs mer i dokumentationen om [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=sv#execution).
 
 Värdet ”1” anger att arbetsflödet har fältet **Svårighetsgrad** inställt på ”Produktion” och att alternativet SQL-frågelogg är aktiverat.
 
@@ -72,7 +72,7 @@ Värdet ”1” anger att arbetsflödet har fältet **Svårighetsgrad** inställ
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-I det här fältet kan du tilldela en operatör till ett arbetsflöde. Om arbetsflödet misslyckas får den associerade operatören ett varningsmeddelande. Läs mer i dokumentationen om [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=sv#error-management) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=sv#error-management).
+I det här fältet kan du tilldela en operatör till ett arbetsflöde. Om arbetsflödet misslyckas får den associerade operatören ett varningsmeddelande. Läs mer i dokumentationen om [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) och [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=sv#error-management).
 
 Värdet ”1” anger att arbetsflödet har fältet **Svårighetsgrad** inställt på ”Produktion” och ingen arbetsflödestillsynsgrupp har tilldelats.
 
