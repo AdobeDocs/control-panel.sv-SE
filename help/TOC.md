@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,10 @@ ht-degree: 73%
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/release-notes.md)
    + Tidigare versioner {#previous-releases}
+      + [Versionsinformation för 2022](rn/release-notes-2022.md)
       + [Versionsinformation för 2021](rn/release-notes-2021.md)
       + [Versionsinformation för 2020](rn/release-notes-2020.md)
-      + [Versionsinformation för 20219](rn/release-notes-2019.md)
+      + [Versionsinformation för 2019](rn/release-notes-2019.md)
 + Lär känna Kontrollpanelen {#discover-control-panel}
    + [Viktiga funktioner](discover/using/key-features.md)
    + [Kontrollpanelen Åtkomst](discover/using/accessing-control-panel.md)
