@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 ## Nyheter
 
-**De 10 viktigaste filerna tar upp utrymme på SFTP-servrar**
+**De 10 mest utrymmeskrävande filerna på SFTP-servrar**
 
-Nu kan du identifiera de 10 mest använda filerna på en SFTP-server. [Läs mer](sftp/using/sftp-storage-management.md)
+Nu kan du identifiera de 10 mest utrymmeskrävande filerna på en SFTP-server. [Läs mer](sftp/using/sftp-storage-management.md)
 
 
-**Påminnelser om servicekalender**
+**Servicekalender-påminnelser**
 
-Med Service Calendar kan du nu ange påminnelser så att de kan meddelas via e-post innan en händelse inträffar på dina instanser. [Läs mer](service-events/service-events.md)
+Med Servicekalendern kan du nu ange påminnelser så att du kan meddelas via e-post innan en händelse inträffar på dina instanser. [Läs mer](service-events/service-events.md)
 
 **Förbättrad CSR-generering för underdomäner**
 
