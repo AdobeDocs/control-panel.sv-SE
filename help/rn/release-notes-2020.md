@@ -1,10 +1,10 @@
 ---
 title: Versionsinformation för 2020
-description: Den här sidan innehåller alla 2020-versioner av Kontrollpanelen.
+description: Denna sida listar alla 2020-versioner av Kontrollpanelen.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>Databasövervakningen har förbättrats med ytterligare mätvärden som gör att du kan få detaljerad information om resurser som förbrukar utrymme i databasen.</p><p>Mer information finns i den <a href="../performance-monitoring/using/database-monitoring.md">detaljerade dokumentationen</a>.</p>
+<p>Databasövervakning har förbättrats med ytterligare mätvärden som gör att du kan få detaljerad information om de resurser som tar upp utrymme i din databas.</p><p>Mer information finns i den <a href="../performance-monitoring/using/database-monitoring.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>Kontrollpanelen kan generera ett par GPG-nycklar vilket innebär att du enkelt kan dekryptera data som kommer till Campaign utifrån. Vi har dessutom lagt till en funktion som gör att du kan installera en offentlig GPG-nyckel för att kryptera data som skickas från Campaign.</p><p>Mer information finns i den <a href="../instances-settings/using/gpg-keys-management.md">detaljerade dokumentationen</a>.</p>
+<p>Med Kontrollpanelen kan du nu generera ett par GPG-nycklar vilket innebär att du enkelt kan dekryptera data som kommer till Campaign utifrån. Vi har dessutom lagt till en funktion som gör att du kan installera en offentlig GPG-nyckel för att kryptera data som skickas från Campaign.</p><p>Mer information finns i den <a href="../instances-settings/using/gpg-keys-management.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Att övervaka aktiva profiler i Kontrollpanelen finns tillgängligt som betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
+>Aktiv profilövervakning i Kontrollpanelen finns tillgängligt som betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
 
 ## Maj 2020 {#may-2020}
 
