@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Servicekalender"
->abstract="Avsnittet Viktiga kontakter listar de personer hos Adobe som du kan kontakta för alla förfrågningar eller problem i instanserna. I avsnittet Service Event Calendar (Händelsekalender) kan du identifiera releaser och servicegranskningar för den valda instansen och ställa in påminnelser för kommande evenemang."
+>abstract="Avsnittet Viktiga kontakter listar de personer hos Adobe som du kan kontakta för alla förfrågningar eller problem i instanserna. I avsnittet Servicehändelsekalender kan du identifiera versioner och servicegranskningar för den valda instansen och ställa in påminnelser för kommande händelser."
 
 >[!IMPORTANT]
 >
@@ -71,27 +71,27 @@ Du kan tilldela en flagga till en eller flera kommande händelser för att håll
 
 ![](assets/service-events-flag.png)
 
-### Ange påminnelser {#reminders}
+### Ställ in påminnelser {#reminders}
 
-Med Service Calendar kan du ställa in påminnelser så att de kan meddelas via e-post innan en händelse inträffar.
+Med Servicekalendern kan du ställa in påminnelser så att de kan meddelas via e-post innan en händelse inträffar.
 
 >[!NOTE]
 >
->Om du vill få meddelanden om kommande händelser kontrollerar du att du har prenumererat på e-postaviseringar på Kontrollpanelen. [Läs mer](../performance-monitoring/using/email-alerting.md)
+>Om du vill få meddelanden om kommande händelser kontrollerar du att du prenumererar på e-postaviseringar på Kontrollpanelen. [Läs mer](../performance-monitoring/using/email-alerting.md)
 
-Så här anger du en varning för en händelse:
+Följ dessa steg för att ställa in en varning:
 
-1. Klicka på ellipsknappen bredvid händelsen som du vill bli påmind om och välj sedan **[!UICONTROL Set Reminder]**.
+1. Klicka på ellipsknappen intill händelsen som du vill bli påmind om och välj sedan **[!UICONTROL Set Reminder]**.
 
-1. Ge påminnelsen en titel och välj sedan det datum då du vill bli meddelad innan händelsen inträffar.
+1. Ge påminnelsen en rubrik och välj sedan det datum då du vill bli meddelad innan händelsen inträffar.
 
    ![](assets/service-events-set-reminder.png)
 
    >[!NOTE]
    >
-   >Om du inte prenumererar på Kontrollpanelsaviseringar visas ett meddelande som gör att du kan registrera dig för att få e-postmeddelanden.
+   >Om du inte prenumererar på Kontrollpanelsvarningar visas ett meddelande som gör att du kan registrera dig för att få e-postmeddelanden.
 
-1. Påminnelsen ställs nu in för den valda händelsen. Du kan hovra över den när som helst för att visa dess titel.
+1. Påminnelsen ställs nu in för den valda händelsen. Du kan hovra över den när som helst för att visa dess rubrik.
 
    ![](assets/service-events-reminder.png)
 
@@ -99,4 +99,4 @@ Så här anger du en varning för en händelse:
    >
    >Du kan ställa in upp till två påminnelser för samma händelse.
 
-1. På det datum som anges i påminnelsen skickas ett e-postmeddelande som meddelar dig om det kommande evenemanget och påminnelsen tas automatiskt bort från **[!UICONTROL Reminders]** antal i menyn Servicekalender.
+1. På det datum som anges i påminnelsen skickas ett e-postmeddelande som meddelar dig om det kommande evenemanget och påminnelsen tas automatiskt bort från **[!UICONTROL Reminders]** antalet i Servicekalendermenyn.
