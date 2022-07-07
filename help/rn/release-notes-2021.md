@@ -1,10 +1,10 @@
 ---
 title: Versionsinformation för 2021
-description: På den här sidan visas alla 2021-versioner av Kontrollpanelen.
+description: Denna sida listar alla versioner av Kontrollpanelen från 2021.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>Det går nu att ange en varaktighet för tillgängligheten för IP-intervall och offentliga nycklar. </p><p>Mer information finns i <a href="../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP-intervall tillåter listning</a> och <a href="../sftp/using/key-management.md#installing-ssh-key">Nyckelhantering</a> -avsnitt.</p>
+<p>Det går nu att ange en varaktighet för tillgängligheten för IP-intervall och offentliga nycklar. </p><p>Mer information finns i avsnitten <a href="../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP-intervall tillåter listning</a> och <a href="../sftp/using/key-management.md#installing-ssh-key">Nyckelhantering</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -30,13 +30,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>IP-intervall och publika nyckelutgåvor</strong><br/></th>
+<th><strong>IP-intervall och offentlig nyckelutgåva</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu kan du redigera <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP-intervall</a> och <a href="../sftp/using/key-management.md#editing-public-keys">publika nycklar</a> som du skapar. Observera att den här funktionen inte är tillgänglig för objekt som skapats före den aktuella versionen av Kontrollpanelen.
+<p>Nu kan du nu redigera <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP-intervall</a> och <a href="../sftp/using/key-management.md#editing-public-keys">offentliga nycklar</a> som du skapar. Observera att den här funktionen inte är tillgänglig för objekt som skapats före den aktuella versionen av Kontrollpanelen.
 </td>
 </tr>
 </tbody>
@@ -51,7 +51,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>Funktionen för e-postvarningar innehåller nu varningar om att SFTP IP-adresser tillåter listning av förfallodatum och att SFTP-offentlig nyckel förfaller.</p><p>Mer information finns i den <a href="../performance-monitoring/using/email-alerting.md">detaljerade dokumentationen</a>.</p>
+<p>Funktionen för e-postvarning inkluderar nu varningar om SFTP IP tillåter att listor löper ut och att SFTP offentliga nycklar löper ut.</p><p>Mer information finns i den <a href="../performance-monitoring/using/email-alerting.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>The <strong>Underdomän</strong> och <strong>Certifikat</strong> hanteringsfunktioner stöds nu av Kontrollpanelen i Adobe Campaign v8.</a>.</p>
+<p>Alla funktioner, inklusive hantering av <strong>Underdomän</strong> och <strong>Certifikat</strong>, stöds nu av Kontrollpanelen i Adobe Campaign v8.</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -77,13 +77,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>Stöd för Campaign v8</strong><br/></th>
+<th><strong>Stöd med Campaign v8</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Kontrollpanelen är nu tillgänglig för Adobe Campaign v8, förutom <strong>Underdomän</strong> och <strong>Certifikat</strong> hanteringsfunktioner som ännu inte stöds.</p><p>Mer information finns i <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html" target="blank">Kampanjdokumentation v8</a>.</p>
+<p>Kontrollpanelen är nu tillgänglig för Adobe Campaign v8, förutom hanteringsfunktionerna <strong>Underdomän</strong> och <strong>Certifikat</strong> som ännu inte stöds.</p><p>För ytterligare information, se <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=sv" target="blank">Campaign v8-dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
