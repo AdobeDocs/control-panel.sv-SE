@@ -8,8 +8,8 @@ role: Architect
 level: Beginner
 source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 0%
       + [Versionsinformation för 2019](rn/release-notes-2019.md)
 + Lär känna Kontrollpanelen {#discover-control-panel}
    + [Viktiga funktioner](discover/using/key-features.md)
-   + [Kontrollpanelen Åtkomst](discover/using/accessing-control-panel.md)
+   + [Åtkomst till Kontrollpanel](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
-   + [Gränssnittet i Kontrollpanelen](discover/using/discovering-the-interface.md)
+   + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
 + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
