@@ -1,14 +1,71 @@
 ---
 title: Versionsinformation för 2022
-description: Den här sidan innehåller alla 2022-versioner av Kontrollpanelen.
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+description: Denna sida listar alla 2022-versioner av Kontrollpanelen.
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 78%
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
 # Versionsinformation för 2021 {#rn-2022}
+
+## Juni 2022 {#june-2022}
+
+### Nyheter?
+
+<table>
+<thead>
+<tr>
+<th><strong>De 10 mest utrymmeskrävande filerna på SFTP-servrar</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du identifiera de 10 mest utrymmeskrävande filerna på en SFTP-server. <a href="../sftp/using/sftp-storage-management.md">Läs mer</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Servicekalender-påminnelser</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Med Servicekalendern kan du nu ange påminnelser så att du kan meddelas via e-post innan en händelse inträffar på dina instanser. <a href="../service-events/service-events.md">Läs mer</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Förbättrad CSR-generering för underdomäner</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Flera förbättringar har gjorts i CSR-genereringsprocessen. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Läs mer</a></p><ul><li>När du genererar en CSR kan du nu välja en av de inkluderade underdomänerna som Gemensamt namn.</li><li>Nu kan du kopiera CSR-sammanfattningen innan du genererar CSR.</li><li>När en CSR har skapats kan du hämta den igen från jobbloggarna. Den här funktionen gäller inte certifikat som genererats före den här versionen.</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### Förbättringar
+
+**Instansinställningar**
+
+* Det högsta antalet GPG-tangenter på Kontrollpanelen har ökats till 60 tangenter. [Läs mer](../instances-settings/using/gpg-keys-management.md)
 
 ## Maj 2022 {#may-2022}
 
@@ -30,7 +87,7 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>Övervakningsuppdateringar om genomflöden och fördröjningar</strong><br/></th>
+<th><strong>Uppdateringar av genomflöden och fördröjningsövervakning</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -65,13 +122,13 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>Tillgänglighet för genomströmning och fördröjningsövervakning</strong><br/></th>
+<th><strong>Tillgänglighet av genomflöden och fördröjningsövervakning</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dataströmmar och fördröjningsövervakning är nu tillgängliga för alla Campaign Standards- och v8-kunder och för Campaign V7-kunder med build-nummer 9032, 9330, 9346 eller 9349 som har fristående driftsättningar (utan några mellaninstanser).</p><p>Mer information finns i den <a href="../performance-monitoring/using/thoughputs-latencies.md">detaljerade dokumentationen.</a></p>
+<p>Genomflödes- och fördröjningsövervakning är nu tillgänglig för alla Campaign Standard- och v8-kunder, och för Campaign V7-kunder med build-nummer 9032,9330, 9346 eller 9349 som har fristående distributioner (utan någon mellaninstans).</p><p>Mer information finns i den <a href="../performance-monitoring/using/thoughputs-latencies.md">detaljerade dokumentationen.</a></p>
 </td>
 </tr>
 </tbody>

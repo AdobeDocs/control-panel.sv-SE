@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: e375b0c8c00ecec6c2fe52bff31a33bf73295018
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 4740a446265e5d06be35e66aa29676a24d4f7d29
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 99%
 
 ---
 
@@ -94,4 +94,4 @@ När du har lagt till en MID/RT-instans på Kontrollpanelen kan du utnyttja funk
 * [Visa din instansinformation](../../instances-settings/using/instance-details.md),
 * [Lägg till IP-adresser i tillåtelselista](../../instances-settings/using/ip-allow-listing-instance-access.md) (för RT-instanser),
 * [Visa information om delegerade underdomäner](../../subdomains-certificates/using/monitoring-subdomains.md),
-* [Visa information om SSL-certifikat](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* [Förnya underdomäners SSL-certifikat](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
