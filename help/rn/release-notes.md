@@ -3,15 +3,15 @@ title: Senaste versionen
 description: På den här sidan listas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
 # Senaste versionen {#control-panel-releases}
 
-På den här sidan visas de nya funktionerna och förbättringarna för Kontrollpanelen.
+På den här sidan listas de nya funktionerna och förbättringarna för Kontrollpanelen.
 
 ## Juli 2022 {#july-2022}
 
@@ -24,7 +24,7 @@ På den här sidan visas de nya funktionerna och förbättringarna för Kontroll
 <tbody>
 <tr>
 <td>
-<p><p>Kunder med hybridvärdmodell kan nu förnya sina underdomäners SSL-certifikat från Kontrollpanelen.</p><p>Mer information finns i den <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">detaljerade dokumentationen.</a></p>
+<p><p>Kunder med hybridvärdmodell kan nu förnya underdomänernas SSL-certifikat från Kontrollpanelen.</p><p>Mer information finns i den <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">detaljerade dokumentationen.</a></p>
 </td>
 </tr>
 </tbody>
