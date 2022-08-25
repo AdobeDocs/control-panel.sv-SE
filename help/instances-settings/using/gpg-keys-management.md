@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 8%
@@ -61,7 +61,7 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
 1. Ange önskade parametrar för nyckeln när du uppmanas till detta. Nödvändiga parametrar är:
 
    * **tangenttyp**: RSA
-   * **nyckellängd**: 1024 - 4096 bitar
+   * **nyckellängd**: 3072 - 4 096 bitar
    * **riktigt namn** och **e-postadress**: Låter spåra vem som skapade nyckelparet. Ange ett namn och en e-postadress som är länkad till din organisation eller avdelning.
    * **kommentar**: Om du lägger till en etikett i kommentarsfältet blir det lättare att identifiera nyckeln som du kan använda för att kryptera dina data.
    * **förfallodatum**: Datum eller 0 om du inte vill ha något förfallodatum.
