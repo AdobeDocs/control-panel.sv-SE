@@ -2,14 +2,31 @@
 title: Versionsinformation för 2022
 description: Denna sida listar alla 2022-versioner av Kontrollpanelen.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Versionsinformation för 2021 {#rn-2022}
+# Versionsinformation för 2022 {#rn-2022}
+
+## Juli 2022 {#july-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Installation av underdomäners certifikat för hybridvärdmodell</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Kunder med hybridvärdmodell kan nu förnya underdomänernas SSL-certifikat från Kontrollpanelen.</p><p>Mer information finns i den <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">detaljerade dokumentationen.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Juni 2022 {#june-2022}
 
