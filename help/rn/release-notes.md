@@ -2,7 +2,7 @@
 title: Senaste versionen
 description: På den här sidan listas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+source-git-commit: 8310762a92f5db7fdf85520ce50d4862e7a45ee5
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 59%
