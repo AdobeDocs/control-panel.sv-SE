@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 91%
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign rekommenderar att du säkrar de underdomäner som är värdar fö
 
 ![](assets/no_certificate.png)
 
-## Övervakning av SSL-certifikat  {#monitoring-certificates}
+## Övervaka SSL-certifikat  {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
@@ -54,10 +54,6 @@ Fliken innehåller information om de konfigurerade inkorgarna (avsändare, svara
 ![](assets/subdomain_details.png)
 
 Om en av underdomänernas SSL-certifikat är på väg att löpa ut kan du förnya det direkt i Kontrollpanelen. Se avsnittet [Förnya en underdomäns SSL-certifikat](../../subdomains-certificates/using/renewing-subdomain-certificate.md) för mer information om detta.
-
->[!IMPORTANT]
->
->Certifikatförnyelse i Kontrollpanelen finns tillgängligt som en betaversion och kan ofta uppdateras och ändras utan föregående meddelande.
 
 **Relaterade ämnen:**
 

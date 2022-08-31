@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,6 @@ ht-degree: 100%
 >abstract="För att förnya ett SSL-certifikat måste du generera en CSR, köpa SSL-certifikatet för dina underdomäner och installera certifikatpaketet."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=sv#generating-csr" text="Generera en begäran om certifikatsignering (CSR)"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=sv#installing-ssl-certificate" text="Installera ett SSL-certifikat"
-
->[!IMPORTANT]
->
->Förnyelse av SSL-certifikat från kontrollpanelen är tillgänglig i betaversion och föremål för frekventa uppdateringar och ändringar utan föregående meddelande.
->
->Om du använder en instans med en hybridvärdmodell kan du bara visa certifikat som är kopplade till de delegerade underdomänerna och kan inte förnya dem.
 
 Processen gällande förnyelse av SSL-certifikat omfattar tre steg:
 
