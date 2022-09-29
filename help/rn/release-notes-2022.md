@@ -2,14 +2,19 @@
 title: Versionsinformation för 2022
 description: Denna sida listar alla 2022-versioner av Kontrollpanelen.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '544'
+ht-degree: 95%
 
 ---
 
 # Versionsinformation för 2022 {#rn-2022}
+
+## Augusti 2022 {#august-2022}
+
+* Kunder med hybridvärdmodell kan nu verifiera sina underdomäner. [Läs mer](../subdomains-certificates/using/monitoring-subdomains.md)
+* Fältet Organisationsenhet (OU) är nu valfritt i CSR (Certificate Generation Request). [Läs mer](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Juli 2022 {#july-2022}
 

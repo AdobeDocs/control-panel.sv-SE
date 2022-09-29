@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1339'
+ht-degree: 92%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=sv" text="Övervakning av SSL-certifikat "
 
 ## Måste läsas {#must-read}
-
->[!IMPORTANT]
->
->Om du använder en instans med en hybridvärdmodell kan du bara visa redan delegerade underdomäner, och du kan inte konfigurera underdomäner.
 
 Den här sidan innehåller information om hur du konfigurerar nya underdomäner med fullständig underdomändelegering eller CNAME. Globala koncept för dessa två metoder beskrivs i detta avsnitt: [Varumärke för underdomäner](../../subdomains-certificates/using/subdomains-branding.md).
 
@@ -70,7 +66,7 @@ Skapa **inte heller någon separat zonfil** för den nya underdomänen.
 
 Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe Campaign.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=sv#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=sv#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Upptäck denna funktion genom video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=sv#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=sv#subdomains-and-certificates)
 
 1. Välj önskad produktionsinstans på kortet **[!UICONTROL Subdomains & Certificates]** och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
@@ -124,7 +120,7 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
 
 Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=sv#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=sv)
+![](assets/do-not-localize/how-to-video.png) Upptäck denna funktion genom video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=sv#subdomains-and-certificates) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=sv)
 
 1. Välj önskad produktionsinstans på kortet **[!UICONTROL Subdomains & Certificates]** och klicka sedan på **[!UICONTROL Setup new subdomain]**.
 
