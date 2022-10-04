@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '529'
+ht-degree: 77%
 
 ---
 
@@ -48,7 +48,7 @@ Följ dessa steg för att få information om servrarna som är anslutna till din
 
    >[!NOTE]
    >
-   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt IMS-organisations-ID inte är kopplat till några Adobe Campaign v7/v8-instanser
+   >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt företags-ID inte är kopplat till några Adobe Campaign v7/v8-instanser
 
 1. Välj den önskade instansen i Campaign i det vänstra fönstret.
 
