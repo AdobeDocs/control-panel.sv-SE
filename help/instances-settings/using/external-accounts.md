@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Hybridkunder bör ansluta till Kontrollpanelen via Experience Cloud. Första gå
 
 >[!NOTE]
 >
->Om du stöter på några problem med åtkomst till Kontrollpanelen är det troligast att din marknadsföringsinstans ännu inte är mappad till din [organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv). Kontakta kundtjänst för att slutföra den här installationen och fortsätta. När anslutningen lyckas visas startsidan för Kontrollpanelen.
+>Om du stöter på eventuella problem med att komma åt Kontrollpanelen är det troligast att din marknadsföringsinstans inte har mappats med ditt [organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv) än. Kontakta kundtjänst för att slutföra den här installationen och fortsätta. När anslutningen lyckas visas startsidan för Kontrollpanelen.
 
 För att kunna komma åt funktioner på Kontrollpanelen måste du ange din information för MID/RT-instansen i kortet **[!UICONTROL Instances Settings]**. Följ stegen nedan för att göra detta.
 
