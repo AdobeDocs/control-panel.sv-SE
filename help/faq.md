@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -68,23 +68,23 @@ Se [dokumentationen om Adobe Experience Cloud](https://experienceleague.adobe.co
 
 ### Var hittar jag mitt organisations-ID?
 
-Ett sätt är att navigera till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt organisations-ID längst ned i Administration **[!UICONTROL Quick Access]** -avsnitt. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Ett sätt är att gå till [startsidan för Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Du hittar ditt organisations-ID längst ned i administrationsavsnittet **[!UICONTROL Quick Access]**. Mer detaljerad information finns i dokumentationen för [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv).
 
-Det andra sättet är att starta **Administratörskonsolen**. Organisations-ID:t visas i din URL och ska se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+Det andra sättet är att starta **Administratörskonsolen**. Ditt organisations-ID visas i din URL. Det bör se ut ungefär så här: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-### Varför måste jag känna till min organisations-ID?
+### Varför behöver jag känna till mitt organisations-ID?
 
 För att du ska kunna hantera inställningarna för din instans vill vi försäkra oss om att du har rätt information för rätt instans ifall du använder flera instanser för ditt företag.
 
 ### Vad händer om jag har flera organisations-ID:n?
 
-Du kan ha mer än ett organisations-ID om du har tillgång till flera Adobe-lösningar. I det här fallet bör du använda rätt organisations-ID under din Adobe Campaign-instans.
+Du kan ha mer än ett organisation-ID om du har tillgång till flera Adobe-lösningar. I det här fallet är det korrekta organisations-ID som du bör använda det du ser under din Adobe Campaign-instans.
 
 >[!NOTE]
 >
->Om du har samma företags-ID för Adobe Campaign och Adobe Analytics är detta bra. Att ha ett organisations-ID mellan Analytics och Campaign är ett krav om ni planerar att integrera lösningarna för att dra nytta av komplexa användningsfall som att överge kundvagnen (för AA + AC).
+>Det är bra om du har samma organisations-ID för Adobe Campaign och Adobe Analytics. Det är ett krav att ha ett organisations-ID mellan Analytics och Campaign om du planerar att integrera lösningarna för att utnyttja komplexa användningsområden, såsom övergivna kundvagnar (för AA + AC).
 >
->Om du har olika organisations-ID:n för Adobe Campaign och Adobe Analytics kan du kontakta kundtjänst för att få dem anpassade.
+>Om du har olika organisations-ID:n för Adobe Campaign och Adobe Analytics ska du kontakta kundtjänst för att få dem anpassade.
 
 ### Hur vet jag att AWS är värd för min Adobe Campaign-instans?{#hosted-aws}
 
