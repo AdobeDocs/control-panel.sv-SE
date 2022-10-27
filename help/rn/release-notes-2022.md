@@ -2,14 +2,18 @@
 title: Versionsinformation för 2022
 description: Denna sida listar alla 2022-versioner av Kontrollpanelen.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Versionsinformation för 2022 {#rn-2022}
+
+## September 2022 {#september-2022}
+
+Kunder med hybridvärdmodell kan nu konfigurera nya underdomäner. [Läs mer](../subdomains-certificates/using/setting-up-new-subdomain.md)
 
 ## Augusti 2022 {#august-2022}
 

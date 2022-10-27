@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: 6430a1719528e6b4d8c219eb5a88b6ace93b209d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,4 +26,3 @@ The **[!UICONTROL Performance monitoring]** på Kontrollpanelens startsida kan d
 >
 >I kommande versioner av Kontrollpanelen kommer ytterligare övervakningsfunktioner att göras tillgängliga på kortet.
 
-Med Kontrollpanelen kan du dessutom registrera dig för att få e-postmeddelanden varje gång ett problem upptäcks i någon av Campaign-instanserna. Mer information om detta finns i [det här avsnittet](../../performance-monitoring/using/email-alerting.md).

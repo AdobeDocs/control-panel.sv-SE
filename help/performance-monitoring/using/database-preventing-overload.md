@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,3 @@ Avsnittet nedan innehåller användbara resurser från dokumentationen om Campai
 * [Felsökning av databasprestanda](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=sv) (Campaign v7/v8)
 * [Databasrelaterade alternativ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=sv#database) (Campaign v7/v8)
 * Datalagring: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=sv) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=sv#data-retention)
-
->[!NOTE]
->
->Dessutom kan du få meddelanden när någon av dina databaser nästan är nått full kapacitet. Om du vill göra det ska du prenumerera på [e-postaviseringar](../../performance-monitoring/using/email-alerting.md).

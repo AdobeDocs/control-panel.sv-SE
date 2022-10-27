@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 81%
 
 ## Om instansdatabaser {#about-instances-databases}
 
-Enligt ditt avtal har var och en av dina instanser i Campaign ett visst databasutrymme.
-
-Databaser innehåller alla **resurser**, **arbetsflöden** och **data** som lagras i Adobe Campaign.
+Enligt ditt avtal har var och en av dina instanser i Campaign ett visst databasutrymme. Databaser innehåller alla **resurser**, **arbetsflöden** och **data** som lagras i Adobe Campaign.
 
 Med tiden kan databaserna nå sin maximala kapacitet, särskilt om de lagrade resurserna aldrig tas bort från instansen eller om många arbetsflöden är i ett pausat läge.
 
 En överfull instansdatabas kan leda till flera problem (oförmåga att logga in, skicka e-post osv.). Övervakning av instansens databaser är därför nödvändigt för att säkerställa optimala prestanda.
+
+Om du prenumererar på [e-postavisering](../../performance-monitoring/using/email-alerting.md)får du meddelanden via e-post när någon av instansdatabaserna har nått 80 % eller mer av sin kapacitet.
 
 ## Övervaka databasanvändning{#monitoring-database-usage}
 
@@ -37,8 +37,6 @@ En överfull instansdatabas kan leda till flera problem (oförmåga att logga in
 Kontrollpanelen låter dig övervaka användningen av databaser för var och en av instanserna i Campaign. Det gör du genom att öppna kortet **[!UICONTROL Performance Monitoring]** och sedan välja fliken **[!UICONTROL Databases]**.
 
 Välj önskad instans i **[!UICONTROL Instance List]** om du vill visa information om instansens databaskapacitet och hur mycket utrymme som används.
-
-Dessutom kan du få meddelanden när någon av dina databaser nästan är nått full kapacitet. Om du vill göra det ska du prenumerera på [e-postaviseringar](../../performance-monitoring/using/email-alerting.md).
 
 >[!NOTE]
 >
@@ -55,4 +53,4 @@ Det finns ytterligare mätvärden på den här kontrollpanelen som hjälper dig 
 * [De 10 viktigaste tillfälliga resurserna](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Aktiva frågor](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Upptäck den här funktionen i video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Upptäck denna funktion genom video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=sv#performance-monitoring)

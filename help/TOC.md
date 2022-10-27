@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 100%
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
 + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
++ [E-postavisering](performance-monitoring/using/email-alerting.md)
++ Instansinställningar {#instances-settings}
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
    + [Hantera SFTP-lagring](sftp/using/sftp-storage-management.md)
@@ -59,8 +61,6 @@ ht-degree: 100%
       + [Förhindra databasöverlagring](performance-monitoring/using/database-preventing-overload.md)
    + [Aktiv profilövervakning](performance-monitoring/using/active-profiles-monitoring.md)
    + [Genomflöden och fördröjningsövervakning](performance-monitoring/using/thoughputs-latencies.md)
-   + [E-postavisering](performance-monitoring/using/email-alerting.md)
-+ Instansinställningar {#instances-settings}
    + [IP-tillåtelselista för instansåtkomst](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)

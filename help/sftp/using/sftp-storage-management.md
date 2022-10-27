@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 Olika lagringskapaciteter kan tillhandahållas på SFTP-servern beroende på dina avtalsvillkor.
 
 Det är viktigt att du regelbundet övervakar tillgängligt utrymme för var och en av SFTP-servrarna. I annat fall kan det vara omöjligt att spara ytterligare filer på servern eller köra arbetsflöden som är beroende av uppdateringarna från den här servern.
+
+Om du prenumererar på [e-postavisering](../../performance-monitoring/using/email-alerting.md)får du meddelanden via e-post när någon av dina SFTP-servrar har nått 80 % eller mer av sin kapacitet. Se [SFTP-lagringshantering](../../sftp/using/sftp-storage-management.md).
 
 ![](assets/do-not-localize/how-to-video.png) Upptäck denna funktion via video med [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=sv#sftp-management) eller [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=sv#sftp-management)
 
