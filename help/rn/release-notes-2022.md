@@ -2,14 +2,18 @@
 title: Versionsinformation för 2022
 description: Denna sida listar alla 2022-versioner av Kontrollpanelen.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
 
 # Versionsinformation för 2022 {#rn-2022}
+
+## Oktober 2022 {#october-2022}
+
+E-postavisering meddelar dig nu när ett av dina SSL-certifikat upphör att gälla inom 30 dagar eller mindre. [Läs mer](../performance-monitoring/using/email-alerting.md)
 
 ## September 2022 {#september-2022}
 
