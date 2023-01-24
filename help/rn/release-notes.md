@@ -2,10 +2,10 @@
 title: Senaste versionen
 description: På den här sidan listas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: ht
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
+workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 100%
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 På den här sidan listas de nya funktionerna och förbättringarna för Kontrollpanelen.
 
-## Oktober 2022 {#october-2022}
+## Januari 2023 {#january-2023}
 
-E-postavisering meddelar dig nu när ett av dina SSL-certifikat upphör att gälla inom 30 dagar eller mindre. [Läs mer](../performance-monitoring/using/email-alerting.md)
+Kunder med hybridvärdmodell kan nu lägga till IP-adresser till tillåtelselista för att få tillgång till MID-instanser. [Läs mer](../instances-settings/using/ip-allow-listing-instance-access.md)

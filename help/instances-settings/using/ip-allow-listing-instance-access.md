@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 82%
 >[!IMPORTANT]
 >
 >Den här funktionen är endast tillgänglig för Campaign v7-/v8-instanser.
->
->Om du använder en instans med en hybridvärdmodell kan du bara lägga till IP-adresser i External API Connection för RT-instans.
 
 Som standard är din instans i Adobe Campaign endast tillgänglig från specifika IP-adresser.
 
@@ -90,9 +88,10 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
    * **[!UICONTROL AEM connection]**: de angivna IP-adresserna till AEM kan ansluta till marknadsföringsinstansen.
    * **[!UICONTROL External API connection]**: Externa API:er med de angivna IP-adresserna kan ansluta till instansen för marknadsföring och/eller meddelandecenter (RT). Observera att anslutningen till konsolen i RT-instanser är inaktiverad.
 
-      >[!NOTE]
-      >
-      >Om du använder en instans med en hybridvärdmodell kan du bara lägga till IP-adresser i External API Connection för RT-instans.
+   >[!NOTE]
+   >
+   >Om du använder en instans med en hybridvärdmodell kan du bara lägga till IP-adresser i &quot;Extern API-anslutning&quot; för MID- och RT-instanser.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Klicka på knappen **[!UICONTROL Save]**. IP-intervallet läggs till i tillåtelselistan.
