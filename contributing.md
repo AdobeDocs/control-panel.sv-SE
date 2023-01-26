@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2dbc05024c2c60341425fe73adc31f6332679177
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Bidra
@@ -18,7 +18,7 @@ Detta projekt följer Adobes [uppförandekod](code-of-conduct.md). Genom att del
 
 ## Dokumentationen guide för bidragsgivare
 
-Se [Guide för bidragsgivare](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Se [Guide för bidragsgivare](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv).
 
 ## Har du en fråga?
 
