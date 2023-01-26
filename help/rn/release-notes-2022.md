@@ -3,7 +3,7 @@ title: Versionsinformation för 2022
 description: Denna sida listar alla 2022-versioner av Kontrollpanelen.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
 ht-degree: 100%
 
