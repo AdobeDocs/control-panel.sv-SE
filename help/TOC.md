@@ -6,8 +6,8 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Övervaka arbetsflöden](performance-monitoring/using/workflow-monitoring.md)
       + [Förhindra databasöverlagring](performance-monitoring/using/database-preventing-overload.md)
    + [Aktiv profilövervakning](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Genomflöden och fördröjningsövervakning](performance-monitoring/using/thoughputs-latencies.md)
+   + [Genomflöden och fördröjningsövervakning](performance-monitoring/using/throughputs-latencies.md)
    + [IP-tillåtelselista för instansåtkomst](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
