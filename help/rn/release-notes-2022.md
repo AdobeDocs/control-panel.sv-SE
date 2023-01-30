@@ -2,8 +2,8 @@
 title: Versionsinformation för 2022
 description: Denna sida listar alla 2022-versioner av Kontrollpanelen.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Kunder med hybridvärdmodell kan nu konfigurera nya underdomäner. [Läs mer](..
 <tbody>
 <tr>
 <td>
-<p>Övervakningsfunktioner av genomflöden och fördröjningar har förbättrats:<ul><li>Nu kan du identifiera ID:n för de fem vanligaste leveranserna som bidrar till genomflödet av din instans.</li><li>Campaign Classic v7-/v8-kunder kan nu visualisera fördröjning för en viss kanal.</p></li><p>Mer information finns i den <a href="../performance-monitoring/using/thoughputs-latencies.md">detaljerade dokumentationen.</a></p>
+<p>Övervakningsfunktioner av genomflöden och fördröjningar har förbättrats:<ul><li>Nu kan du identifiera ID:n för de fem vanligaste leveranserna som bidrar till genomflödet av din instans.</li><li>Campaign Classic v7-/v8-kunder kan nu visualisera fördröjning för en viss kanal.</p></li><p>Mer information finns i den <a href="../performance-monitoring/using/throughputs-latencies.md">detaljerade dokumentationen.</a></p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Kunder med hybridvärdmodell kan nu konfigurera nya underdomäner. [Läs mer](..
 <tbody>
 <tr>
 <td>
-<p>Genomflödes- och fördröjningsövervakning är nu tillgänglig för alla Campaign Standard- och v8-kunder, och för Campaign V7-kunder med build-nummer 9032,9330, 9346 eller 9349 som har fristående distributioner (utan någon mellaninstans).</p><p>Mer information finns i den <a href="../performance-monitoring/using/thoughputs-latencies.md">detaljerade dokumentationen.</a></p>
+<p>Genomflödes- och fördröjningsövervakning är nu tillgänglig för alla Campaign Standard- och v8-kunder, och för Campaign V7-kunder med build-nummer 9032,9330, 9346 eller 9349 som har fristående distributioner (utan någon mellaninstans).</p><p>Mer information finns i den <a href="../performance-monitoring/using/throughputs-latencies.md">detaljerade dokumentationen.</a></p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Kunder med hybridvärdmodell kan nu konfigurera nya underdomäner. [Läs mer](..
 <tbody>
 <tr>
 <td>
-<p>Nu kan du övervaka hur leveransgenomflöden och fördröjning trendar över en tidsperiod för dina instanser.</p><p>Mer information finns i den <a href="../performance-monitoring/using/thoughputs-latencies.md">detaljerade dokumentationen</a>.</p>
+<p>Nu kan du övervaka hur leveransgenomflöden och fördröjning trendar över en tidsperiod för dina instanser.</p><p>Mer information finns i den <a href="../performance-monitoring/using/throughputs-latencies.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
