@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 86%
+source-wordcount: '603'
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ När en URL har lagts till refereras den i instansens konfigurationsfil (serverC
 
 **Relaterade ämnen:**
 
-* [Konfigurera en Campaign-server](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
+* [Konfigurera en Campaign-server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
 * [Skydd för utgående anslutningar](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## Bästa praxis {#best-practices}
