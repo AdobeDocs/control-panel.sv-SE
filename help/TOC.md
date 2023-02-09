@@ -6,7 +6,7 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -31,7 +31,6 @@ ht-degree: 100%
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
 + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
 + [E-postavisering](performance-monitoring/using/email-alerting.md)
-+ Instansinställningar {#instances-settings}
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
    + [Hantera SFTP-lagring](sftp/using/sftp-storage-management.md)
@@ -61,6 +60,7 @@ ht-degree: 100%
       + [Förhindra databasöverlagring](performance-monitoring/using/database-preventing-overload.md)
    + [Aktiv profilövervakning](performance-monitoring/using/active-profiles-monitoring.md)
    + [Genomflöden och fördröjningsövervakning](performance-monitoring/using/throughputs-latencies.md)
++ Instansinställningar {#instances-settings}
    + [IP-tillåtelselista för instansåtkomst](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
