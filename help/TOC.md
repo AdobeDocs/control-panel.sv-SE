@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
+source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/release-notes.md)
    + Tidigare versioner {#previous-releases}
+      + [Versionsinformation för 2023](rn/release-notes-2023.md)
       + [Versionsinformation för 2022](rn/release-notes-2022.md)
       + [Versionsinformation för 2021](rn/release-notes-2021.md)
       + [Versionsinformation för 2020](rn/release-notes-2020.md)
@@ -42,10 +43,11 @@ ht-degree: 100%
    + [Märka underdomäner](subdomains-certificates/using/subdomains-branding.md)
    + [Övervaka underdomänerna](subdomains-certificates/using/monitoring-subdomains.md)
    + [Konfigurera en ny underdomän](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Ta bort delegering av underdomäner till Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Hantera TXT-poster](subdomains-certificates/using/managing-txt-records.md)
-   + [Övervaka SSL-certifikat](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + Förnya SSL-certifikat {#renew-ssl}
-      + [Om förnyelse av SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + Hantera SSL-certifikat {#manage-certificates}
+      + [Övervaka SSL-certifikat](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Förnya SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Generera CSR](subdomains-certificates/using/generate-csr.md)
       + [Installera SSL-certifikatet](subdomains-certificates/using/install-ssl-certificate.md)
 + Prestandaövervakning {#performance-monitoring}

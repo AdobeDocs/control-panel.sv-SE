@@ -2,10 +2,10 @@
 title: Senaste versionen
 description: På den här sidan listas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
+source-git-commit: 37e4d287a82f9b750eb7fdac64d0ac9602a803c8
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 69%
+source-wordcount: '94'
+ht-degree: 34%
 
 ---
 
@@ -13,12 +13,14 @@ ht-degree: 69%
 
 På den här sidan listas de nya funktionerna och förbättringarna för Kontrollpanelen.
 
-## Januari 2023 {#january-2023}
+## Februari 2023 {#february-2023}
 
-**Ny funktion för hybridvärdmodell**
+**Delegeringsborttagning för underdomäner som delegerats till Adobe**
 
-Kunder med hybridvärdmodell kan nu lägga till IP-adresser till tillåtelselistan för att få tillgång till MID-instanser. [Läs mer](../instances-settings/using/ip-allow-listing-instance-access.md)
+Nu kan du ta bort delegeringen av en underdomän som har delegerats till Adobe, inklusive CNAME-inställningar. [Läs mer](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**Förbättring av CSR (Certificate Signing Request)**
+**Tjänstkalender**
 
-Fältet Ort/ort är nu valfritt vid generering av certifikatsigneringsbegäran.
+Tjänstkalendern innehåller nu en kalendervy som håller reda på viktiga händelser som inträffar i dina instanser. Dessutom har information lagts till om meddelanden som skickas till användare som prenumererar på varningar på Kontrollpanelen. [Läs mer](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)

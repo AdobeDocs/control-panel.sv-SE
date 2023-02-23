@@ -7,19 +7,15 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
+source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 
-# Övervaka underdomäner {#monitoring-subdomains}
 
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="Ta bort underdomänsdelegering"
->abstract="På den här skärmen kan du ta bort delegeringen av en underdomän till Adobe. Tänk på att den här processen inte kan ångras eller stoppas när den har skickats.<br><br>Om du försöker ta bort delegeringen av en primär domän för den valda instansen blir du ombedd att välja den domän som ska ersätta den."
+# Övervaka underdomänerna {#monitoring-subdomains}
 
 Det är viktigt att du övervakar dina underdomäner för att se till att alla är konfigurerade på rätt sätt för att fungera med Adobe Campaign.
 
@@ -33,9 +29,7 @@ The **[!UICONTROL Last verification]** kolumnen anger när en underdomän verifi
 >
 >Adobe rekommenderar inte att du använder underdomäner utan certifikatdatum eftersom det kan innebära att dessa underdomäner kan ha leveransproblem.
 
-När du startar en verifiering utförs flera åtgärder för att kontrollera att underdomänen är korrekt konfigurerad (instansklientkontroll, e-postsändningstest osv.)
-
-Om underdomänens verifiering misslyckas kontaktar du Adobe kundtjänst för ytterligare utredning.
+När du startar en verifiering utförs flera åtgärder för att kontrollera att underdomänen är korrekt konfigurerad (instansklientkontroll, e-postsändningstest osv.) Om underdomänens verifiering misslyckas kontaktar du Adobe kundtjänst för ytterligare utredning.
 
 **Relaterade ämnen:**
 
