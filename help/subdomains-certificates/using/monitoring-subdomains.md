@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 76c42ba45b3430b1b93458f18b1b0e78f289fad1
+source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '205'
+ht-degree: 7%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
->title="Ta bort delegerade underdomäner "
->abstract="På den här skärmen kan du ta bort alla underdomäner som har delegerats på Kontrollpanelen. Tänk på att borttagning av underdomäner inte kan ångras och inte kan ångras när den har skickats.<br><br>Om du försöker ta bort den primära domänen för den valda instansen blir du ombedd att välja den domän som ska ersätta den."
+>title="Ta bort underdomänsdelegering"
+>abstract="På den här skärmen kan du ta bort delegeringen av en underdomän till Adobe. Tänk på att den här processen inte kan ångras eller stoppas när den har skickats.<br><br>Om du försöker ta bort delegeringen av en primär domän för den valda instansen blir du ombedd att välja den domän som ska ersätta den."
 
 Det är viktigt att du övervakar dina underdomäner för att se till att alla är konfigurerade på rätt sätt för att fungera med Adobe Campaign.
 
