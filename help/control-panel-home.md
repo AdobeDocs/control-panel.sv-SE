@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 73%
 
 ---
 
@@ -26,19 +26,13 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 ## Nyheter
 
-**De 10 mest utrymmeskrävande filerna på SFTP-servrar**
+**Delegeringsborttagning för underdomäner som delegerats till Adobe**
 
-Nu kan du identifiera de 10 mest utrymmeskrävande filerna på en SFTP-server. [Läs mer](sftp/using/sftp-storage-management.md)
+Nu kan du ta bort delegeringen av en underdomän som har delegerats till Adobe, inklusive CNAME-inställningar. [Läs mer](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
+**Tjänstkalender**
 
-**Servicekalender-påminnelser**
-
-Med Servicekalendern kan du nu ange påminnelser så att du kan meddelas via e-post innan en händelse inträffar på dina instanser. [Läs mer](service-events/service-events.md)
-
-**Förbättrad CSR-generering för underdomäner**
-
-Flera förbättringar har gjorts i CSR-genereringsprocessen. [Läs mer](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
+Tjänstkalendern innehåller nu en kalendervy som håller reda på viktiga händelser som inträffar i dina instanser. Dessutom har information lagts till om meddelanden som skickas till användare som prenumererar på varningar på Kontrollpanelen. [Läs mer](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
