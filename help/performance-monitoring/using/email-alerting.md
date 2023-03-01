@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Kontrollpanelen är utrustad med e-postaviseringsfunktioner i realtid för att g
 
 Listan med varningar är följande:
 
-* **SFTP-lagringsanvändning**: En av dina SFTP-servrar har nått 80 % eller mer av sin kapacitet. Se [SFTP-lagringshantering](../../sftp/using/sftp-storage-management.md).
+* **SFTP-lagringsanvändning**: En av dina SFTP-servrar har nått 80 % eller mer av sin kapacitet. Se [Hantering av SFTP-lagring](../../sftp/using/sftp-storage-management.md).
 
 * **Databasanvändning**: En av instansdatabaserna har nått 80 % eller mer av sin kapacitet. Se [Databasövervakning](../../performance-monitoring/using/database-monitoring.md).
 

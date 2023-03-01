@@ -56,13 +56,13 @@ Skapa **inte heller någon separat zonfil** för den nya underdomänen.
 >id="cp_add_subdomain_create_delegate"
 >title="Skapa och delegera din underdomän"
 >abstract="Skapa den underdomän som du vill använda med Adobe Campaign i din värdlösning och delegera den till Adobe."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Skicka in din underdomän"
 >abstract="Bekräfta och skicka in den underdomän som har konfigurerats i föregående steg."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 
 Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe Campaign.
 
@@ -104,19 +104,19 @@ När underdomänen har skickats utförs olika kontroller och konfigurationssteg 
 >id="cp_add_cname_subdomain_create_delegate"
 >title="Konfigurera din underdomän"
 >abstract="På den här skärmen anger du den underdomän som du vill konfigurera genom att använda CNAME."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="Generera poster"
 >abstract="Navigera till din värdlösning för att generera listan med DNS-poster som visas på den här skärmen."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Skicka in din underdomän"
 >abstract="Bekräfta och skicka in den underdomän som har konfigurerats i föregående steg."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Konfigurera en ny underdomän"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 
 Följ stegen nedan för att konfigurera en underdomän med CNAME.
 

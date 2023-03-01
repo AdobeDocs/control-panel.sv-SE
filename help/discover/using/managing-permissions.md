@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 
 ![](assets/do-not-localize/how-to-video.png)[ Upptäck den här funktionen i en video](../../discover/using/managing-permissions.md#video)
 
-1. Navigera till [Adobe Experience Cloud hemsida](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Navigera till [Adobe Experience Cloud hemsida](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Starta **Admin Console** genom att klicka på den tillgängliga länken på **Snabb åtkomst** eller den övre högra menyn.
 

@@ -9,12 +9,12 @@ level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 12%
+source-wordcount: '174'
+ht-degree: 13%
 
 ---
 
-# Åtkomst till kontrollpanelen {#accessing-control-panel}
+# Åtkomst till Kontrollpanelen {#accessing-control-panel}
 
 Kontrollpanelen är tillgänglig direkt från Experience Cloud eller från själva produkten.
 
@@ -24,7 +24,7 @@ Det är tillgängligt för **Administratörsanvändare** endast. Mer information
 
 Följ stegen nedan för att öppna Kontrollpanelen från Adobe Experience Cloud Platform.
 
-1. Navigera till [Experience Cloud hemsida](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Navigera till [Experience Cloud hemsida](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Klicka på den dedikerade länken i **Snabb åtkomst** -avsnitt.
 
@@ -32,7 +32,7 @@ Följ stegen nedan för att öppna Kontrollpanelen från Adobe Experience Cloud 
 
 Kontrollpanelen är också tillgänglig från Experience Cloud-plattformen **lösningsväljare**:
 
-1. Från [Adobe Experience Cloud hemsida](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, välj **Campaign** från **Snabb åtkomst** eller den översta menyn till höger.
+1. Från [Adobe Experience Cloud hemsida](https://experiencecloud.adobe.com/){target="_blank"}, markera **Campaign** från **Snabb åtkomst** eller den översta menyn till höger.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +44,7 @@ Kontrollpanelen är också tillgänglig från Experience Cloud-plattformen **lö
 
 >[!NOTE]
 >
->Du kan få åtkomst inifrån programmet via [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=sv)Endast {target=&quot;_blank&quot;}.
+>Du kan få åtkomst inifrån programmet via [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=sv){target="_blank"} endast.
 
 1. Öppna Campaign Standarden.
 

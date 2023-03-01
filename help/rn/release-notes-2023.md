@@ -4,7 +4,7 @@ description: Denna sida listar alla 2023-versioner av Kontrollpanelen.
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,4 +18,4 @@ Kunder med hybridvärdmodell kan nu lägga till IP-adresser till tillåtelselist
 
 **Förbättring av CSR (Certificate Signing Request)**
 
-Fältet Ort/ort är nu valfritt vid generering av certifikatsigneringsbegäran.
+Fältet Stad/Ort är nu valfritt vid generering av begäran om certifikatsignering.

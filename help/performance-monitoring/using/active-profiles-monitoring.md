@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->Att övervaka aktiva profiler i Kontrollpanelen finns tillgängligt som betaversion och kan ofta uppdateras och ändras utan föregående meddelande. Den är tillgänglig från Campaign Standard 10368-versionen.
+>Aktiv profilövervakning i Kontrollpanelen finns tillgängligt som betaversion och kan ofta uppdateras och ändras utan föregående meddelande. Den är tillgänglig från Campaign Standard 10368-versionen.
 
 Enligt avtalet har var och en av instanserna i Campaign ett visst antal aktiva profiler som räknas för faktureringsändamål. Se ditt senaste avtal som referens om antalet köpta aktiva profiler.
 
@@ -59,7 +59,7 @@ Följ dessa steg för att göra detta:
 >Aktiva profiler räknas baserat på dedikerade tekniska arbetsflöden som körs varje dag på instanserna:
 >
 >* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) i Campaign Standard,
->* The [&quot;Antal aktiva faktureringsprofiler&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) arbetsflöde för Campaign v7/v8.
+>* The [&quot;Antal aktiva faktureringsprofiler&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=sv) arbetsflöde för Campaign v7/v8.
 
 
 Det nedre området visar de aktiva profilernas användning under de senaste 30 dagarna. Du kan ändra den tidsperiod som visas upp till ett år med de tillgängliga filtren i det övre högra hörnet.

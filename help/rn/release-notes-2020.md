@@ -1,8 +1,9 @@
 ---
 title: Versionsinformation för 2020
 description: Denna sida listar alla 2020-versioner av Kontrollpanelen.
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: ht
+exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
+source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 

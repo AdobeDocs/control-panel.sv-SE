@@ -6,10 +6,11 @@ description: Läs om hur man förnyar underdomäners SSL-certifikat
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
+exl-id: af440b5d-1d21-44fb-831f-f2bdd6011b82
+source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
