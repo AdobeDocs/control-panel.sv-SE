@@ -6,9 +6,9 @@ description: Lär dig hur du tar bort delegeringen av underdomäner till Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 5a8c4c4d1c5c527135901cd41f2b0936af8737b4
+source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="Ta bort underdomänsdelegering"
->abstract="På den här skärmen kan du ta bort delegeringen av en underdomän till Adobe. Tänk på att den här processen inte kan ångras eller stoppas när den har skickats.<br><br>Om du försöker ta bort delegeringen av en primär domän för den valda instansen blir du ombedd att välja den domän som ska ersätta den."
+>abstract="På den här skärmen kan du ta bort delegeringen av en underdomän till Adobe. Tänk på att den här processen inte kan ångras och att den inte kan ångras förrän körningen är slutförd.<br><br>Om du försöker ta bort delegeringen av en primär domän för den valda instansen blir du ombedd att välja den domän som ska ersätta den."
 
 Med kontrollpanelen kan du ta bort delegeringen av en underdomän som har delegerats till Adobe, inklusive CNAME-inställningar.
 
@@ -26,7 +26,7 @@ Med kontrollpanelen kan du ta bort delegeringen av en underdomän som har delege
 
 Innan du fortsätter bör du noggrant överväga vilka konsekvenser som uppstår när borttagningsprocessen har startats:
 
-* Borttagning av delegering av underdomäner kan inte ångras och kan inte ångras när du väl har startat processen tills processen körs.
+* När processen har startats går det inte att ångra borttagningen av underdomäner och den är oåterkallelig förrän processen har slutförts.
 * Ingen annan delegering av underdomäner kan tas bort när en liknande process pågår i en annan underdomän.
 * En delegering som tagits bort från en underdomän kan inte delegeras på nytt förrän 3 dagar efter borttagningen.
 
