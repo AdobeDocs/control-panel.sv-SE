@@ -6,9 +6,9 @@ description: Lär dig hur du tar bort delegeringen av underdomäner till Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 1%
 >title="Ta bort underdomänsdelegering"
 >abstract="På den här skärmen kan du ta bort delegeringen av en underdomän till Adobe. Tänk på att den här processen inte kan ångras och att den inte kan ångras förrän körningen är slutförd.<br><br>Om du försöker ta bort delegeringen av en primär domän för den valda instansen blir du ombedd att välja den domän som ska ersätta den."
 
-Med kontrollpanelen kan du ta bort delegeringen av en underdomän som har delegerats till Adobe, inklusive CNAME-inställningar.
+Med kontrollpanelen kan du ta bort delegeringen av en underdomän som har delegerats till Adobe.
+
+>[!NOTE]
+>
+>Delegeringsborttagning är för närvarande inte tillgängligt för underdomäner som har konfigurerats med CNAME.
 
 ## Viktiga anteckningar {#important}
 

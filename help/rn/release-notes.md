@@ -2,10 +2,10 @@
 title: Senaste versionen
 description: På den här sidan listas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 34%
+source-wordcount: '105'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,13 @@ På den här sidan listas de nya funktionerna och förbättringarna för Kontrol
 
 **Delegeringsborttagning för underdomäner som delegerats till Adobe**
 
-Nu kan du ta bort delegeringen av en underdomän som har delegerats till Adobe, inklusive CNAME-inställningar. [Läs mer](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Nu kan du ta bort delegeringen av en underdomän som är helt delegerad till Adobe. [Läs mer](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+>[!NOTE]
+>
+>Delegeringsborttagning är för närvarande inte tillgängligt för underdomäner som har konfigurerats med CNAME.
 
 **Tjänstkalender**
 
