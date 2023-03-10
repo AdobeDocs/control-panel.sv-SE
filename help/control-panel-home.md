@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 **Delegeringsborttagning för underdomäner som delegerats till Adobe**
 
-Nu kan du ta bort delegeringen av en underdomän som har delegerats till Adobe, inklusive CNAME-inställningar. [Läs mer](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+Du kan nu ta bort delegeringen av en underdomän som har delegerats till Adobe, inklusive CNAME-inställningar. [Läs mer](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**Tjänstkalender**
+**Servicekalender**
 
-Tjänstkalendern innehåller nu en kalendervy som håller reda på viktiga händelser som inträffar i dina instanser. Dessutom har information lagts till om meddelanden som skickas till användare som prenumererar på varningar på Kontrollpanelen. [Läs mer](../help/service-events/service-events.md)
+Servicekalendern innehåller nu en kalendervy som håller reda på viktiga händelser som inträffar i dina instanser. Information har dessutom lagts till med meddelanden som skickas till användare som prenumererar på varningar på Kontrollpanelen. [Läs mer](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
