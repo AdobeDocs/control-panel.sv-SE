@@ -6,10 +6,10 @@ description: Läs mer hur du tar bort delegeringen av underdomäner till Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
+source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '808'
+ht-degree: 59%
 
 ---
 
@@ -20,11 +20,7 @@ ht-degree: 100%
 >title="Ta bort delegering av underdomäner"
 >abstract="På den här skärmen kan du ta bort delegeringen av en underdomän till Adobe. Tänk på att den här processen inte kan ångras och att den är oåterkallelig tills körningen är slutförd.<br><br>Om du försöker ta bort delegeringen av en primär domän för den valda instansen blir du ombedd att välja den domän som ska ersätta den."
 
-Med kontrollpanelen kan du ta bort delegeringen av en underdomän som har delegerats till Adobe.
-
->[!NOTE]
->
->Delegeringsborttagning är för närvarande inte tillgängligt för underdomäner som har konfigurerats med CNAME.
+Med kontrollpanelen kan du ta bort delegeringen av en underdomän som har delegerats till Adobe eller delegerats med CNAME.
 
 ## Viktiga anteckningar {#important}
 
@@ -52,6 +48,8 @@ Följ de här stegen för att ta bort delegeringen av en underdomän till Adobe:
 
    ![](assets/undelegate-subdomain-details.png)
 
+1. Om du tar bort en delegering av CNAME-typ eller om du ersätter en primär domän med en domän som delegerats med CNAME, kan du lägga till ytterligare **[!UICONTROL Action]** visas för att hantera DNS-poster. [Läs mer i det här avsnittet](#dns)
+
 1. Granska sammanfattningen som visas. Bekräfta borttagningen genom att ange URL:en för den domän som du vill ta bort delegeringen för och klicka på **[!UICONTROL Submit]**.
 
    ![](assets/undelegate-submit.png)
@@ -59,6 +57,39 @@ Följ de här stegen för att ta bort delegeringen av en underdomän till Adobe:
 När delegeringsborttagningen har startats visas det väntande jobbet i jobbloggarna tills det är klart.
 
 ![](assets/undelegate-job.png)
+
+## Hantering av DNS-poster {#dns}
+
+Om du vill konfigurera en domändelegering med CNAME måste du lägga till specifika poster på DNS-servern på Kontrollpanelen. [Lär dig hur du konfigurerar underdomäner med CNAMEs](setting-up-new-subdomain.md#use-cnames)
+
+När du tar bort en delegering av CNAME-typ måste du **ta bort dessa DNS-poster** från servern för att undvika problem. Om du dessutom vill ta bort delegeringen av en primär underdomän och ersätta den med en domän som har delegerats med CNAME, kan du behöva **lägg till DNS-poster** på servern, beroende på vilka IP-tillhörigheter som har angetts för underdomänen.
+
+Tabellen nedan visar vilka åtgärder som ska utföras beroende på vilken typ av delegering du tar bort och vilken typ av delegering som används för att konfigurera ersättningsdomänen.
+
+| Borttagen delegering | Ersättningsdomän | Åtgärd krävs |
+|  ---  |  ---  |  ---  |
+| Fullständig | Ingen ersättningsdomän | Ingen åtgärd krävs |
+| Fullständig | CNAME | Lägg till DNS-poster (valfritt baserat på IP-tillhörigheter) |
+| Fullständig | Fullständig | Ingen åtgärd krävs |
+| CNAME | Ingen ersättningsdomän | Ta bort DNS-poster |
+| CNAME | CNAME | Ta bort och lägga till DNS-poster (valfritt baserat på IP-tillhörigheter) |
+| CNAME | Fullständig | Ta bort DNS-poster |
+
+För att göra detta finns ytterligare en **[!DNL Action]** visas innan delegeringsborttagningen bekräftas. På den här skärmen visas de DNS-poster som ska tas bort eller läggas till, beroende på sammanhanget.
+
+![](assets/action-step.png)
+
+### Ta bort DNS-poster
+
+1. Navigera till din DNS-server och ta bort posterna som visas på Kontrollpanelen.
+1. Gå tillbaka till Kontrollpanelen och klicka på **[!UICONTROL Next]** om du vill fortsätta med borttagningen av delegeringen.
+
+### Lägg till DNS-poster
+
+1. Navigera till din DNS-server och lägg till de poster som visas på Kontrollpanelen.
+1. Vänta tills DNS-tillägget börjar gälla.
+1. Gå tillbaka till Kontrollpanelen och klicka på **[!UICONTROL Verify]**.
+1. Klicka på **[!UICONTROL Next]** om du vill fortsätta med borttagningen av delegeringen.
 
 ## Felkoder {#FAQ}
 
