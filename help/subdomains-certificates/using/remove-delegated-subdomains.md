@@ -6,9 +6,9 @@ description: Läs mer hur du tar bort delegeringen av underdomäner till Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '810'
 ht-degree: 59%
 
 ---
@@ -66,14 +66,16 @@ När du tar bort en delegering av CNAME-typ måste du **ta bort dessa DNS-poster
 
 Tabellen nedan visar vilka åtgärder som ska utföras beroende på vilken typ av delegering du tar bort och vilken typ av delegering som används för att konfigurera ersättningsdomänen.
 
-| Borttagen delegering | Ersättningsdomän | Åtgärd krävs |
+| Borttagen delegering | Ersättningsdomändelegering | Åtgärd krävs |
 |  ---  |  ---  |  ---  |
-| Fullständig | Ingen ersättningsdomän | Ingen åtgärd krävs |
-| Fullständig | CNAME | Lägg till DNS-poster (valfritt baserat på IP-tillhörigheter) |
-| Fullständig | Fullständig | Ingen åtgärd krävs |
 | CNAME | Ingen ersättningsdomän | Ta bort DNS-poster |
-| CNAME | CNAME | Ta bort och lägga till DNS-poster (valfritt baserat på IP-tillhörigheter) |
+| CNAME | CNAME | Ta bort DNS-poster<br/>Lägg till DNS-poster *(valfritt beroende på IP-tillhörigheterna)* |
 | CNAME | Fullständig | Ta bort DNS-poster |
+| Fullständig | Ingen ersättningsdomän | Ingen åtgärd krävs |
+| Fullständig | CNAME | Lägg till DNS-poster *(valfritt beroende på IP-tillhörigheterna)* |
+| Fullständig | Fullständig | Ingen åtgärd krävs |
+
+{style="table-layout:auto"}
 
 För att göra detta finns ytterligare en **[!DNL Action]** visas innan delegeringsborttagningen bekräftas. På den här skärmen visas de DNS-poster som ska tas bort eller läggas till, beroende på sammanhanget.
 
