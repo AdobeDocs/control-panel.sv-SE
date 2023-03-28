@@ -1,20 +1,30 @@
 ---
 title: Versionsinformation för 2023
 description: Denna sida listar alla 2023-versioner av Kontrollpanelen.
-source-git-commit: cca897c84f5b4db9233931086c1befc5719666b9
+source-git-commit: 83138e63558125757259849064552904594e2e0b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 75%
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
 # Versionsinformation för 2023 {#rn-2023}
 
-## Mars 2023 {#march-2023}
+## Februari 2023 {#february-2023}
 
-**Borttagning av delegering av underdomän för CNAME**
+**Delegeringsborttagning för underdomäner som delegerats till Adobe**
 
-Nu kan du ta bort delegeringen av underdomäner som har konfigurerats med CNAME. [Läs mer](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Du kan nu ta bort delegeringen av en underdomän som är helt delegerad till Adobe. [Läs mer](../subdomains-certificates/using/remove-delegated-subdomains.md)
+
+>[!NOTE]
+>
+>Delegeringsborttagning är för närvarande inte tillgängligt för underdomäner som har konfigurerats med CNAME.
+
+**Servicekalender**
+
+Servicekalendern innehåller nu en kalendervy som håller reda på viktiga händelser som inträffar i dina instanser. Information har dessutom lagts till med meddelanden som skickas till användare som prenumererar på varningar på Kontrollpanelen. [Läs mer](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
 
 ## Januari 2023 {#january-2023}
 
