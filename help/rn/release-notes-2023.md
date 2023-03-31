@@ -2,7 +2,7 @@
 title: Versionsinformation för 2023
 description: Denna sida listar alla 2023-versioner av Kontrollpanelen.
 source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
 ht-degree: 100%
 
