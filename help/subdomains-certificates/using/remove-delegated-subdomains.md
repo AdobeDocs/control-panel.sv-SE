@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 >title="Ta bort delegering av underdomäner"
 >abstract="På den här skärmen kan du ta bort delegeringen av en underdomän till Adobe. Tänk på att den här processen inte kan ångras och att den är oåterkallelig tills körningen är slutförd.<br><br>Om du försöker ta bort delegeringen av en primär domän för den valda instansen blir du ombedd att välja den domän som ska ersätta den."
 
-Med kontrollpanelen kan du ta bort delegeringen av en underdomän som har delegerats till Adobe eller delegerats med CNAME.
+Med Kontrollpanelen kan du ta bort delegeringen av en underdomän som har delegerats helt till Adobe eller delegerats med CNAME:er.
 
 ## Viktiga anteckningar {#important}
 
@@ -48,7 +48,7 @@ Följ de här stegen för att ta bort delegeringen av en underdomän till Adobe:
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. Om du tar bort en delegering av CNAME-typ eller om du ersätter en primär domän med en domän som delegerats med CNAME, kan du lägga till ytterligare **[!UICONTROL Action]** visas för att hantera DNS-poster. [Läs mer i det här avsnittet](#dns)
+1. Om du tar bort en delegering av CNAME-typ eller om du ersätter en primär domän med en domän som delegerats med CNAME:er, visas ytterligare ett **[!UICONTROL Action]**-steg för att hantera DNS-poster. [Läs mer i det här avsnittet](#dns)
 
 1. Granska sammanfattningen som visas. Bekräfta borttagningen genom att ange URL:en för den domän som du vill ta bort delegeringen för och klicka på **[!UICONTROL Submit]**.
 
@@ -60,38 +60,38 @@ När delegeringsborttagningen har startats visas det väntande jobbet i jobblogg
 
 ## Hantering av DNS-poster {#dns}
 
-Om du vill konfigurera en domändelegering med CNAME måste du lägga till specifika poster på DNS-servern på Kontrollpanelen. [Lär dig hur du konfigurerar underdomäner med CNAMEs](setting-up-new-subdomain.md#use-cnames)
+Om du vill konfigurera en domändelegering med CNAME:er kräver kontrollpanelen att du lägger till specifika poster på DNS-servern. [Lär dig hur du konfigurerar underdomäner med CNAME:er](setting-up-new-subdomain.md#use-cnames)
 
-När du tar bort en delegering av CNAME-typ måste du **ta bort dessa DNS-poster** från servern för att undvika problem. Om du dessutom vill ta bort delegeringen av en primär underdomän och ersätta den med en domän som har delegerats med CNAME, kan du behöva **lägg till DNS-poster** på servern, beroende på vilka IP-tillhörigheter som har angetts för underdomänen.
+När du tar bort en delegering av CNAME-typ måste du **ta bort dessa DNS-poster** från servern för att undvika problem. Om du dessutom vill ta bort delegeringen av en primär underdomän och ersätta den med en domän som har delegerats med CNAME:er kan du behöva **lägga till DNS-poster** på servern, beroende på vilka IP-tillhörigheter som har angetts för underdomänen.
 
 Tabellen nedan visar vilka åtgärder som ska utföras beroende på vilken typ av delegering du tar bort och vilken typ av delegering som används för att konfigurera ersättningsdomänen.
 
-| Borttagen delegering | Ersättningsdomändelegering | Åtgärd krävs |
+| Borttagen delegering | Delegering av ersättningsdomän | Åtgärd krävs |
 |  ---  |  ---  |  ---  |
-| CNAME | Ingen ersättningsdomän | Ta bort DNS-poster |
-| CNAME | CNAME | Ta bort DNS-poster<br/>Lägg till DNS-poster *(valfritt beroende på IP-tillhörigheterna)* |
-| CNAME | Fullständig | Ta bort DNS-poster |
+| CNAME | Ingen ersättningsdomän | Radera DNS-poster |
+| CNAME | CNAME | Radera DNS-poster<br/>Lägga till DNS-poster *(valfritt beroende på IP-tillhörigheterna)* |
+| CNAME | Fullständig | Radera DNS-poster |
 | Fullständig | Ingen ersättningsdomän | Ingen åtgärd krävs |
-| Fullständig | CNAME | Lägg till DNS-poster *(valfritt beroende på IP-tillhörigheterna)* |
+| Fullständig | CNAME | Lägga till DNS-poster *(valfritt beroende på IP-tillhörigheterna)* |
 | Fullständig | Fullständig | Ingen åtgärd krävs |
 
 {style="table-layout:auto"}
 
-För att göra detta finns ytterligare en **[!DNL Action]** visas innan delegeringsborttagningen bekräftas. På den här skärmen visas de DNS-poster som ska tas bort eller läggas till, beroende på sammanhanget.
+För att göra detta visas ytterligare ett **[!DNL Action]**-steg innan du bekräftar borttagningen av delegeringen. På den här skärmen visas de DNS-poster som ska tas bort eller läggas till, beroende på sammanhanget.
 
 ![](assets/action-step.png)
 
-### Ta bort DNS-poster
+### Radera DNS-poster
 
-1. Navigera till din DNS-server och ta bort posterna som visas på Kontrollpanelen.
+1. Gå till DNS-servern och ta bort posterna som visas på Kontrollpanelen.
 1. Gå tillbaka till Kontrollpanelen och klicka på **[!UICONTROL Next]** om du vill fortsätta med borttagningen av delegeringen.
 
-### Lägg till DNS-poster
+### Lägga till DNS-poster
 
-1. Navigera till din DNS-server och lägg till de poster som visas på Kontrollpanelen.
+1. Gå till DNS-servern och lägg till de poster som visas på Kontrollpanelen.
 1. Vänta tills DNS-tillägget börjar gälla.
 1. Gå tillbaka till Kontrollpanelen och klicka på **[!UICONTROL Verify]**.
-1. Klicka på **[!UICONTROL Next]** om du vill fortsätta med borttagningen av delegeringen.
+1. När posttillägget har verifierats klickar du på **[!UICONTROL Next]** för att fortsätta med borttagningen av delegeringen.
 
 ## Felkoder {#FAQ}
 
