@@ -6,10 +6,11 @@ description: Läs mer hur du tar bort delegeringen av underdomäner till Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
+source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +35,7 @@ Innan du fortsätter bör du noggrant överväga vilka konsekvenser som uppstår
 
 Följ de här stegen för att ta bort delegeringen av en underdomän till Adobe:
 
-1. Klicka på ellipsknappen bredvid den domändelegering som du vill ta bort och klicka sedan på **[!UICONTROL Remove delegated subdomain]**.
+1. Klicka på ellipsknappen bredvid den domändelegering som du vill ta bort och klicka sedan på **[!UICONTROL Remove delegation]**.
 
    ![](assets/undelegate-subdomain.png)
 
@@ -77,7 +78,7 @@ Tabellen nedan visar vilka åtgärder som ska utföras beroende på vilken typ a
 
 {style="table-layout:auto"}
 
-För att göra detta visas ytterligare ett **[!DNL Action]**-steg innan du bekräftar borttagningen av delegeringen. På den här skärmen visas de DNS-poster som ska tas bort eller läggas till, beroende på sammanhanget.
+Om någon av dessa åtgärder krävs för att ta bort delegeringen, ytterligare **[!DNL Action]** visas innan delegeringsborttagningen bekräftas. På den här skärmen visas de DNS-poster som ska tas bort eller läggas till, beroende på sammanhanget.
 
 ![](assets/action-step.png)
 
