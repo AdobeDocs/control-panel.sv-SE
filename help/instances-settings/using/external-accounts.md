@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 >title="Externa konton"
 >abstract="På den här skärmen kan kunder med hybridvärdmodell tillhandahålla URL:en för MID/RT-instansen som konfigurerats i marknadsinstansen på Kontrollpanelen för att utnyttja funktionerna på Kontrollpanelen."
 
-Kontrollpanelen gör det möjligt för kunder med hybridvärdmodeller att utnyttja särskilda funktioner i Kontrollpanelen. För att göra detta måste de ange den URL för MID/RT-instansen som konfigurerats i deras marknadsföringsinstans på Kontrollpanelen.
+Kontrollpanelen gör det möjligt för kunder med hybridvärdmodeller att utnyttja särskilda funktioner i Kontrollpanelen. För att göra detta måste du:
+
+* [Ange URL för MID/RT-instans](#add) konfigurerad i er marknadsföringsinstans i Kontrollpanelen,
+* [Lägg till IP-adressen för MID/RT-instansen i tillåtelselista](#ip) så att marknadsinstansen kan ansluta till den.
 
 Mer information om värdmodeller finns i [Dokumentation för Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=sv).
 
@@ -85,6 +88,14 @@ Du kan när som helst ta bort eller inaktivera URL:en för MID/RT-instansen geno
 Observera att du kan övervaka alla åtgärder som utförs i fliken **[!UICONTROL External Accounts]** på en URL för MID/RT-instans från **[!UICONTROL Job Logs]**:
 
 ![](assets/external-account-logs.png)
+
+## Lägg till IP-adressen i tillåtelselista {#ip}
+
+När MID/RT-instansen har lagts till måste du lägga till dess IP-adress i tillåtelselista så att din marknadsinstans kan ansluta till den.
+
+Detta kan göras på **[!UICONTROL IP Allow Listing]** i **[!UICONTROL Instances Settings]** kort. [Lär dig hur du lägger till IP-adresser i tillåtelselista](ip-allow-listing-instance-access.md)
+
+När du är klar kan du använda funktionerna i Kontrollpanelen med MID/RT-instansen.
 
 ## Tillgängliga funktioner för hybridkunder {#capabilities}
 
