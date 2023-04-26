@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 5e2a5975a4a2ced4b23a18900309fc537daf13c0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%
 
