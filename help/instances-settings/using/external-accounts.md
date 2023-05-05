@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 79%
 
 Kontrollpanelen gör det möjligt för kunder med hybridvärdmodeller att utnyttja särskilda funktioner i Kontrollpanelen. För att göra detta måste du:
 
-* [Ange URL för MID/RT-instans](#add) konfigurerad i er marknadsföringsinstans i Kontrollpanelen,
-* [Lägg till IP-adressen för MID/RT-instansen i tillåtelselista](#ip) så att marknadsinstansen kan ansluta till den.
+* [Ange URL för MID/RT-instans](#add) konfigurerad i din marknadsföringsinstans på Kontrollpanelen,
+* [Lägg till IP-adressen för MID/RT-instansen i tillåtelselistan](#ip) så att marknadsinstansen kan ansluta till den.
 
 Mer information om värdmodeller finns i [Dokumentation för Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=sv).
 
@@ -89,11 +89,11 @@ Observera att du kan övervaka alla åtgärder som utförs i fliken **[!UICONTRO
 
 ![](assets/external-account-logs.png)
 
-## Lägg till IP-adressen i tillåtelselista {#ip}
+## Lägg till IP-adressen i tillåtelselistan {#ip}
 
-När MID/RT-instansen har lagts till måste du lägga till dess IP-adress i tillåtelselista så att din marknadsinstans kan ansluta till den.
+När MID/RT-instansen har lagts till måste du lägga till dess IP-adress i tillåtelselistan så att din marknadsinstans kan ansluta till den.
 
-Detta kan göras på **[!UICONTROL IP Allow Listing]** i **[!UICONTROL Instances Settings]** kort. [Lär dig hur du lägger till IP-adresser i tillåtelselista](ip-allow-listing-instance-access.md)
+Detta kan utföras från fliken **[!UICONTROL IP Allow Listing]** på **[!UICONTROL Instances Settings]**-kortet. [Lär dig hur du lägger till IP-adresser i tillåtelselistan](ip-allow-listing-instance-access.md)
 
 När du är klar kan du använda funktionerna i Kontrollpanelen med MID/RT-instansen.
 
