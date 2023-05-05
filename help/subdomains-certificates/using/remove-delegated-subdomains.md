@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Tabellen nedan visar vilka åtgärder som ska utföras beroende på vilken typ a
 
 {style="table-layout:auto"}
 
-Om någon av dessa åtgärder krävs för att ta bort delegeringen, ytterligare **[!DNL Action]** visas innan delegeringsborttagningen bekräftas. På den här skärmen visas de DNS-poster som ska tas bort eller läggas till, beroende på sammanhanget.
+Om någon av dessa åtgärder krävs för att ta bort delegeringen visas ytterligare ett **[!DNL Action]**-steg innan delegeringsborttagningen bekräftas. På den här skärmen visas de DNS-poster som ska tas bort eller läggas till, beroende på sammanhanget.
 
 ![](assets/action-step.png)
 
