@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1205'
 ht-degree: 8%
 
 ---
@@ -64,6 +64,11 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
    * **nyckellängd**: 3072 - 4 096 bitar
    * **riktigt namn** och **e-postadress**: Låter spåra vem som skapade nyckelparet. Ange ett namn och en e-postadress som är länkad till din organisation eller avdelning.
    * **kommentar**: Om du lägger till en etikett i kommentarsfältet blir det lättare att identifiera nyckeln som du kan använda för att kryptera dina data.
+
+      >[!IMPORTANT]
+      >
+      >Se till att fältet inte är tomt och att en kommentar är ifylld.
+
    * **förfallodatum**: Datum eller 0 om du inte vill ha något förfallodatum.
    * **lösenfras**
 
