@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 81%
+source-wordcount: '1523'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="Delegera underdomäners SSL-certifikat till Adobe"
->abstract="På Kontrollpanelen kan du hantera dina underdomäners SSL-certifikat med Adobe. Om du använder CNAME för att konfigurera din underdomän, kommer certifikatposter att genereras automatiskt och tillhandahållas för att generera ett certifikat till din värdlösning."
+>abstract="På Kontrollpanelen kan du hantera dina underdomäners SSL-certifikat med Adobe. Om du använder CNAME för att konfigurera din underdomän, kommer certifikatposter att genereras automatiskt och tillhandahållas för att generera ett certifikat till din värdlösning. Observera att den här funktionen bara är tillgänglig när du konfigurerar en ny underdomän. Du kan inte delegera certifikat för befintliga delegerade underdomäner."
 
 ## Måste läsas {#must-read}
 
