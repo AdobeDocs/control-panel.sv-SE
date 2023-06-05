@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
+source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1502'
 ht-degree: 81%
 
 ---
@@ -165,7 +165,7 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    ![](assets/cname-confirmation.png)
 
-1. Om du väljer att delegera underdomänernas certifikat till Adobe genereras certifikatet automatiskt. Kopiera dessa poster, antingen en efter en, eller genom att hämta en CSV-fil, och navigera sedan till din värdlösning för domänen för att generera det matchande certifikatet.
+1. Om du väljer att delegera underdomänernas certifikat till Adobe genereras certifikatposter automatiskt. Kopiera dessa poster, antingen en efter en, eller genom att hämta en CSV-fil, och navigera sedan till din värdlösning för domänen för att generera det matchande certifikatet.
 
    ![](assets/cname-csr-generation.png)
 
