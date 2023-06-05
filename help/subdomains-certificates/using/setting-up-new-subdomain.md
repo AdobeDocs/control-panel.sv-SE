@@ -7,12 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 92%
+source-wordcount: '1501'
+ht-degree: 81%
 
 ---
+
 
 # Konfigurera en ny underdomän {#setting-up-subdomain}
 
@@ -21,6 +22,11 @@ ht-degree: 92%
 >title="Konfigurera nya underdomäner och hantera certifikat"
 >abstract="Du måste konfigurera en ny underdomän och hantera dina underdomäners SSL-certifikat för att kunna börja skicka e-postmeddelanden eller publicera landningssidor med Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=sv" text="Övervakning av SSL-certifikat "
+
+>[!CONTEXTUALHELP]
+>id="cp_managed_ssl"
+>title="Delegera underdomäners SSL-certifikat till Adobe"
+>abstract="På Kontrollpanelen kan du hantera dina underdomäners SSL-certifikat med Adobe. Om du använder CNAME för att konfigurera din underdomän, kommer certifikatposter att genereras automatiskt och tillhandahållas för att generera ett certifikat till din värdlösning."
 
 ## Måste läsas {#must-read}
 
@@ -94,6 +100,8 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
 
    Se till att du anger det **fullständiga namnet** på den underdomän som ska delegeras. Om du till exempel vill delegera underdomänen ”usoffers.email.weretail.com” ska du skriva ”usoffers.email.weretail.com”.
 
+1. Om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe aktiverar du **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** alternativ.
+
    ![](assets/subdomain6.png)
 
 När underdomänen har skickats utförs olika kontroller och konfigurationssteg av Kontrollpanelen. Mer information finns i [Kontroller och konfiguration av underdomäner](#subdomain-checks-and-configuration).
@@ -134,25 +142,36 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    ![](assets/cname-use-case.png)
 
-1. Öppna den underdomän du skapade i din värdlösning och klicka sedan på **[!UICONTROL Next]**.
+1. Ange den underdomän som du skapade i din värdlösning. Om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe aktiverar du **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** alternativ.
 
-   Se till att du anger det **fullständiga namnet** på den underdomän som ska konfigureras. Om du till exempel vill konfigurera underdomänen ”usoffers.email.weretail.com” ska du skriva ”usoffers.email.weretail.com”.
+   ![](assets/cname-adobe-managed.png)
 
-   ![](assets/cname-submit.png)
+   >[!NOTE]
+   >
+   >Se till att du anger det **fullständiga namnet** på den underdomän som ska konfigureras. Om du till exempel vill konfigurera underdomänen ”usoffers.email.weretail.com” ska du skriva ”usoffers.email.weretail.com”.
 
 1. Listan med poster som ska placeras på dina DNS-servrar visas. Kopiera de här posterna, antingen en efter en eller genom att hämta en CSV-fil, och navigera sedan till din värdlösning för domänen för att generera matchande DNS-poster.
 
    ![](assets/cname-generate-record.png)
 
-1. Se till att alla DNS-poster från tidigare steg har genererats i domänens värdlösning. Om allt är korrekt konfigurerat markerar du den första satsen och klickar sedan på **[!UICONTROL Submit]** för att bekräfta.
+1. Se till att alla DNS-poster från tidigare steg har genererats i domänens värdlösning. Om allt är korrekt konfigurerat markerar du den första satsen och klickar sedan på **[!UICONTROL Next]** för att bekräfta.
 
-   ![](assets/cname-confirmation.png)
+   Om du vill skapa posterna och skicka konfigurationen för underdomänen senare väljer du den andra satsen. Du kan sedan återuppta konfigurationen av underdomänen direkt från området **[!UICONTROL Processing]** på underdomänens hanteringsskärm. Observera att DNS-poster som ska placeras på servern behålls av Kontrollpanelen i 30 dagar. Efter den perioden måste du konfigurera underdomänen från grunden.
+
 
    >[!NOTE]
    >
-   >Om du vill skapa posterna och skicka konfigurationen för underdomänen senare, väljer du den andra satsen och klickar sedan på **[!UICONTROL Submit later]**. Du kan sedan återuppta konfigurationen av underdomänen direkt från området **[!UICONTROL Processing]** på underdomänens hanteringsskärm.
-   >
-   >Observera att DNS-poster som ska placeras på servern behålls av Kontrollpanelen i 30 dagar. Efter den perioden måste du konfigurera underdomänen från grunden.
+   >Om du väljer att inte delegera SSL-certifikatet till Adobe är detta det sista steget i underdomänskonfigurationen. Klicka på knappen **[!UICONTROL Submit]**.
+
+   ![](assets/cname-confirmation.png)
+
+1. Om du väljer att delegera underdomänernas certifikat till Adobe genereras certifikatet automatiskt. Kopiera dessa poster, antingen en efter en, eller genom att hämta en CSV-fil, och navigera sedan till din värdlösning för domänen för att generera det matchande certifikatet.
+
+   ![](assets/cname-csr-generation.png)
+
+1. Se till att alla certifikatposter har skapats i domänens värdlösning. Om allt är korrekt konfigurerat markerar du den första satsen och klickar sedan på **[!UICONTROL Submit]** för att bekräfta.
+
+   ![](assets/cnames-submit.png)
 
 När underdomänen har skickats utförs olika kontroller och konfigurationssteg av Kontrollpanelen. Mer information finns i [Kontroller och konfiguration av underdomäner](#subdomain-checks-and-configuration).
 
