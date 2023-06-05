@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
+source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 80%
+source-wordcount: '1611'
+ht-degree: 76%
 
 ---
 
@@ -41,6 +41,16 @@ Den här sidan innehåller information om hur du konfigurerar nya underdomäner 
 Konfiguration av en underdomän är endast tillgänglig för **produktionsinstanser**.
 
 Om instansen som du väljer i guiden inte har några tidigare konfigurerade underdomäner, blir den första konfigurerade underdomänen den **primära underdomänen** för den instansen och du kan inte ändra den i framtiden. Därför skapas **omvända DNS-poster** för andra underdomäner som använder den här primära underdomänen. **Svars- och returadresser för andra underdomäner genereras från den primära underdomänen.**
+
+### Delegera underdomäners SSL-certifikat till Adobe
+
+När du konfigurerar en ny underdomän kan SSL-certifikatet hanteras av Adobe. Vi rekommenderar starkt att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla.
+
+Om du använder CNAME för att konfigurera en delegering av underdomäner, kommer Adobe att tillhandahålla certifikatposter som kan användas i din värdlösning för domäner för att generera ditt certifikat.
+
+>[!NOTE]
+>
+>SSL-certifikatdelegering är bara tillgängligt när du konfigurerar en ny underdomän. Den är inte tillgänglig för redan delegerade underdomäner.
 
 ### Konfiguration av namnservrar
 
