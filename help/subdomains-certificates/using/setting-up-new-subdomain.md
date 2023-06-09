@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 76%
+source-wordcount: '1628'
+ht-degree: 75%
 
 ---
 
@@ -44,13 +44,13 @@ Om instansen som du väljer i guiden inte har några tidigare konfigurerade unde
 
 ### Delegera underdomäners SSL-certifikat till Adobe
 
-När du konfigurerar en ny underdomän kan SSL-certifikatet hanteras av Adobe. Vi rekommenderar starkt att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla.
+När du konfigurerar en ny underdomän kan SSL-certifikatet hanteras av Adobe. Vi rekommenderar starkt att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla. Observera att SSL-certifikatdelegering endast är tillgängligt när du konfigurerar en ny underdomän. Den är inte tillgänglig för redan delegerade underdomäner.
 
 Om du använder CNAME för att konfigurera en delegering av underdomäner, kommer Adobe att tillhandahålla certifikatposter som kan användas i din värdlösning för domäner för att generera ditt certifikat.
 
 >[!NOTE]
 >
->SSL-certifikatdelegering är bara tillgängligt när du konfigurerar en ny underdomän. Den är inte tillgänglig för redan delegerade underdomäner.
+>SSL som hanteras av Adobe är en kostnadsfri funktion som är tillgänglig för användare utan kostnad.
 
 ### Konfiguration av namnservrar
 
