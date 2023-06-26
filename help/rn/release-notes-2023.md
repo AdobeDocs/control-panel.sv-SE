@@ -2,14 +2,26 @@
 title: Versionsinformation för 2023
 description: Denna sida listar alla 2023-versioner av Kontrollpanelen.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Versionsinformation för 2023 {#rn-2023}
+
+## Förbättringar i maj 2023 {#june-2023}
+
+**Underdomäners SSL-certifikatdelegering till Adobe**
+
+Nu kan du låta Adobe hantera dina underdomäners SSL-certifikat. Om du använder CNAME:er för att konfigurera din underdomän, kommer certifikatposter att genereras automatiskt och tillhandahållas för att generera ett certifikat till din värdlösning.
+
+Observera att den här funktionen bara är tillgänglig när du konfigurerar en ny underdomän. Du kan inte delegera certifikat för befintliga delegerade underdomäner. [Läs mer](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>SSL som hanteras av Adobe är en kostnadsfri funktion som är tillgänglig för användare utan kostnad.
 
 ## Mars 2023 {#march-2023}
 

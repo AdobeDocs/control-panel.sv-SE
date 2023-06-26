@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +22,6 @@ ht-degree: 75%
 >title="Konfigurera nya underdomäner och hantera certifikat"
 >abstract="Du måste konfigurera en ny underdomän och hantera dina underdomäners SSL-certifikat för att kunna börja skicka e-postmeddelanden eller publicera landningssidor med Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=sv" text="Övervakning av SSL-certifikat "
-
->[!CONTEXTUALHELP]
->id="cp_managed_ssl"
->title="Delegera underdomäners SSL-certifikat till Adobe"
->abstract="På Kontrollpanelen kan du hantera dina underdomäners SSL-certifikat med Adobe. Om du använder CNAME för att konfigurera din underdomän, kommer certifikatposter att genereras automatiskt och tillhandahållas för att generera ett certifikat till din värdlösning. Observera att den här funktionen bara är tillgänglig när du konfigurerar en ny underdomän. Du kan inte delegera certifikat för befintliga delegerade underdomäner."
 
 ## Måste läsas {#must-read}
 
@@ -44,7 +39,7 @@ Om instansen som du väljer i guiden inte har några tidigare konfigurerade unde
 
 ### Delegera underdomäners SSL-certifikat till Adobe
 
-När du konfigurerar en ny underdomän kan SSL-certifikatet hanteras av Adobe. Vi rekommenderar starkt att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla. Observera att SSL-certifikatdelegering endast är tillgängligt när du konfigurerar en ny underdomän. Den är inte tillgänglig för redan delegerade underdomäner.
+När du konfigurerar en ny underdomän kan SSL-certifikatet hanteras av Adobe. Vi rekommenderar starkt att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla.
 
 Om du använder CNAME för att konfigurera en delegering av underdomäner, kommer Adobe att tillhandahålla certifikatposter som kan användas i din värdlösning för domäner för att generera ditt certifikat.
 
@@ -66,7 +61,6 @@ Skapa **inte heller någon separat zonfil** för den nya underdomänen.
 >abstract="Adobe rekommenderar fullständig delegering av underdomäner. Du kan dock använda CNAME eller en anpassad metod för att konfigurera dina underdomäner."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 >additional-url="https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html" text="Kontakta kundtjänst"
-
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
@@ -110,7 +104,7 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
 
    Se till att du anger det **fullständiga namnet** på den underdomän som ska delegeras. Om du till exempel vill delegera underdomänen ”usoffers.email.weretail.com” ska du skriva ”usoffers.email.weretail.com”.
 
-1. Om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe aktiverar du **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** alternativ.
+1. Om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe aktiverar du **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** alternativ. [Läs mer om SSL-certifikatdelegering](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -152,7 +146,9 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    ![](assets/cname-use-case.png)
 
-1. Ange den underdomän som du skapade i din värdlösning. Om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe aktiverar du **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** alternativ.
+1. Ange den underdomän som du skapade i din värdlösning.
+
+   Om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe aktiverar du **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** alternativ. [Läs mer om SSL-certifikatdelegering](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
@@ -167,7 +163,6 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 1. Se till att alla DNS-poster från tidigare steg har genererats i domänens värdlösning. Om allt är korrekt konfigurerat markerar du den första satsen och klickar sedan på **[!UICONTROL Next]** för att bekräfta.
 
    Om du vill skapa posterna och skicka konfigurationen för underdomänen senare väljer du den andra satsen. Du kan sedan återuppta konfigurationen av underdomänen direkt från området **[!UICONTROL Processing]** på underdomänens hanteringsskärm. Observera att DNS-poster som ska placeras på servern behålls av Kontrollpanelen i 30 dagar. Efter den perioden måste du konfigurera underdomänen från grunden.
-
 
    >[!NOTE]
    >

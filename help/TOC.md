@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 100%
    + [Hantera TXT-poster](subdomains-certificates/using/managing-txt-records.md)
    + Hantera SSL-certifikat {#manage-certificates}
       + [Övervaka SSL-certifikat](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Delegera SSL-certifikat till Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Förnya SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Generera CSR](subdomains-certificates/using/generate-csr.md)
       + [Installera SSL-certifikatet](subdomains-certificates/using/install-ssl-certificate.md)

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,15 +30,7 @@ Adobe Campaign rekommenderar att du säkrar de underdomäner som är värdar fö
 
 ## Delegera underdomäners SSL-certifikat till Adobe
 
-När du konfigurerar en ny underdomän kan SSL-certifikatet hanteras av Adobe. Vi rekommenderar starkt att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla.
-
-Om du använder CNAME för att konfigurera en delegering av underdomäner, kommer Adobe att tillhandahålla certifikatposter som kan användas i din värdlösning för domäner för att generera ditt certifikat.
-
->[!NOTE]
->
->SSL-certifikatdelegering är bara tillgängligt när du konfigurerar en ny underdomän. Den är inte tillgänglig för redan delegerade underdomäner.
-
-SSL-certifikatdelegering aktiveras när en ny underdomän skapas. Lär dig hur du fortsätter i [det här avsnittet](setting-up-new-subdomain.md).
+Vi rekommenderar att du delegerar dina underdomäners SSL-certifikat till Adobe eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla. [Lär dig hur du delegerar underdomäners SSL-certifikat till Adobe](delegate-ssl.md)
 
 ## Övervaka SSL-certifikat  {#monitoring-certificates}
 
