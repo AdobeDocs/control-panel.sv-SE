@@ -4,8 +4,8 @@ description: På den här sidan listas alla nya funktioner och förbättringar f
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 7dece51698349f792886b3a7cdb22b1e49e48b9e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '56'
+ht-degree: 55%
 
 ---
 
