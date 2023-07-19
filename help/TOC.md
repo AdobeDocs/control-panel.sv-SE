@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 96%
 
 ---
 
@@ -42,15 +42,14 @@ ht-degree: 100%
 + Underdomäner och certifikat {#subdomains-and-certificates}
    + [Märka underdomäner](subdomains-certificates/using/subdomains-branding.md)
    + [Övervaka underdomänerna](subdomains-certificates/using/monitoring-subdomains.md)
-   + [Konfigurera en ny underdomän](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Ta bort delegering av underdomäner till Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + [Hantera TXT-poster](subdomains-certificates/using/managing-txt-records.md)
-   + Hantera SSL-certifikat {#manage-certificates}
+   + Delegera underdomäner {#delegate-subdomains}
+      + [Konfigurera en ny underdomän](subdomains-certificates/using/setting-up-new-subdomain.md)
+      + [Ta bort delegering av underdomäner till Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+      + [Hantera TXT-poster](subdomains-certificates/using/managing-txt-records.md)
+   + Hantera underdomäners SSL-certifikat {#manage-certificates}
       + [Övervaka SSL-certifikat](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegera SSL-certifikat till Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Förnya SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
-      + [Generera CSR](subdomains-certificates/using/generate-csr.md)
-      + [Installera SSL-certifikatet](subdomains-certificates/using/install-ssl-certificate.md)
 + Prestandaövervakning {#performance-monitoring}
    + [Om prestandaövervakning](performance-monitoring/using/about-performance-monitoring.md)
    + Databasövervakning {#database-monitoring}

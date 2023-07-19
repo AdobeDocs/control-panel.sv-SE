@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 81%
+source-wordcount: '567'
+ht-degree: 59%
 
 ---
 
@@ -28,9 +28,21 @@ Adobe Campaign rekommenderar att du säkrar de underdomäner som är värdar fö
 
 ![](assets/no_certificate.png)
 
-## Delegera underdomäners SSL-certifikat till Adobe
+## Hantering av SSL-certifikat {#management}
 
-Vi rekommenderar att du delegerar dina underdomäners SSL-certifikat till Adobe eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla. [Lär dig hur du delegerar underdomäners SSL-certifikat till Adobe](delegate-ssl.md)
+Övervakning av SSL-certifikat är avgörande för att säkerställa att dina underdomäner är säkra. Med Kontrollpanelen kan du installera och förnya dina underdomäners SSL-certifikat direkt av dig själv eller delegera dem till Adobe så att den här processen utförs automatiskt utan att du behöver göra något.
+
+Vi rekommenderar starkt att du delegerar hanteringen av dina underdomäners SSL-certifikat till Adobe eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan det upphör att gälla. Detta minskar risken för fel som kan uppstå när certifikat hanteras manuellt. [Lär dig hur du delegerar underdomäners SSL-certifikat till Adobe](delegate-ssl.md)
+
+Nedan finns en omfattande lista över de konsekvenser som är förknippade med manuell certifikathantering i motsats till att delegera denna åtgärd till Adobe:
+
+|       | Kundhanterat certifikat | Certifikat som hanteras av Adobe |
+|  ---  |  ---  |  ---  |
+| Certifikatleverantör | Certifikatutfärdare från tredje part | Adobe via AWS certifikatshanterare |
+| Manuella steg | CSR-generering, inköp och installation av certifikat | Ingen |
+| Förnyelseprocess | Kundens ansvar | Hanteras automatiskt av Adobe |
+| Underdomänsäkerhet | Domänen kan ha oskyddade underdomäner (spårning, spegling och uppspelning) såvida du inte installerar/förnyar certifikat. | Alla nya domäner (om de väljs för Adobe-hanterad) kommer att ha alla underdomäner skyddade som standard. |
+| Certifikatkostnad | Kunden betalar kostnaden för certifikat | Kostnadsfritt |
 
 ## Övervaka SSL-certifikat  {#monitoring-certificates}
 

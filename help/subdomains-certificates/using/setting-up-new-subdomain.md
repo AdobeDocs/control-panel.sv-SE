@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 80%
+source-wordcount: '1555'
+ht-degree: 84%
 
 ---
 
@@ -41,11 +41,11 @@ Om instansen som du väljer i guiden inte har några tidigare konfigurerade unde
 
 När du konfigurerar en ny underdomän kan SSL-certifikatet hanteras av Adobe. Vi rekommenderar starkt att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla.
 
-Om du använder CNAME för att konfigurera en delegering av underdomäner, kommer Adobe att tillhandahålla certifikatposter som kan användas i din värdlösning för domäner för att generera ditt certifikat.
+Om du använder CNAME:er för att konfigurera en delegering av underdomäner, kommer Adobe att tillhandahålla certifikatposter som kan användas i din värdlösning för domäner för att generera ditt certifikat.
 
 >[!NOTE]
 >
->SSL som hanteras av Adobe är en kostnadsfri funktion som är tillgänglig för användare utan kostnad.
+>SSL som hanteras av Adobe är en kostnadsfri funktion som är tillgänglig för användare utan kostnad. [Läs mer om hantering av SSL-certifikat](monitoring-ssl-certificates.md#management)
 
 ### Konfiguration av namnservrar
 
@@ -170,11 +170,11 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    ![](assets/cname-confirmation.png)
 
-1. Om du väljer att delegera underdomänernas certifikat till Adobe genereras certifikatposter automatiskt. Kopiera dessa poster, antingen en efter en, eller genom att hämta en CSV-fil, och navigera sedan till din värdlösning för domänen för att generera det matchande certifikatet.
+1. Om du väljer att delegera underdomänernas certifikat till Adobe genereras certifikatposter automatiskt. Kopiera de här posterna, antingen en efter en eller genom att hämta en CSV-fil, och gå sedan till din värdlösning för domänen för att generera matchande certifikat.
 
    ![](assets/cname-csr-generation.png)
 
-1. Se till att alla certifikatposter har skapats i domänens värdlösning. Om allt är korrekt konfigurerat markerar du den första satsen och klickar sedan på **[!UICONTROL Submit]** för att bekräfta.
+1. Se till att alla certifikatposter har genererats i domänens värdlösning. Om allt är korrekt konfigurerat markerar du den första satsen och klickar sedan på **[!UICONTROL Submit]** för att bekräfta.
 
    ![](assets/cnames-submit.png)
 
