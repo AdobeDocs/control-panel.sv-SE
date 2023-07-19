@@ -8,5 +8,9 @@ https://experienceleague.adobe.com/docs/control-panel/using/performance-monitori
 https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/url-permissions.html,https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html
 https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html,https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/manage-certificates/monitoring-ssl-certificates.html
 https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html,https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/manage-certificates/renewing-subdomain-certificate.html
-
+https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/manage-certificates/generate-csr.html,https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/manage-certificates/renewing-subdomain-certificate.html
+https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/manage-certificates/install-ssl-certificate.html,https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/manage-certificates/renewing-subdomain-certificate.html
+https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html,https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/delegate-subdomains/setting-up-new-subdomain.html
+https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/remove-delegated-subdomains.html,https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/delegate-subdomains/remove-delegated-subdomains.html
+https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/managing-txt-records.html,https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/delegate-subdomains/managing-txt-records.html
 
