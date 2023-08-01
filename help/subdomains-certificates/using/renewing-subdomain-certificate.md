@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->Du behöver bara förnya SSL-certifikaten för dina underdomäner om du väljer att hantera certifikat själv i stället för att delegera processen till Adobe. Vi rekommenderar starkt att du delegerar hanteringen av dina underdomäners SSL-certifikat till Adobe eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan det upphör att gälla. [Läs mer om hantering av SSL-certifikat](monitoring-ssl-certificates.md#management)
+>Du behöver bara förnya SSL-certifikaten för dina underdomäner om du väljer att hantera certifikat själv i stället för att delegera processen till Adobe. Vi rekommenderar att du delegerar hanteringen av dina underdomäners SSL-certifikat till Adobe, eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan det upphör att gälla. [Läs mer om hantering av SSL-certifikat](monitoring-ssl-certificates.md#management)
 
 Processen gällande förnyelse av SSL-certifikat omfattar tre steg:
 
@@ -76,7 +76,7 @@ Följ dessa steg för att skapa en begäran om certifikatsignering:
    * **[!UICONTROL Organization]**: officiellt organisationsnamn.
    * **[!UICONTROL Organization Unit]**: enhet som är länkad till underdomänen (exempel: marknadsföring och IT).
    * **[!UICONTROL Instance]** (förfylld): URL till Campaign-instansen som är associerad med underdomänen.
-   * **[!UICONTROL Common name]**: Om det vanliga namnet är markerat som standard kan du välja en av underdomänerna om det behövs.
+   * **[!UICONTROL Common name]**: det vanliga namnet är markerat som standard, du kan välja en av underdomänerna om det behövs.
 
    ![](assets/renewal3.png)
 
@@ -94,23 +94,23 @@ Följ dessa steg för att skapa en begäran om certifikatsignering:
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Copy CSR content]** Med kan du kopiera all information som rör CSR (Org ID, instans, organisationsnamn, eget namn, inkluderade underdomäner osv.)
+   >Med knappen **[!UICONTROL Copy CSR content]** kan du kopiera all information som rör CSR (organisations-ID, instans, organisationsnamn, eget namn, inkluderade underdomäner osv.)
 
-1. Filen med filnamnstillägget .csr som motsvarar ditt val genereras och hämtas automatiskt. Du kan nu använda den för att köpa SSL-certifikatet från den certifikatutfärdare som ditt företag har godkänt. Om du behöver ladda ned CSR igen följer du stegen som beskrivs i [det här avsnittet](#download).
+1. Filen med filnamnstillägget .csr som motsvarar ditt val genereras och hämtas automatiskt. Du kan nu använda den för att köpa SSL-certifikatet från den certifikatutfärdare som ditt företag har godkänt. Om du behöver hämta CSR igen följer du stegen som beskrivs i [det här avsnittet](#download).
 
-När CSR har skapats och laddats ned kan du använda den för att köpa ett SSL-certifikat från en certifikatutfärdare som har godkänts av organisationen.
+När CSR har skapats och hämtats kan du använda den för att köpa ett SSL-certifikat från en certifikatutfärdare som har godkänts av organisationen.
 
 När SSL-certifikatet har köpts kan du installera det på din instans för att skydda din underdomän. [Läs mer](#install)
 
 ## Hämta CSR {#download}
 
-För att kunna köpa ett SSL-certifikat måste du först hämta certifikatsigneringsbegäran. CSR hämtas automatiskt när den har skapats. Du kan också ladda ned den igen när som helst från jobbloggarna:
+För att kunna köpa ett SSL-certifikat måste du först hämta begäran om certifikatsignering. CSR hämtas automatiskt när den har skapats. Du kan också hämta den igen när som helst från jobbloggarna:
 
-1. I **[!UICONTROL Job Logs]** väljer du **[!UICONTROL Finished]** filtrera sedan listan för att visa jobb som är relaterade till hantering av underdomäner.
+1. I **[!UICONTROL Job Logs]** väljer du fliken **[!UICONTROL Finished]** och filtrerar sedan listan för att visa jobb som är relaterade till hantering av underdomäner.
 
    ![](assets/renewal-download.png)
 
-1. Öppna jobbet som motsvarar CSR-genereringen och klicka sedan på **[!UICONTROL Downbload]** för att hämta csr-filen.
+1. Öppna jobbet som motsvarar CSR-genereringen och klicka sedan på länken **[!UICONTROL Downbload]** för att hämta csr-filen.
 
    ![](assets/renewal-download-button.png)
 
@@ -124,7 +124,7 @@ För att kunna köpa ett SSL-certifikat måste du först hämta certifikatsigner
 När ett SSL-certifikat har köpts kan du installera det på din instans. Innan du fortsätter ska du se till att du är medveten om förutsättningarna nedan:
 
 * Din begäran om certifikatsignering måste ha genererats från Kontrollpanelen. I annat fall kan du inte installera certifikatet från Kontrollpanelen.
-* CSR (Certificate Signing Request) ska matcha den underdomän som har konfigurerats för att fungera med Adobe. Den kan till exempel inte innehålla fler underdomäner än den som har konfigurerats.
+* Din begäran om certifikatsignering (CSR) bör matcha underdomänen som har konfigurerats för att fungera med Adobe. Den kan till exempel inte innehålla fler underdomäner än den som har konfigurerats.
 * Certifikatet ska ha dagens datum. Det går inte att installera certifikat med datum i framtiden och de får inte ha förfallit (dvs. giltiga start- och slutdatum).
 * Certifikatet måste utfärdas av en betrodd certifikatutfärdare (CA) såsom Comodo, DigiCert eller GoDaddy osv.
 * Certifikatets storlek ska vara 2 048 bitar och algoritmen RSA.
