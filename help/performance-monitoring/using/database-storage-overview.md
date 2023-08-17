@@ -25,7 +25,7 @@ Området **[!UICONTROL Storage overview]** innehåller en grafisk representation
 
 * **[!UICONTROL System resources]**
 
-   Observera att om systemresurserna förbrukar en stor del av databasutrymmet rekommenderar vi att du kontaktar kundtjänst.
+  Observera att om systemresurserna förbrukar en stor del av databasutrymmet rekommenderar vi att du kontaktar kundtjänst.
 
 * **[!UICONTROL Out-of-the-box tables]** kommer som standard med dina instanser i Campaign,
 * **[!UICONTROL Temporary tables]** som skapats av arbetsflöden och leveranser,

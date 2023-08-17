@@ -40,7 +40,6 @@ Servicekalendern innehåller nu en kalendervy som håller reda på viktiga händ
 >
 >* Distributionsrestriktioner tillämpas i Campaign v7. [Läs mer](faq.md#v7-restrictions)
 
-
 ## Ytterligare resurser {#additional-resources}
 
 <table>

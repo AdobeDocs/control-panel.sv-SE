@@ -57,7 +57,7 @@ Följ dessa steg för att lägga till ett IP-intervall i tillåtelselistan:
 
    ![](assets/control_panel_add_range.png)
 
-1. Definiera IP-intervallet som du vill lägga till i tillåtelselista. Det här fältet accepterar endast IP-intervall i CIDR-format, som *192.150.5.0/24*.
+1. Definiera IP-intervallet som du vill lägga till i tillåtelselista. Det här fältet accepterar endast IP-intervall i CIDR-format, t.ex. *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 
@@ -106,7 +106,7 @@ Du kan också söka efter ett IP-intervall genom att börja skriva en etikett, e
 
 ![](assets/control_panel_allow_list_sort.png)
 
-Information om hur du redigerar ett eller flera IP-intervall finns i [det här avsnittet](#editing-ip-ranges).
+Om du vill redigera ett eller flera IP-intervall läser du [det här avsnittet](#editing-ip-ranges).
 
 Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]** -knappen.
 
@@ -114,7 +114,7 @@ Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar 
 
 ### Förfaller {#expiry}
 
-The **[!UICONTROL Expires]** kolumn visar hur många dagar som återstår tills IP-intervallet upphör att gälla.
+The **[!UICONTROL Expires]** -kolumnen visar hur många dagar som återstår tills IP-intervallet upphör att gälla.
 
 Om du prenumererar på [e-postavisering](../../performance-monitoring/using/email-alerting.md)får du meddelanden via e-post 10 dagar och 5 dagar innan ett IP-intervall upphör att gälla och samma dag som det upphör att gälla. När du fått en varning kan du [redigera IP-intervallet](#editing-ip-ranges) vid behov förlänga giltighetsperioden.
 
@@ -124,7 +124,7 @@ Ett IP-intervall som har gått ut tas bort automatiskt efter 7 dagar. Det visas 
 
 * Du kan inte skapa ett annat IP-intervall som överlappar ett intervall som har gått ut. Du måste först ta bort det utgångna IP-intervallet innan du skapar det nya.
 
-* Du kan [redigera](#editing-ip-ranges) ett IP-intervall som gått ut och uppdatera dess varaktighet för att göra det tillgängligt igen.
+* Du kan [redigera](#editing-ip-ranges) ett IP-intervall som har gått ut och uppdatera dess varaktighet så att det blir tillgängligt igen.
 
 * Du kan ta bort den från tillåtelselista.
 

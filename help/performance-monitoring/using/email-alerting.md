@@ -26,7 +26,7 @@ Listan med varningar är följande:
 
 * **Databasanvändning**: En av instansdatabaserna har nått 80 % eller mer av sin kapacitet. Se [Databasövervakning](../../performance-monitoring/using/database-monitoring.md).
 
-* **SFTP IP-listan tillåter att listan går ut**: Ett av IP-intervallen som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [IP-intervall tillåter listning](../../sftp/using/ip-range-allow-listing.md).
+* **SFTP IP-listan tillåter att listan går ut**: Ett av de IP-intervall som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [IP-intervall tillåter listning](../../sftp/using/ip-range-allow-listing.md).
 
 * **SFTP-utgångsdatum för offentlig nyckel**: En av de offentliga nycklarna som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Nyckelhantering](../../sftp/using/key-management.md).
 
@@ -48,7 +48,7 @@ Så här prenumererar du på dessa aviseringar:
 
    ![](assets/subscribing.png)
 
-1. Ett e-postmeddelande skickas för att bekräfta din prenumeration.
+1. Ett e-postmeddelande skickas för att bekräfta prenumerationen.
 
    ![](assets/email_subscription.png)
 

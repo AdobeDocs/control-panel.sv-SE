@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
 source-wordcount: '1555'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -96,7 +96,7 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
 
 1. Skapa underdomänen med motsvarande Adobe-namnserverinformation och klicka sedan på **[!UICONTROL Next]**.
 
-1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadsföring** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/subdomain5.png)
 
@@ -142,7 +142,7 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    ![](assets/cname-method-selection.png)
 
-1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadsföring** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/cname-use-case.png)
 

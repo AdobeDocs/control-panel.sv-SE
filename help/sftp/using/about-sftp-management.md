@@ -24,7 +24,7 @@ På Kontrollpanelen kan du interagera med alla SFTP-servrar som är anslutna til
 Med kontrollpanelen kan du utföra åtgärderna nedan för att hantera dina SFTP-servrar:
 
 * Övervaka deras **lagringskapacitet**,
-* Hantera **IP-adresser tillåter listning**: lägga till eller ta bort IP-adressintervall för en eller flera servrar,
+* Hantera **IP-adresser tillåter listning**: lägg till eller ta bort IP-adressintervall för en eller flera servrar,
 * Hantera **publika SSH-nycklar** för att få tillgång till dina avhandlingar.
 
 Detaljerad information om dessa åtgärder finns i avsnitten nedan.

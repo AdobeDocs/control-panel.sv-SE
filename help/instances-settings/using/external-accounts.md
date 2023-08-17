@@ -67,13 +67,13 @@ För att kunna komma åt funktioner på Kontrollpanelen måste du ange din infor
 
    * **[!UICONTROL URL]**: URL för instansen som finns i klientkonsolen för Campaign i menyn **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**.
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: autentiseringsuppgifter för den operatör som tillhandahålls efter inledande etablering av Adobe Admin.
 
-      >[!NOTE]
-      >
-      >Kontakta kundtjänst om dessa uppgifter inte är tillgängliga.
+     >[!NOTE]
+     >
+     >Kontakta kundtjänst om dessa uppgifter inte är tillgängliga.
 
 1. Klicka på **[!UICONTROL Save]** för att bekräfta.
 

@@ -58,18 +58,17 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
 
    `gpg --full-generate-key`
 
-1. Ange önskade parametrar för nyckeln när du uppmanas till detta. Nödvändiga parametrar är:
+1. Ange önskade parametrar för nyckeln när du uppmanas till detta. Obligatoriska parametrar är:
 
    * **tangenttyp**: RSA
    * **nyckellängd**: 3072 - 4 096 bitar
-   * **riktigt namn** och **e-postadress**: Låter spåra vem som skapade nyckelparet. Ange ett namn och en e-postadress som är länkad till din organisation eller avdelning.
-   * **kommentar**: Om du lägger till en etikett i kommentarsfältet blir det lättare att identifiera nyckeln som du kan använda för att kryptera dina data.
+   * **riktigt namn** och **e-postadress**: Används för att spåra vem som skapade nyckelparet. Ange ett namn och en e-postadress som är länkad till din organisation eller avdelning.
+   * **kommentar**: om du lägger till en etikett i kommentarsfältet blir det lättare att identifiera nyckeln som du kan använda för att kryptera dina data.
+     >[!IMPORTANT]
+     >
+     >Se till att fältet inte är tomt och att en kommentar är ifylld.
 
-      >[!IMPORTANT]
-      >
-      >Se till att fältet inte är tomt och att en kommentar är ifylld.
-
-   * **förfallodatum**: Datum eller 0 om du inte vill ha något förfallodatum.
+   * **förfallodatum**: Datum eller &quot;0&quot; för inget förfallodatum.
    * **lösenfras**
 
    ![](assets/do-not-localize/gpg_command.png)
@@ -133,13 +132,13 @@ Så här genererar du ett nyckelpar på Kontrollpanelen:
 
    ![](assets/gpg_generate.png)
 
-1. Ange namnet på nyckeln och klicka sedan på **[!UICONTROL Generate Key]**. Det här namnet hjälper dig att identifiera nyckeln som ska användas för dekryptering i Campaign-arbetsflöden
+1. Ange namnet på nyckeln och klicka sedan på **[!UICONTROL Generate Key]**. Det här namnet hjälper dig att identifiera nyckeln som ska användas för dekryptering i kampanjarbetsflöden
 
    ![](assets/gpg_generate_name.png)
 
 När nyckelparet har skapats visas den offentliga nyckeln i listan. Observera att dekrypteringsnyckelpar genereras utan förfallodatum.
 
-Du kan använda **...** för att hämta den offentliga nyckeln eller kopiera dess fingeravtryck.
+Du kan använda **...** om du vill hämta den offentliga nyckeln eller kopiera dess fingeravtryck.
 
 ![](assets/gpg_generate_list.png)
 
@@ -159,7 +158,7 @@ Mer information finns i Adobe Campaign-dokumentationen:
 
 ## Övervaka GPG-nycklar
 
-Öppna dialogrutan **[!UICONTROL Instance settings]** och väljer **[!UICONTROL GPG keys]** -fliken.
+Om du vill komma åt GPG-nycklar som är installerade och genererade för dina instanser öppnar du **[!UICONTROL Instance settings]** och väljer **[!UICONTROL GPG keys]** -fliken.
 
 ![](assets/gpg_list.png)
 
@@ -168,22 +167,22 @@ I listan visas alla GPG-nycklar för kryptering och dekryptering som har install
 * **[!UICONTROL Name]**: Namnet som har definierats när nyckeln installeras eller genereras.
 * **[!UICONTROL Use case]**: Den här kolumnen anger nyckelns användningsfall:
 
-   ![](assets/gpg_icon_encrypt.png): Nyckeln har installerats för datakryptering.
+  ![](assets/gpg_icon_encrypt.png): Nyckeln har installerats för datakryptering.
 
-   ![](assets/gpg_icon_decrypt.png): Nyckeln har genererats för att tillåta datadekryptering.
+  ![](assets/gpg_icon_decrypt.png): Nyckeln har genererats för att tillåta datadekryptering.
 
-* **[!UICONTROL Fingerprint]**: Nyckelns fingeravtryck.
+* **[!UICONTROL Fingerprint]**: nyckelns fingeravtryck.
 * **[!UICONTROL Expires]**: Nyckelns förfallodatum. Observera att Kontrollpanelen kommer att ge visuella indikationer när nyckeln närmar sig förfallodatumet:
 
    * Urgent (red) visas 30 dagar tidigare.
    * Varning (gul) visas 60 dagar före.
    * En&quot;utgången&quot; röd banderoll visas när en tangent har gått ut.
 
-   >[!NOTE]
-   >
-   >Observera att inga e-postmeddelanden skickas från Kontrollpanelen.
+  >[!NOTE]
+  >
+  >Observera att inga e-postmeddelanden skickas från Kontrollpanelen.
 
-Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. Om du vill göra det klickar du på **...** knapp och markera **[!UICONTROL Delete Key].**.
+Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. Klicka på **...** knapp och markera **[!UICONTROL Delete Key].**.
 
 ![](assets/gpg_delete.png)
 
@@ -191,7 +190,7 @@ Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. Om
 >
 >Innan du tar bort en tangent bör du kontrollera att den inte används i något Adobe Campaign-arbetsflöde för att förhindra att den misslyckas.
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 I videon nedan visas hur du genererar och installerar GPG-nycklar för datakryptering.
 

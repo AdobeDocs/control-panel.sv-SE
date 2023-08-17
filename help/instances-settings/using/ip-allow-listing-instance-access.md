@@ -81,10 +81,9 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
    * **[!UICONTROL Label]**: etiketten som ska visas i tillåtelselistan.
    * **[!UICONTROL Name]**: namnet måste vara unikt för åtkomsttypen, instansen (vid extern API-anslutning) samt IP-adressen.
 
-
 1. Ange typen av åtkomst du vill bevilja IP-adresserna:
 
-   * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan ansluta till Campaign Client Console. Observera att åtkomst till konsolen endast är aktiverad för marknadsföringsinstanser. Observera att åtkomst till MID- och RT-instanser inte är tillåten och därför inte aktiverad.
+   * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan anslutas till Campaign-klientkonsolen. Observera att åtkomst till konsolen endast är aktiverad för marknadsföringsinstanser. Observera att åtkomst till MID- och RT-instanser inte är tillåten och därför inte aktiverad.
    * **[!UICONTROL AEM connection]**: de angivna IP-adresserna till AEM kan ansluta till marknadsföringsinstansen.
    * **[!UICONTROL External API connection]**: Externa API:er med de angivna IP-adresserna kan ansluta till instansen för marknadsföring och/eller meddelandecenter (RT). Observera att anslutningen till konsolen i RT-instanser är inaktiverad.
 

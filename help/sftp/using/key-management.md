@@ -79,7 +79,7 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
 
 1. I **[!UICONTROL Comment]** kan du ange en anledning till att du lägger till den här offentliga nyckeln (varför, för vem, osv.).
 
-1. För att kunna fylla i **[!UICONTROL Public Key]** måste du generera en offentlig SSH-nyckel. Följ stegen nedan i enlighet med ditt operativsystem.
+1. För att kunna fylla i **[!UICONTROL Public Key]** måste du generera en offentlig SSH-nyckel. Följ stegen nedan enligt ditt operativsystem.
 
    **Linux och Mac:**
 
@@ -91,7 +91,7 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
 
    **Windows:**
 
-   Du kan behöva installera ett tredjepartsverktyg som hjälper dig att generera nyckelpar för privat/offentlig nyckel i samma format,&quot;name.pub&quot;.
+   Du kan behöva installera ett verktyg från tredje part som hjälper dig att generera nyckelpar för privat/offentlig nyckel i samma format, &quot;name.pub&quot;.
 
 1. Öppna .pub-filen och kopiera och klistra sedan in hela strängen med börjar med ”ssh …” i Kontrollpanelen.
 
@@ -99,7 +99,7 @@ I mycket sällsynta fall aktiveras lösenordsbaserad autentisering på vissa SFT
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Public Key]** Endast OpenSSH-formatet accepteras. Storleken på den offentliga SSH-nyckeln ska vara **2 048 bitar**.
+   >The **[!UICONTROL Public Key]** Endast OpenSSH-formatet accepteras i fältet. Storleken på den offentliga SSH-nyckeln ska vara **2 048 bitar**.
 
 1. Klicka på knappen **[!UICONTROL Save]** för att skapa nyckeln. Kontrollpanelen sparar den offentliga nyckeln och tillhörande fingeravtryck, som är krypterat med SHA256-formatet.
 
@@ -125,7 +125,7 @@ Du kan också söka efter en offentlig nyckel genom att börja skriva ett namn e
 
 ![](assets/control_panel_key_management_sort.png)
 
-Information om hur du redigerar ett eller flera IP-intervall finns i [det här avsnittet](#editing-public-keys).
+Om du vill redigera ett eller flera IP-intervall läser du [det här avsnittet](#editing-public-keys).
 
 Om du vill ta bort en eller flera offentliga nycklar från listan markerar du dem och klickar sedan på knappen **[!UICONTROL Delete public key]** -knappen.
 

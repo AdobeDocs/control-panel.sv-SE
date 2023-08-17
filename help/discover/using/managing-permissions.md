@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Hantera behörigheter till Kontrollpanelen
-description: Lär dig hantera behörigheter på Kontrollpanelen
+description: Lär dig hur du hanterar behörigheter på Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -62,6 +62,6 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 >
 >När åtkomsten är konfigurerad måste användaren logga ut från Adobe Experience Cloud och logga in igen för att komma åt Kontrollpanelen.
 
-## Videokurs {#video}
+## Självstudievideo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)

@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Kontrollpanelen är tillgänglig direkt från Experience Cloud eller från själva produkten.
 
-Det är tillgängligt för **Administratörsanvändare** endast. Mer information om hur du tilldelar användare till gruppen Administratörer finns i [det här avsnittet](../../discover/using/managing-permissions.md).
+Det är tillgängligt för **Administratörer** endast. Mer information om hur du tilldelar användare till gruppen Administratörer finns i [det här avsnittet](../../discover/using/managing-permissions.md).
 
 ## Åtkomst från Experience Cloud Platform {#access-experience-cloud-platform}
 
@@ -52,6 +52,6 @@ Kontrollpanelen är också tillgänglig från Experience Cloud-plattformen **lö
 
    ![](assets/control_panel_access3.png)
 
-1. Klicka på **[!UICONTROL Control Panel]** ikon.
+1. Klicka på **[!UICONTROL Control Panel]** -ikon.
 
    ![](assets/control_panel_access4.png)

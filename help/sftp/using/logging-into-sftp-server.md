@@ -30,7 +30,7 @@ Innan du loggar in på servern bör du kontrollera att:
 
 Så här ansluter du till SFTP-servern:
 
-1. Starta Kontrollpanelen och välj sedan **[!UICONTROL Key Management]** från **[!UICONTROL SFTP]** kort.
+1. Starta Kontrollpanelen och välj sedan **[!UICONTROL Key Management]** -fliken från **[!UICONTROL SFTP]** kort.
 
    ![](assets/sftp_card.png)
 
@@ -56,6 +56,6 @@ Så här ansluter du till SFTP-servern:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. När all information är ifylld klickar du på **[!UICONTROL Connect]** för att logga in på SFTP-servern.
+1. När all information är ifylld klickar du **[!UICONTROL Connect]** för att logga in på SFTP-servern.
 
    ![](assets/do-not-localize/sftpconnected.png)

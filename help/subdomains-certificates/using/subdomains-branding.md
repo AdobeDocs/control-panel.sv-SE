@@ -39,7 +39,7 @@ Med subdomänkonfigurationen kan du konfigurera en undersektion till din domän 
 
 * **Fullständig delegering av underdomäner till Adobe Campaign** (rekommenderas): underdomänen delegeras helt till Adobe. Adobe kan leverera Campaign som en hanterad tjänst genom att kontrollera och underhålla alla aspekter av DNS som krävs för att leverera, återge och spåra e-postkampanjer.
 
-* **Användning av CNAME**: Skapa en underdomän och använd CNAME:er för att peka på Adobe-specifika poster. Med den här konfigurationen delar både Adobe och kunden ansvaret för att underhålla DNS:er.
+* **Användning av CNAME**: Skapa en underdomän och använd CNAME för att peka på Adobe-specifika poster. Med den här konfigurationen delar både Adobe och kunden ansvaret för att underhålla DNS:er.
 
 Tabellen nedan tillhandahåller en sammanfattning av hur dessa metoder fungerar samt den troliga ansträngningsnivån:
 

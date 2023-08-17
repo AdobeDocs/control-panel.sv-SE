@@ -54,7 +54,7 @@ Följ dessa steg för att få information om servrarna som är anslutna till din
 
    >[!NOTE]
    >
-   >Alla instanser i Campaign visas i listan i det vänstra fönstret. Eftersom funktionen Instansinformation endast är dedikerad till Campaign v7/v8-instanser visas meddelandet&quot;Ej tillämpbar instans&quot; om du väljer en Campaign Standard.
+   >Alla instanser i Campaign visas i listan i det vänstra fönstret. Eftersom funktionen Instansinformation endast är dedikerad till Campaign v7/v8-instanser visas meddelandet&quot;Ej tillämpbar instans&quot; om du markerar en Campaign Standard.
 
 1. Servrarna som är anslutna till instansen visas.
 
