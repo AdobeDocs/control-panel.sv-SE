@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,14 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 ## Nyheter
 
-**Delegeringsborttagning för underdomäner som delegerats till Adobe**
+**Hantering av DMARC- och BIMI-poster**
 
-Du kan nu ta bort delegeringen av en underdomän som har delegerats till Adobe, inklusive CNAME-inställningar. [Läs mer](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+Nu kan du lägga till DMARC- och BIMI-poster direkt från Kontrollpanelen:
 
-**Servicekalender**
+* **DMARC-poster** tillhandahåller ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen för skadliga syften. [Lär dig hur du lägger till DMARC-poster](subdomains-certificates/using/dmarc.md)
 
-Servicekalendern innehåller nu en kalendervy som håller reda på viktiga händelser som inträffar i dina instanser. Information har dessutom lagts till med meddelanden som skickas till användare som prenumererar på varningar på Kontrollpanelen. [Läs mer](../help/service-events/service-events.md)
+
+* **BIMI-poster** gör att du kan visa en godkänd logotyp bredvid dina e-postmeddelanden i e-postleverantörernas inkorgar för att förbättra varumärkesigenkänningen och förtroendet för dem. [Lär dig hur du lägger till BIMI-poster](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >

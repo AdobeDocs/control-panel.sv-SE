@@ -2,16 +2,22 @@
 title: Versionsinformation för 2023
 description: Denna sida listar alla 2023-versioner av Kontrollpanelen.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # Versionsinformation för 2023 {#rn-2023}
 
-## Förbättringar i maj 2023 {#june-2023}
+## Juni 2023 {#june-2023}
+
+* Nu kan du delegera SSL-certifikat för redan delegerade underdomäner till Adobe direkt från listan över underdomäner. [Läs mer](../subdomains-certificates/using/delegate-ssl.md)
+
+* Avsändaren av e-postmeddelanden med varningar har ändrats till `"alert@notifications.campaign.adobe.com"`.
+
+## Förbättringar i maj 2023 {#may-2023}
 
 **Underdomäners SSL-certifikatdelegering till Adobe**
 

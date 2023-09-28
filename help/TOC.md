@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 87%
 
 ---
 
@@ -45,7 +45,11 @@ ht-degree: 100%
    + Delegera underdomäner {#delegate-subdomains}
       + [Konfigurera en ny underdomän](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Ta bort delegering av underdomäner till Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-      + [Hantera TXT-poster](subdomains-certificates/using/managing-txt-records.md)
+   + Arbeta med TXT-poster (Google, BIMI, DMARC) {#txt-records}
+      + [Kom igång med TXT-poster](subdomains-certificates/using/gs-txt-records.md)
+      + [Lägg till verifieringsposter för Google-webbplatser](subdomains-certificates/using/managing-txt-records.md)
+      + [Lägg till DMARC-poster](subdomains-certificates/using/dmarc.md)
+      + [Lägg till BIMI-poster](subdomains-certificates/using/bimi.md)
    + Hantera underdomäners SSL-certifikat {#manage-certificates}
       + [Övervaka SSL-certifikat](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegera SSL-certifikat till Adobe](subdomains-certificates/using/delegate-ssl.md)
