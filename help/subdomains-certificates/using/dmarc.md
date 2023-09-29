@@ -6,9 +6,9 @@ description: Lär dig hur du lägger till en DMARC-post för en underdomän.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## Om DMARC-poster {#about}
 
 Domänbaserad Message Authentication, Reporting and Conformance (DMARC) är en protokollstandard för e-postautentisering som hjälper organisationer att skydda sina e-postdomäner från nätfiskeattacker och bedrägeri. Det gör att du kan bestämma hur en postlådeleverantör ska hantera e-postmeddelanden som inte godkänns vid SPF- och DKIM-kontroller, vilket ger ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen i skadliga syften.
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## Begränsningar och krav {#limitations}
 
@@ -37,11 +39,17 @@ Så här lägger du till en DMARC-post för en underdomän:
 
 1. Välj **[!UICONTROL Policy Type]** som mottagarservern bör följa när ett av dina e-postmeddelanden misslyckas. Tillgängliga principtyper är:
 
-   * Ingen,
-   * Karantän (placering av skräppostmapp),
-   * Avvisa (blockera e-postmeddelandet).
+   * **[!UICONTROL None]**,
+   * **[!UICONTROL Quarantine]** (placering av skräppostmapp),
+   * **[!UICONTROL Reject]** (blockera e-postmeddelandet).
 
-   Om din underdomän precis har konfigurerats rekommenderar vi att du anger det här värdet som Ingen tills din underdomän är helt konfigurerad och dina e-postmeddelanden skickas korrekt. När allt är korrekt konfigurerat kan du ändra policytypen till &quot;Karantän&quot; eller &quot;Avvisa&quot;.
+   Som en god praxis rekommenderas att långsamt införa DMARC-implementering genom att eskalera din DMARC-policy från p=none till p=karantän, till p=reject när du får DMARC-förståelse för DMARC:s potentiella påverkan.
+
+   * **Steg 1:** Analysera den feedback du får och använder (p=none), som instruerar mottagaren att inte utföra några åtgärder mot meddelanden som inte kan autentiseras, men ändå skicka e-postrapporter till avsändaren. Granska och åtgärda även problem med SPF/DKIM om legitimt meddelande inte kan autentiseras.
+
+   * **Steg 2:** Kontrollera om SPF och DKIM är justerade och skickar autentisering för alla giltiga e-postmeddelanden, och flytta sedan principen till (p=karantän), vilket anger att den mottagande e-postservern ska placera e-postmeddelanden som inte kan autentiseras (detta innebär vanligtvis att meddelandena placeras i skräppostmappen). Om policyn är inställd på att sätta den i karantän rekommenderar vi att du börjar med en liten andel av dina e-postmeddelanden.
+
+   * **Steg 3:** Justera princip till (p=avvisa). Obs! Använd den här profilen med försiktighet och kontrollera om den passar din organisation. p= avvisningsprincipen innebär att mottagaren helt nekar (studsar) alla e-postmeddelanden för domänen som inte kan autentiseras. När den här principen är aktiverad har bara e-post som verifieras som 100 % autentiserad av din domän en chans att skickas till Inkorgen.
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ Så här lägger du till en DMARC-post för en underdomän:
    * Aggregate-DMARC-rapporter ger högnivåinformation, t.ex. antalet e-postmeddelanden som misslyckades under en viss period.
    * Forensiska DMARC-felrapporter ger detaljerad information, till exempel vilken IP-adress som den misslyckade e-postadressen kommer från.
 
-1. Som standard tillämpas den valda DMARC-principen på alla e-postmeddelanden. Du kan ändra den här parametern så att den endast används för en viss procentandel av e-postmeddelanden.
+1. Om DMARC-profilen är inställd på Ingen anger du ett procentvärde som gäller för 100 % av e-postmeddelandena.
 
-   När du distribuerar DMARC gradvis kan du börja med en liten andel av dina meddelanden. I takt med att fler meddelanden från din domänpass-autentisering med mottagande servrar uppdateras din post med en högre procentandel tills du når 100 procent.
+   Om profilen är inställd på Avvisa eller Karantän rekommenderar vi att du börjar med en liten andel av dina e-postmeddelanden. I takt med att fler e-postmeddelanden från domänpass autentiseras med mottagande servrar kan du uppdatera posten långsamt med en högre procentandel.
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: Lär dig hur du lägger till en BIMI-post för en underdomän.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0ad4c1f12eb035c8d543777be2a8806d507be5be
+source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Så här lägger du till en BIMI-post för en underdomän:
 
 1. I **[!UICONTROL Company Logo URL]** anger du URL-adressen till den SVG-fil som innehåller logotypen.
 
-1. The **[!UICONTROL Certificate URL]** fältet är valfritt. Du kan lägga till en Verified Mark Certificate (VMC)-URL för att bekräfta att din organisation är den lagliga ägaren av logotypen, för att förhindra att skräppostare och andra skadliga användare använder logotyper som de inte äger.
+1. Tjock **[!UICONTROL Certificate URL]** är valfritt, behövs för vissa postlådeleverantörer som Gmail och Apple som täcker 80 % av postlådemarknaden. Därför rekommenderar vi att du skaffar ett Verified Mark Certificate (VMC) för att verkligen utnyttja BIMI.
 
    +++Hur skaffar jag en VMC?
 
@@ -56,6 +56,8 @@ Så här lägger du till en BIMI-post för en underdomän:
    1. När du har verifierat att logotypen är varumärkesskyddad kontaktar du DigiCert eller Entrust certificate Authority (CA) för att begära en VMC.
 
    1. När din VMC har godkänts får du en PEM-fil (Privacy Enhanced Mail) för entitetscertifikatet. Lägg till eventuella andra mellanliggande certifikat som du får från certifikatutfärdaren till den här PEM-filen. Överför PEM-filen (tillsammans med bifogade filer) till den offentliga webbservern och notera PEM-filens URL. Du kommer att använda URL:en i BIMI TXT-posten.
+
+   1. När BIMI-posten visas på sidan med information om underdomäner för en viss underdomän kan du använda BIMI Inspector [här](https://bimigroup.org/bimi-generator/) för att kontrollera om BIMI-posten fungerar som den ska.
 
    Detaljerad information om BIMI-implementering finns i [Standarddokumentation för BIMI](https://bimigroup.org/implementation-guide/)
 +++
