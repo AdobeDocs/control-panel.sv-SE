@@ -6,13 +6,13 @@ description: Lär dig hur du lägger till en DMARC-post för en underdomän.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # Lägg till DMARC-poster {#dmarc}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Domänbaserad Message Authentication, Reporting and Conformance (DMARC) är en protokollstandard för e-postautentisering som hjälper organisationer att skydda sina e-postdomäner från nätfiskeattacker och bedrägeri. Det gör att du kan bestämma hur en postlådeleverantör ska hantera e-postmeddelanden som inte godkänns vid SPF- och DKIM-kontroller, vilket ger ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen i skadliga syften.
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+Detaljerad information om DMARC-implementering finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## Begränsningar och krav {#limitations}
 

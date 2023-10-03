@@ -6,19 +6,21 @@ description: Lär dig hur du lägger till en BIMI-post för en underdomän.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
+exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-
 # Lägg till BIMI-poster {#dmarc}
 
 ## Om BIMI-poster {#about}
 
-Varumärkesindikatorer för BIMI (Message Identification) är en branschstandard som gör att en godkänd logotyp kan visas bredvid en avsändares e-postadress i postlådeleverantörens inkorgar för att förbättra varumärkesigenkänningen och förtroendet. Det förebygger e-postförfalskning och nätfiske genom att verifiera avsändarens identitet via DMARC-autentisering, vilket gör det svårare för oseriösa aktörer att personifiera legitima varumärken i e-postmeddelanden. Detaljerad information om BIMI-implementering finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+Varumärkesindikatorer för BIMI (Message Identification) är en branschstandard som gör att en godkänd logotyp kan visas bredvid en avsändares e-postadress i postlådeleverantörens inkorgar för att förbättra varumärkesigenkänningen och förtroendet. Det förebygger e-postförfalskning och nätfiske genom att verifiera avsändarens identitet via DMARC-autentisering, vilket gör det svårare för oseriösa aktörer att personifiera legitima varumärken i e-postmeddelanden.
+
+Detaljerad information om BIMI-implementering finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 
