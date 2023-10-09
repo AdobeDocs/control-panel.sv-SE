@@ -1,84 +1,84 @@
 ---
 product: campaign
 solution: Campaign
-title: Lägg till DMARC-poster
-description: Lär dig hur du lägger till en DMARC-post för en underdomän.
+title: Lägga till DMARC-poster
+description: Läs mer om hur du lägger till en DMARC-post för en underdomän.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Lägg till DMARC-poster {#dmarc}
+# Lägga till DMARC-poster {#dmarc}
 
 ## Om DMARC-poster {#about}
 
-Domänbaserad Message Authentication, Reporting and Conformance (DMARC) är en protokollstandard för e-postautentisering som hjälper organisationer att skydda sina e-postdomäner från nätfiskeattacker och bedrägeri. Det gör att du kan bestämma hur en postlådeleverantör ska hantera e-postmeddelanden som inte godkänns vid SPF- och DKIM-kontroller, vilket ger ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen i skadliga syften.
+Domänbaserad Message Authentication, Reporting and Conformance (DMARC) är en protokollstandard för e-postautentisering som hjälper organisationer att skydda sina e-postdomäner från nätfiskeattacker och bedrägeri. Detta gör att du kan bestämma hur en e-postleverantör ska hantera e-postmeddelanden som inte godkänns vid SPF- och DKIM-kontroller, vilket ger ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen i skadliga syften.
 
-Detaljerad information om DMARC-implementering finns i [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
+Detaljerad information om DMARC-implementering finns i [Användarhandbok om bästa levererbarhetspraxis i Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=sv)
 
-## Begränsningar och krav {#limitations}
+## Begränsningar och förhandskrav {#limitations}
 
 * SPF- och DKIM-poster är nödvändiga för att skapa en DMARC-post.
 * DMARC-poster kan bara läggas till för underdomäner med fullständig underdomändelegering. [Läs mer om konfigurationsmetoder för underdomäner](subdomains-branding.md#subdomain-delegation-methods)
 
-## Lägga till en DMARC-post för en underdomän {#add}
+## Lägg till en DMARC-post för en underdomän {#add}
 
-Så här lägger du till en DMARC-post för en underdomän:
+Följ de här stegen för att lägga till en DMARC-post för en underdomän:
 
 1. Klicka på ellipsknappen bredvid önskad underdomän i listan över underdomäner och välj **[!UICONTROL Subdomain details]**.
 
-1. Klicka på **[!UICONTROL Add TXT record]** knapp och sedan välja **[!UICONTROL DMARC]** från **[!UICONTROL Record Type]** listruta.
+1. Klicka på knappen **[!UICONTROL Add TXT record]** och välj sedan **[!UICONTROL DMARC]** från rullgardinsmenyn **[!UICONTROL Record Type]**.
 
    ![](assets/dmarc-add.png)
 
-1. Välj **[!UICONTROL Policy Type]** som mottagarservern bör följa när ett av dina e-postmeddelanden misslyckas. Tillgängliga principtyper är:
+1. Välj **[!UICONTROL Policy Type]** som mottagarservern bör följa när ett av dina e-postmeddelanden inte skickas. Tillgängliga principtyper är:
 
    * **[!UICONTROL None]**,
    * **[!UICONTROL Quarantine]** (placering av skräppostmapp),
    * **[!UICONTROL Reject]** (blockera e-postmeddelandet).
 
-   Som en god praxis rekommenderas att långsamt införa DMARC-implementering genom att eskalera din DMARC-policy från p=none till p=karantän, till p=reject när du får DMARC-förståelse för DMARC:s potentiella påverkan.
+   Som bästa praxis rekommenderas att långsamt införa DMARC-implementering genom att eskalera din DMARC-princip från p=none till p=quarantine, till p=reject när du får DMARC-förståelse för DMARC:s potentiella påverkan.
 
-   * **Steg 1:** Analysera den feedback du får och använder (p=none), som instruerar mottagaren att inte utföra några åtgärder mot meddelanden som inte kan autentiseras, men ändå skicka e-postrapporter till avsändaren. Granska och åtgärda även problem med SPF/DKIM om legitimt meddelande inte kan autentiseras.
+   * **Steg 1:** analysera den feedback du får och använd (p=none), som instruerar mottagaren att inte utföra några åtgärder mot meddelanden som inte kan autentiseras, men ändå skicka e-postrapporter till avsändaren. Granska och åtgärda även problem med SPF/DKIM om giltiga meddelanden inte kan autentiseras.
 
-   * **Steg 2:** Kontrollera om SPF och DKIM är justerade och skickar autentisering för alla giltiga e-postmeddelanden, och flytta sedan principen till (p=karantän), vilket anger att den mottagande e-postservern ska placera e-postmeddelanden som inte kan autentiseras (detta innebär vanligtvis att meddelandena placeras i skräppostmappen). Om policyn är inställd på att sätta den i karantän rekommenderar vi att du börjar med en liten andel av dina e-postmeddelanden.
+   * **Steg 2:** kontrollera om SPF och DKIM är justerade och skickar autentisering för alla giltiga e-postmeddelanden, och flytta sedan principen till (p=quarantine), vilket anger att den mottagande e-postservern ska placera e-postmeddelanden som inte kan autentiseras i karantän (detta innebär vanligtvis att meddelandena placeras i skräppostmappen). Om principen är inställd på att sätta det i karantän rekommenderar vi att du börjar med en liten andel av dina e-postmeddelanden.
 
-   * **Steg 3:** Justera princip till (p=avvisa). Obs! Använd den här profilen med försiktighet och kontrollera om den passar din organisation. p= avvisningsprincipen innebär att mottagaren helt nekar (studsar) alla e-postmeddelanden för domänen som inte kan autentiseras. När den här principen är aktiverad har bara e-post som verifieras som 100 % autentiserad av din domän en chans att skickas till Inkorgen.
+   * **Steg 3:** justera princip till (p=reject). Obs! Använd den här principen med försiktighet och kontrollera om den passar din organisation. Principen p=reject om att avvisa innebär att mottagaren helt nekar (studsar) alla e-postmeddelanden för domänen som inte kan autentiseras. När den här principen är aktiverad är det bara e-postmeddelanden som verifieras som 100 % autentiserade av din domän som har en chans att skickas till Inkorgen.
 
    >[!NOTE]
    >
    > Det går inte att skapa BIMI-poster med principtypen Ingen för DMARC-post.
 
-1. Fyll i de e-postadresser som ska ta emot DMARC-rapporterna. När ett av dina e-postmeddelanden misslyckas skickas DMARC-rapporter automatiskt till den e-postadress du väljer:
+1. Fyll i de e-postadresser som ska ta emot DMARC-posterna. När ett av dina e-postmeddelanden misslyckas skickas DMARC-poster automatiskt till den e-postadress du väljer:
 
-   * Aggregate-DMARC-rapporter ger högnivåinformation, t.ex. antalet e-postmeddelanden som misslyckades under en viss period.
-   * Forensiska DMARC-felrapporter ger detaljerad information, till exempel vilken IP-adress som den misslyckade e-postadressen kommer från.
+   * DMARC-aggregatrapporter ger information på högnivå, t.ex. antalet e-postmeddelanden som misslyckades under en viss period.
+   * Forensiska DMARC-felrapporter ger detaljerad information, till exempel vilken IP-adress som det misslyckade e-postmeddelandet kommer från.
 
-1. Om DMARC-profilen är inställd på Ingen anger du ett procentvärde som gäller för 100 % av e-postmeddelandena.
+1. Om DMARC-principen är inställd på Ingen anger du ett procentvärde som gäller för 100 % av e-postmeddelandena.
 
-   Om profilen är inställd på Avvisa eller Karantän rekommenderar vi att du börjar med en liten andel av dina e-postmeddelanden. I takt med att fler e-postmeddelanden från domänpass autentiseras med mottagande servrar kan du uppdatera posten långsamt med en högre procentandel.
+   Om profilen är inställd på Avvisa eller Karantän rekommenderar vi att du börjar med en liten andel av dina e-postmeddelanden. I takt med att fler e-postmeddelanden från domänen autentiseras med mottagande servrar kan du uppdatera posten långsamt med en högre procentandel.
 
    >[!NOTE]
    >
-   >Om din domän använder BIMI måste din DMARC-princip ha ett procentvärde på 100 %. BIMI stöder inte DMARC-profiler där värdet är mindre än 100 %.
+   >Om din domän använder BIMI måste din DMARC-princip ha ett procentvärde på 100 %. BIMI stöder inte DMARC-principer där värdet är mindre än 100 %.
 
    ![](assets/dmarc-add2.png)
 
-1. DMARC-rapporter skickas var 24: e timme. Du kan ändra rapportens sändningsfrekvens i dialogrutan **[!UICONTROL Reporting Interval]** fält. Minsta tillåtna intervall är 1 timme, medan högsta tillåtna värde är 2 190 timmar (dvs. 3 månader).
+1. DMARC-rapporter skickas var 24:e timme. Du kan ändra rapportens sändningsfrekvens i fältet **[!UICONTROL Reporting Interval]**. Minsta tillåtna intervall är en timme, medan högsta tillåtna värde är 2 190 timmar (dvs. tre månader).
 
-1. I **SPF** och **[!UICONTROL DKIM Identifier Alignment]** ska du ange hur strikt mottagarservrarna ska vara när du kontrollerar SPF- och DKIM-autentiseringar för ett e-postmeddelande.
+1. I fälten **SPF** och **[!UICONTROL DKIM Identifier Alignment]** ska du ange hur strikt mottagarservrarna ska vara när du kontrollerar SPF- och DKIM-autentiseringar för ett e-postmeddelande.
 
-   * **[!UICONTROL Relaxed]** läge: servern accepterar autentisering även om e-postmeddelandet skickas från en underdomän,
-   * **[!UICONTROL Strict]** I läget accepteras autentisering endast när avsändardomänen matchar exakt med en SPF- och DKIM-domän.
+   * **[!UICONTROL Relaxed]**-läge: servern accepterar autentisering även om e-postmeddelandet skickas från en underdomän,
+   * **[!UICONTROL Strict]**-läget accepterar autentisering endast när avsändardomänen matchar exakt med en SPF- och DKIM-domän.
 
-   Säg att vi jobbar med `http://www.luma.com` domän. I&quot;Avslappnad&quot;-läge kommer e-post från `marketing.luma.com` underdomänen kommer att auktoriseras av servern medan de kommer att refuseras i strikt läge.
+   Säg att vi jobbar med domänen `http://www.luma.com`. I läget Avslappnat autentiseras e-postmeddelanden som kommer från underdomänen `marketing.luma.com` av servern, medan de avvisas i läget Strikt.
 
-1. Klicka **[!UICONTROL Add]** för att bekräfta att DMARC-posten har skapats.
+1. Klicka på **[!UICONTROL Add]** för att bekräfta att du vill skapa DMARC-posten.
 
-När DMARC-postgenereringen har bearbetats (ungefär 5 minuter) visas den på informationsskärmen i underdomänerna. [Lär dig övervaka TXT-poster för dina underdomäner](gs-txt-records.md#monitor)
+När skapandet av DMARC-posten har bearbetats (ungefär 5 minuter) visas den på informationsskärmen i underdomänerna. [Läs mer om att övervaka TXT-poster för dina underdomäner](gs-txt-records.md#monitor)
