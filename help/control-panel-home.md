@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 **Hantering av DMARC- och BIMI-poster**
 
-Nu kan du lägga till DMARC- och BIMI-poster direkt från Kontrollpanelen:
+Nu kan du lägga till DMARC- och BIMI-poster direkt från kontrollpanelen:
 
-* **DMARC-poster** tillhandahåller ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen för skadliga syften. [Lär dig hur du lägger till DMARC-poster](subdomains-certificates/using/dmarc.md)
+* Med **DMARC-poster** tillhandahålls ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen för skadliga syften. [Läs mer om hur du lägger till DMARC-poster](subdomains-certificates/using/dmarc.md)
 
 
-* **BIMI-poster** gör att du kan visa en godkänd logotyp bredvid dina e-postmeddelanden i e-postleverantörernas inkorgar för att förbättra varumärkesigenkänningen och förtroendet för dem. [Lär dig hur du lägger till BIMI-poster](subdomains-certificates/using/bimi.md)
+* Med **BIMI-poster** kan du visa en godkänd logotyp bredvid dina e-postmeddelanden i e-postleverantörernas inkorgar för att förbättra varumärkesigenkänning och -förtroende. [Läs mer om hur du lägger till BIMI-poster](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >
