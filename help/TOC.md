@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 87%
    + Arbeta med TXT-poster (Google, BIMI, DMARC) {#txt-records}
       + [Kom igång med TXT-poster](subdomains-certificates/using/gs-txt-records.md)
       + [Lägg till verifieringsposter för Google-webbplatser](subdomains-certificates/using/managing-txt-records.md)
-      + [Lägg till DMARC-poster](subdomains-certificates/using/dmarc.md)
+      + [Lägga till DMARC-poster](subdomains-certificates/using/dmarc.md)
       + [Lägg till BIMI-poster](subdomains-certificates/using/bimi.md)
    + Hantera underdomäners SSL-certifikat {#manage-certificates}
       + [Övervaka SSL-certifikat](subdomains-certificates/using/monitoring-ssl-certificates.md)
