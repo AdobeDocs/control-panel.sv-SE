@@ -6,7 +6,8 @@ description: Läs mer om hur du delegerar dina underdomäners SSL-certifikat til
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
+exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
+source-git-commit: 9548bef1500498c1778ce5854017388490320595
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
