@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 40%
@@ -56,7 +56,11 @@ I det övre avsnittet visas följande information:
 
 * Antalet aktiva profiler som för närvarande används i den valda instansen, tillsammans med tidsstämpeln för den senaste körningen av faktureringsarbetsflödet för instansen.
 
-* Det totala antalet aktiva profiler som används i hela organisationen inom alla instanser. Det här avsnittet visas bara om du har flera instanser kopplade till din organisation.
+* Det totala antalet aktiva profiler som används i hela organisationen inom alla instanser.
+
+  >[!NOTE]
+  >
+  >Det här avsnittet visas bara om du har flera instanser kopplade till din organisation.
 
 * Det totala antalet aktiva profiler som har tilldelats din organisation.
 
