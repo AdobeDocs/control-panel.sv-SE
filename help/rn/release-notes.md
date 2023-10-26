@@ -2,10 +2,10 @@
 title: Senaste versionen
 description: På den här sidan listas alla nya funktioner och förbättringar för Kontrollpanelen
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 26%
 
 ---
 
@@ -13,22 +13,21 @@ ht-degree: 100%
 
 På den här sidan listas de nya funktionerna och förbättringarna för Kontrollpanelen.
 
-## September 2023 {#september-2023}
+## Oktober 2023 {#october-2023}
 
-<table>
-<thead>
-<tr>
-<th><strong>Hantering av DMARC- och BIMI-poster</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><p>Nu kan du lägga till DMARC- och BIMI-poster direkt från kontrollpanelen:
+**Användargränssnitt**
 
-<ul><li><strong>DMARC-poster</strong> tillhandahåller ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen för skadliga syften. <a href="../subdomains-certificates/using/dmarc.md">Lär dig hur du lägger till DMARC-poster</a></li>
-<li><strong>BIMI-poster</strong> gör att du kan visa en godkänd logotyp bredvid dina e-postmeddelanden i e-postleverantörernas inkorgar för att förbättra varumärkesigenkänningen och förtroendet för dem. <a href="../subdomains-certificates/using/bimi.md">Lär dig hur du lägger till BIMI-poster</a></li></ul>
-</td>
-</tr>
-</tbody>
-</table>
+* Kontrollpanelen finns nu på ytterligare språk. [Läs mer](../discover/using/discovering-the-interface.md#supported-languages-languages)
+
+**Övervaka aktiva profiler**
+
+* Du kan nu övervaka antalet aktiva profiler som du är berättigad till för din organisation och det totala antalet profiler som används i din organisation i alla instanser, om du använder flera instanser. [Läs mer](../performance-monitoring/using/active-profiles-monitoring.md)
+
+**DMARC-poster**
+
+* Flera e-postadresser kan nu ta emot sammanställd rapport och e-postmeddelanden med felrapporter. [Läs mer](../subdomains-certificates/using/dmarc.md)
+* Ändringar har gjorts om det finns både DMARC- och BIMI-poster för en underdomän:
+
+   * DMARC-poster kan inte tas bort. Om du vill ta bort en måste du först ta bort BIMI-posten.
+   * DMARC-poster kan redigeras, men principnedgraderingen till Ingen tillåts inte och dess procentvärde måste vara 100.
+

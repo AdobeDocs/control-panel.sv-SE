@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
+source-git-commit: ca503b824422227e762eeaf75a4cf5aeed4801f8
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 29%
 
 ---
 
@@ -41,3 +41,22 @@ Med knappen **[!UICONTROL Open]** kommer du direkt till den flik på kontrollpan
 The **[!UICONTROL Help Resources]** innehåller användbar dokumentation som kan hjälpa dig att använda Kontrollpanelen och Campaign-produkterna. Tveka inte att utforska dem.
 
 ![](assets/helpresources.png)
+
+## Språk som stöds {#languages}
+
+Användargränssnittet i Kontrollpanelen är utformat för att visas på det språk som motsvarar webbläsarens konfiguration.
+
+Om webbläsaren är inställd på ett språk som inte stöds kontrolleras de tre första språken i webbläsarens språklista på Kontrollpanelen tills ett språk som stöds hittas. Om inget av de tre första språken stöds av Kontrollpanelen används engelska (USA) som standard.
+
+Nedan finns en lista över de språk som för närvarande stöds av Kontrollpanelen:
+
+* Engelska (USA)
+* Tyska
+* Franska
+* Japanas
+* Italienska (Italien)
+* Spanska (Spanien)
+* Koreanska
+* Portugisiska (Brasilien)
+* Kinesiska (förenklad)
+* Kinesiska (traditionell)

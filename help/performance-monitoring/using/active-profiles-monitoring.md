@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 80%
+source-wordcount: '433'
+ht-degree: 40%
 
 ---
 
-# Aktiv profilövervakning {#active-profiles-monitoring}
+# Övervaka aktiva profiler {#active-profiles-monitoring}
 
 ## Om aktiva profiler {#about-active-profiles}
 
@@ -34,33 +34,30 @@ Profiler anses vara aktiva om de har riktats in på eller kommunicerats med unde
 
 Mer information om aktiva profiler finns i [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) och [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) dokument.
 
-## Övervaka aktiva profiler {#monitoring-active-profiles}
+## Övervaka användningen av aktiva profiler {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Om övervakning av aktiva profiler"
->abstract="På den här fliken kan du få information i realtid om den senaste och historiska aktiva profilanvändningen och utvecklingen för var och en av era Campaign-instanser."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=sv" text="Om prestandaövervakning"
+>abstract="På den här fliken kan du få information i realtid om den senaste och historiska aktiva profilanvändningen och utvecklingen för varje profil i era Campaign-instanser och i er organisation."
 
-Kontrollpanelen låter dig övervaka användningen av aktiva profiler för var och en av instanserna i Campaign.
+Information om användning av aktiva profiler uppdateras på Kontrollpanelen baserat på dedikerad [!DNL Campaign] tekniska arbetsflöden som körs varje dag på dina instanser:
+* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) i Campaign Standard,
+* The [Antal aktiva faktureringsprofiler](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=sv) arbetsflöde för Campaign v7/v8.
 
-Följ dessa steg för att göra detta:
 
-1. Öppna **[!UICONTROL Performance Monitoring]**-kortet och välj fliken **[!UICONTROL Active Profiles]**.
+Om du vill övervaka din aktiva profilanvändning på Kontrollpanelen går du till **[!UICONTROL Performance Monitoring]** kort > **[!UICONTROL Active Profiles]** och väljer önskad instans på **[!UICONTROL Instance List]**.
 
-1. Välj önskad instans i **[!UICONTROL Instance List]**.
-
-1. Antalet aktiva profiler som används av instansen visas liksom den senaste gången faktureringens arbetsflöde kördes på instansen.
+Det visas information om hur du använder aktiva profiler.
 
 ![](assets/active-profiles-graph.png)
 
->[!NOTE]
->
->Aktiva profiler räknas baserat på dedikerade tekniska arbetsflöden som körs varje dag på instanserna:
->
->* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) i Campaign Standard,
->* The [Antal aktiva faktureringsprofiler](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=sv) arbetsflöde för Campaign v7/v8.
+I det övre avsnittet visas följande information:
 
-Det nedre området visar de aktiva profilernas användning under de senaste 30 dagarna. Du kan ändra den tidsperiod som visas upp till ett år med de tillgängliga filtren i det övre högra hörnet.
+* Antalet aktiva profiler som för närvarande används i den valda instansen, tillsammans med tidsstämpeln för den senaste körningen av faktureringsarbetsflödet för instansen.
 
-Håll muspekaren över ett av diagrammen för att få det exakta antalet aktiva profiler som använts för den valda tidsperioden.
+* Det totala antalet aktiva profiler som används i hela organisationen inom alla instanser. Det här avsnittet visas bara om du har flera instanser kopplade till din organisation.
+
+* Det totala antalet aktiva profiler som har tilldelats din organisation.
+
+I det nedre avsnittet visas hur den aktiva profilen har använts under de senaste 30 dagarna. Du kan ändra den här tidsramen till 1 år med filtret i det övre högra hörnet. Genom att hålla pekaren över diagrammet kan du få det exakta antalet aktiva profiler som används för den valda perioden.

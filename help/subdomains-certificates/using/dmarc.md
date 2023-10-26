@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,9 @@ Detaljerad information om DMARC-implementering finns i [Användarhandbok om b�
 
 * SPF- och DKIM-poster är nödvändiga för att skapa en DMARC-post.
 * DMARC-poster kan bara läggas till för underdomäner med fullständig underdomändelegering. [Läs mer om konfigurationsmetoder för underdomäner](subdomains-branding.md#subdomain-delegation-methods)
+* Om det finns både DMARC- och BIMI-poster för en underdomän:
+   * DMARC-poster kan inte tas bort. Om du vill ta bort en DMARC-post tar du bort BIMI-posten först.
+   * DMARC-poster kan redigeras, men nedgradering av DMARC-principen till &quot;Ingen&quot; är inte tillåtet och procentvärdet måste anges till &quot;100&quot;.
 
 ## Lägg till en DMARC-post för en underdomän {#add}
 
@@ -55,7 +58,7 @@ Följ de här stegen för att lägga till en DMARC-post för en underdomän:
    >
    > Det går inte att skapa BIMI-poster med principtypen Ingen för DMARC-post.
 
-1. Fyll i de e-postadresser som ska ta emot DMARC-posterna. När ett av dina e-postmeddelanden misslyckas skickas DMARC-poster automatiskt till den e-postadress du väljer:
+1. Fyll i de e-postadresser som ska ta emot DMARC-posterna. Du kan lägga till flera e-postadresser, avgränsade med kommatecken. När ett av dina e-postmeddelanden misslyckas skickas DMARC-poster automatiskt till den e-postadress du väljer:
 
    * DMARC-aggregatrapporter ger information på högnivå, t.ex. antalet e-postmeddelanden som misslyckades under en viss period.
    * Forensiska DMARC-felrapporter ger detaljerad information, till exempel vilken IP-adress som det misslyckade e-postmeddelandet kommer från.
