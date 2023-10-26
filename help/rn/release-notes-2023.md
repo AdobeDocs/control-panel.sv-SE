@@ -2,14 +2,34 @@
 title: Versionsinformation för 2023
 description: Denna sida listar alla 2023-versioner av Kontrollpanelen.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # Versionsinformation för 2023 {#rn-2023}
+
+## September 2023 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>Hantering av DMARC- och BIMI-poster</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Nu kan du lägga till DMARC- och BIMI-poster direkt från kontrollpanelen:
+
+<ul><li><strong>DMARC-poster</strong> tillhandahåller ett sätt att autentisera avsändarens domän och förhindra obehörig användning av domänen för skadliga syften. <a href="../subdomains-certificates/using/dmarc.md">Lär dig hur du lägger till DMARC-poster</a></li>
+<li><strong>BIMI-poster</strong> gör att du kan visa en godkänd logotyp bredvid dina e-postmeddelanden i e-postleverantörernas inkorgar för att förbättra varumärkesigenkänningen och förtroendet för dem. <a href="../subdomains-certificates/using/bimi.md">Lär dig hur du lägger till BIMI-poster</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Juni 2023 {#june-2023}
 
