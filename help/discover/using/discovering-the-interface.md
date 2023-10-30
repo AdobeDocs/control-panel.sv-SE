@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Med knappen **[!UICONTROL Open]** kommer du direkt till den flik på kontrollpan
 
 ## Hjälpresurser {#help-resources}
 
-The **[!UICONTROL Help Resources]** innehåller användbar dokumentation som kan hjälpa dig att använda Kontrollpanelen och Campaign-produkterna. Tveka inte att utforska dem.
+Avsnittet **[!UICONTROL Help Resources]** innehåller användbar dokumentation som kan hjälpa dig att använda Kontrollpanelen och Campaign-produkterna. Tveka inte att utforska dem.
 
 ![](assets/helpresources.png)
 
@@ -53,7 +53,7 @@ Nedan finns en lista över de språk som för närvarande stöds av Kontrollpane
 * Engelska (USA)
 * Tyska
 * Franska
-* Japanas
+* Japanska
 * Italienska (Italien)
 * Spanska (Spanien)
 * Koreanska
