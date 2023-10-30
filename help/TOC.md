@@ -6,10 +6,10 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
    + [Åtkomst till Kontrollpanel](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
-+ [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
-+ [E-postavisering](performance-monitoring/using/email-alerting.md)
++ Evenemang och e-postaviseringar {#alerts-events}
+   + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
+   + [E-postavisering](performance-monitoring/using/email-alerting.md)
 + SFTP-hantering {#sftp-management}
    + [Om SFTP-hantering](sftp/using/about-sftp-management.md)
    + [Hantera SFTP-lagring](sftp/using/sftp-storage-management.md)
