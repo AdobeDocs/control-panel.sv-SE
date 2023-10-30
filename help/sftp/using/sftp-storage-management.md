@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Hantera SFTP-lagring
 description: Läs om hur man övervakar och hanterar SFTP-serverns lagring
-feature: Control Panel
-role: Architect
+feature: Control Panel, SFTP Management
+role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%

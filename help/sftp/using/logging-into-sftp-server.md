@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Logga in på SFTP-servern
 description: Lär dig logga in på SFTP-servern
-feature: Control Panel
-role: Architect
+feature: Control Panel, SFTP Management
+role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 6%

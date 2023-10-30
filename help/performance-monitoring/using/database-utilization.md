@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Databasanvändning
 description: Lär dig hur du övervakar användningen av Campaign-databasen på Kontrollpanelen.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 5ecb4f0b-7f77-4856-9704-e1f317f3239d
-source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 89%

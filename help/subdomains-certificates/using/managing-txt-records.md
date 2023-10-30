@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Lägg till verifieringsposter för Google Site för en underdomän
 description: Lär dig hur du lägger till en Google Site Verification-post för en underdomän för domänägarskapsverifiering.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ Följ dessa steg för att lägga till en Google TXT-post i en underdomän som an
 
 1. Klicka på ellipsknappen bredvid önskad underdomän i listan över underdomäner och välj **[!UICONTROL Subdomain details]**.
 
-1. Klicka på **[!UICONTROL Add TXT record]** knapp och sedan välja **[!UICONTROL Google Site Verification]** från **[!UICONTROL Record Type]** listruta.
+1. Klicka på knappen **[!UICONTROL Add TXT record]** och välj sedan **[!UICONTROL Google Site Verification]** från rullgardinsmenyn **[!UICONTROL Record Type]**.
 
 1. Ange det värde som genererats i G Suite Admin tools. Se [hjälp för G Suite-administratörer](https://support.google.com/a/answer/183895) för mer information om detta.
 

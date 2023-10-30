@@ -1,8 +1,11 @@
 ---
 title: Versionsinformation för 2021
 description: Denna sida listar alla versioner av Kontrollpanelen från 2021.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
-source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%

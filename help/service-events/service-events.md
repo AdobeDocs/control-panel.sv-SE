@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Identifiera viktiga kontakter och händelser
 description: Lär dig hur du identifierar händelser som inträffar i instanserna och viktiga kontakter på Adobe.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 5e2a5975a4a2ced4b23a18900309fc537daf13c0
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%

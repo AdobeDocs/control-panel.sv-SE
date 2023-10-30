@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: De 10 viktigaste tillfälliga resurserna
 description: Lär dig hur du på Kontrollpanelen övervakar de 10 största tillfälliga resurserna som genereras av arbetsflöden och leveranser i din Campaign-databas.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 69%

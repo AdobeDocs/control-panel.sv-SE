@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Förhindra databasöverbelastning
 description: Få tillgång till resurser från Campaign-dokumentation som hjälper er att förhindra databasöverbelastning på era instanser.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 69%

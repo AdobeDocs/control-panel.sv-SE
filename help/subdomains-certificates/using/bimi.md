@@ -3,12 +3,12 @@ product: campaign
 solution: Campaign
 title: Lägg till BIMI-poster
 description: Läs mer om hur du lägger till en BIMI-post för en underdomän.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 

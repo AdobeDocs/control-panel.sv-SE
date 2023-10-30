@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: E-postavisering
 description: Lär dig hur du tar emot e-postmeddelanden i händelse av problem med dina Campaign-instanser
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%

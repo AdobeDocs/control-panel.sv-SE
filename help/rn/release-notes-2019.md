@@ -1,8 +1,11 @@
 ---
 title: Versionsinformation för 2019
 description: Denna sida listar alla 2019-versioner av Kontrollpanelen.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
-source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
