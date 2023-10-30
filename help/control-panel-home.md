@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -34,10 +34,10 @@ Med Kontrollpanelen i Campaign kan du effektivisera arbetet som produktadministr
 
 **DMARC-poster**
 
-* Flera e-postadresser kan nu ta emot sammanställd rapport och e-postmeddelanden med felrapporter. [Läs mer](subdomains-certificates/using/dmarc.md)
+* Flera e-postadresser kan nu ta emot en aggregatrapport och e-postmeddelanden med felrapporter. [Läs mer](subdomains-certificates/using/dmarc.md)
 * Ändringar har gjorts om det finns både DMARC- och BIMI-poster för en underdomän:
 
-   * DMARC-poster kan inte tas bort. Om du vill ta bort en måste du först ta bort BIMI-posten.
+   * DMARC-poster kan inte tas bort. Om du vill radera en måste du först radera BIMI-posten.
    * DMARC-poster kan redigeras, men principnedgraderingen till Ingen tillåts inte och dess procentvärde måste vara 100.
 
 >[!CAUTION]
