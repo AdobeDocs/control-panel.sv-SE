@@ -4,9 +4,9 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
-role: Architect
-level: Beginner
-source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+role: Admin
+level: Experienced
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%

@@ -2,10 +2,10 @@
 title: Produktdokumentation
 description: Dokumentation om Kontrollpanelen.
 feature: Control Panel
-role: Architect
-level: Beginner
+role: Admin
+level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 5980b9d978e20996ac58fb730a286f0c0b92b781
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 62%
