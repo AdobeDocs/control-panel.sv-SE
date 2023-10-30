@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ Detaljerad information om DMARC-implementering finns i [Användarhandbok om b�
 * SPF- och DKIM-poster är nödvändiga för att skapa en DMARC-post.
 * DMARC-poster kan bara läggas till för underdomäner med fullständig underdomändelegering. [Läs mer om konfigurationsmetoder för underdomäner](subdomains-branding.md#subdomain-delegation-methods)
 * Om det finns både DMARC- och BIMI-poster för en underdomän:
-   * DMARC-poster kan inte tas bort. Om du vill ta bort en DMARC-post tar du bort BIMI-posten först.
-   * DMARC-poster kan redigeras, men nedgradering av DMARC-principen till &quot;Ingen&quot; är inte tillåtet och procentvärdet måste anges till &quot;100&quot;.
+   * DMARC-poster kan inte raderas. Om du vill radera en DMARC-post raderar du BIMI-posten först.
+   * DMARC-poster kan redigeras, men nedgradering av DMARC-principen till Ingen är inte tillåtet och procentvärdet måste anges till 100.
 
 ## Lägg till en DMARC-post för en underdomän {#add}
 
