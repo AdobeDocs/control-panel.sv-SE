@@ -6,7 +6,7 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%
@@ -30,6 +30,7 @@ ht-degree: 98%
    + [Åtkomst till Kontrollpanel](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
+   + [Vanliga frågor och svar ](faq.md)
 + Evenemang och e-postaviseringar {#alerts-events}
    + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
@@ -73,4 +74,3 @@ ht-degree: 98%
    + [Instansinformation](instances-settings/using/instance-details.md)
    + [Hantera GPG-nycklar](instances-settings/using/gpg-keys-management.md)
    + [Lägg till MID/RT-instanser (hybridmodell)](instances-settings/using/external-accounts.md)
-+ [Vanliga frågor och svar ](faq.md)
