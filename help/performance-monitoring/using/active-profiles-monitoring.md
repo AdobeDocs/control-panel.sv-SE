@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 90%
 
 ---
 
@@ -41,11 +41,6 @@ För mer om aktiva profiler, se dokumentationen om [Campaign Standard](https://e
 >title="Om övervakning av aktiva profiler"
 >abstract="På den här fliken kan du få realtidsinformation om både den senaste och den historiska profilanvändningen samt utvecklingen för var och en av dina instanser i Campaign och din organisation."
 
-Information om användning av aktiva profiler uppdateras på Kontrollpanelen baserat på dedikerad [!DNL Campaign] tekniska arbetsflöden som körs varje dag på dina instanser:
-* Arbetsflödet [”Fakturering”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) i Campaign Standard,
-* Arbetsflödet [Antal aktiva faktureringsprofiler](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=sv) i Campaign v7/v8.
-
-
 Om du vill övervaka din aktiva profilanvändning på Kontrollpanelen går du till fliken **[!UICONTROL Performance Monitoring]** kort > **[!UICONTROL Active Profiles]** och väljer önskad instans på **[!UICONTROL Instance List]**.
 
 Det visas information om hur du använder aktiva profiler.
@@ -65,3 +60,10 @@ I det övre avsnittet visas följande information:
 * Det totala antalet aktiva profiler som har tilldelats din organisation.
 
 Den nedre delen ger en visuell representation av aktiv profilanvändning under de senaste 30 dagarna. Du kan ändra den här tidsramen till ett år med filtret i det övre högra hörnet. Genom att hålla muspekaren över grafen kan du få det exakta antalet aktiva profiler som används under den valda perioden.
+
+Information om användning av aktiva profiler uppdateras på Kontrollpanelen baserat på dedikerad [!DNL Campaign] &quot;Fakturering&quot; av tekniska arbetsflöden som körs med regelbundna intervall på dina instanser.
+
+| Kampanjversion | Tekniskt arbetsflöde | Körningar |
+|  ---  |  ---  |  ---  |
+| Campaign Standard | [Fakturering](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) | Dagligen |
+| Campaign v7/v8 | [Fakturering](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Månadsvis |
