@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 90%
+source-wordcount: '436'
+ht-degree: 87%
 
 ---
 
@@ -30,7 +30,7 @@ Profiler anses vara aktiva om de har riktats in på eller kommunicerats med unde
 
 >[!NOTE]
 >
->Facebook- och Twitter-kanaler beaktas inte.
+>Facebook- och X-kanaler (tidigare Twitter) beaktas inte.
 
 För mer om aktiva profiler, se dokumentationen om [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=sv) och [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=sv#active-profiles).
 
