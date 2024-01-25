@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Detaljerad information om DMARC-implementering finns i [Användarhandbok om b�
 * SPF- och DKIM-poster är nödvändiga för att skapa en DMARC-post.
 * DMARC-poster kan bara läggas till för underdomäner med fullständig underdomändelegering. [Läs mer om konfigurationsmetoder för underdomäner](subdomains-branding.md#subdomain-delegation-methods)
 
-  Om du vill skapa en DMARC-post på en CNAME-baserad underdomän kan du konfigurera DMARC-posten på dess överordnade domän. Detta garanterar att alla associerade underdomäner ärver DMARC-postparametrar, även när de delegeras via CNAME.
+  För att skapa en DMARC-post på en CNAME-baserad underdomän kan du konfigurera DMARC-posten på dess överordnade domän. Detta säkerställer att alla associerade underdomäner ärver DMARC-postparametrarna, även när de delegeras via CNAME:er.
 
 * Om det finns både DMARC- och BIMI-poster för en underdomän:
    * DMARC-poster kan inte raderas. Om du vill radera en DMARC-post raderar du BIMI-posten först.
