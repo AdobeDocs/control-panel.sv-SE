@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 Brand Indicators for Message Identification (BIMI) är en branschstandard som gör att en godkänd logotyp kan visas bredvid en avsändares e-postadress i e-postleverantörens inkorgar för att förbättra varumärkesigenkänning och -förtroende. Det förebygger e-postförfalskning och nätfiske genom att verifiera avsändarens identitet via DMARC-autentisering, vilket gör det svårare för oseriösa aktörer att personifiera giltiga varumärken i e-postmeddelanden.
 
-Du kan ha flera logotyper för en viss underdomän. För att göra detta måste du konfigurera en BIMI-post för varje logotyp och tilldela en BIMI-väljare till varje post. [Lär dig hur du lägger till en BIMI-post](#add)
+Du kan ha flera logotyper för en viss underdomän. För att göra detta måste du konfigurera en BIMI-post för varje logotyp och tilldela en BIMI-väljare till varje post. [Lär dig lägga till BIMI-poster](#add)
 
 Detaljerad information om BIMI-implementering finns i [Användarhandbok om bästa levererbarhetspraxis i Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=sv)
 
@@ -47,7 +47,7 @@ Följ de här stegen för att lägga till en BIMI-post för en underdomän:
 
    ![](assets/bimi-add.png)
 
-1. The **[!UICONTROL Selector]** I kan du ange en BIMI-väljare för posten. En BIMI-väljare är en unik identifierare som du kan tilldela till en BIMI-post. På så sätt kan du definiera flera logotyper för en viss underdomän.
+1. I fältet **[!UICONTROL Selector]** kan du ange en BIMI-väljare för posten. En BIMI-väljare är en unik identifierare som du kan tilldela till en BIMI-post. På så sätt kan du definiera flera logotyper för en viss underdomän.
 
 1. I **[!UICONTROL Company Logo URL]** anger du URL-adressen till den SVG-fil som innehåller logotypen.
 
