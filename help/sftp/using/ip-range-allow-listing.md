@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 38%
+source-wordcount: '1027'
+ht-degree: 35%
 
 ---
 
@@ -30,7 +30,7 @@ SFTP-servrar är skyddade. För att kunna komma åt dem för att visa filer elle
 
 CIDR (Classless Inter-Domain Routing) är det format som stöds när ett IP-intervall läggs till via Kontrollpanelens gränssnitt.
 
-Syntaxen består av en IP-adress följt av tecknet / och ett decimaltal. Fullständig information för formatet och dess syntax finns i [den här artikeln](https://whatismyipaddress.com/cidr){target="_blank"}.
+Syntaxen består av en IP-adress följt av tecknet / och ett decimaltal. Formatet och dess syntax beskrivs ingående i [den här artikeln](https://whatismyipaddress.com/cidr){target="_blank"}.
 
 Du kan söka på Internet efter kostnadsfria onlineverktyg som hjälper dig att konvertera det aktuella IP-intervallet till CIDR-format.
 
@@ -43,7 +43,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 * Endast **offentliga IP-adresser** kan läggas till i tillåtelselistan.
 * Se till att **ta bort IP-adresser regelbundet** som du inte behöver längre från tillåtelselista.
 
-## Lägga till IP-adresser i tillåtelselistan {#adding-ip-addresses-allow-list}
+## Lägga till IP-adresser i tillåtelselista {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"

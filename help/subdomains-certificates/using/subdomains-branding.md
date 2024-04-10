@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 75%
+source-wordcount: '703'
+ht-degree: 72%
 
 ---
 
@@ -57,7 +57,7 @@ Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontak
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
 >title="Välj användningsexempel för din underdomän"
->abstract="Att dela upp dina underdomäner efter användningsfall är det bästa sättet att leverera. På så sätt isoleras och skyddas varje underdomäns rykte."
+>abstract="Att dela upp dina underdomäner efter användningsfall är det bästa sättet att leverera. På så sätt isoleras och skyddas varje underdomän rykte."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv" text="Märka underdomäner"
 
