@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '815'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,10 @@ Följ de här stegen för att lägga till en DMARC-post för en underdomän:
 
    * DMARC-aggregatrapporter ger information på högnivå, t.ex. antalet e-postmeddelanden som misslyckades under en viss period.
    * Forensiska DMARC-felrapporter ger detaljerad information, till exempel vilken IP-adress som det misslyckade e-postmeddelandet kommer från.
+
+   >[!CAUTION]
+   >
+   >Om de e-postadresser som du lägger till för att ta emot rapporter ligger utanför den domän som DMARC-posten skapas för, måste du auktorisera deras externa domän att ange för den DNS som du äger den här domänen. Gör detta genom att följa stegen som beskrivs i [dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. Om DMARC-principen är inställd på Ingen anger du ett procentvärde som gäller för 100 % av e-postmeddelandena.
 
