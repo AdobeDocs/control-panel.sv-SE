@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -61,10 +61,10 @@ I det övre avsnittet visas följande information:
 
 Den nedre delen ger en visuell representation av aktiv profilanvändning under de senaste 30 dagarna. Du kan ändra den här tidsramen till ett år med filtret i det övre högra hörnet. Genom att hålla muspekaren över grafen kan du få det exakta antalet aktiva profiler som används under den valda perioden.
 
-Information om användning av aktiva profiler uppdateras på Kontrollpanelen baserat på dedikerad [!DNL Campaign] &quot;Fakturering&quot; av tekniska arbetsflöden som körs med regelbundna intervall på dina instanser.
+Information om användning av aktiva profiler uppdateras på Kontrollpanelen baserat på dedikerade tekniska arbetsflöden för Fakturering i [!DNL Campaign] som körs regelbundet på dina instanser:
 
-| Kampanjversion | Tekniskt arbetsflöde | Körningar |
+| Campaign-version | Tekniskt arbetsflöde | Körningar |
 |  ---  |  ---  |  ---  |
 | Campaign Standard | [Fakturering](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=sv) | Dagligen |
-| Campaign v7/v8 | [Fakturering](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=sv) | Månadsvis |
+| Campaign v7/v8 | [Fakturering](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=sv) | Månatligen |
 
