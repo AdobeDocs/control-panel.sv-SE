@@ -6,9 +6,9 @@ user-guide-title: Guide till Kontrollpanelen
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '180'
 ht-degree: 98%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 98%
 + Versionsinformation {#release-notes}
    + [Senaste versionen](rn/release-notes.md)
    + Tidigare versioner {#previous-releases}
-      + [Versionsinformation för 2023](rn/release-notes-2023.md)
-      + [Versionsinformation för 2022](rn/release-notes-2022.md)
-      + [Versionsinformation för 2021](rn/release-notes-2021.md)
-      + [Versionsinformation för 2020](rn/release-notes-2020.md)
-      + [Versionsinformation för 2019](rn/release-notes-2019.md)
+      + [2023](rn/release-notes-2023.md)
+      + [2022](rn/release-notes-2022.md)
+      + [2021](rn/release-notes-2021.md)
+      + [2020](rn/release-notes-2020.md)
+      + [2019](rn/release-notes-2019.md)
 + Lär känna Kontrollpanelen {#discover-control-panel}
    + [Viktiga funktioner](discover/using/key-features.md)
    + [Åtkomst till Kontrollpanel](discover/using/accessing-control-panel.md)

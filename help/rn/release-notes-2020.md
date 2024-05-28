@@ -4,11 +4,13 @@ description: Denna sida listar alla 2020-versioner av Kontrollpanelen.
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -163,7 +165,7 @@ ht-degree: 100%
 
 ## Januari 2020 {#january-2020}
 
-Vi har lagt till nya funktioner för administratörsanvändare som nu kan konfigurera underdomäner och förnya SSL-certifikat via Kontrollpanelen.
+Vi har lagt till nya funktioner för administratörsanvändare för att konfigurera underdomäner och förnya SSL-certifikat från Kontrollpanelen.
 
 Mer information finns på följande sidor:
 * [Konfigurera en ny underdomän](../subdomains-certificates/using/setting-up-new-subdomain.md)
