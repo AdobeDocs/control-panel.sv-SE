@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
    + [Vanliga frågor och svar ](faq.md)
-+ Evenemang och e-postaviseringar {#alerts-events}
++ Aviseringar för händelser och e-post {#alerts-events}
    + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
 + SFTP-hantering {#sftp-management}

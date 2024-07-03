@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 73%
 
 ## September 2019 {#september-2019}
 
-Vi har lagt till nya funktioner för administratörsanvändare att lägga till IP-adresser i tillåtelselista för att ansluta till Campaign v7/v8-instanser.
+Vi har lagt till nya funktioner för administratörsanvändare som nu kan lägga till IP-adresser i tillåtelselistan för att ansluta till instanser av Campaign v7/v8.
 Dessutom kan administratörsanvändare nu se listan över Campaign v7/v8-instanser och kvalificering för build-uppgraderingar.
 
 Mer information finns i den [särskilda dokumentationen](../instances-settings/using/ip-allow-listing-instance-access.md).
 
 ## Augusti 2019 {#august-2019}
 
-Vi har lagt till nya funktioner så att administratörsanvändare kan ta emot meddelanden innan SSL-certifikat för sina domäner upphör att gälla. Se den [detaljerade dokumentationen](../subdomains-certificates/using/monitoring-ssl-certificates.md) för mer information.
+Vi har lagt till nya funktioner för administratörsanvändare som nu kan få meddelanden innan SSL-certifikat för deras domäner upphör att gälla. Se den [detaljerade dokumentationen](../subdomains-certificates/using/monitoring-ssl-certificates.md) för mer information.
 
 Administratörsanvändare kan nu även ta bort SSH-nycklar som har lagts till för att komma åt SFTP-servrar.
 
