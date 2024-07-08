@@ -5,8 +5,8 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
+source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -77,3 +77,4 @@ I det här fältet kan du tilldela en operatör till ett arbetsflöde. Om arbets
 Värdet ”1” anger att arbetsflödet har fältet **Svårighetsgrad** inställt på ”Produktion” och ingen arbetsflödestillsynsgrupp har tilldelats.
 
 ![](assets/wkf-monitoring-supervisors.png)
+
