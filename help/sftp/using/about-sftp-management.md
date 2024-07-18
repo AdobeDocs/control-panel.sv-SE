@@ -25,6 +25,6 @@ Med kontrollpanelen kan du utföra åtgärderna nedan för att hantera dina SFTP
 
 * Övervaka deras **lagringskapacitet**,
 * Hantera **IP-adresser tillåter listning**: lägg till eller ta bort IP-adressintervall för en eller flera servrar,
-* Hantera **publika SSH-nycklar** för att få tillgång till dina avhandlingar.
+* Hantera **publika SSH-nycklar** för att komma åt dina servrar.
 
 Detaljerad information om dessa åtgärder finns i avsnitten nedan.

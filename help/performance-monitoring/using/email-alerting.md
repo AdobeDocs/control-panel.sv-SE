@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -26,9 +26,9 @@ Listan med varningar är följande:
 
 * **Databasanvändning**: En av instansdatabaserna har nått 80 % eller mer av sin kapacitet. Se [Databasövervakning](../../performance-monitoring/using/database-monitoring.md).
 
-* **SFTP IP-listan tillåter att listan går ut**: Ett av de IP-intervall som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [IP-intervall tillåter listning](../../sftp/using/ip-range-allow-listing.md).
+* **SFTP IP tillåter att listan över IP-intervall upphör**: Ett av IP-intervallen som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Lista över tillåtna IP-intervall](../../sftp/using/ip-range-allow-listing.md).
 
-* **SFTP-utgångsdatum för offentlig nyckel**: En av de offentliga nycklarna som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Nyckelhantering](../../sftp/using/key-management.md).
+* **Giltighetstid för offentlig SFTP-nyckel**: En av de offentliga nycklarna som du har definierat har gått ut eller går ut om 10 dagar eller mindre. Se [Nyckelhantering](../../sftp/using/key-management.md).
 
 * **SSL-certifikatets förfallodatum**: En av dina underdomäners SSL-certifikat har gått ut eller går ut om 30 dagar eller mindre. Se [Övervaka underdomäners SSL-certifikat](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
@@ -36,7 +36,7 @@ Listan med varningar är följande:
 
 >[!NOTE]
 >
->På Kontrollpanelen kan du dessutom **ange påminnelser** för att kunna meddelas via e-post innan en händelse inträffar i dina instanser (releaser och servicegranskningar).
+>På Kontrollpanelen kan du dessutom **ställa in påminnelser** så att du kan meddelas via e-post innan en händelse inträffar på dina instanser (releaser och servicegranskningar).
 >
 >Om du vill göra det måste du prenumerera på e-postaviseringar och ställa in en påminnelse för de kommande händelserna. [Lär dig hur du ställer in påminnelser för kommande evenemang](../../service-events/service-events.md#reminders)
 
@@ -44,7 +44,7 @@ Listan med varningar är följande:
 
 Så här prenumererar du på dessa aviseringar:
 
-1. Klicka på **[!UICONTROL Alerting notifications]** som är tillgängliga från valfri plats på Kontrollpanelen och sedan klickar du på **[!UICONTROL Subscribe]**.
+1. Klicka på knappen **[!UICONTROL Alerting notifications]** som är tillgänglig från valfri plats på kontrollpanelen och klicka sedan på **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
@@ -52,6 +52,6 @@ Så här prenumererar du på dessa aviseringar:
 
    ![](assets/email_subscription.png)
 
-1. Efter prenumerationen kommer Kontrollpanelen att meddela om systemproblem och rekommendera vilka åtgärder som ska vidtas. E-postaviseringar skickas till alla som har anmält sig för **alla instanser** som de är administratörer för.
+1. Efter prenumerationen kommer Kontrollpanelen att meddela om systemproblem och rekommendera vilka åtgärder som ska vidtas. E-postaviseringar skickas till alla som har registrerat sig för **alla instanser** som de är administratörer för.
 
    ![](assets/alert_sample.png)

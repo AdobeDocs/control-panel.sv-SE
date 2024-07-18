@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 69%
+source-wordcount: '180'
+ht-degree: 60%
 
 ---
 
@@ -22,10 +22,10 @@ I **[!UICONTROL Top 10 temporary resources]**-området visas de 10 största till
 
 >[!IMPORTANT]
 >
->Den allmänna rekommendationen är att undvika att ha **fler än 40 kolumner** i resurser som inte är färdiga. Om ett arbetsflöde har ett stort antal tabeller eller en stor databas rekommenderar vi att du granskar arbetsflödet för att ta reda på varför det genererar så mycket data.
+>Den allmänna rekommendationen är att undvika att ha **fler än 40 kolumner** utanför rutresurserna. Om ett arbetsflöde har ett stort antal tabeller eller en stor databas rekommenderar vi att du granskar arbetsflödet för att ta reda på varför det genererar så mycket data.
 >
->Riktlinjer för Campaign Standard och klassiska finns även i [den här sidan](database-preventing-overload.md) för att förhindra databasöverbelastning.
+>Riktlinjer för Campaign Standard och Klassisk finns även på [den här sidan](database-preventing-overload.md) för att förhindra databasöverlagring.
 
 ![](assets/database-top10.png)
 
-The **[!UICONTROL View all]** kan du komma åt **[!UICONTROL Storage overview]** information för att få detaljerad information om dessa tillfälliga resurser. Mer information finns på [den här sidan](database-storage-overview.md).
+Med knappen **[!UICONTROL View all]** kan du komma åt **[!UICONTROL Storage overview]**-informationen för att få detaljerad information om de här tillfälliga resurserna. Mer information finns på [den här sidan](database-storage-overview.md).

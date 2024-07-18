@@ -30,7 +30,7 @@ SFTP-servrar är skyddade. För att kunna komma åt dem för att visa filer elle
 
 CIDR (Classless Inter-Domain Routing) är det format som stöds när ett IP-intervall läggs till via Kontrollpanelens gränssnitt.
 
-Syntaxen består av en IP-adress följt av tecknet / och ett decimaltal. Formatet och dess syntax beskrivs ingående i [den här artikeln](https://whatismyipaddress.com/cidr){target="_blank"}.
+Syntaxen består av en IP-adress följt av tecknet / och ett decimaltal. Formatet och syntaxen för det finns detaljerad information i [den här artikeln](https://whatismyipaddress.com/cidr){target="_blank"}.
 
 Du kan söka på Internet efter kostnadsfria onlineverktyg som hjälper dig att konvertera det aktuella IP-intervallet till CIDR-format.
 
@@ -41,7 +41,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 * **Lägg till IP-intervall i tillåtelselistan** i stället för enskilda IP-adresser. För att lägga till en enda IP-adress till tillåtelselista ska du lägga till /32 för att ange att intervallet bara innehåller en enda IP-adress.
 * **Lägg inte till väldigt stora intervall i tillåtelselistan** såsom > 265 IP-adresser. Kontrollpanelen avvisar alla CIDR-formatintervall som är mellan /0 och /23.
 * Endast **offentliga IP-adresser** kan läggas till i tillåtelselistan.
-* Se till att **ta bort IP-adresser regelbundet** som du inte behöver längre från tillåtelselista.
+* **Ta regelbundet bort IP-adresser** som du inte längre behöver från tillåtelselista.
 
 ## Lägga till IP-adresser i tillåtelselista {#adding-ip-addresses-allow-list}
 
@@ -57,7 +57,7 @@ Följ dessa steg för att lägga till ett IP-intervall i tillåtelselistan:
 
    ![](assets/control_panel_add_range.png)
 
-1. Definiera IP-intervallet som du vill lägga till i tillåtelselista. Det här fältet accepterar endast IP-intervall i CIDR-format, t.ex. *192.150.5.0/24*.
+1. Definiera IP-intervallet som du vill lägga till i tillåtelselista. Det här fältet accepterar endast IP-intervall i CIDR-format, till exempel *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 
@@ -75,20 +75,20 @@ Följ dessa steg för att lägga till ett IP-intervall i tillåtelselistan:
 
    >[!NOTE]
    >
-   >Följande specialtecken är tillåtna i **[!UICONTROL Label]** fält:
+   >Följande specialtecken är tillåtna i fältet **[!UICONTROL Label]**:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. Om du vill hantera IP-tillåtelselista bättre kan du ange en längd för tillgängligheten för varje IP-intervall. Välj en enhet i **[!UICONTROL Type]** och definiera en varaktighet i motsvarande fält. Mer information om IP-intervallets förfallodatum finns på [det här avsnittet](#expiry).
+1. Om du vill hantera IP-tillåtelselista bättre kan du ange en längd för tillgängligheten för varje IP-intervall. Om du vill göra det väljer du en enhet i listrutan **[!UICONTROL Type]** och definierar en varaktighet i motsvarande fält. Mer information om IP-intervallets förfallodatum finns i [det här avsnittet](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >Som standard är **[!UICONTROL Type]** fältet är inställt på **[!UICONTROL Unlimited]**, vilket betyder att IP-intervallet aldrig upphör att gälla.
+   >Som standard är fältet **[!UICONTROL Type]** inställt på **[!UICONTROL Unlimited]**, vilket innebär att IP-intervallet aldrig upphör att gälla.
 
-1. I **[!UICONTROL Comment]** kan du ange en orsak till att detta IP-intervall tillåts (varför, för vem, osv.).
+1. I fältet **[!UICONTROL Comment]** kan du ange en orsak till att det här IP-intervallet tillåts (varför, för vem, osv.).
 
-1. Klicka på knappen **[!UICONTROL Save]**. IP-intervallet som läggs till tillåtelselista visas som **[!UICONTROL Pending]** tills begäran har behandlats fullständigt, vilket bör ta några sekunder.
+1. Klicka på knappen **[!UICONTROL Save]**. IP-intervallet som läggs till tillåtelselista visas som **[!UICONTROL Pending]** tills begäran har bearbetats helt, vilket bara tar några sekunder.
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,7 +98,7 @@ Följ dessa steg för att lägga till ett IP-intervall i tillåtelselistan:
 
 ## Hantera IP-intervall {#managing-ip-ranges}
 
-IP-intervallen som du skapar visas i **[!UICONTROL IP Allow Listing]** -fliken.
+IP-intervallen som du skapar visas på fliken **[!UICONTROL IP Allow Listing]**.
 
 Du kan sortera objekten baserat på skapandedatum eller utgåvedatum, på den användare som skapade eller redigerade dem och på IP-intervallets förfallodatum.
 
@@ -106,19 +106,19 @@ Du kan också söka efter ett IP-intervall genom att börja skriva en etikett, e
 
 ![](assets/control_panel_allow_list_sort.png)
 
-Om du vill redigera ett eller flera IP-intervall läser du [det här avsnittet](#editing-ip-ranges).
+Mer information om hur du redigerar ett eller flera IP-intervall finns i [det här avsnittet](#editing-ip-ranges).
 
-Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]** -knappen.
+Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]**.
 
 ![](assets/control_panel_delete_range.png)
 
 ### Förfaller {#expiry}
 
-The **[!UICONTROL Expires]** -kolumnen visar hur många dagar som återstår tills IP-intervallet upphör att gälla.
+Kolumnen **[!UICONTROL Expires]** visar hur många dagar som återstår tills IP-intervallet upphör att gälla.
 
-Om du prenumererar på [e-postavisering](../../performance-monitoring/using/email-alerting.md)får du meddelanden via e-post 10 dagar och 5 dagar innan ett IP-intervall upphör att gälla och samma dag som det upphör att gälla. När du fått en varning kan du [redigera IP-intervallet](#editing-ip-ranges) vid behov förlänga giltighetsperioden.
+Om du prenumererar på [e-postavisering](../../performance-monitoring/using/email-alerting.md) får du meddelanden via e-post 10 dagar och 5 dagar innan ett IP-intervall upphör att gälla och den dag det ska gå ut. När du får aviseringen kan du [redigera IP-intervallet](#editing-ip-ranges) och vid behov förlänga dess giltighetsperiod.
 
-Ett IP-intervall som har gått ut tas bort automatiskt efter 7 dagar. Det visas som **[!UICONTROL Expired]** i **[!UICONTROL Expires]** kolumn. Inom denna 7-dagarsperiod:
+Ett IP-intervall som har gått ut tas bort automatiskt efter 7 dagar. Det visas som **[!UICONTROL Expired]** i kolumnen **[!UICONTROL Expires]**. Inom denna 7-dagarsperiod:
 
 * Ett IP-intervall som har gått ut kan inte längre användas för att komma åt SFTP-servrarna.
 
@@ -143,7 +143,7 @@ Följ stegen nedan om du vill redigera IP-intervall.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. Välj ett eller flera IP-intervall från **[!UICONTROL IP Allow Listing]** lista.
+1. Välj ett eller flera IP-intervall i listan **[!UICONTROL IP Allow Listing]**.
 
 1. Klicka på knappen **[!UICONTROL Update IP range]**.
 
@@ -161,7 +161,7 @@ Följ stegen nedan om du vill redigera IP-intervall.
 
 ## Övervaka ändringar {#monitoring-changes}
 
-The **[!UICONTROL Job Logs]** på kontrollpanelens startsida kan du spåra och övervaka alla ändringar som har gjorts i IP-adresser på tillåtelselista.
+Med **[!UICONTROL Job Logs]** på kontrollpanelens startsida kan du spåra och övervaka alla ändringar som har gjorts i IP-adresser på tillåtelselista.
 
 Se [det här avsnittet](../../discover/using/discovering-the-interface.md) för mer information om kontrollpanelens gränssnitt.
 

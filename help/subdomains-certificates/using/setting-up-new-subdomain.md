@@ -9,8 +9,8 @@ level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 85%
+source-wordcount: '1485'
+ht-degree: 80%
 
 ---
 
@@ -35,7 +35,7 @@ Den här sidan innehåller information om hur du konfigurerar nya underdomäner 
 
 Konfiguration av en underdomän är endast tillgänglig för **produktionsinstanser**.
 
-Om instansen som du väljer i guiden inte har några tidigare konfigurerade underdomäner, blir den första konfigurerade underdomänen den **primära underdomänen** för den instansen och du kan inte ändra den i framtiden. Därför skapas **omvända DNS-poster** för andra underdomäner som använder den här primära underdomänen. **Svars- och returadresser för andra underdomäner genereras från den primära underdomänen.**
+Om instansen som du väljer i guiden inte har några tidigare konfigurerade underdomäner, kommer den första konfigurerade underdomänen att bli den **primära underdomänen** för den instansen och du kommer inte att kunna ändra den i framtiden. Därför skapas **omvända DNS-poster** för andra underdomäner som använder den här primära underdomänen. **Svars- och returadresser för andra underdomäner genereras från den primära underdomänen.**
 
 ### Delegera underdomäners SSL-certifikat till Adobe
 
@@ -96,7 +96,7 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
 
 1. Skapa underdomänen med motsvarande Adobe-namnserverinformation och klicka sedan på **[!UICONTROL Next]**.
 
-1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadsföring** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/subdomain5.png)
 
@@ -104,7 +104,7 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
 
    Se till att du anger det **fullständiga namnet** på den underdomän som ska delegeras. Om du till exempel vill delegera underdomänen ”usoffers.email.weretail.com” ska du skriva ”usoffers.email.weretail.com”.
 
-1. Om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe aktiverar du **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** alternativ. [Läs mer om SSL-certifikatdelegering](delegate-ssl.md)
+1. Aktivera alternativet **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe. [Läs mer om SSL-certifikatdelegering](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -142,13 +142,13 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    ![](assets/cname-method-selection.png)
 
-1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadsföring** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Om du valde en Campaign v7/v8-instans väljer du önskat användningsfall för underdomänen: **Marknadskommunikation** eller **Transaktionell och operativ kommunikation**. Globala koncept för underdomäners användningsfall presenteras i [det här avsnittet](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/cname-use-case.png)
 
 1. Ange den underdomän som du skapade i din värdlösning.
 
-   Om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe aktiverar du **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** alternativ. [Läs mer om SSL-certifikatdelegering](delegate-ssl.md)
+   Aktivera alternativet **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe. [Läs mer om SSL-certifikatdelegering](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
@@ -162,7 +162,7 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
 1. Se till att alla DNS-poster från tidigare steg har genererats i domänens värdlösning. Om allt är korrekt konfigurerat markerar du den första satsen och klickar sedan på **[!UICONTROL Next]** för att bekräfta.
 
-   Om du vill skapa posterna och skicka konfigurationen för underdomänen senare väljer du den andra satsen. Du kan sedan återuppta konfigurationen av underdomänen direkt från området **[!UICONTROL Processing]** på underdomänens hanteringsskärm. Observera att DNS-poster som ska placeras på servern behålls av Kontrollpanelen i 30 dagar. Efter den perioden måste du konfigurera underdomänen från grunden.
+   Om du vill skapa posterna och skicka konfigurationen för underdomänen senare väljer du den andra satsen. Du kommer sedan att kunna återuppta konfigurationen av underdomänen direkt från underdomänhanteringsskärmen **[!UICONTROL Processing]**. Observera att DNS-poster som ska placeras på servern behålls av Kontrollpanelen i 30 dagar. Efter den perioden måste du konfigurera underdomänen från grunden.
 
    >[!NOTE]
    >

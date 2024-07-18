@@ -18,7 +18,7 @@ ht-degree: 17%
 
 Kontrollpanelen har flera funktioner som hjälper dig att övervaka dina instanser och säkerställa optimala prestanda.
 
-The **[!UICONTROL Performance monitoring]** på Kontrollpanelens startsida kan du övervaka hur era Campaign-instanser används, till exempel deras databaskapacitet. Mer information om detta finns i [det här avsnittet](../../performance-monitoring/using/database-monitoring.md).
+Kortet **[!UICONTROL Performance monitoring]** på kontrollpanelens startsida gör att du kan övervaka användningen av dina Campaign-instanser, till exempel deras databaskapacitet. Mer information om detta finns i [det här avsnittet](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 

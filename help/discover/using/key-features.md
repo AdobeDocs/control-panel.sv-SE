@@ -9,8 +9,8 @@ level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 79%
+source-wordcount: '281'
+ht-degree: 77%
 
 ---
 
@@ -28,7 +28,7 @@ Viktiga fördelar:
 >
 >Kontrollpanelen är bara tillgänglig för administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](managing-permissions.md).
 >
->Observera att din instans måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Stabilt kampanjskapande](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller för att bygga 9032 eller senare. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
+>För Campaign v7/v8 bör du tänka på att din instans måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign-versionen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller för att bygga 9032 eller senare. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ Viktiga fördelar:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="villkor" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Hantera dina instansinställningar</strong></a></div>
-        <em>Lär dig hur du hanterar instansinställningar (endast Campaign v7/v8).</em>
+        <em>Lär dig hur du hanterar dina instansinställningar (endast Campaign v7/v8).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="villkor" src="assets/do-not-localize/monitoring-performance.png"/></a>

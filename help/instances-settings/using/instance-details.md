@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 72%
+source-wordcount: '506'
+ht-degree: 69%
 
 ---
 
@@ -40,7 +40,7 @@ Funktionaliteten i Instansinformationen låter dig se instansens platta arkitekt
 * [Utföra en uppgradering av din build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
 * [Uppdatera Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
 
-## Hämta information om dina instanser {#retrieving-information-about-instances}
+## Hämtar information om dina instanser {#retrieving-information-about-instances}
 
 Följ dessa steg för att få information om servrarna som är anslutna till dina instanser:
 
@@ -50,7 +50,7 @@ Följ dessa steg för att få information om servrarna som är anslutna till din
    >
    >Om instansinställningskortet inte visas på kontrollpanelens hemsida innebär det att ditt företags-ID inte är kopplat till några Adobe Campaign v7/v8-instanser
 
-1. Välj den önskade instansen i Campaign i det vänstra fönstret.
+1. Välj önskad Campaign-instans i den vänstra rutan.
 
    >[!NOTE]
    >

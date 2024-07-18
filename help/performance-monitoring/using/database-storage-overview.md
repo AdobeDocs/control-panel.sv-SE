@@ -10,7 +10,7 @@ exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 56%
+ht-degree: 59%
 
 ---
 
@@ -39,4 +39,4 @@ Du kan använda listrutan för att förfina dina söknings- och visningstabeller
 
 ![](assets/database-storage-details.png)
 
-Observera att du på den här skärmen även kan övervaka arbetsflödesparametrar som kan kräva särskild uppmärksamhet för att undvika problem i dina instanser. Läs mer i [den här sidan](workflow-monitoring.md).
+Observera att du på den här skärmen även kan övervaka arbetsflödesparametrar som kan kräva särskild uppmärksamhet för att undvika problem i dina instanser. Läs mer på [den här sidan](workflow-monitoring.md).

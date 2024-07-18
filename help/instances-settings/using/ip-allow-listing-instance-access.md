@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 84%
+source-wordcount: '767'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 84%
 >
 >Den här funktionen är endast tillgänglig för Campaign v7-/v8-instanser.
 
-Som standard är din instans i Adobe Campaign endast tillgänglig från specifika IP-adresser.
+Som standard är din Adobe Campaign-instans inte tillgänglig från olika IP-adresser.
 
 Du måste lägga till din IP-adress i tillåtelselistan för att kunna logga in på instansen från den här adressen. Den specifika IP-adressen för instansen måste ha lagts till i tillåtelselistan för att ansluta ett API till ditt meddelandecenter eller din marknadsföringsinstans.
 
@@ -55,7 +55,7 @@ Se till att du följer rekommendationerna och begränsningarna nedan när du lä
 
 >[!NOTE]
 >
->Om **[!UICONTROL Instance Settings]** kortet inte visas på Kontrollpanelens hemsida, vilket innebär att [organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv) är inte associerat med några Adobe Campaign v7/v8-instanser.
+>Om kortet **[!UICONTROL Instance Settings]** inte visas på kontrollpanelens hemsida innebär det att ditt [organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv) inte är kopplat till några Adobe Campaign v7/v8-instanser.
 
 Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
@@ -83,7 +83,7 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
 1. Ange typen av åtkomst du vill bevilja IP-adresserna:
 
-   * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan anslutas till Campaign-klientkonsolen. Observera att åtkomst till konsolen endast är aktiverad för marknadsföringsinstanser. Observera att åtkomst till MID- och RT-instanser inte är tillåten och därför inte aktiverad.
+   * **[!UICONTROL Campaign Console Access]**: IP-adresserna kan ansluta till Campaign-klientkonsolen. Observera att åtkomst till konsolen endast är aktiverad för marknadsföringsinstanser. Observera att åtkomst till MID- och RT-instanser inte är tillåten och därför inte aktiverad.
    * **[!UICONTROL AEM connection]**: de angivna IP-adresserna till AEM kan ansluta till marknadsföringsinstansen.
    * **[!UICONTROL External API connection]**: Externa API:er med de angivna IP-adresserna kan ansluta till instansen för marknadsföring och/eller meddelandecenter (RT). Observera att anslutningen till konsolen i RT-instanser är inaktiverad.
 
@@ -97,9 +97,9 @@ Följ dessa steg för att lägga till IP-adresser i tillåtelselistan:
 
    <!--![](assets/ip_whitelist_added.png)-->
 
-Som standard är din instans i Adobe Campaign endast tillgänglig från specifika IP-adresser.
+Som standard är din Adobe Campaign-instans inte tillgänglig från olika IP-adresser.
 
-Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]** -knappen.
+Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar du dem och klickar sedan på knappen **[!UICONTROL Delete IP range]**.
 
 ![](assets/ip_whitelist_delete.png)
 

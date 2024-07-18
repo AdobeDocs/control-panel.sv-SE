@@ -39,7 +39,7 @@ Med subdomänkonfigurationen kan du konfigurera en undersektion till din domän 
 
 * **Fullständig delegering av underdomäner till Adobe Campaign** (rekommenderas): underdomänen delegeras helt till Adobe. Adobe kan leverera Campaign som en hanterad tjänst genom att kontrollera och underhålla alla aspekter av DNS som krävs för att leverera, återge och spåra e-postkampanjer.
 
-* **Användning av CNAME**: Skapa en underdomän och använd CNAME för att peka på Adobe-specifika poster. Med den här konfigurationen delar både Adobe och kunden ansvaret för att underhålla DNS:er.
+* **Använda CNAME**: Skapa en underdomän och använd CNAME för att peka mot Adobe-specifika poster. Med den här konfigurationen delar både Adobe och kunden ansvaret för att underhålla DNS:er.
 
 Tabellen nedan tillhandahåller en sammanfattning av hur dessa metoder fungerar samt den troliga ansträngningsnivån:
 
@@ -61,7 +61,7 @@ Om du har några frågor om konfigureringsmetoder för subdomäner kan du kontak
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=sv" text="Konfigurera en ny underdomän"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv" text="Märka underdomäner"
 
-När du konfigurerar underdomäner för Campaign v7/v8-instanser måste du välja vilket användningsfall underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+När du konfigurerar underdomäner för Campaign v7/v8-instanser måste du välja det användningsfall som underdomänen ska användas för (se [Konfigurera en ny underdomän](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Möjliga användningsområden är:
 

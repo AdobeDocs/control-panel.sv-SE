@@ -19,9 +19,9 @@ ht-degree: 10%
 
 Det är viktigt att du övervakar dina underdomäner för att se till att alla är konfigurerade på rätt sätt för att fungera med Adobe Campaign.
 
-Listan med underdomäner för var och en av dina produktionsinstanser är tillgänglig direkt när du väljer **[!UICONTROL Subdomains & Certificates]** kort.
+Listan med underdomäner för var och en av dina produktionsinstanser är tillgänglig direkt när du väljer **[!UICONTROL Subdomains & Certificates]**-kortet.
 
-The **[!UICONTROL Last verification]** kolumnen anger när en underdomän verifierades för senaste gången. Du kan starta en verifiering när som helst genom att klicka på **...** / **[!UICONTROL Verify subdomain]** -knappen.
+Kolumnen **[!UICONTROL Last verification]** anger när en underdomän verifierades för senaste gången. Du kan starta en verifiering när som helst genom att klicka på knappen **..** / **[!UICONTROL Verify subdomain]** .
 
 ![](assets/subdomain_verification.png)
 
