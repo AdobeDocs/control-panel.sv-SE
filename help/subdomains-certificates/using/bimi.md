@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
+source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 80%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 100%
 
 ## Om BIMI-poster {#about}
 
-Brand Indicators for Message Identification (BIMI) är en branschstandard som gör att en godkänd logotyp kan visas bredvid en avsändares e-postadress i e-postleverantörens inkorgar för att förbättra varumärkesigenkänning och -förtroende. Det förebygger e-postförfalskning och nätfiske genom att verifiera avsändarens identitet via DMARC-autentisering, vilket gör det svårare för oseriösa aktörer att personifiera giltiga varumärken i e-postmeddelanden.
-
-Du kan ha flera logotyper för en viss underdomän. För att göra detta måste du konfigurera en BIMI-post för varje logotyp och tilldela en BIMI-väljare till varje post. [Lär dig lägga till BIMI-poster](#add)
+Varumärkesindikatorer för BIMI (Message Identification) är en branschstandard som gör att en godkänd logotyp kan visas bredvid en avsändares e-postadress i postlådeleverantörens inkorgar för att förbättra varumärkesigenkänningen och förtroendet.
 
 Detaljerad information om BIMI-implementering finns i [Användarhandbok om bästa levererbarhetspraxis i Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=sv)
 
@@ -29,10 +27,12 @@ Detaljerad information om BIMI-implementering finns i [Användarhandbok om bäst
 ## Begränsningar och förhandskrav {#limitations}
 
 * SPF-, DKIM- och DMARC-poster är nödvändiga för att du ska kunna skapa en BIMI-post.
-* BIMI-poster kan bara läggas till för underdomäner med fullständig underdomändelegering. [Läs mer om konfigurationsmetoder för underdomäner](subdomains-branding.md#subdomain-delegation-methods)
+
+* BIMI-posten måste publiceras i DNS, för fullständigt delegerad domän är detta möjligt via Kontrollpanelen. [Läs mer om konfigurationsmetoder för underdomäner](subdomains-branding.md#subdomain-delegation-methods)
+
 * Förhandskrav för DMARC-poster:
 
-   * Postprinciptypen för underdomänen måste anges som antingen Karantän eller Avvisa. Det går inte att skapa BIMI-poster med DMARC-principtypen inställd på Ingen.
+   * Policytypen för organisationsdomänen måste anges till &quot;Karantän&quot; eller &quot;Avvisa&quot;. Det går inte att skapa BIMI-poster med DMARC-principtypen inställd på Ingen.
    * Procentandelen e-postmeddelanden som DMARC-principen tillämpas på måste vara 100 %. BIMI stöder inte DMARC-principer där procentandelen är mindre än 100 %.
 
 [Läs mer om att konfigurera DMARC-poster](dmarc.md)
@@ -47,11 +47,11 @@ Följ de här stegen för att lägga till en BIMI-post för en underdomän:
 
    ![](assets/bimi-add.png)
 
-1. I fältet **[!UICONTROL Selector]** kan du ange en BIMI-väljare för posten. En BIMI-väljare är en unik identifierare som du kan tilldela till en BIMI-post. På så sätt kan du definiera flera logotyper för en viss underdomän.
+1. I fältet **[!UICONTROL Selector]** kan du ange en BIMI-väljare för posten. En BIMI-väljare är en unik identifierare som du kan tilldela till en BIMI-post. På så sätt kan du definiera flera logotyper för en viss underdomän. Detta stöds för närvarande inte av postlådeprovidrar.
 
 1. I **[!UICONTROL Company Logo URL]** anger du URL-adressen till den SVG-fil som innehåller logotypen.
 
-1. Även om **[!UICONTROL Certificate URL]** är valfritt behövs den för vissa e-postleverantörer som Gmail och Apple som täcker 80 % av e-postmarknaden. Därför rekommenderar vi att du skaffar ett Verified Mark Certificate (VMC) för att verkligen utnyttja BIMI.
+1. Även om **[!UICONTROL Certificate URL]** är valfritt krävs det för vissa postlådeproviders som Gmail och Apple. Därför rekommenderar vi att du skaffar ett Verified Mark Certificate (VMC) för att verkligen utnyttja BIMI.
 
    +++Hur skaffar jag ett VMC?
 
