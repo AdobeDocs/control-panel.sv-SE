@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ För att du ska kunna hantera inställningarna för din instans vill vi försäk
 
 ### Vad händer om jag har flera organisations-ID:n?
 
-Det är ett krav att ha ett organisations-ID mellan Analytics och Campaign om ni tänker integrera lösningarna för att dra nytta av komplexa användningsområden, som att kunden överger kundvagnen (för Adobe Analytics + Adobe Campaign). Du kan ha mer än ett organisation-ID om du har tillgång till flera Adobe-lösningar. I det här fallet är det korrekta organisations-ID som du bör använda det du ser under din Adobe Campaign-instans.
+Det är ett krav att ha ett organisations-ID mellan Analytics och Campaign om du planerar att integrera lösningarna för att utnyttja komplexa användningsområden, såsom övergivna kundvagnar (för Adobe Analytics + Adobe Campaign).  Du kan ha mer än ett organisation-ID om du har tillgång till flera Adobe-lösningar. I det här fallet är det korrekta organisations-ID som du bör använda det du ser under din Adobe Campaign-instans.
 
 <!--
 >[!NOTE]
@@ -90,7 +90,7 @@ Det är ett krav att ha ett organisations-ID mellan Analytics och Campaign om ni
 
 Följ dessa steg för att kontrollera om AWS är värd för din instans:
 
-1. Hämta din inloggnings-URL. Det är den URL du använder för att logga in på Campaign-instansen, som oftast avslutas med &quot;.campaign.adobe.com&quot; eller&quot;.neolane.net&quot;.
+1. Hämta din inloggnings-URL. Det är den URL du använder för att logga in på instansen i Campaign och som oftast avslutas med ”.campaign.adobe.com” eller ”.neolane.net”.
 1. Öppna terminalen och kör sedan en **[!DNL nslookup]**-åtgärd på din inloggnings-URL.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`

@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## Om BIMI-poster {#about}
 
-Varumärkesindikatorer för BIMI (Message Identification) är en branschstandard som gör att en godkänd logotyp kan visas bredvid en avsändares e-postadress i postlådeleverantörens inkorgar för att förbättra varumärkesigenkänningen och förtroendet.
+Brand Indicators for Message Identification (BIMI) är en branschstandard som gör att en godkänd logotyp kan visas bredvid en avsändares e-postadress i e-postleverantörens inkorgar för att förbättra varumärkesigenkänning och -förtroende.
 
 Detaljerad information om BIMI-implementering finns i [Användarhandbok om bästa levererbarhetspraxis i Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=sv)
 
@@ -32,7 +32,7 @@ Detaljerad information om BIMI-implementering finns i [Användarhandbok om bäst
 
 * Förhandskrav för DMARC-poster:
 
-   * Policytypen för organisationsdomänen måste anges till &quot;Karantän&quot; eller &quot;Avvisa&quot;. Det går inte att skapa BIMI-poster med DMARC-principtypen inställd på Ingen.
+   * Postprinciptypen för underdomänen måste anges som antingen ”Karantän” eller ”Avvisa”. Det går inte att skapa BIMI-poster med DMARC-principtypen inställd på Ingen.
    * Procentandelen e-postmeddelanden som DMARC-principen tillämpas på måste vara 100 %. BIMI stöder inte DMARC-principer där procentandelen är mindre än 100 %.
 
 [Läs mer om att konfigurera DMARC-poster](dmarc.md)
@@ -47,11 +47,11 @@ Följ de här stegen för att lägga till en BIMI-post för en underdomän:
 
    ![](assets/bimi-add.png)
 
-1. I fältet **[!UICONTROL Selector]** kan du ange en BIMI-väljare för posten. En BIMI-väljare är en unik identifierare som du kan tilldela till en BIMI-post. På så sätt kan du definiera flera logotyper för en viss underdomän. Detta stöds för närvarande inte av postlådeprovidrar.
+1. I fältet **[!UICONTROL Selector]** kan du ange en BIMI-väljare för posten. En BIMI-väljare är en unik identifierare som du kan tilldela till en BIMI-post. På så sätt kan du definiera flera logotyper för en viss underdomän. Detta stöds för närvarande inte av e-postleverantörer.
 
 1. I **[!UICONTROL Company Logo URL]** anger du URL-adressen till den SVG-fil som innehåller logotypen.
 
-1. Även om **[!UICONTROL Certificate URL]** är valfritt krävs det för vissa postlådeproviders som Gmail och Apple. Därför rekommenderar vi att du skaffar ett Verified Mark Certificate (VMC) för att verkligen utnyttja BIMI.
+1. Även om **[!UICONTROL Certificate URL]** är valfritt krävs det för vissa e-postleverantörer som Gmail och Apple. Därför rekommenderar vi att du skaffar ett Verified Mark Certificate (VMC) för att verkligen utnyttja BIMI.
 
    +++Hur skaffar jag ett VMC?
 
