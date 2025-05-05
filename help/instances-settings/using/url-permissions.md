@@ -34,12 +34,12 @@ Som standard tillåts instanser endast att ansluta till interna URL:er. Via Kont
 
 När en URL har lagts till refereras den i instansens konfigurationsfil (serverConf.xml).
 
-![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=sv-SE#instance-settings)
 
 **Relaterade ämnen:**
 
-* [Konfigurera en Campaign-server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
-* [Skydd för utgående anslutningar](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
+* [Konfigurera en Campaign-server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=sv-SE)
+* [Skydd för utgående anslutningar](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=sv-SE#outgoing-connection-protection)
 
 ## Bästa praxis {#best-practices}
 

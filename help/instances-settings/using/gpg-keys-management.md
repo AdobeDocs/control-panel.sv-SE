@@ -106,13 +106,13 @@ Mer information om detta finns i Adobe Campaign-dokumentationen:
 
 **Kampanj v7/v8:**
 
-* [Zippa eller kryptera en fil](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Använd skiftläge: Kryptera och exportera data med en nyckel som är installerad på Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Zippa eller kryptera en fil](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=sv-SE)
+* [Använd skiftläge: Kryptera och exportera data med en nyckel som är installerad på Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=sv-SE#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [Hantera krypterade data](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Använd skiftläge: Kryptera och exportera data med en nyckel som är installerad på Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
+* [Hantera krypterade data](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=sv-SE)
+* [Använd skiftläge: Kryptera och exportera data med en nyckel som är installerad på Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=sv-SE#use-case-gpg-encrypt)
 
 ## Dekryptera data {#decrypting-data}
 
@@ -149,13 +149,13 @@ Mer information finns i Adobe Campaign-dokumentationen:
 
 **Kampanj v7 och v8:**
 
-* [Packa upp eller dekryptera en fil före bearbetning](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
-* [Användningsfall: Importera data som krypterats med en nyckel som genererats av Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
+* [Packa upp eller dekryptera en fil före bearbetning](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=sv-SE)
+* [Användningsfall: Importera data som krypterats med en nyckel som genererats av Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=sv-SE#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
-* [Hantera krypterade data](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Användningsfall: Importera data som krypterats med en nyckel som genererats av Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Hantera krypterade data](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=sv-SE)
+* [Användningsfall: Importera data som krypterats med en nyckel som genererats av Kontrollpanelen](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=sv-SE#use-case-gpg-decrypt)
 
 ## Övervaka GPG-nycklar
 
@@ -195,6 +195,6 @@ Vi rekommenderar att du tar bort alla tangenter som du inte längre behöver. De
 
 I videon nedan visas hur du genererar och installerar GPG-nycklar för datakryptering.
 
-Ytterligare instruktionsvideor om GPG-nyckelhantering finns på självstudiekurserna för [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings).
+Ytterligare instruktionsvideor om GPG-nyckelhantering finns på självstudiekurserna för [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=sv-SE#instance-settings) och [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=sv-SE#instance-settings).
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

@@ -37,8 +37,8 @@ Funktionaliteten i Instansinformationen låter dig se instansens platta arkitekt
 
 **Relaterade ämnen:**
 
-* [Utföra en uppgradering av din build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [Uppdatera Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [Utföra en uppgradering av din build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=sv-SE)
+* [Uppdatera Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=sv-SE)
 
 ## Hämtar information om dina instanser {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ Tillgänglig information är:
    * Gul: du bör överväga att uppgradera. Du saknar de senaste funktionerna och korrigeringarna.
    * Röd: uppgradera så snart som möjligt. Du saknar nya funktioner och serverprestandan kanske inte är optimal.
 
-Om någon av dina servrar behöver uppgraderas finns mer information om hur du fortsätter i [den här dokumentationen](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html).
+Om någon av dina servrar behöver uppgraderas finns mer information om hur du fortsätter i [den här dokumentationen](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=sv-SE).
 
 ## Vanliga frågor {#common-questions}
 

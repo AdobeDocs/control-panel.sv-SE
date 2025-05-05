@@ -36,7 +36,7 @@ Med kontrollpanelen kan du konfigurera nya anslutningar till dina instanser geno
 
 När IP-adresserna finns i tillåtelselistan kan du skapa och länka Campaign-operatörer till dem för att användarna ska få åtkomst till instansen.
 
-![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Upptäck den här funktionen i en video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=sv-SE#instance-settings)
 
 ## Bästa praxis {#best-practices}
 
@@ -105,4 +105,4 @@ Om du vill ta bort ett eller flera IP-intervall från tillåtelselista markerar 
 
 **Relaterat ämne:**
 
-* [Länka en säkerhetszon till en operatör](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
+* [Länka en säkerhetszon till en operatör](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=sv-SE#linking-a-security-zone-to-an-operator)
