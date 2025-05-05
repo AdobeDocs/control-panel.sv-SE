@@ -64,6 +64,7 @@ För att göra detta måste du generera ett GPG-nyckelpar från ett PGP-krypteri
    * **nyckellängd**: 3072 - 4096 bitar
    * **verkligt namn** och **e-postadress**: Tillåter att spåra vem som skapade nyckelparet. Ange ett namn och en e-postadress som är länkad till din organisation eller avdelning.
    * **kommentar**: om du lägger till en etikett i kommentarsfältet blir det lättare att identifiera nyckeln som kan användas för att kryptera dina data.
+
      >[!IMPORTANT]
      >
      >Se till att fältet inte är tomt och att en kommentar är ifylld.
