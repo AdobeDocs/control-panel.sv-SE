@@ -7,7 +7,7 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 80%
@@ -39,7 +39,7 @@ Om instansen som du väljer i guiden inte har några tidigare konfigurerade unde
 
 ### Delegera underdomäners SSL-certifikat till Adobe
 
-När du konfigurerar en ny underdomän kan SSL-certifikatet hanteras av Adobe. Vi rekommenderar starkt att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla.
+När du konfigurerar en ny underdomän kan du hantera SSL-certifikatet av Adobe. Vi rekommenderar att du gör det eftersom Adobe automatiskt skapar certifikatet och förnyar det varje år innan certifikatet upphör att gälla.
 
 Om du använder CNAME:er för att konfigurera en delegering av underdomäner, kommer Adobe att tillhandahålla certifikatposter som kan användas i din värdlösning för domäner för att generera ditt certifikat.
 
@@ -102,7 +102,8 @@ Följ stegen nedan om du vill delegera en underdomän fullständigt till Adobe C
 
 1. Öppna den underdomän du skapade i din värdlösning och klicka sedan på **[!UICONTROL Submit]**.
 
-   Se till att du anger det **fullständiga namnet** på den underdomän som ska delegeras. Om du till exempel vill delegera underdomänen ”usoffers.email.weretail.com” ska du skriva ”usoffers.email.weretail.com”.
+   Se till att du anger det **fullständiga namnet** på den underdomän som ska delegeras. Om du till exempel vill delegera underdomänen&quot;email.weretail.com&quot; skriver du&quot;email.weretail.com&quot;.
+
 
 1. Aktivera alternativet **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** om du vill delegera genereringen av underdomänens SSL-certifikat till Adobe. [Läs mer om SSL-certifikatdelegering](delegate-ssl.md)
 
@@ -170,7 +171,7 @@ Följ stegen nedan för att konfigurera en underdomän med CNAME.
 
    ![](assets/cname-confirmation.png)
 
-1. Om du väljer att delegera underdomänernas certifikat till Adobe genereras certifikatposter automatiskt. Kopiera de här posterna, antingen en efter en eller genom att hämta en CSV-fil, och gå sedan till din värdlösning för domänen för att generera matchande certifikat.
+1. Om du väljer att delegera underdomänernas certifikat till Adobe, genereras certifikatposter automatiskt. Kopiera de här posterna, antingen en efter en eller genom att hämta en CSV-fil, och gå sedan till din värdlösning för domänen för att generera matchande certifikat.
 
    ![](assets/cname-csr-generation.png)
 
