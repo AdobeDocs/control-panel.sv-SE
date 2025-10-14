@@ -28,7 +28,7 @@ Viktiga fördelar:
 >
 >Kontrollpanelen är bara tillgänglig för administratörsanvändare. Stegen för att bevilja administratörsåtkomst till en användare finns i [det här avsnittet](managing-permissions.md).
 >
->För Campaign v7/v8 bör du tänka på att din instans måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign-versionen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller för att bygga 9032 eller senare. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
+>För Campaign v7/v8 bör du tänka på att din instans måste lagras på Amazon Web Services (AWS) och uppgraderas till den senaste [Campaign-versionen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=sv#rn-statuses) eller för att bygga 9032 eller senare. Läs om hur du kontrollerar din version i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=sv#getting-your-campaign-version). Följ stegen på [den här sidan](../../faq.md#hosted-aws) för att kontrollera om instanser har AWS som värd.
 
 <table style="table-layout:fixed">
 <tr>
