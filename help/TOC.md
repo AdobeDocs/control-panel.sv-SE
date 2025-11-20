@@ -9,7 +9,7 @@ level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 100%
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ Lär känna Kontrollpanelen {#discover-control-panel}
++ Kontrollpanelen Identifiera {#discover-control-panel}
    + [Viktiga funktioner](discover/using/key-features.md)
    + [Åtkomst till Kontrollpanel](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
    + [Vanliga frågor och svar ](faq.md)
-+ Aviseringar för händelser och e-post {#alerts-events}
++ Evenemang och e-postaviseringar {#alerts-events}
    + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
 + SFTP-hantering {#sftp-management}
@@ -58,7 +58,7 @@ ht-degree: 100%
       + [Förnya SSL-certifikat](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Prestandaövervakning {#performance-monitoring}
    + [Om prestandaövervakning](performance-monitoring/using/about-performance-monitoring.md)
-   + Databasövervakning {#database-monitoring}
+   + Övervaka databaser {#database-monitoring}
       + [Om databasövervakning](performance-monitoring/using/database-monitoring.md)
       + [Databasanvändning](performance-monitoring/using/database-utilization.md)
       + [Lagringsöversikt](performance-monitoring/using/database-storage-overview.md)
@@ -68,7 +68,7 @@ ht-degree: 100%
       + [Förhindra databasöverlagring](performance-monitoring/using/database-preventing-overload.md)
    + [Aktiv profilövervakning](performance-monitoring/using/active-profiles-monitoring.md)
    + [Genomflöden och fördröjningsövervakning](performance-monitoring/using/throughputs-latencies.md)
-+ Instansinställningar {#instances-settings}
++ Inställningar för instanser {#instances-settings}
    + [IP-tillåtelselista för instansåtkomst](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-behörigheter](instances-settings/using/url-permissions.md)
    + [Instansinformation](instances-settings/using/instance-details.md)
