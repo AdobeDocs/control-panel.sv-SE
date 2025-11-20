@@ -30,7 +30,7 @@ ht-degree: 86%
    + [Åtkomst till Kontrollpanel](discover/using/accessing-control-panel.md)
    + [Hantera behörigheter till Kontrollpanelen](discover/using/managing-permissions.md)
    + [Lär känna Kontrollpanelens gränssnitt](discover/using/discovering-the-interface.md)
-   + [Vanliga frågor och svar ](faq.md)
+   + [Vanliga frågor och svar &#x200B;](faq.md)
 + Evenemang och e-postaviseringar {#alerts-events}
    + [Övervaka viktiga kontakter och händelser](service-events/service-events.md)
    + [E-postavisering](performance-monitoring/using/email-alerting.md)
