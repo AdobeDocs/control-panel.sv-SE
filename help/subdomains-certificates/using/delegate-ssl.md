@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 61%
 
 ---
 
@@ -34,7 +34,11 @@ SSL-certifikatdelegering till Adobe kan utföras när du konfigurerar en ny unde
 
 ## Delegera SSL-certifikat för nya underdomäner {#new}
 
-Om du vill delegera SSL-certifikat när du konfigurerar en ny underdomän aktiverar du alternativet **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** i konfigurationsguiden för underdomäner. Certifikatposter som ska kopieras till din värdlösning tillhandahålls senare i konfigurationsguiden. Detaljerade steg beskrivs i [det här avsnittet](setting-up-new-subdomain.md).
+Om du vill delegera SSL-certifikat när du konfigurerar en ny underdomän aktiverar du alternativet **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** i konfigurationsguiden för underdomäner. Certifikatgenereringsprocessen skiljer sig åt beroende på din delegeringsmetod för underdomäner:
+
+* **Fullständig underdomändelegering**: SSL-certifikatet begärs automatiskt och installeras av Adobe utan att du behöver vidta några åtgärder. När du har skickat in underdomänskonfigurationen behandlas certifikatinstallationsbegäran omedelbart som en del av arbetsflödet för underdomänskonfiguration. [Läs mer om fullständig delegering av underdomäner](setting-up-new-subdomain.md#full-subdomain-delegation)
+
+* **CNAME-delegering**: Certifikatposter som ska kopieras till din värdlösning tillhandahålls senare i konfigurationsguiden. Du måste generera dessa certifikatposter i din domänvärdslösning innan du skickar in underdomänskonfigurationen. [Läs mer om CNAME-delegering](setting-up-new-subdomain.md#use-cnames)
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
@@ -44,7 +48,15 @@ Om du vill delegera SSL-certifikat för en redan delegerad underdomän klickar d
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
-En dialogruta visas med de certifikatposter som har genererats automatiskt av Adobe. Kopiera de här posterna, antingen en efter en eller genom att hämta en CSV-fil, och gå sedan till din värdlösning för domänen för att generera matchande certifikat.
+Certifikatgenereringsprocessen beror på hur underdomänen ursprungligen konfigurerades:
+
+### Fullt delegerade underdomäner
+
+För underdomäner som konfigurerats med fullständig underdomändelegering (med Adobe-namnservrar), begärs SSL-certifikatet automatiskt och installeras av Adobe. När du klickar på **[!UICONTROL Switch to Managed SSL]** och bekräftar skickas certifikatinstallationsbegäran omedelbart utan att du behöver göra något mer.
+
+### CNAME-delegerade underdomäner
+
+För underdomäner som konfigurerats med CNAME-delegering visas en dialogruta med de certifikatposter som har genererats automatiskt av Adobe. Kopiera de här posterna, antingen en efter en eller genom att hämta en CSV-fil, och gå sedan till din värdlösning för domänen för att generera matchande certifikat.
 
 Se till att alla certifikatposter har genererats i domänens värdlösning. Om allt är korrekt konfigurerat bekräftar du att posterna har skapats och klickar sedan på **[!UICONTROL Submit]**.
 
