@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ SSL-certifikatdelegering till Adobe kan utföras när du konfigurerar en ny unde
 
 ## Delegera SSL-certifikat för nya underdomäner {#new}
 
-Om du vill delegera SSL-certifikat när du konfigurerar en ny underdomän aktiverar du alternativet **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** i konfigurationsguiden för underdomäner. Certifikatgenereringsprocessen skiljer sig åt beroende på din delegeringsmetod för underdomäner:
+Om du vill delegera SSL-certifikat när du konfigurerar en ny underdomän aktiverar du alternativet **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** i konfigurationsguiden för underdomäner. Genereringsprocessen av certifikat skiljer sig åt beroende på din delegeringsmetod för underdomäner:
 
-* **Fullständig underdomändelegering**: SSL-certifikatet begärs automatiskt och installeras av Adobe utan att du behöver vidta några åtgärder. När du har skickat in underdomänskonfigurationen behandlas certifikatinstallationsbegäran omedelbart som en del av arbetsflödet för underdomänskonfiguration. [Läs mer om fullständig delegering av underdomäner](setting-up-new-subdomain.md#full-subdomain-delegation)
+* **Fullständig underdomändelegering**: SSL-certifikatet begärs automatiskt och installeras av Adobe utan att du behöver vidta några åtgärder. När du har skickat in underdomänskonfigurationen behandlas begäran om certifikatinstallation omedelbart som en del av arbetsflödet för underdomänskonfiguration. [Läs mer om fullständig delegering av underdomäner](setting-up-new-subdomain.md#full-subdomain-delegation)
 
 * **CNAME-delegering**: Certifikatposter som ska kopieras till din värdlösning tillhandahålls senare i konfigurationsguiden. Du måste generera dessa certifikatposter i din domänvärdslösning innan du skickar in underdomänskonfigurationen. [Läs mer om CNAME-delegering](setting-up-new-subdomain.md#use-cnames)
 
