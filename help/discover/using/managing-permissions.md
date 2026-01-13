@@ -7,10 +7,10 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 
 1. Gå till [Adobe Experience Cloud hemsida](https://experiencecloud.adobe.com/){target="_blank"}.
 
-1. Starta **Admin Console** genom att klicka på den tillgängliga länken i avsnittet **Snabbåtkomst** eller i den övre högra menyn.
+1. Starta **Admin Console** genom att klicka på den tillgängliga länken i **snabbåtkomstavsnittet** eller den övre högra menyn.
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
@@ -50,9 +50,11 @@ Kontrollpanelen är tillgänglig för alla administratörsanvändare för en Cam
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Som standard tillhör administratörsanvändare produktprofilen &quot;Administratörer&quot;. Enligt din organisations konfiguration kan produktprofilen namnges på ett annat sätt (&quot;admin&quot;,&quot;admins&quot;, osv.).
+   >Kontrollpanelen är som standard tillgänglig för administratörsanvändare som tillhör produktprofilen &quot;Administratörer&quot;. Enligt din organisations konfiguration kan produktprofilen namnges på ett annat sätt (&quot;admin&quot;,&quot;admins&quot;,&quot;approval admin&quot; osv.). **Alla produktprofiler som innehåller ordet &quot;admin&quot; i namnet ger automatiskt åtkomst till Kontrollpanelen.**
+   >
+   >Granska noga namngivningskonventionerna för produktprofiler i Admin Console för att säkerställa att endast behöriga användare har tillgång till Kontrollpanelen, eftersom det gör det möjligt att göra betydande ändringar i Campaign-instanser.
 
 1. Listan med admin-användare visas. Klicka på knappen **[!UICONTROL Add User]** för att lägga till önskad användare.
 
